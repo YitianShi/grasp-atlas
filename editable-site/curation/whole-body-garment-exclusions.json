@@ -1,0 +1,928 @@
+{
+  "asOf": "2026-11-12",
+  "userRequest": "Remove all whole-body grasping, garment grasping and cloth grasping papers.",
+  "baselineRows": 697,
+  "baselineIdentitySHA256": "bd9c282d934379196b88032b3a2e4afd8fdda8add95b0f406dc5030142f961ea",
+  "removedCount": 19,
+  "activeCount": 678,
+  "categories": {
+    "whole_body_grasping": 7,
+    "garment_grasping": 12
+  },
+  "scope": "Exclude whole-body grasping, including legged loco-manipulation and whole-body soft robotic grasping. Exclude garment/cloth/textile grasping, grasp-point prediction, retrieval, folding, flattening, sorting and dressing assistance. Humanoid hand/arm studies without whole-body coordination and geometric fabrics are not textile grasping.",
+  "rows": [
+    {
+      "conference": "AAAI",
+      "year": 2026,
+      "title": "Effective Robotic Cloth Grasping Through Suppressing False Discoveries",
+      "type": "布料抓取",
+      "tier": "直接",
+      "note": "",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38957",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "作者自建布料场景数据（1,080 张 RGB 图像）"
+        ],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://ojs.aaai.org/index.php/AAAI/article/view/38957",
+          "https://ojs.aaai.org/index.php/AAAI/article/view/38957/42919"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstract": "Enabling robots to grasp disorganized cloth for efficient storage is valuable in robot-assisted room organization. Diverse deformations of cloth and the stacking of multiple items limit grasping-pose estimation that relies on annotations. This necessitates segmenting each cloth item in an unsupervised manner before estimating the grasping position. However, existing segmentation methods primarily focus on improving metrics such as Intersection-over-Union and Pixel Accuracy, which cannot effectively measure the segmentation errors of the cloth area and thus lead to failure grasping position estimation. To address this challenge, we use False Discovery Rate (FDR) as a novel measure of segmentation errors and analyze its impact on grasping success. Our preliminary study reveals a negative correlation between segmentation FDR and grasping success rate, highlighting the need for more reliable segmentation in cluttered cloth scenarios. Therefore, we propose an unsupervised cloth segmentation network based on feature distance-weighted constraints, designed to reduce the false discovery rate in cloth area perception without requiring expensive pixel-level manual annotations. Additionally, to estimate the grasping position on the perceived cloth area, we introduce a strategy based on cloth surface wrinkle analysis, which operates without the need for annotations or training. By integrating the proposed segmentation network and grasping strategy, we develop a robotic system capable of sequentially grasping cluttered cloth from a table. Extensive real-world robotic experiments demonstrate the effectiveness of our approach, outperforming multiple baseline methods in segmentation FDR and grasping success rate.",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W7128681818",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 3,
+      "exclusionCategory": "garment_grasping",
+      "exclusionReason": "The method segments disorganized cloth items and estimates their grasping positions.",
+      "evidenceSource": "https://openalex.org/W7128681818",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "conference": "AAAI",
+      "year": 2026,
+      "title": "Whole-Body Coordination for Dynamic Object Grasping with Legged Manipulators",
+      "type": "移动抓取与全身控制",
+      "tier": "直接",
+      "note": "",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38908",
+      "status": "主会论文",
+      "resources": {
+        "code": [
+          "https://github.com/YoungYNG/DQ_WBC"
+        ],
+        "engines": [
+          "Isaac Gym"
+        ],
+        "datasets": [
+          "作者动态抓取评测基准"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://github.com/YoungYNG/DQ_WBC"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstract": "Quadrupedal robots with manipulators offer strong mobility and adaptability for grasping in unstructured, dynamic environments through coordinated whole-body control. However, existing research has predominantly focused on static-object grasping, neglecting the challenges posed by dynamic targets and thus limiting applicability in dynamic scenarios such as logistics sorting and human-robot collaboration. To address this, we introduce DQ-Bench, a new benchmark that systematically evaluates dynamic grasping across varying object motions, velocities, heights, object types, and terrain complexities, along with comprehensive evaluation metrics. Building upon this benchmark, we propose DQ-Net, a compact teacher-student framework designed to infer grasp configurations from limited perceptual cues. During training, the teacher network leverages privileged information to holistically model both the static geometric properties and dynamic motion characteristics of the target, and integrates a grasp fusion module to deliver robust guidance for motion planning. Concurrently, we design a lightweight student network that performs dual-viewpoint temporal modeling using only the target mask, depth map, and proprioceptive state, enabling closed-loop action outputs without reliance on privileged data. Extensive experiments on DQ-Bench demonstrate that DQ-Net achieves robust dynamic objects grasping across multiple task settings, substantially outperforming baseline methods in both success rate and responsiveness.",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W4416855226",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 8,
+      "exclusionCategory": "whole_body_grasping",
+      "exclusionReason": "The method coordinates a legged manipulator whole body to grasp dynamic objects.",
+      "evidenceSource": "https://openalex.org/W4416855226",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "conference": "CVPR",
+      "year": 2026,
+      "title": "GraspALL: Adaptive Structural Compensation from Illumination Variation for Robotic Garment Grasping in Any Low-Light Conditions",
+      "type": "低光照服装抓取",
+      "tier": "直接",
+      "note": "",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhong_GraspALL_Adaptive_Structural_Compensation_from_Illumination_Variation_for_Robotic_Garment_CVPR_2026_paper.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [
+          "https://github.com/Zhonghaifeng6/GraspALL"
+        ],
+        "engines": [
+          "Isaac Sim"
+        ],
+        "datasets": [
+          "MIGG"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://github.com/Zhonghaifeng6/GraspALL"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstract": "Achieving accurate garment grasping under dynamically changing illumination is crucial for all-day operation of service robots.However, the reduced illumination in low-light scenes severely degrades garment structural features, leading to a significant drop in grasping robustness.Existing methods typically enhance RGB features by exploiting the illumination-invariant properties of non-RGB modalities, yet they overlook the varying dependence on non-RGB features under varying lighting conditions, which can introduce misaligned non-RGB cues and thereby weaken the model's adaptability to illumination changes when utilizing multimodal information.To address this problem, we propose GraspALL, an illumination-structure interactive compensation model.The innovation of GraspALL lies in encoding continuous illumination changes into quantitative references to guide adaptive feature fusion between RGB and non-RGB modalities according to varying lighting intensities, thereby generating illumination-consistent grasping representations.Experiments on the self-built garment grasping dataset demonstrate that GraspALL improves grasping accuracy by 32-44% over baselines under diverse illumination conditions.",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W7137954966",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 42,
+      "exclusionCategory": "garment_grasping",
+      "exclusionReason": "GraspALL is specifically designed for garment grasping under changing illumination.",
+      "evidenceSource": "https://openalex.org/W7137954966",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "HERO: Learning Humanoid End-Effector Control for Visual Whole-Body Open-Vocabulary Object Grasping",
+      "type": "人形机器人全身视觉抓取",
+      "tier": "直接",
+      "note": "作者项目页标注 CoRL 2026",
+      "url": "https://hero-humanoid.github.io/",
+      "status": "已公布录用，论文集待出版",
+      "resources": {
+        "code": [
+          "https://github.com/RunpeiDong/HERO"
+        ],
+        "engines": [
+          "MuJoCo",
+          "Isaac Sim",
+          "Isaac Lab"
+        ],
+        "datasets": [
+          "AMASS",
+          "作者 IK reaching motions",
+          "hero_bench_v1",
+          "YCB"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://github.com/RunpeiDong/HERO"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstract": "Visual loco-manipulation of arbitrary in-the-wild objects requires accurate end-effector (EE) control and a generalizable understanding of the scene from visual inputs (eg, RGB-D images). Existing imitation and sim2real methods jointly learn both these aspects via monolithic end-to-end learning and are thus hard to scale. In this work, we bring to bear the best tools for each of these problems -- large vision models for generalizable scene understanding and simulated training for accurate EE control -- leading to an overall modular loco-manipulation system that exhibits strong generalization. Our core technical innovation is HERO, an accurate residual-aware EE tracking policy made possible by combining classical robotics with machine learning. It uses a) inverse kinematics to convert residual end-effector targets into reference trajectories, b) a learned neural forward model for accurate forward kinematics, and c) goal adjustment and replanning. Together, these innovations reduce the end-effector tracking error to 2.44cm, outperforming the strongest prior method by 5.5x. Our overall system operates in diverse real-world environments, from offices to coffee shops, where the robot reliably grasps various everyday objects (eg, mugs, apples, toys) on surfaces ranging from 43cm to 92cm in height. Systematic modular and end-to-end tests demonstrate the effectiveness of our proposed design. We believe our advances open up new ways of training humanoids to interact with daily objects.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2602.16705v3",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=gbchkYm28k",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "catalogueId": 110,
+      "exclusionCategory": "whole_body_grasping",
+      "exclusionReason": "HERO explicitly studies humanoid visual whole-body object grasping and loco-manipulation.",
+      "evidenceSource": "https://arxiv.org/abs/2602.16705v3",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "Clothes Grasping and Unfolding Based on RGB-D Semantic Segmentation",
+      "type": "语言与功能抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ieeexplore.ieee.org/document/10160268/",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "linkLabel": "论文（IEEE）",
+      "linkNote": "出版元数据来源：2023 IEEE International Conference on Robotics and Automation (ICRA)。",
+      "linkNoteEn": "Publisher metadata: 2023 IEEE International Conference on Robotics and Automation (ICRA).",
+      "abstract": "Clothes grasping and unfolding is a core step in robotic-assisted dressing. Most existing works leverage depth images of clothes to train a deep learning-based model to recognize suitable grasping points. These methods often utilize physics engines to synthesize depth images to reduce the cost of real labeled data collection. However, the natural domain gap between synthetic and real images often leads to poor performance of these methods on real data. Furthermore, these approaches often struggle in scenarios where grasping points are occluded by the clothing item itself. To address the above challenges, we propose a novel Bi-directional Fractal Cross Fusion Network (BiFCNet) for semantic segmentation, enabling recognition of graspable regions in order to provide more possibilities for grasping. Instead of using depth images only, we also utilize RGB images with rich color features as input to our network in which the Fractal Cross Fusion (FCF) module fuses RGB and depth data by considering global complex features based on fractal geometry. To reduce the cost of real data collection, we further propose a data augmentation method based on an adversarial strategy, in which the color and geometric transformations simultaneously process RGB and depth data while maintaining the label correspondence. Finally, we present a pipeline for clothes grasping and unfolding from the perspective of semantic segmentation, through the addition of a strategy for grasp point selection from segmentation regions based on clothing flatness measures, while taking into account the grasping direction. We evaluate our BiFCNet on the public dataset NYUDv2 and obtained comparable performance to current state-of-the-art models. We also deploy our model on a Baxter robot, running extensive grasping and unfolding experiments as part of our ablation studies, achieving an 84% success rate.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2305.03259v2",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 177,
+      "exclusionCategory": "garment_grasping",
+      "exclusionReason": "The method estimates clothes grasping points for unfolding and robot-assisted dressing.",
+      "evidenceSource": "https://arxiv.org/abs/2305.03259v2",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "QuadWBG: Generalizable Quadrupedal Whole-Body Grasping",
+      "type": "迁移与泛化",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ieeexplore.ieee.org/document/11128027/",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "linkLabel": "论文（IEEE）",
+      "linkNote": "出版元数据来源：2025 IEEE International Conference on Robotics and Automation (ICRA)。",
+      "linkNoteEn": "Publisher metadata: 2025 IEEE International Conference on Robotics and Automation (ICRA).",
+      "abstract": "Legged robots with advanced manipulation capabilities have the potential to significantly improve household duties and urban maintenance. Despite considerable progress in developing robust locomotion and precise manipulation methods, seamlessly integrating these into cohesive whole-body control for real-world applications remains challenging. In this paper, we present a modular framework for robust and generalizable whole-body loco-manipulation controller based on a single arm-mounted camera. By using reinforcement learning (RL), we enable a robust low-level policy for command execution over 5 dimensions (5D) and a grasp-aware high-level policy guided by a novel metric, Generalized Oriented Reachability Map (GORM). The proposed system achieves state-of-the-art one-time grasping accuracy of 89% in the real world, including challenging tasks such as grasping transparent objects. Through extensive simulations and real-world experiments, we demonstrate that our system can effectively manage a large workspace, from floor level to above body height, and perform diverse whole-body loco-manipulation tasks.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2411.06782v2",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 251,
+      "exclusionCategory": "whole_body_grasping",
+      "exclusionReason": "QuadWBG explicitly learns quadrupedal whole-body grasping and loco-manipulation.",
+      "evidenceSource": "https://arxiv.org/abs/2411.06782v2",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "conference": "RA-L",
+      "year": 2025,
+      "title": "A Hyperspectral Imaging Guided Robotic Grasping System",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。",
+      "url": "https://ieeexplore.ieee.org/document/11020724/",
+      "venueUrl": "https://doi.org/10.1109/lra.2025.3575654",
+      "status": "期刊论文",
+      "resources": {
+        "code": [
+          "https://github.com/ZainZh/PRISM"
+        ],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+          "https://ieeexplore.ieee.org/document/11020724/",
+          "https://arxiv.org/abs/2512.05578",
+          "https://zainzh.github.io/PRISM",
+          "https://raw.githubusercontent.com/ZainZh/PRISM/master/README.md"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "linkLabel": "IEEE 论文页",
+      "linkNote": "出版元数据来源：IEEE Robotics and Automation Letters。",
+      "linkNoteEn": "Publisher metadata: IEEE Robotics and Automation Letters.",
+      "collectionKey": "ICRA|2026|a hyperspectral imaging guided robotic grasping system",
+      "presentedAt": [
+        "ICRA 2026"
+      ],
+      "conferenceSource": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "doi": "10.1109/lra.2025.3575654",
+      "citation": "IEEE Robotics and Automation Letters 10(7), 2025, pp. 7659-7666",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "verificationLevel": "abstract",
+      "preprintUrl": "https://arxiv.org/abs/2512.05578",
+      "abstract": "Hyperspectral imaging is an advanced technique for precisely identifying and analyzing materials or objects. However, its integration with robotic grasping systems has so far been explored due to the deployment complexities and prohibitive costs. Within this paper, we introduce a novel hyperspectral imaging-guided robotic grasping system. The system consists of PRISM (Polyhedral Reflective Imaging Scanning Mechanism) and the SpectralGrasp framework. PRISM is designed to enable high-precision, distortion-free hyperspectral imaging while simplifying system integration and costs. SpectralGrasp generates robotic grasping strategies by effectively leveraging both the spatial and spectral information from hyperspectral images. The proposed system demonstrates substantial improvements in both textile recognition compared to human performance and sorting success rate compared to RGB-based methods. Additionally, a series of comparative experiments further validates the effectiveness of our system. The study highlights the potential benefits of integrating hyperspectral imaging with robotic grasping systems, showcasing enhanced recognition and grasping capabilities in complex and dynamic environments. The project is available at: https://zainzh.github.io/PRISM.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2512.05578v1",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 257,
+      "exclusionCategory": "garment_grasping",
+      "exclusionReason": "The actual experiments recognize and robotically grasp/sort waste textiles, including linen, acetate, silk and wool.",
+      "evidenceSource": "https://arxiv.org/abs/2512.05578v1",
+      "evidenceKind": "local full text and abstract"
+    },
+    {
+      "type": "抓取方法与评估",
+      "tier": "直接",
+      "resources": {
+        "code": [
+          "https://github.com/vicoslab/CeDiRNet-3DoF"
+        ],
+        "engines": [
+          "MuJoCo"
+        ],
+        "datasets": [
+          "ViCoS Towel Dataset"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/10669766/",
+          "https://arxiv.org/abs/2408.14456",
+          "https://github.com/vicoslab/CeDiRNet-3DoF",
+          "https://raw.githubusercontent.com/vicoslab/CeDiRNet-3DoF/master/README.md"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "RA-L",
+      "year": 2024,
+      "title": "Center Direction Network for Grasping Point Localization on Cloths",
+      "url": "https://ieeexplore.ieee.org/document/10669766/",
+      "doi": "10.1109/lra.2024.3455802",
+      "status": "期刊论文",
+      "citation": "IEEE Robotics and Automation Letters 9(10), 2024, pp. 8913-8920",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2024.3455802",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。",
+      "verificationLevel": "abstract",
+      "preprintUrl": "https://arxiv.org/abs/2408.14456",
+      "abstract": "Object grasping is a fundamental challenge in robotics and computer vision, critical for advancing robotic manipulation capabilities. Deformable objects, like fabrics and cloths, pose additional challenges due to their non-rigid nature. In this work, we introduce CeDiRNet-3DoF, a deep-learning model for grasp point detection, with a particular focus on cloth objects. CeDiRNet-3DoF employs center direction regression alongside a localization network, attaining first place in the perception task of ICRA 2023's Cloth Manipulation Challenge. Recognizing the lack of standardized benchmarks in the literature that hinder effective method comparison, we present the ViCoS Towel Dataset. This extensive benchmark dataset comprises 8,000 real and 12,000 synthetic images, serving as a robust resource for training and evaluating contemporary data-driven deep-learning approaches. Extensive evaluation revealed CeDiRNet-3DoF's robustness in real-world performance, outperforming state-of-the-art methods, including the latest transformer-based models. Our work bridges a crucial gap, offering a robust solution and benchmark for cloth grasping in computer vision and robotics. Code and dataset are available at: https://github.com/vicoslab/CeDiRNet-3DoF",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2408.14456v1",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 388,
+      "exclusionCategory": "garment_grasping",
+      "exclusionReason": "CeDiRNet-3DoF detects cloth grasp points and introduces the ViCoS Towel Dataset.",
+      "evidenceSource": "https://arxiv.org/abs/2408.14456v1",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "type": "6-DoF / 位姿",
+      "tier": "直接",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/10884835/"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "RA-L",
+      "year": 2025,
+      "title": "Dual-Arm Fabric Manipulation Learning With Grasp Pose Constraints",
+      "url": "https://ieeexplore.ieee.org/document/10884835/",
+      "doi": "10.1109/lra.2025.3541911",
+      "status": "期刊论文",
+      "citation": "IEEE Robotics and Automation Letters 10(4), 2025, pp. 3494-3501",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2025.3541911",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商 DOI 元数据；研究范围依据标题初筛，尚未核对全文。",
+      "verificationLevel": "title",
+      "abstract": "Dual-arm manipulation of fabrics is important and complex in the field of embodied intelligence for robots. Previous work has mostly focused on extracting the geometric features of fabrics, but has neglected the knowledge and experience constraints on grasp postures like humans, which greatly affects the success rate of operations. Therefore, this paper proposes a dual-arm manipulation method for fabrics based on imitation learning, including the study of an action encoding learning algorithm based on dynamic motion primitives (DMPs), the establishment of a dual-arm motion primitive library to provide prior knowledge for operation planning, the creation of a segment-based dual-arm grasp method based on prior knowledge, and the realization of extracting the optimal grasp posture from the implicit geometric features of messy fabrics. Experiments show that the success rate of this method in the fabric unfolding task is 85.0%, with an average of 5.0 operations, and the success rate in the fabric folding task is 96.7%, both of which are significantly better than the two baseline methods, SpeedFolding and FlingBot.",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W4407449516",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 431,
+      "exclusionCategory": "garment_grasping",
+      "exclusionReason": "The method learns grasp poses for dual-arm fabric unfolding and folding.",
+      "evidenceSource": "https://openalex.org/W4407449516",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "type": "抓取方法与评估",
+      "tier": "相关",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/11155187/",
+          "https://arxiv.org/abs/2509.03859"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "RA-L",
+      "year": 2025,
+      "title": "Learning Multi-Stage Pick-and-Place With a Legged Mobile Manipulator",
+      "url": "https://ieeexplore.ieee.org/document/11155187/",
+      "doi": "10.1109/lra.2025.3608425",
+      "status": "期刊论文",
+      "citation": "IEEE Robotics and Automation Letters 10(11), 2025, pp. 11419-11426",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2025.3608425",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。",
+      "verificationLevel": "abstract",
+      "preprintUrl": "https://arxiv.org/abs/2509.03859",
+      "abstract": "Quadruped-based mobile manipulation presents significant challenges in robotics due to the diversity of required skills, the extended task horizon, and partial observability. After presenting a multi-stage pick-and-place task as a succinct yet sufficiently rich setup that captures key desiderata for quadruped-based mobile manipulation, we propose an approach that can train a visuo-motor policy entirely in simulation, and achieve nearly 80\\% success in the real world. The policy efficiently performs search, approach, grasp, transport, and drop into actions, with emerged behaviors such as re-grasping and task chaining. We conduct an extensive set of real-world experiments with ablation studies highlighting key techniques for efficient training and effective sim-to-real transfer. Additional experiments demonstrate deployment across a variety of indoor and outdoor environments. Demo videos and additional resources are available on the project page: https://horizonrobotics.github.io/gail/SLIM.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2509.03859v3",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 442,
+      "exclusionCategory": "whole_body_grasping",
+      "exclusionReason": "The pick-and-place pipeline couples quadruped locomotion, approach, grasping, transport and placement.",
+      "evidenceSource": "https://arxiv.org/abs/2509.03859v3",
+      "evidenceKind": "local full text and abstract"
+    },
+    {
+      "type": "迁移与泛化",
+      "tier": "直接",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/11248822/"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "RA-L",
+      "year": 2026,
+      "title": "ClothMate: Leveraging Grasp-Fling Consistency for Generalizable and Data-Efficient Garment Flattening",
+      "url": "https://ieeexplore.ieee.org/document/11248822/",
+      "doi": "10.1109/lra.2025.3632758",
+      "status": "期刊论文",
+      "citation": "IEEE Robotics and Automation Letters 11(1), 2026, pp. 298-305",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2025.3632758",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商 DOI 元数据；研究范围依据标题初筛，尚未核对全文。",
+      "verificationLevel": "title",
+      "abstract": "We present ClothMate, a general framework for flattening garments of various categories from arbitrary configurations. Prior end-to-end methods are often limited in data efficiency. To address this, ClothMate introduces an intriguing observation: in garment flattening, grasping the same point pair typically results in a consistent fling response, regardless of the current state of the garment. Building on this insight, we adopt a two-stage paradigm: first learning point- wise fling responses under a canonicalized and aligned configuration, then generalizing to arbitrary states via point-to-point projection. This explicit decoupling of state estimation and action prediction mitigates challenges arising from infinite-DOF dynamics and severe self-occlusion, enabling the model to better capture common interaction patterns, thus improving data efficiency to support a broader range of garment categories. Additionally, we propose a novel static pick-and-stretch dual-arm flattening strategy that refines the outcome by heuristically stretching around adaptively selected key points. Compared to the state of the art, ClothMate is trained and evaluated simultaneously on five garment categories, using only 15% of the total data that baselines would require for separate training on all five categories, while achieving higher coverage (91.5% vs. 85.0%) and fewer steps (4.7 vs. 7.0). The code, dataset and trained models are available here.",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W4416214689",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 452,
+      "exclusionCategory": "garment_grasping",
+      "exclusionReason": "ClothMate learns grasp-fling responses for flattening garments.",
+      "evidenceSource": "https://openalex.org/W4416214689",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "type": "语言与任务导向抓取",
+      "tier": "直接",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/11248860/"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "RA-L",
+      "year": 2026,
+      "title": "Guiding Robotic Cloth Grasping in Darkness: Infrared Semantic Segmentation and Grasping Position Selection",
+      "url": "https://ieeexplore.ieee.org/document/11248860/",
+      "doi": "10.1109/lra.2025.3632718",
+      "status": "期刊论文",
+      "citation": "IEEE Robotics and Automation Letters 11(1), 2026, pp. 546-553",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2025.3632718",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商 DOI 元数据；研究范围依据标题初筛，尚未核对全文。",
+      "verificationLevel": "title",
+      "abstract": "Robotic cloth grasping is a key component in many robotic cloth manipulation scenarios, such as automated wardrobe management, clothing laundering, and assisted dressing. Due to the deformability and large surface of cloth, which distinguishes it from conventional rigid targets, most current studies adopt the paradigm of first perceiving the cloth area and then estimating the grasping position in the area. However, current methods overlook the perception sensitivity to illumination variations, leading to performance degradation in low-light conditions or completely dark scenes. In particular, current visual perception methods that fuse RGB and infrared images or are based on low-light enhancement still rely on valid RGB input. Consequently, they cannot be applied to scenes where the lighting becomes extremely low or even completely dark. In this paper, to address the above challenges, we propose a robotic cloth grasping framework based on infrared perception, which includes an infrared semantic segmentation model and a grasping position selection strategy. The infrared semantic segmentation model employs RGB-guided learning to extract features corresponding to RGB information from infrared images. Only infrared images are used as input during inference, enabling robust cloth perception in complete darkness. The grasping position selection strategy is through depth-derived wrinkle analysis via geometric processing. It eliminates dependency on annotated data or task-specific training, remaining invariant to scene lighting conditions. Building on the proposed methods, we developed a robotic cloth grasping system for testing. Extensive evaluation and baseline comparison experiments as well as ablation studies were performed to confirm the effectiveness and superiority of our method.",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W4416714595",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 460,
+      "exclusionCategory": "garment_grasping",
+      "exclusionReason": "The method selects robotic cloth grasping positions using infrared semantic segmentation.",
+      "evidenceSource": "https://openalex.org/W4416714595",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "type": "抓取策略与控制",
+      "tier": "相关",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/11495396/",
+          "https://arxiv.org/abs/2605.15713"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "RA-L",
+      "year": 2026,
+      "title": "Learning Dynamic Pick-and-Place for a Legged Manipulator",
+      "url": "https://ieeexplore.ieee.org/document/11495396/",
+      "doi": "10.1109/lra.2026.3688092",
+      "status": "期刊论文",
+      "citation": "IEEE Robotics and Automation Letters 11(6), 2026, pp. 7652-7659",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2026.3688092",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。",
+      "verificationLevel": "abstract",
+      "preprintUrl": "https://arxiv.org/abs/2605.15713",
+      "abstract": "Legged manipulators extend robotic capabilities beyond static manipulation by integrating agile locomotion with versatile arm control. However, achieving precise manipulation while maintaining coordinated locomotion remains a major challenge. This work presents a hierarchical reinforcement learning framework for dynamic pick-and-place tasks using a quadruped equipped with a 6-DOF robotic arm. The framework incorporates an explicit mass estimation module enabling adaptive whole-body control for objects with varying weights. In simulation, the system achieves an 86.05% success rate with payloads up to 2.3 kg. The approach is further validated through real-world experiments across six representative scenarios with controlled variations in object physical properties (size and mass) and task heights. Specifically, within a wide vertical workspace ranging from ground level to 1.1~m-high tabletops, the system demonstrates an average success rate of 73.3% for payloads up to 1.3 kg, with an average execution time of 4.06 s. Unlike prior works that handle lightweight objects and execute pick-and-place motions with slow, piecewise motions, the proposed framework exploits concurrent locomotion and manipulation for dynamic, continuous execution. These results demonstrate the potential of quadrupedal mobile manipulators for adaptive, whole-body pick-and-place with heavier payloads and extended workspaces.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2605.15713v1",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 465,
+      "exclusionCategory": "whole_body_grasping",
+      "exclusionReason": "The method uses adaptive whole-body control and concurrent locomotion/manipulation for quadrupedal pick-and-place.",
+      "evidenceSource": "https://arxiv.org/abs/2605.15713v1",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "type": "抓取方法与评估",
+      "tier": "直接",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "作者执行器空间示范（30 条）"
+        ],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/11456485/",
+          "https://arxiv.org/abs/2511.01770"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "RA-L",
+      "year": 2026,
+      "title": "Lightweight Learning From Actuation-Space Demonstrations via Flow Matching for Whole-Body Soft Robotic Grasping",
+      "url": "https://ieeexplore.ieee.org/document/11456485/",
+      "doi": "10.1109/lra.2026.3677747",
+      "status": "期刊论文",
+      "citation": "IEEE Robotics and Automation Letters 11(6), 2026, pp. 6720-6727",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2026.3677747",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。",
+      "verificationLevel": "abstract",
+      "preprintUrl": "https://arxiv.org/abs/2511.01770",
+      "abstract": "Robotic grasping under uncertainty remains a fundamental challenge due to its uncertain and contact-rich nature. Traditional rigid robotic hands, with limited degrees of freedom and compliance, rely on complex model-based and heavy feedback controllers to manage such interactions. Soft robots, by contrast, exhibit embodied mechanical intelligence: their underactuated structures and passive flexibility of their whole body, naturally accommodate uncertain contacts and enable adaptive behaviors. To harness this capability, we propose a lightweight actuation-space learning framework that infers distributional control representations for whole-body soft robotic grasping, directly from deterministic demonstrations using a flow matching model (Rectified Flow),without requiring dense sensing or heavy control loops. Using only 30 demonstrations (less than 8% of the reachable workspace), the learned policy achieves a 97.5% grasp success rate across the whole workspace, generalizes to grasped-object size variations of +-33%, and maintains stable performance when the robot's dynamic response is directly adjusted by scaling the execution time from 20% to 200%. These results demonstrate that actuation-space learning, by leveraging its passive redundant DOFs and flexibility, converts the body's mechanics into functional control intelligence and substantially reduces the burden on central controllers for this uncertain-rich task.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2511.01770v2",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 466,
+      "exclusionCategory": "whole_body_grasping",
+      "exclusionReason": "The soft robot grasps with compliant whole-body actuation rather than an isolated hand or gripper.",
+      "evidenceSource": "https://arxiv.org/abs/2511.01770v2",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "conference": "T-RO",
+      "year": 2020,
+      "title": "A Grasping-Centered Analysis for Cloth Manipulation",
+      "url": "https://ieeexplore.ieee.org/document/9097275/",
+      "venueUrl": "https://doi.org/10.1109/tro.2020.2986921",
+      "status": "期刊论文",
+      "type": "抓取方法与评估",
+      "tier": "相关",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。 扩展相关：主要贡献涉及抓取关联的感知、操作、示教或运动规划。",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/9097275/",
+          "https://arxiv.org/abs/1906.08202v2"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "doi": "10.1109/tro.2020.2986921",
+      "journalName": "IEEE Transactions on Robotics",
+      "citation": "IEEE Transactions on Robotics 36(3), 2020, pp. 924-936",
+      "linkLabel": "IEEE 论文页",
+      "preprintUrl": "https://arxiv.org/abs/1906.08202v2",
+      "abstract": "Compliant and soft hands have gained a lot of attention in the past decade because of their ability to adapt to the shape of the objects, increasing their effectiveness for grasping. However, when it comes to grasping highly flexible objects such as textiles, we face the dual problem: it is the object that will adapt to the shape of the hand or gripper. In this context, the classic grasp analysis or grasping taxonomies are not suitable for describing textile objects grasps. This work proposes a novel definition of textile object grasps that abstracts from the robotic embodiment or hand shape and recovers concepts from the early neuroscience literature on hand prehension skills. This framework enables us to identify what grasps have been used in literature until now to perform robotic cloth manipulation, and allows for a precise definition of all the tasks that have been tackled in terms of manipulation primitives based on regrasps. In addition, we also review what grippers have been used. Our analysis shows how the vast majority of cloth manipulations have relied only on one type of grasp, and at the same time we identify several tasks that need more variety of grasp types to be executed successfully. Our framework is generic, provides a classification of cloth manipulation primitives and can inspire gripper design and benchmark construction for cloth manipulation.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/1906.08202v2",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 622,
+      "exclusionCategory": "garment_grasping",
+      "exclusionReason": "The paper analyzes textile grasps and grasping-centered cloth-manipulation primitives.",
+      "evidenceSource": "https://arxiv.org/abs/1906.08202v2",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2020,
+      "title": "Learning Grasping Points for Garment Manipulation in Robot-Assisted Dressing",
+      "url": "https://ieeexplore.ieee.org/document/9196994/",
+      "venueUrl": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "status": "主会论文",
+      "type": "抓取方法与评估",
+      "tier": "相关",
+      "note": "发表信息依据出版商 DOI 元数据；研究范围依据标题初筛，尚未核对全文。 扩展相关：主要贡献涉及抓取关联的感知、操作、示教或运动规划。",
+      "verificationLevel": "title",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/9196994/"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "doi": "10.1109/icra40945.2020.9196994",
+      "abstract": "",
+      "abstractStatus": "unavailable",
+      "abstractSource": "",
+      "abstractProvider": "",
+      "abstractKind": "",
+      "abstractLicense": "",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 664,
+      "exclusionCategory": "garment_grasping",
+      "exclusionReason": "The research learns garment grasping points for robot-assisted dressing.",
+      "evidenceSource": "https://ieeexplore.ieee.org/document/9196994/",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "conference": "CVPR",
+      "year": 2025,
+      "title": "GarmentPile: Point-Level Visual Affordance Guided Retrieval and Adaptation for Cluttered Garments Manipulation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_GarmentPile_Point-Level_Visual_Affordance_Guided_Retrieval_and_Adaptation_for_Cluttered_CVPR_2025_paper.html",
+      "venueUrl": "https://openaccess.thecvf.com/CVPR2025?day=all",
+      "status": "主会论文",
+      "type": "语言与任务导向抓取 · 视觉抓取感知",
+      "tier": "相关",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。 扩展相关：主要贡献涉及抓取关联的感知、操作、示教或运动规划。",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/AlwaySleepy/Garment-Pile"
+        ],
+        "engines": [
+          "Isaac Sim 2023.1.1"
+        ],
+        "datasets": [
+          "GarmentLab garment assets",
+          "GarmentPile retrieval and adaptation scenes"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_GarmentPile_Point-Level_Visual_Affordance_Guided_Retrieval_and_Adaptation_for_Cluttered_CVPR_2025_paper.html",
+          "https://arxiv.org/abs/2503.09243v1",
+          "https://garmentpile.github.io/",
+          "https://github.com/AlwaySleepy/Garment-Pile"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "preprintUrl": "https://arxiv.org/abs/2503.09243v1",
+      "abstract": "Cluttered garments manipulation poses significant challenges due to the complex, deformable nature of garments and intricate garment relations. Unlike single-garment manipulation, cluttered scenarios require managing complex garment entanglements and interactions, while maintaining garment cleanliness and manipulation stability. To address these demands, we propose to learn point-level affordance, the dense representation modeling the complex space and multi-modal manipulation candidates, while being aware of garment geometry, structure, and inter-object relations. Additionally, as it is difficult to directly retrieve a garment in some extremely entangled clutters, we introduce an adaptation module, guided by learned affordance, to reorganize highly-entangled garments into states plausible for manipulation. Our framework demonstrates effectiveness over environments featuring diverse garment types and pile configurations in both simulation and the real world. Project page: https://garmentpile.github.io/.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2503.09243v1",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 679,
+      "exclusionCategory": "garment_grasping",
+      "exclusionReason": "GarmentPile uses grasp-related affordances to retrieve and manipulate cluttered garments.",
+      "evidenceSource": "https://arxiv.org/abs/2503.09243v1",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "GarmentPile++: Affordance-Driven Cluttered Garments Retrieval with Vision-Language Reasoning",
+      "url": "https://arxiv.org/abs/2603.04158v1",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html",
+      "status": "已公布录用，论文集待出版",
+      "type": "语言与任务导向抓取 · 视觉抓取感知",
+      "tier": "相关",
+      "note": "Conference acceptance and scope verified against the official program and author materials; individual publisher article metadata remains unverified. 扩展相关：主要贡献涉及抓取关联的感知、操作、示教或运动规划。",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/d-finite/GarmentPile2"
+        ],
+        "engines": [
+          "Isaac Sim 4.5.0"
+        ],
+        "datasets": [
+          "GarmentPile++ retrieval tasks"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2603.04158v1",
+          "https://github.com/d-finite/GarmentPile2"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "preprintUrl": "https://arxiv.org/abs/2603.04158v1",
+      "linkLabel": "作者预印本",
+      "abstract": "Garment manipulation has attracted increasing attention due to its critical role in home-assistant robotics. However, the majority of existing garment manipulation works assume an initial state consisting of only one garment, while piled garments are far more common in real-world settings. To bridge this gap, we propose a novel garment retrieval pipeline that can not only follow language instruction to execute safe and clean retrieval but also guarantee exactly one garment is retrieved per attempt, establishing a robust foundation for the execution of downstream tasks (e.g., folding, hanging, wearing). Our pipeline seamlessly integrates vision-language reasoning with visual affordance perception, fully leveraging the high-level reasoning and planning capabilities of VLMs alongside the generalization power of visual affordance for low-level actions. To enhance the VLM's comprehensive awareness of each garment's state within a garment pile, we employ visual segmentation model (SAM2) to execute object segmentation on the garment pile for aiding VLM-based reasoning with sufficient visual cues. A mask fine-tuning mechanism is further integrated to address scenarios where the initial segmentation results are suboptimal. In addition, a dual-arm cooperation framework is deployed to address cases involving large or long garments, as well as excessive garment sagging caused by incorrect grasping point determination, both of which are strenuous for a single arm to handle. The effectiveness of our pipeline are consistently demonstrated across diverse tasks and varying scenarios in both real-world and simulation environments. Project page: https://garmentpile2.github.io/.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2603.04158v1",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 691,
+      "exclusionCategory": "garment_grasping",
+      "exclusionReason": "GarmentPile++ uses vision-language reasoning and affordances to retrieve garments from piles.",
+      "evidenceSource": "https://arxiv.org/abs/2603.04158v1",
+      "evidenceKind": "title and available abstract"
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "HuG: Learning Humanoid Whole-Body Affordance-Aware Grasping with Active Perception",
+      "type": "人形机器人全身视觉抓取",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=kpX1KOfNI5",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. ",
+      "abstract": "Acquiring objects in human environments is hard for humanoids: targets are partially occluded under egocentric viewpoints, and reaching them demands coordinated whole-body motion that keeps the target visible and reachable while the base stays stable. We present HuG, a framework for whole-body affordance-aware grasping with active perception that couples perception and action through a Perceive-Align-Grasp pipeline: belief-driven active perception resolves occlusion by treating viewpoint as an explicit decision variable; a point-cloud-conditioned affordance policy proposes whole-body grasps; and an affordance-aware alignment stage repositions the body to the most executable configuration. A key insight is that, on a floating base, kinematic validity is not enough: we curate training data with controller-in-the-loop dynamics simulation, rejecting 73% of kinematically valid grasps that would destabilize the deployment controller, so the policy learns kinodynamically feasible affordances. Trained entirely in simulation with zero real demonstrations, HuG attains 87.5% real-world success on a multi-level shelf task, generalizes to novel objects, and holds at least 73% success at every tested height. Beyond generalizing within its training distribution, the policy extrapolates spatially: at scale in simulation it succeeds at table heights well below any seen during training, indicating that kinodynamically filtered synthetic data grounds affordances in object geometry and whole-body feasibility rather than in memorized configurations.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2611.01659v1",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-06",
+      "authors": [
+        "Xuanbin Peng",
+        "Lai Wei",
+        "Yuze Zhai",
+        "Qingyuan Yu",
+        "Keyi Wang",
+        "Jianglong Ye",
+        "Xiaolong Wang"
+      ],
+      "preprintUrl": "https://arxiv.org/abs/2611.01659v1",
+      "url": "https://arxiv.org/abs/2611.01659v1",
+      "linkLabel": "作者预印本",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "HuG kinodynamically filtered synthetic grasps",
+          "HuG multi-level shelf-picking tasks"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2611.01659v1",
+          "https://xuanbinpeng.com/hug/",
+          "https://openreview.net/forum?id=kpX1KOfNI5",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      },
+      "catalogueId": 699,
+      "exclusionCategory": "whole_body_grasping",
+      "exclusionReason": "HuG explicitly couples whole-body alignment, active perception and affordance-aware grasping.",
+      "evidenceSource": "https://arxiv.org/abs/2611.01659v1",
+      "evidenceKind": "title and available abstract"
+    }
+  ],
+  "retainedBoundaryCases": [
+    {
+      "catalogueId": 49,
+      "title": "DexH2R: A Benchmark for Dynamic Dexterous Grasping in Human-to-Robot Handover",
+      "reason": "Human-to-robot handover is not whole-body grasping merely because a humanoid is mentioned."
+    },
+    {
+      "catalogueId": 107,
+      "title": "Sim-to-Real Reinforcement Learning for Vision-Based Dexterous Manipulation on Humanoids",
+      "reason": "The full paper specifies 7-DoF arms and 6-DoF hands for bimanual dexterous tasks; whole-body control occurs in citations, not the proposed controller."
+    },
+    {
+      "catalogueId": 170,
+      "title": "A Bioinspired Synthetic Nervous System Controller for Pick-And-Place Manipulation",
+      "reason": "Legged robots appear as background for a neural controller, not the proposed pick-and-place embodiment."
+    },
+    {
+      "catalogueId": 200,
+      "title": "Kinematic Synergy Primitives for Human-Like Grasp Motion Generation",
+      "reason": "Humanoid five-finger hand synergies do not imply whole-body control."
+    },
+    {
+      "catalogueId": 272,
+      "title": "DextrAH-RGB: Visuomotor Policies to Grasp Anything with Dexterous Hands",
+      "reason": "Geometric fabric is a robot-control formulation, not garment or textile material."
+    },
+    {
+      "catalogueId": 498,
+      "title": "Language-Guided Dexterous Functional Grasping by LLM Generated Grasp Functionality and Synergy for Humanoid Manipulation",
+      "reason": "Functional grasp generation for a humanoid hand is not whole-body grasping."
+    },
+    {
+      "catalogueId": 520,
+      "title": "Humanoid Five-Digit Robotic Grasping via Multi-Agent Reinforcement Learning With Potential-Guided Optimization and Weight Scheduling",
+      "reason": "Five-digit robotic hand coordination does not imply a whole-body locomotion/manipulation controller."
+    },
+    {
+      "catalogueId": 589,
+      "title": "GRASPA 1.0: GRASPA is a Robot Arm graSping Performance BenchmArk",
+      "reason": "The iCub deployment benchmarks arm grasping; using a humanoid platform alone does not establish whole-body grasping."
+    }
+  ],
+  "migration": "Permanent catalogue IDs and all surviving paper identities are preserved. Removed records are appended to the historical archive; existing PDF files are not moved or deleted.",
+  "clothFollowUp": {
+    "checkedAt": "2026-11-12",
+    "result": "Cloth, textile, towel and garment grasping are covered by the 12 existing garment/cloth exclusions. No additional cloth-specific paper established in the retained boundary cases.",
+    "retainedBoundaryChecks": [
+      {
+        "catalogueIds": [
+          89,
+          272
+        ],
+        "reason": "Geometric fabrics is a control method, not textile manipulation."
+      },
+      {
+        "catalogueIds": [
+          11
+        ],
+        "reason": "Available full text contains no cloth/garment/textile/towel/fabric experiment."
+      },
+      {
+        "catalogueIds": [
+          160,
+          331
+        ],
+        "reason": "Three-dimensional soft-object grasping; cloth is discussed only as related work or as a different object class."
+      },
+      {
+        "catalogueIds": [
+          139
+        ],
+        "reason": "General planar shape-control simulation, no established cloth-specific task or material; textile examples occur in related work.",
+        "source": "https://webdiis.unizar.es/~glopez/papers/Cuiral-ZuecoICRA2022.pdf"
+      },
+      {
+        "catalogueIds": [
+          715
+        ],
+        "reason": "The paper explicitly excludes clothes-folding from its experimental setting."
+      },
+      {
+        "catalogueIds": [
+          725
+        ],
+        "reason": "Tablecloths are background variation, not manipulated objects."
+      }
+    ]
+  }
+}

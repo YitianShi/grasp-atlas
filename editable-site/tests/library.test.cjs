@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const window={GRASP_LIBRARY_BASE:'file:///D:/Grasp%20Atlas/',GRASP_LIBRARY:{rows:{'1':{title:'Correct paper',year:2025,venue:'ICRA',status:'downloaded',file:'GraspAtlas_Library/papers/2025/ICRA/0001_paper.pdf',paper_url:'https://doi.org/10.example/paper'}}}};
+vm.runInNewContext(fs.readFileSync(__dirname+'/../dist/library-ui.js','utf8'),{window,URL});
+const lib=window.GraspLibrary,p={id:'paper-001',title:'Correct paper',year:2025,conference:'ICRA',url:'https://example.org/paper'};
+assert.equal(lib.links(p).primary,'file:///D:/Grasp%20Atlas/GraspAtlas_Library/papers/2025/ICRA/0001_paper.pdf');
+assert.equal(lib.links({...p,title:'Different paper'}).file,'');
+assert.equal(lib.links({...p,year:2024}).file,'');
+for(const path of ['../papers/wrong.pdf','//evil.test/papers/a.pdf','https://evil.test/papers/a.pdf','GraspAtlas_Library/papers/../wrong.pdf','GraspAtlas_Library/papers/a.pdf?x=1'])assert.equal(lib.local(path),'',path);
+assert.equal(lib.remote('javascript:alert(1)'),'');
+window.GRASP_LIBRARY.rows['1'].status='needs_review';assert.equal(lib.links(p).file,'');assert.equal(lib.links(p).primary,'https://doi.org/10.example/paper');
+window.GRASP_LIBRARY.rows['1'].status='missing_file';assert.equal(lib.links(p).file,'');
+window.GRASP_LIBRARY_BASE='http://127.0.0.1:8765/';window.GRASP_LIBRARY.rows['1'].status='downloaded';assert.match(lib.links(p).file,/^http:\/\/127.0.0.1:8765\//);
+const fresh={GRASP_DATA:{rows:[p]}};
+vm.runInNewContext(fs.readFileSync(__dirname+'/../dist/library-ui.js','utf8'),{window:fresh,URL});
+assert.equal(fresh.GRASP_LIBRARY.total,1);assert.equal(fresh.GRASP_LIBRARY.counts.downloaded,0);assert.equal(fresh.GRASP_LIBRARY.counts.pending,1);
+assert.equal(fresh.GraspLibrary.entry(p),null);assert.equal(fresh.GraspLibrary.links(p).file,'');assert.equal(fresh.GraspLibrary.links(p).primary,p.url);
+console.log('PASS: local PDF priority, exact catalogue identity, review/missing states, portable paths and unsafe URL rejection');

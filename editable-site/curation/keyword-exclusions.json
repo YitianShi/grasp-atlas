@@ -1,0 +1,629 @@
+{
+  "date": "2026-10-05",
+  "keywords": [
+    "underwater",
+    "surgical",
+    "deformable",
+    "bimanual",
+    "suction",
+    "vacuum"
+  ],
+  "matching": "case-insensitive substring in paper title",
+  "rows": [
+    {
+      "conference": "ICML",
+      "year": 2025,
+      "title": "BiAssemble: Learning Collaborative Affordance for Bimanual Geometric Assembly",
+      "type": "双臂装配与抓取可供性",
+      "tier": "相关",
+      "note": "主任务为几何装配，联合研究抓取",
+      "url": "https://proceedings.mlr.press/v267/shen25i.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [
+          "https://github.com/sxy7147/BiAssembly"
+        ],
+        "engines": [
+          "SAPIEN"
+        ],
+        "datasets": [
+          "Breaking Bad",
+          "BiAssembly 交互试验数据"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://github.com/sxy7147/BiAssembly"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "bimanual"
+      ]
+    },
+    {
+      "conference": "CoRL",
+      "year": 2023,
+      "title": "DYNAMO-GRASP: DYNAMics-aware Optimization for GRASP Point Detection in Suction Grippers",
+      "type": "吸盘抓取",
+      "tier": "直接",
+      "note": "",
+      "url": "https://proceedings.mlr.press/v229/yang23a.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [
+          "Isaac Gym"
+        ],
+        "datasets": [
+          "DYNAMO-GRASP 合成吸盘抓取数据"
+        ],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://proceedings.mlr.press/v229/yang23a/yang23a.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "suction"
+      ]
+    },
+    {
+      "conference": "CoRL",
+      "year": 2025,
+      "title": "COMBO-Grasp: Learning Constraint-Based Manipulation for Bimanual Occluded Grasping",
+      "type": "双臂遮挡抓取",
+      "tier": "直接",
+      "note": "",
+      "url": "https://proceedings.mlr.press/v305/yamada25a.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [
+          "Isaac Sim"
+        ],
+        "datasets": [
+          "Google Scanned Objects",
+          "COMBO-Grasp 约束姿态合成数据"
+        ],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://combo-grasp.github.io/",
+          "https://arxiv.org/html/2502.08054v1"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "bimanual"
+      ]
+    },
+    {
+      "conference": "ICRA",
+      "year": 2022,
+      "title": "Learning to Localize, Grasp, and Hand Over Unmodified Surgical Needles",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812393",
+      "venueUrl": "https://www.proceedings.com/content/064/064576webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA46639.2022.9812393",
+          "https://www.proceedings.com/content/064/064576webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://doi.org/10.1109/ICRA46639.2022.9812393",
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "surgical"
+      ]
+    },
+    {
+      "conference": "ICRA",
+      "year": 2022,
+      "title": "Uncertainty-based Exploring Strategy in Densely Cluttered Scenes for Vacuum Cup Grasping",
+      "type": "不确定性感知 / 杂乱场景抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811599",
+      "venueUrl": "https://www.proceedings.com/content/064/064576webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA46639.2022.9811599",
+          "https://www.proceedings.com/content/064/064576webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://doi.org/10.1109/ICRA46639.2022.9811599",
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "vacuum"
+      ]
+    },
+    {
+      "conference": "ICRA",
+      "year": 2022,
+      "title": "Grasp Transfer for Deformable Objects by Functional Map Correspondence",
+      "type": "语言与功能抓取 / 迁移与泛化",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812141",
+      "venueUrl": "https://www.proceedings.com/content/064/064576webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA46639.2022.9812141",
+          "https://www.proceedings.com/content/064/064576webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://doi.org/10.1109/ICRA46639.2022.9812141",
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "deformable"
+      ]
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "Foot Gestures to Control the Grasping of a Surgical Robot",
+      "type": "策略与控制",
+      "tier": "相关",
+      "note": "扩展相关：主要贡献涉及抓取关联的感知、操作、示教或运动规划。",
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160368",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA48891.2023.10160368",
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://doi.org/10.1109/ICRA48891.2023.10160368",
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "surgical"
+      ]
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "In the Wild Ungraspable Object Picking with Bimanual Nonprehensile Manipulation",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128490",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11128490",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://doi.org/10.1109/ICRA55743.2025.11128490",
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "bimanual"
+      ]
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "PUGS: Perceptual Uncertainty for Grasp Selection in Underwater Environments",
+      "type": "不确定性感知",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128019",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11128019",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://doi.org/10.1109/ICRA55743.2025.11128019",
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "underwater"
+      ]
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "UltraDexGrasp: Learning Universal Dexterous Grasping for Bimanual Robots with Synthetic Data",
+      "type": "灵巧手抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [
+          "https://github.com/InternRobotics/UltraDexGrasp"
+        ],
+        "engines": [
+          "cuRobo（规划平台）"
+        ],
+        "datasets": [
+          "UltraDexGrasp-20M"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+          "https://github.com/InternRobotics/UltraDexGrasp/blob/main/README.md"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "bimanual"
+      ]
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Nonlinear Predictive Control of the Continuum and Hybrid Dynamics of a Suspended Deformable Cable for Aerial Pick and Place",
+      "type": "策略与控制",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "deformable"
+      ]
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "BiGraspFormer: End-To-End Bimanual Grasp Transformer",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "作者页面 Code 按钮指向论文；未核实公开实现",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+          "https://bigraspformer.github.io/"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "bimanual"
+      ]
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "PartPose: Attentive 6D Pose Estimation by Focusing on Graspable Parts of Multi-Part Deformable Objects",
+      "type": "6-DoF 位姿",
+      "tier": "相关",
+      "note": "扩展相关：主要贡献涉及抓取关联的感知、操作、示教或运动规划。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "deformable"
+      ]
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Uncertainty-Aware Stereo Grasp Point Selection for Deformable Linear Objects",
+      "type": "不确定性感知",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "deformable"
+      ]
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Grasping Point Estimation for EA Suction Cup Grippers on Curved Objects",
+      "type": "吸盘抓取点估计 / 6-DoF 位姿",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "suction"
+      ]
+    },
+    {
+      "conference": "RSS",
+      "year": 2025,
+      "title": "Demonstrating Multi-Suction Item Picking at Scale via Multi-Modal Learning of Pick Success",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "url": "https://www.roboticsproceedings.org/rss21/p107.html",
+      "venueUrl": "https://www.roboticsproceedings.org/rss21/index.html",
+      "status": "主会论文",
+      "note": "根据 RSS 官方年度论文集收录；研究机器人抓取或抓取关联任务。",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "作者 item-picking / package-picking / occlusion 数据"
+        ],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.roboticsproceedings.org/rss21/p107.html",
+          "https://www.roboticsproceedings.org/rss21/index.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "suction"
+      ]
+    },
+    {
+      "conference": "RSS",
+      "year": 2026,
+      "title": "UMI-Underwater: Learning Underwater Manipulation without Underwater Teleoperation",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "url": "https://www.roboticsproceedings.org/rss22/p009.html",
+      "venueUrl": "https://www.roboticsproceedings.org/rss22/index.html",
+      "status": "主会论文",
+      "note": "根据 RSS 官方年度论文集收录；研究机器人抓取或抓取关联任务。",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "作者陆上手持示范与水下抓取示范"
+        ],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.roboticsproceedings.org/rss22/p009.html",
+          "https://www.roboticsproceedings.org/rss22/index.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "underwater"
+      ]
+    },
+    {
+      "conference": "RSS",
+      "year": 2024,
+      "title": "World Models for General Surgical Grasping",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "url": "https://www.roboticsproceedings.org/rss20/p041.html",
+      "venueUrl": "https://www.roboticsproceedings.org/rss20/index.html",
+      "status": "主会论文",
+      "note": "根据 RSS 官方年度论文集收录；研究机器人抓取或抓取关联任务。",
+      "resources": {
+        "code": [
+          "https://github.com/linhongbin/gas"
+        ],
+        "engines": [
+          "SurRoL / PyBullet"
+        ],
+        "datasets": [
+          "作者手术物体抓取仿真与实机任务"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.roboticsproceedings.org/rss20/p041.html",
+          "https://www.roboticsproceedings.org/rss20/index.html",
+          "https://github.com/linhongbin/gas/blob/main/README.md"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "surgical"
+      ]
+    },
+    {
+      "conference": "RSS",
+      "year": 2025,
+      "title": "Gripper Pose and Object Pointflow as Interfaces for Robotic Bimanual Manipulation",
+      "type": "双臂操作 / 位姿表示 / 策略与控制",
+      "tier": "相关",
+      "url": "https://www.roboticsproceedings.org/rss21/p160.html",
+      "venueUrl": "https://www.roboticsproceedings.org/rss21/index.html",
+      "status": "主会论文",
+      "note": "扩展相关：研究视觉遥操作、灵巧操作或包含抓取环节的任务。",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.roboticsproceedings.org/rss21/p160.html",
+          "https://www.roboticsproceedings.org/rss21/index.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "bimanual"
+      ]
+    },
+    {
+      "conference": "RSS",
+      "year": 2026,
+      "title": "Supervised Mixture-of-Experts for Surgical Grasping and Retraction",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "url": "https://www.roboticsproceedings.org/rss22/p002.html",
+      "venueUrl": "https://www.roboticsproceedings.org/rss22/index.html",
+      "status": "主会论文",
+      "note": "根据 RSS 官方年度论文集收录；研究机器人抓取或抓取关联任务。",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "作者肠道抓取与牵拉示范（任务基准）"
+        ],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.roboticsproceedings.org/rss22/p002.html",
+          "https://www.roboticsproceedings.org/rss22/index.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "matchedKeywords": [
+        "surgical"
+      ]
+    }
+  ]
+}

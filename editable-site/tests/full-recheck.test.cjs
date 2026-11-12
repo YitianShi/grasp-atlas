@@ -1,0 +1,41 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),crypto=require('node:crypto');
+const local=require('./local-library.cjs');
+const H=require('./scope-history.cjs');
+const read=p=>JSON.parse(fs.readFileSync(__dirname+'/'+p,'utf8'));
+const audit=read('../curation/full-recheck-2026-11-12.json');
+const cat=read('../../Grasp_Atlas_Downloader/Grasp_Atlas_Downloader/catalogue.json');
+const state=local.readOptional('GraspAtlas_Library/download_state.json');
+const primary=read('../curation/primary-grasp-scope-2026-11-12.json');
+const archived=local.readOptional('GraspAtlas_Library/excluded_records.json')?.records;
+const beforePrimary=H.beforePrimary(cat.rows,primary);
+const ctx={window:{}};vm.runInNewContext(fs.readFileSync(__dirname+'/../dist/data.js','utf8'),ctx);
+assert.equal(JSON.stringify(ctx.window.GRASP_DATA),JSON.stringify(cat));
+assert.equal(audit.method.venues.length,13);assert.equal(audit.coverage.length,91);
+assert.equal(new Set(audit.coverage.map(c=>c.venue+':'+c.year)).size,91);
+assert.equal(audit.coverage.filter(c=>c.status==='not_held').length,7);
+assert.ok(audit.coverage.filter(c=>c.status==='reviewed').every(c=>c.sourceURLs.length));
+const digest=rows=>crypto.createHash('sha256').update(JSON.stringify(rows.map(p=>[p.catalogueId,p.conference,p.year,p.title]))).digest('hex');
+const baseline=beforePrimary.filter(p=>p.catalogueId<=729);
+assert.equal(baseline.length,697);assert.equal(digest(baseline),audit.baselineIdentitySHA256);
+assert.equal(audit.included.length,50);assert.equal(cat.rows.length,574);
+assert.deepEqual(audit.included.map(p=>p.catalogueId),Array.from({length:50},(_,i)=>730+i));
+assert.deepEqual(audit.summary.byVenue,{'ICRA':14,'CoRL':13,'CVPR':2,'ECCV':5,'ICCV':2,'ICLR':1,'ICML':1,'NeurIPS':6,'RSS':3,'RA-L':1,'T-ASE':1,'T-RO':1});
+assert.equal(audit.decisions.filter(p=>p.decision==='included').length,50);
+assert.equal(audit.decisions.length,audit.summary.candidates);
+assert.equal(new Set(audit.decisions.map(p=>p.candidateKey)).size,audit.decisions.length);
+const existing=new Set(baseline.map(p=>p.title.toLowerCase().replace(/[^a-z0-9]/g,'')));
+for(const p of audit.included){
+ assert.ok(!existing.has(p.title.toLowerCase().replace(/[^a-z0-9]/g,'')));
+ assert.ok(p.abstract.length>80);assert.equal(p.abstractKind,'summary');assert.equal(p.abstractLicense,'Original summary');
+ assert.equal(p.verificationLevel,'abstract');assert.ok(p.resources.sources.includes(p.abstractSource));
+ assert.ok(!/whole.body|\bin.hand\b|garment|cloth|tactile|surgical|underwater|bimanual|suction|vacuum|deformable/i.test(p.title));
+ if(state&&archived){const record=[...state,...archived].find(r=>r.id===p.catalogueId);assert.equal(record.title,p.title);assert.equal(record.year,p.year);assert.equal(record.venue,p.conference);}
+}
+local.assertStateMatches(assert,state,cat.rows);
+assert.equal(cat.rows.filter(r=>r.catalogueId>=730).length,13);
+assert.equal(audit.scopeRevision.retained,9);assert.equal(audit.scopeRevision.removed,41);
+assert.ok(audit.decisions.some(d=>d.decision==='title_alias'&&d.title.startsWith('AdaGrasp:')));
+assert.ok(audit.decisions.some(d=>d.title.includes('Hierarchical Diffusion Policy: Manipulation Trajectory')&&d.decision==='excluded'&&d.reason.includes('cloth')));
+assert.ok(audit.sources.some(s=>s.conference==='CoRL'&&s.year===2026&&s.papers===687));
+assert.ok(audit.sources.filter(s=>['RA-L','T-ASE','T-RO','AAAI'].includes(s.conference)&&s.complete).length>=28);
+console.log('PASS: historical full-source audit, immutable baseline and explicit correction from 50 broad additions to 9 grasp-primary papers');

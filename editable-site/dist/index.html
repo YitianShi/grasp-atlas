@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="探索 2020 年以来十大学术会议与 RA-L、T-ASE、T-RO 三本期刊的非触觉机器人抓取论文，包含代码库、仿真引擎、数据集与来源。">
+  <meta name="theme-color" content="#1767d2">
+  <title>Grasp Atlas Offline · 机器人抓取论文离线浏览器</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231767d2'/%3E%3Cpath d='M20 16v19l8 9m16-28v19l-8 9M26 16h12' fill='none' stroke='white' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script>
+  <script src="core.js" defer></script>
+  <script src="collection.js" defer></script>
+  <script src="i18n.js" defer></script>
+  <script src="../../library.js" defer></script>
+  <script src="library-ui.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到主要内容</a>
+  <header class="topbar">
+    <div class="top-inner">
+      <a href="#papers" class="brand" id="brand" aria-label="Grasp Atlas，重置筛选回到论文浏览">
+        <span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M8 6v12l5 6m11-18v12l-5 6M12 6h8"/></svg></span>
+        <span>Grasp Atlas<span class="brand-sub">机器人抓取论文浏览器</span></span>
+      </a>
+      <div class="top-right"><span class="snapshot">2020 — 2026</span><div class="language-switch" role="group" aria-label="界面语言"><button type="button" data-language="zh" aria-pressed="true">中文</button><button type="button" data-language="en" aria-pressed="false">English</button></div><button class="button small" id="export">导出当前清单 <span aria-hidden="true">↓</span></button></div>
+    </div>
+  </header>
+  <div class="layout">
+    <aside class="sidebar" aria-label="导航和筛选">
+      <nav class="nav" aria-label="页面导航">
+        <a href="#papers" data-view="papers"><span aria-hidden="true">▤</span> 论文浏览 <span class="nav-count" data-collection-count="total">523</span></a>
+        <a href="#stats" data-view="stats"><span aria-hidden="true">▥</span> 统计概览</a>
+        <a href="#bin" data-view="bin"><span aria-hidden="true">♲</span> 回收站 <span class="nav-count" data-deleted-count>187</span></a>
+        <a href="#scope" data-view="scope"><span aria-hidden="true">ⓘ</span> 筛选说明</a>
+      </nav>
+      <details class="filter-drawer" id="filter-drawer" open>
+        <summary>筛选论文 <span id="mobile-count"></span></summary>
+        <div class="filter-heading"><span>筛选条件</span><button class="text-button" id="reset">重置</button></div>
+        <fieldset><legend>相关程度</legend><div class="scope-options" id="tier-options">
+          <label><input type="radio" name="tier" value="all" checked> 全部收录 <span data-collection-count="total">523</span></label>
+          <label><input type="radio" name="tier" value="直接"> 直接相关 <span data-collection-count="direct">519</span></label>
+          <label><input type="radio" name="tier" value="相关"> 扩展相关 <span data-collection-count="related">4</span></label>
+        </div></fieldset>
+        <fieldset><legend>会议 / 期刊 <button class="text-button" id="all-conf" type="button">全选</button></legend><div class="venue-presets" role="group" aria-label="选择发表类型"><button data-venue-group="all" aria-pressed="true">全部</button><button data-venue-group="conference" aria-pressed="false">仅会议</button><button data-venue-group="journal" aria-pressed="false">仅期刊</button></div><h4 class="filter-subheading">会议</h4><div id="conference-options"></div><h4 class="filter-subheading">期刊</h4><div id="journal-options"></div></fieldset>
+        <fieldset><legend>发表年份</legend><div class="year-options" id="year-options"></div></fieldset>
+        <fieldset><legend>研究方向</legend><label class="sr-only" for="topic">研究方向</label><select id="topic"><option value="">全部方向</option></select></fieldset>
+        <div class="filter-footer">已核实清单 · 2026-11-12<br>以抓取为主线，包含直接支持抓取的场景重建与形状补全研究。</div>
+      </details>
+    </aside>
+    <main id="main">
+      <div class="page-heading">
+        <div class="eyebrow">RESEARCH COLLECTION / 2020–2026</div>
+        <h1 id="view-title">探索机器人抓取研究</h1>
+        <p id="view-description">十大学术会议，三本机器人期刊。找到下一篇值得阅读的论文。</p>
+      </div>
+      <aside class="offline-note" aria-label="Offline edition"><strong>离线版 · 数据截至 2026-11-12</strong><p>搜索、摘要、统计与回收站可离线使用；已下载的论文可直接打开本地 PDF。</p></aside>
+      <div class="collection-summary" aria-label="清单概览">
+        <div><strong data-collection-count="total">523</strong><span>当前论文</span></div><div><strong data-collection-count="direct">519</strong><span>直接相关</span></div><div><strong data-collection-count="related">4</strong><span>扩展相关</span></div><div><strong>13</strong><span>会议与期刊</span></div>
+        <a href="#scope" class="summary-note">非触觉 · 会议与期刊<span aria-hidden="true"> ↗</span></a>
+      </div>
+      <div class="search-panel" id="search-panel">
+        <label class="search-box" for="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="search" type="search" placeholder="搜索标题、摘要、代码库、仿真引擎或数据集…" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
+        <div class="quick-search"><span>试试</span><button data-query="dexterous">Dexterous</button><button data-query="diffusion">Diffusion</button><button data-query="language">Language</button><button data-query="Isaac Gym">Isaac Gym</button><button data-query="GraspNet">GraspNet</button></div>
+      </div>
+      <div id="active-filters" class="active-filters" aria-label="当前筛选条件"></div>
+      <button class="deleted-shortcut" id="removed-shortcut" hidden></button>
+      <section id="papers-view" aria-labelledby="results-title">
+        <div class="results-toolbar"><div><h2 id="results-title">论文清单 <span id="result-count">523</span></h2><p id="result-detail" aria-live="polite"></p></div><label class="sort-label">排序 <select id="sort"><option value="newest">年份 · 最新优先</option><option value="oldest">年份 · 最早优先</option><option value="title">标题 · A–Z</option><option value="conference">发表来源 · A–Z</option></select></label></div>
+        <aside class="library-panel" aria-label="论文全文库">
+          <div><strong>论文全文库</strong><p id="library-summary" aria-live="polite"></p><p id="library-help">双击 Start_Grasp_Atlas.cmd 可在网页中下载或重试全部论文。下载后刷新即可打开本地 PDF。</p></div>
+          <div class="library-controls"><button class="button" id="library-download" hidden>下载 / 重试全部</button><button class="button" id="library-refresh">刷新全文状态</button></div>
+        </aside>
+        <div id="paper-list" class="paper-list"></div>
+        <div class="pagination" id="pagination"></div>
+      </section>
+      <section id="stats-view" hidden aria-labelledby="stats-title">
+        <div class="section-heading"><div><h2 id="stats-title">当前筛选的研究分布</h2><p>统计与搜索、筛选条件实时联动。点击图表可查看论文。</p></div><span class="live-label"><i></i> <span id="stats-count">523</span> 篇论文</span></div>
+        <div class="chart-grid">
+          <div class="chart-panel"><div class="chart-heading"><h3>会议与期刊分布</h3><span>篇数</span></div><div id="conference-chart" class="bar-chart"></div></div>
+          <div class="chart-panel"><div class="chart-heading"><h3>年度收录</h3><span>发表年份</span></div><div id="year-chart" class="year-chart"></div><p class="chart-note">2026 年部分论文仅公布录用，年度数据尚未齐全。</p></div>
+        </div>
+        <div class="chart-panel"><div class="chart-heading"><h3>前 10 关键词排行</h3><span>出现篇数</span></div><div id="keyword-chart" class="bar-chart" aria-label="当前筛选论文的标题关键词排行"></div><p class="chart-note">按英文标题统计，合并常见词形并过滤停用词；同一关键词每篇最多计一次。排行随筛选和删除同步更新。</p></div>
+        <div class="chart-panel heatmap-panel"><div class="chart-heading"><div><h3>会议 / 期刊 × 年份</h3><p>从全局分布进入具体研究</p></div><label class="sort-label"><span class="sr-only">热力图显示方式</span><select id="heatmap-mode"><option value="count">论文篇数</option><option value="row">来源内占比</option><option value="column">年份内占比</option></select></label></div><div class="heatmap-scroll" id="heatmap"></div><div class="heatmap-footer"><span>0 表示本清单无收录，不代表该会议或期刊没有相关研究。</span><div class="legend-gradient">少 <i></i> 多</div></div></div>
+        <div class="chart-panel"><div class="chart-heading"><h3>研究方向</h3><span>可多标签</span></div><div id="topic-chart" class="topic-chart"></div><p class="chart-note">根据清单中的研究方向字段归类；同一篇论文可计入多个方向，因此方向篇数之和可能超过论文总数。</p></div>
+      </section>
+      <section id="bin-view" hidden aria-labelledby="removed-title">
+        <div class="personal-collection bin-panel"><div class="chart-heading"><div><h2 id="removed-title">回收站 <span id="removed-count">187</span></h2><p>删除记录仅保存在当前浏览器。删除的文章不参与统计和导出，可随时恢复。</p></div><button class="button small" id="restore-all" hidden title="恢复回收站中的全部文章，包括搜索未显示的文章">恢复全部</button></div>
+          <label class="sr-only" for="bin-search">搜索回收站</label><input id="bin-search" class="bin-search" type="search" placeholder="在回收站搜索标题、摘要或资源…" autocomplete="off">
+          <p class="bin-help">此前移除的 159 篇已放入回收站，可按标题或摘要搜索并逐篇恢复。</p>
+          <p class="bin-help">本轮软体抓取排除匹配 40 篇，其中新移入回收站 28 篇。包括软体夹爪、软手和软体机器人，以及软物体、线缆、软食品与柔性片材抓取；仍可逐篇恢复。</p>
+          <p class="bin-help">回收站搜索不受论文清单筛选影响。</p>
+          <p class="bin-help">“永久删除”会清除该论文的目录、摘要、链接、本地 PDF、下载记录与历史筛选记录，无法恢复。请通过 Start_Grasp_Atlas.cmd 启动本机网页后使用。</p>
+          <div id="removed-details" hidden><div id="removed-list"></div><p id="bin-no-results" hidden>回收站中没有匹配的文章。</p></div>
+          <div id="removed-empty" class="empty-state"><h3>回收站是空的</h3><p>从论文清单删除的文章会出现在这里。</p><button class="button" data-view="papers">浏览论文</button></div>
+        </div>
+      </section>
+      <section id="scope-view" hidden aria-labelledby="scope-title">
+        <div class="scope-intro"><h2 id="scope-title">这份清单如何筛选？</h2><p>本轮于 <strong>2026-11-12</strong> 保留原先 159 篇的回收站记录，并按软体抓取新规则再移入 28 篇；默认清单为 523 篇，回收站为 187 篇。新规则以独立批次应用，保留其他论文的恢复选择。恢复或删除后，搜索、统计和导出会随之更新。</p></div>
+        <div class="scope-grid">
+          <article><span class="scope-number">01</span><h3>会议、期刊与时间</h3><p>AAAI、ICLR、NeurIPS、CVPR、ICCV、ECCV、ICML、CoRL、ICRA、RSS，以及 RA-L、T-ASE、T-RO；收录年份为 2020 年及以后。会议按届次年份，期刊按正式卷期年份，未分配卷期的 Early Access 按在线发表年份记录。</p></article>
+          <article><span class="scope-number">02</span><h3>机器人抓取</h3><p>包含抓取检测、位姿生成、灵巧手抓取、任务导向抓取、主动感知、抓取规划、控制策略及数据集等。按标题排除 underwater、surgical、deformable、bimanual、suction、vacuum 六个关键词。扩展相关条目单独标记，主要涵盖抓取迁移、可供性或包含抓取子任务的操作研究。</p></article>
+          <article><span class="scope-number">03</span><h3>排除范围</h3><p>排除全身抓取（whole-body grasping），包括足式机器人全身协同抓取与软体机器人全身包覆抓取。排除衣物与织物抓取（garment/cloth grasping），包括衣物整理、抓取点检测、织物分拣和穿衣辅助。排除手内操作（in-hand manipulation），包括手内重定向、物体在手中移动、转笔与关节物体手内操作。排除以触觉、接触或力传感器反馈作为策略输入的研究。几何接触点预测、解析力闭合模型或训练奖励本身，不等同于触觉输入；具体边界见条目说明。排除以夹爪、机械手、执行器、传感器或辅助装置的硬件设计与验证为主要贡献的论文；硬件与算法协同设计的条目也排除。</p><p>排除软体夹爪、软手指、软体手与软体机器人抓取，以及专门针对软物体或可变形物体的抓取研究，包括柔性线缆、绳索、软食品、织物与复合片材。通用顺应控制、数学软约束或通用软指接触假设不单独触发此规则；专门研究可变形夹爪面积接触的论文也排除。</p></article>
+          <article><span class="scope-number">04</span><h3>发表状态与去重</h3><p>会议收录主会论文，排除 workshop 和仅预印本。RA-L、T-ASE、T-RO 按出版商记录收录；同一 DOI 的期刊论文与会议展示合并，扩展版有不同 DOI 时分别保留。已录用、卷期预分配与卷期待核实条目分别标注。</p><p>期刊检索以出版商元数据为基础。已结合作者摘要或项目说明核对的条目，与仅按标题初筛的条目分别标注；范围存疑的候选放入待核对列表，不计入收录总数。</p></article>
+        </div>
+
+        <div class="abstract-guide"><h3>摘要与搜索</h3><p id="abstract-coverage"></p><p>摘要保留来源语言，并区分作者预印本、出版商及文献索引来源。摘要概述为根据原文撰写的简述，单独标注。搜索涵盖标题、摘要和资源信息；多个关键词须同时匹配。尚未获取的摘要明确标注，不影响按标题和资源搜索。</p></div>
+        <div class="resource-guide"><div class="chart-heading"><div><h3>代码、仿真与数据</h3><p id="resource-coverage"></p></div><span>最新补充 / 2026-11-12</span></div><p>代码链接优先使用作者公开仓库；“Coming Soon”按作者页面记录。“未找到已核实的公开仓库”不代表代码一定未公开。仿真字段保留已确认的引擎或实验平台，未核实项明确标注。</p><p>数据字段包含训练和评估数据、物体模型、示范及任务基准。“作者自建 / 作者合成”是描述性标签，并非正式数据集名称。资源名称不等于提供完整下载；公开范围、版本差异及复现限制见每篇的“详情与来源”。</p></div>
+        <div class="section-heading screening-heading"><div><h2>筛选记录</h2><p>保留待核对及排除原因，方便复查收录边界。</p></div><label><span class="sr-only">筛选记录类型</span><select id="screening-filter"><option value="all">全部记录</option><option value="待核对">待核对</option><option value="排除">已排除</option></select></label></div>
+        <div id="screening-list"></div>
+      </section>
+      <footer class="page-footer"><span>GRASP ATLAS <span class="footer-dot">·</span> 已核实文献快照 / 2026-11-12</span><a href="https://gisbi-kim.github.io/icra2026-explorer/output/icra2026_explorer.html#stats" target="_blank" rel="noopener noreferrer">设计参考：ICRA 2026 Explorer ↗</a></footer>
+    </main>
+  </div>
+  <div class="toast" role="status" id="toast" hidden></div>
+  <dialog class="purge-dialog" id="purge-dialog" aria-labelledby="purge-heading" aria-describedby="purge-warning">
+    <h2 id="purge-heading">永久删除论文</h2>
+    <p class="purge-paper-title" id="purge-paper-title"></p>
+    <p id="purge-warning">将清除这篇论文的目录、摘要、链接、本地 PDF、下载记录与历史筛选记录。此操作无法撤销，也不能通过“恢复全部”找回。</p>
+    <p class="purge-local-help" id="purge-local-help" hidden>永久删除需要本机文件访问。请通过 Start_Grasp_Atlas.cmd 打开网站，再执行此操作。</p>
+    <p class="purge-error" id="purge-error" role="alert" hidden></p>
+    <div class="purge-dialog-actions"><button class="button" id="purge-cancel" autofocus>取消</button><button class="button danger" id="purge-confirm">永久删除</button></div>
+  </dialog>
+  <noscript><div class="noscript">请启用 JavaScript 以搜索和筛选论文。</div></noscript>
+</body>
+</html>

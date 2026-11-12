@@ -1,0 +1,62 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const vm=require('node:vm');
+const C=require('../dist/core.js');
+const M=require('../dist/collection.js');
+const H=require('./scope-history.cjs');
+const ctx={window:{}};vm.runInNewContext(fs.readFileSync(__dirname+'/../dist/data.js','utf8'),ctx);
+const D=ctx.window.GRASP_DATA,rows=C.enrich(D.rows),full=C.counts(rows);
+const storage=new Map();const api={getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)};
+const personal=M.create(rows,api),target=rows.find(p=>p.conference==='ICRA'),key=M.paperKey(target);
+const corlReview=JSON.parse(fs.readFileSync(__dirname+'/../curation/corl-2026-review.json','utf8'));
+const inhand=JSON.parse(fs.readFileSync(__dirname+'/../curation/inhand-exclusions.json','utf8'));
+const whole=JSON.parse(fs.readFileSync(__dirname+'/../curation/whole-body-garment-exclusions.json','utf8'));
+const primary=JSON.parse(fs.readFileSync(__dirname+'/../curation/primary-grasp-scope-2026-11-12.json','utf8'));
+const beforePrimary=H.beforePrimary(D.rows,primary);
+const historical=C.enrich([...beforePrimary.filter(p=>p.catalogueId<=710),...inhand.rows,...whole.rows].sort((a,b)=>a.catalogueId-b.catalogueId));
+assert.equal(full.total,574);assert.equal(full.total+inhand.rows.length+whole.rows.length+H.currentPrimaryExclusions(primary).length,corlReview.baselineRows+corlReview.included.length+D.journalRefreshCoverage.added+D.fullRecheckCoverage.confirmedOmissions);assert.equal(full.conferences.ICRA,209);assert.equal(full.conferences.RSS,19);assert.equal(historical.filter(p=>p.catalogueId<=677&&p.year>=2022).length,536);assert.deepEqual(C.years,[2020,2021,2022,2023,2024,2025,2026]);assert.equal(full.years[2020],56);assert.equal(full.years[2021],54);assert.equal(C.conferences.length,13);
+assert.equal(new Set(rows.map(M.paperKey)).size,rows.length);
+assert.deepEqual(C.journalVenues,['RA-L','T-ASE','T-RO']);
+assert.deepEqual([full.conferences['RA-L'],full.conferences['T-ASE'],full.conferences['T-RO']],[162,42,15]);
+const merged=rows.filter(p=>p.collectionKey);assert.equal(merged.length,16);
+for(const p of merged){const legacy=M.create(rows,{getItem:()=>JSON.stringify({version:1,keys:[p.collectionKey]}),setItem(){}});assert.equal(legacy.deleted()[0].title,p.title);assert.ok(p.presentedAt[0].startsWith('ICRA '));}
+const journalAudit=JSON.parse(fs.readFileSync(__dirname+'/../curation/journal-screening.json','utf8'));
+assert.equal(journalAudit.included.length+ journalAudit.excluded.length+ journalAudit.pending.length,530);
+assert.equal(journalAudit.pending.length,31);
+const backfill=JSON.parse(fs.readFileSync(__dirname+'/../curation/backfill-2020-2021.json','utf8'));
+assert.equal(backfill.included.length,141);assert.equal(backfill.excluded.length,104);assert.equal(backfill.pending.length,21);
+assert.equal(backfill.included.length+backfill.excluded.length+backfill.pending.length+backfill.alreadyRepresented.length,266);
+const review=JSON.parse(fs.readFileSync(__dirname+'/../curation/omissions-review-2026-10-05.json','utf8'));
+assert.deepEqual([review.included.length,review.excluded.length,review.pending.length,review.alreadyRepresented.length],[15,54,1,1]);
+assert.equal(corlReview.baselineRows,review.baselineRows+review.included.length);
+for(const p of review.included)assert.ok([...beforePrimary.filter(r=>r.catalogueId>review.baselineRows),...whole.rows].some(r=>M.paperKey(r)===M.paperKey(p)),p.title);
+for(const p of [...review.excluded,...review.pending])assert.ok(!rows.some(r=>M.paperKey(r)===M.paperKey(p)),p.title);
+assert.ok(rows.every(p=>!/^10\.1109\/icra[a-z]/i.test(p.doi||'')));
+const originalKeys=rows.filter(p=>p.catalogueId<=review.baselineRows).map(M.paperKey),afterAppend=M.create(rows,{getItem:()=>JSON.stringify({version:1,keys:originalKeys}),setItem(){}});
+assert.equal(afterAppend.deleted().length,538);assert.equal(afterAppend.visible().length,36);
+const recentKeys=new Set(rows.map(M.paperKey));
+for(const p of [...backfill.excluded,...backfill.pending])assert.equal(recentKeys.has(M.paperKey(p)),false,p.title);
+assert.equal(rows.find(p=>p.title.startsWith('Volumetric Grasping Network:')).year,2020);
+assert.equal(rows.find(p=>p.title.startsWith('DexVIP:')).year,2021);
+const journalRows=rows.filter(p=>p.publicationType==='journal');assert.equal(journalRows.length,219);assert.equal(new Set(journalRows.map(p=>p.doi)).size,219);
+for(const p of journalRows){assert.match(p.doi,/^10\.1109\//);assert.match(p.url,/^https:\/\/(?:ieeexplore\.ieee\.org\/document\/\d+\/?|doi\.org\/10\.1109\/[^\s]+)$/);assert.ok(p.citation.includes(p.journalName));}
+assert.equal(beforePrimary.find(p=>p.doi==='10.1109/lra.2022.3147334').year,2022);
+
+const exclusions=JSON.parse(fs.readFileSync(__dirname+'/../curation/hardware-exclusions.json','utf8')).rows;
+assert.equal(exclusions.length,80);
+const publishedKeys=new Set(rows.map(M.paperKey));
+for(const p of exclusions){assert.equal(publishedKeys.has(M.paperKey(p)),false,p.title);assert.ok(D.screening.some(s=>s[0]==='排除'&&s[1]===p.conference&&s[2]===p.year&&s[3]===p.title));}
+for(const title of ['Point Cloud-Based Grasping for Soft Hand Exoskeleton','DiffMorphGrasp: A Diffusion Framework Conditioned on Hand Morphology for Cross-Embodiment Grasp Generation'])assert.ok(rows.some(p=>p.title===title),title);
+assert.deepEqual(personal.remove(key),{changed:true,persisted:true});assert.equal(personal.visible().length,full.total-1);assert.equal(personal.deleted()[0].title,target.title);
+assert.equal(C.counts(personal.visible()).conferences.ICRA,full.conferences.ICRA-1);
+const reloaded=M.create([...rows].reverse(),api);assert.equal(reloaded.deleted().length,1);assert.equal(reloaded.deleted()[0].title,target.title);
+assert.equal(personal.remove(key).changed,false);assert.equal(personal.remove('invalid').changed,false);
+assert.equal(personal.restore(key).changed,true);assert.equal(personal.visible().length,full.total);
+personal.remove(key);personal.remove(M.paperKey(rows.find(p=>p.conference==='RSS')));assert.equal(personal.deleted().length,2);personal.restoreAll();assert.equal(personal.visible().length,full.total);
+api.setItem(M.storageKey,'{broken');assert.equal(M.create(rows,api).deleted().length,0);
+api.setItem(M.storageKey,JSON.stringify({version:1,keys:[key,'invalid',key]}));assert.equal(M.create(rows,api).deleted().length,1);
+const blocked=M.create(rows,{getItem(){throw Error('blocked');},setItem(){throw Error('blocked');}});assert.deepEqual(blocked.remove(key),{changed:true,persisted:false});assert.equal(blocked.visible().length,full.total-1);
+for(const p of rows){assert.ok(C.conferences.includes(p.conference));assert.ok(C.years.includes(p.year));assert.ok(['直接','相关'].includes(p.tier));const r=p.resources;assert.ok(r);for(const k of ['code','engines','datasets'])assert.ok(Array.isArray(r[k]));assert.ok(r.code.length||r.codeNote);assert.ok(r.engines.length||r.engineNote);assert.ok(r.datasets.length||r.datasetNote);assert.ok(r.sources.length);for(const url of [p.url,p.venueUrl,...r.sources,...r.code].filter(Boolean))assert.ok(/^https?:\/\//.test(url),url);}
+assert.equal(Object.values(full.conferences).reduce((a,b)=>a+b,0),full.total);assert.equal(full.direct+full.related,full.total);
+for(const field of ['code','engines','datasets'])assert.equal(D.resourceCoverage[field],rows.filter(p=>p.resources[field].length).length);
+console.log('PASS: collection, persistence, restored counts, corrupted/blocked storage, bibliography and resource fields');

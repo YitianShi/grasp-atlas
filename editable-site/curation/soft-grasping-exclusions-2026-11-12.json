@@ -1,0 +1,702 @@
+{
+  "asOf": "2026-11-12",
+  "batchId": "soft-grasping-2026-11-12",
+  "userInstruction": "排除所有 soft grasping；用户明确补充：软物体／可变形物体也排除。",
+  "scope": [
+    "软体夹爪、软手指、软体手/外骨骼及软体机器人抓取，包括专门的软夹爪实验分支。",
+    "专门研究软物体/可变形物体的抓取或操作分支，包括线缆、绳索、软食品、柔性片材及织物。"
+  ],
+  "boundary": "不凭关键词删除；通用顺应控制、数学软约束/通用接触假设、相关工作/未来工作或混合基准中的个别软物品不单独触发。专门研究真实可变形夹爪面积接触的 6DLS/6DFC 与一般软指点接触假设区分。",
+  "method": "逐条扫描 710 条元数据；复用已提取的 512 篇 PDF 全文，核对摘要、实际机构与实验任务，并补查 RBO、PneuFlex、FinRay、FESTO DHAS 等型号别名。无全文的条目标明证据等级，不声称全文核验。",
+  "storagePolicy": "保留 rows574 + reviewBin.rows136 的顺序、永久编号、下载状态、PDF 路径和原159篇批次；新批次只应用一次，可逐篇恢复。",
+  "counts": {
+    "manageable": 710,
+    "matched": 40,
+    "newlyDefaultDeleted": 28,
+    "alreadyDefaultDeleted": 12,
+    "defaultVisible": 523,
+    "defaultDeleted": 187,
+    "defaultVisibleDirect": 519,
+    "defaultVisibleRelated": 4
+  },
+  "catalogueIds": [
+    11,
+    87,
+    115,
+    135,
+    139,
+    147,
+    159,
+    160,
+    175,
+    194,
+    210,
+    216,
+    217,
+    245,
+    271,
+    319,
+    323,
+    327,
+    331,
+    339,
+    350,
+    352,
+    358,
+    423,
+    424,
+    467,
+    528,
+    530,
+    543,
+    561,
+    566,
+    568,
+    596,
+    601,
+    625,
+    639,
+    650,
+    688,
+    719,
+    730
+  ],
+  "rows": [
+    {
+      "catalogueId": 11,
+      "title": "SparseDFF: Sparse-View Feature Distillation for One-Shot Dexterous Manipulation",
+      "conference": "ICLR",
+      "year": 2024,
+      "category": "soft_object",
+      "reason": "方法包含可变形物体/布料的专门操作实验。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://proceedings.iclr.cc/paper_files/paper/2024/hash/d722ae8bac16e0df9ac736c512860202-Abstract-Conference.html",
+        "https://openalex.org/W4387964188"
+      ],
+      "previouslyDefaultDeleted": true
+    },
+    {
+      "catalogueId": 87,
+      "title": "DeliGrasp: Inferring Object Properties with LLMs for Adaptive Grasp Policies",
+      "conference": "CoRL",
+      "year": 2024,
+      "category": "soft_object",
+      "reason": "DeliGrasp 以材料顺应性、力反馈与易损/可变形物体的自适应抓取为研究内容。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://proceedings.mlr.press/v270/xie25a.html",
+        "https://openalex.org/W4392781413"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 115,
+      "title": "Cluttered Food Grasping with Adaptive Fingers and Synthetic-Data Trained Object Detection",
+      "conference": "ICRA",
+      "year": 2022,
+      "category": "soft_object",
+      "reason": "针对易损食品抓取，设计碰撞后被动回缩的自适应手指及防止食品损伤的抓取筛选。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://doi.org/10.1109/ICRA46639.2022.9812448",
+        "https://openalex.org/W4221143455"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 135,
+      "title": "IPC-GraspSim: Reducing the Sim2Real Gap for Parallel-Jaw Grasping with the Incremental Potential Contact Model",
+      "conference": "ICRA",
+      "year": 2022,
+      "category": "soft_gripper",
+      "reason": "IPC-GraspSim 专门模拟软夹爪垫的形变和接触，而非仅采用通用软指点接触假设。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://doi.org/10.1109/ICRA46639.2022.9811777",
+        "https://openalex.org/W4285102154"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 139,
+      "title": "Gripper positioning for object deformation tasks",
+      "conference": "ICRA",
+      "year": 2022,
+      "category": "soft_object",
+      "reason": "研究形变任务中可变形物体的夹持点选择。",
+      "evidenceLevel": "cached_abstract",
+      "sources": [
+        "https://doi.org/10.1109/ICRA46639.2022.9812304",
+        "https://openalex.org/W4285102471"
+      ],
+      "previouslyDefaultDeleted": true
+    },
+    {
+      "catalogueId": 147,
+      "title": "Two-Stage Grasping: A New Bin Picking Framework for Small Objects",
+      "conference": "ICRA",
+      "year": 2023,
+      "category": "soft_gripper",
+      "reason": "实际提出并使用具有软手指、软掌和气动腔的纯软体夹爪进行两阶段抓取。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://doi.org/10.1109/ICRA48891.2023.10160608",
+        "https://openalex.org/W4383108415"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 159,
+      "title": "Implementation and Optimization of Grasping Learning with Dual-Modal Soft Gripper",
+      "conference": "ICRA",
+      "year": 2023,
+      "category": "soft_gripper",
+      "reason": "研究双模态软夹爪的抓取学习和优化。",
+      "evidenceLevel": "cached_abstract",
+      "sources": [
+        "https://doi.org/10.1109/ICRA48891.2023.10161249",
+        "https://openalex.org/W4383108867"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 160,
+      "title": "DefGraspNets: Grasp Planning on 3D Fields with Graph Neural Nets",
+      "conference": "ICRA",
+      "year": 2023,
+      "category": "soft_object",
+      "reason": "预测三维可变形物体抓取后的形变与应力场。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://doi.org/10.1109/ICRA48891.2023.10160986",
+        "https://openalex.org/W4383097520"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 175,
+      "title": "Learning Efficient Policies for Picking Entangled Wire Harnesses: An Approach to Industrial Bin Picking",
+      "conference": "RA-L",
+      "year": 2023,
+      "category": "soft_object",
+      "reason": "研究柔性线束缠绕情况下的分离和抓取策略。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/9954152/",
+        "https://arxiv.org/abs/2112.05941v4"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 194,
+      "title": "A Collision-Aware Cable Grasping Method in Cluttered Environment",
+      "conference": "ICRA",
+      "year": 2024,
+      "category": "soft_object",
+      "reason": "研究杂乱场景中柔性线缆的碰撞感知抓取。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://doi.org/10.1109/ICRA57147.2024.10610559",
+        "https://openalex.org/W4401417202"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 210,
+      "title": "Visual Feedback Control of an Underactuated Hand for Grasping Brittle and Soft Foods",
+      "conference": "ICRA",
+      "year": 2024,
+      "category": "soft_object",
+      "reason": "利用视觉反馈控制脆性与软食品的形变和抓取。",
+      "evidenceLevel": "cached_abstract",
+      "sources": [
+        "https://doi.org/10.1109/ICRA57147.2024.10610649",
+        "https://openalex.org/W4401416046"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 216,
+      "title": "The Grasp Loop Signature: A Topological Representation for Manipulation Planning with Ropes and Cables",
+      "conference": "ICRA",
+      "year": 2024,
+      "category": "soft_object",
+      "reason": "抓取环拓扑表示专门面向绳索和线缆等一维可变形物体。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://doi.org/10.1109/ICRA57147.2024.10611677",
+        "https://openalex.org/W4401416822"
+      ],
+      "previouslyDefaultDeleted": true
+    },
+    {
+      "catalogueId": 217,
+      "title": "CloudGripper: An Open Source Cloud Robotics Testbed for Robotic Manipulation Research, Benchmarking and Data Collection at Scale",
+      "conference": "ICRA",
+      "year": 2024,
+      "category": "soft_object",
+      "reason": "CloudGripper 的实际数据采集包含固定一端的柔性绳索操作实验。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/10611548/",
+        "https://arxiv.org/abs/2309.12786v1"
+      ],
+      "previouslyDefaultDeleted": true
+    },
+    {
+      "catalogueId": 245,
+      "title": "Real-Time Grasp Quality in Boundary-Constrained Granular Swarm Robots",
+      "conference": "ICRA",
+      "year": 2025,
+      "category": "soft_robot",
+      "reason": "研究边界约束颗粒群软体机器人的包覆抓取与抓取质量评估。",
+      "evidenceLevel": "publication_title_and_research_context",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/11128071/"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 271,
+      "title": "Point Cloud-Based Grasping for Soft Hand Exoskeleton",
+      "conference": "RA-L",
+      "year": 2025,
+      "category": "soft_gripper",
+      "reason": "点云抓取算法用于软体手外骨骼。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/11150693/",
+        "https://arxiv.org/abs/2504.03369v1"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 319,
+      "title": "Autonomously Untangling Long Cables",
+      "conference": "RSS",
+      "year": 2022,
+      "category": "soft_object",
+      "reason": "研究长柔性线缆的抓取、解缠与解结。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss18/p034.html",
+        "https://arxiv.org/abs/2207.07813v2"
+      ],
+      "previouslyDefaultDeleted": true
+    },
+    {
+      "catalogueId": 323,
+      "title": "DexWild: Dexterous Human Interactions for In-the-Wild Robot Policies",
+      "conference": "RSS",
+      "year": 2025,
+      "category": "soft_object",
+      "reason": "DexWild 包含双手衣物折叠等专门的可变形物体操作任务。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://www.roboticsproceedings.org/rss21/p075.html",
+        "https://arxiv.org/abs/2505.07813v2"
+      ],
+      "previouslyDefaultDeleted": true
+    },
+    {
+      "catalogueId": 327,
+      "title": "A Target-Guided Telemanipulation Architecture for Assisted Grasping",
+      "conference": "RA-L",
+      "year": 2022,
+      "category": "soft_gripper",
+      "reason": "实际辅助抓取系统使用安装于 Panda 机械臂的 Qb Robotics SoftHand。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/9815139/",
+        "https://openalex.org/W4285107344"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 331,
+      "title": "Deformation-Aware Data-Driven Grasp Synthesis",
+      "conference": "RA-L",
+      "year": 2022,
+      "category": "soft_object",
+      "reason": "研究不同刚度三维可变形物体的形变感知抓取生成。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/9695296/",
+        "https://arxiv.org/abs/2109.05320v1"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 339,
+      "title": "Learning With Few Examples the Semantic Description of Novel Human-Inspired Grasp Strategies From RGB Data",
+      "conference": "RA-L",
+      "year": 2022,
+      "category": "soft_gripper",
+      "reason": "人类启发式抓取策略的机器人验证使用欠驱动软体手。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/9689961/",
+        "https://openalex.org/W4206906472"
+      ],
+      "previouslyDefaultDeleted": true
+    },
+    {
+      "catalogueId": 350,
+      "title": "Semantic Grasping Via a Knowledge Graph of Robotic Manipulation: A Graph Representation Learning Approach",
+      "conference": "RA-L",
+      "year": 2022,
+      "category": "soft_gripper",
+      "reason": "知识图谱将软夹爪选择及抓取力作为明确的推断输出和机器人任务内容。",
+      "evidenceLevel": "cached_abstract",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/9830861/",
+        "https://openalex.org/W4285613774"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 352,
+      "title": "Target-Mass Grasping of Entangled Food Using Pre-Grasping & Post-Grasping",
+      "conference": "RA-L",
+      "year": 2022,
+      "category": "soft_object",
+      "reason": "研究缠绕柔性食品的目标质量抓取及抓前/抓后调整。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/9664262/",
+        "https://arxiv.org/abs/2201.00933v3"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 358,
+      "title": "BIG-Net: Deep Learning for Grasping With a Bio-Inspired Soft Gripper",
+      "conference": "RA-L",
+      "year": 2023,
+      "category": "soft_gripper",
+      "reason": "BIG-Net 专门为生物启发软夹爪学习抓取。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/9984196/",
+        "https://openalex.org/W4312520246"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 423,
+      "title": "Autonomous Image-to-Grasp Robotic Suturing Using Reliability-Driven Suture Thread Reconstruction",
+      "conference": "RA-L",
+      "year": 2025,
+      "category": "soft_object",
+      "reason": "重建和抓取柔性缝合线，以支持自动缝合。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/10900411/",
+        "https://arxiv.org/abs/2408.16938v1"
+      ],
+      "previouslyDefaultDeleted": true
+    },
+    {
+      "catalogueId": 424,
+      "title": "Benchmarking Multi-Object Grasping",
+      "conference": "RA-L",
+      "year": 2025,
+      "category": "soft_gripper",
+      "reason": "多物体抓取基准包含 Pisa/IIT SoftHand-2 软手的独立基线实验。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/11108246/",
+        "https://arxiv.org/abs/2503.20820v2"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 467,
+      "title": "Machine Learning-Enabled Soft Finger Grasping With a Kinesthetic Sense of Touch",
+      "conference": "RA-L",
+      "year": 2026,
+      "category": "soft_gripper",
+      "reason": "使用触觉/本体感知控制气动软手指的指尖捏取。",
+      "evidenceLevel": "cached_abstract",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/11527029/",
+        "https://openalex.org/W7161764565"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 528,
+      "title": "Grasp It Like a Pro 2.0: A Data-Driven Approach Exploiting Basic Shape Decomposition and Human Data for Grasping Unknown Objects",
+      "conference": "T-RO",
+      "year": 2023,
+      "category": "soft_gripper",
+      "reason": "Grasp It Like a Pro 2.0 的主要验证包含软体欠驱动手的 150 次抓取实验。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/10169891/",
+        "https://openalex.org/W4382657775"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 530,
+      "title": "Attribute-Based Robotic Grasping With Data-Efficient Adaptation",
+      "conference": "T-RO",
+      "year": 2024,
+      "category": "soft_gripper",
+      "reason": "Attribute-Based Robotic Grasping 的期刊扩展版同样以 FESTO DHAS 软夹爪进行真实抓取实验。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/10398505/",
+        "https://arxiv.org/abs/2501.02149v1"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 543,
+      "title": "Self-Supervised Object-in-Gripper Segmentation from Robotic Motions",
+      "conference": "CoRL",
+      "year": 2020,
+      "category": "soft_object",
+      "reason": "抓后物体分割包含毛巾等可变形物体的专门评估。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://proceedings.mlr.press/v155/boerdijk21a.html",
+        "https://proceedings.mlr.press/v155/boerdijk21a.html"
+      ],
+      "previouslyDefaultDeleted": true
+    },
+    {
+      "catalogueId": 561,
+      "title": "Online Grasp Plan Refinement for Reducing Defects During Robotic Layup of Composite Prepreg Sheets",
+      "conference": "ICRA",
+      "year": 2020,
+      "category": "soft_object",
+      "reason": "研究柔性复合预浸料片材铺放中的在线抓取点修正。",
+      "evidenceLevel": "publication_title_and_research_context",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/9196876/",
+        "https://sites.usc.edu/skgupta/publications/"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 566,
+      "title": "A Simulation-Based Grasp Planner for Enabling Robotic Grasping during Composite Sheet Layup",
+      "conference": "ICRA",
+      "year": 2021,
+      "category": "soft_object",
+      "reason": "通过片材仿真为柔性复合材料铺放规划抓取点。",
+      "evidenceLevel": "publication_title_and_research_context",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/9560939/",
+        "https://omey-manyar.com/publication/icra-2021/"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 568,
+      "title": "Attribute-Based Robotic Grasping with One-Grasp Adaptation",
+      "conference": "ICRA",
+      "year": 2021,
+      "category": "soft_gripper",
+      "reason": "真实机器人抓取实验采用 FESTO DHAS 软夹爪。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/9561139/",
+        "https://arxiv.org/abs/2104.02271v1"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 596,
+      "title": "Rigid-Soft Interactive Learning for Robust Grasping",
+      "conference": "RA-L",
+      "year": 2020,
+      "category": "soft_gripper_and_object",
+      "reason": "显式研究软手指及软物体交互类别，并进行刚柔交互抓取迁移。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/8972574/",
+        "https://arxiv.org/abs/2003.01584v1"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 601,
+      "title": "Adaptive Robotic Tool-Tip Control Learning Considering Online Changes in Grasping State",
+      "conference": "RA-L",
+      "year": 2021,
+      "category": "soft_object",
+      "reason": "将可变形工具列为明确研究对象，验证工具形变时的自适应控制。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/9454412/",
+        "https://arxiv.org/abs/2407.08052v1"
+      ],
+      "previouslyDefaultDeleted": true
+    },
+    {
+      "catalogueId": 625,
+      "title": "6DLS: Modeling Nonplanar Frictional Surface Contacts for Grasping Using 6-D Limit Surfaces",
+      "conference": "T-RO",
+      "year": 2021,
+      "category": "soft_gripper",
+      "reason": "6DLS 专门研究可变形夹爪产生的非平面接触，并以可变形平行夹爪验证。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/9432399/",
+        "https://arxiv.org/abs/1909.06885v4"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 639,
+      "title": "SimNet: Enabling Robust Unknown Object Manipulation from Pure Synthetic Data via Stereo",
+      "conference": "CoRL",
+      "year": 2021,
+      "category": "soft_object",
+      "reason": "SimNet 包含 T 恤折叠所需的可变形物体关键点与抓取定位分支。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://proceedings.mlr.press/v164/kollar22a.html",
+        "https://proceedings.mlr.press/v164/kollar22a.html"
+      ],
+      "previouslyDefaultDeleted": true
+    },
+    {
+      "catalogueId": 650,
+      "title": "Analysis of Open-Loop Grasping From Piles",
+      "conference": "ICRA",
+      "year": 2021,
+      "category": "soft_gripper",
+      "reason": "实体开放环路堆叠抓取实验使用 RBO Hand 2 软体手。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/9561065/",
+        "https://www.static.tu.berlin/fileadmin/www/10002220/Publications/Pall-21-ICRA.pdf"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 688,
+      "title": "A Parameter-Efficient Tuning Framework for Language-Guided Object Grounding and Robot Grasping",
+      "conference": "ICRA",
+      "year": 2025,
+      "category": "soft_gripper",
+      "reason": "真实语言引导抓取实验采用 FESTO DHAS 软夹爪。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/11128679/",
+        "https://arxiv.org/abs/2409.19457v4"
+      ],
+      "previouslyDefaultDeleted": false
+    },
+    {
+      "catalogueId": 719,
+      "title": "OHP-RL: Online Human Preference as Guidance in Reinforcement Learning for Robot Manipulation",
+      "conference": "RA-L",
+      "year": 2026,
+      "category": "soft_object",
+      "reason": "Move Sand Bag 为专门的软沙袋抓取/搬运任务，形状和质量分布在抓取时变化。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/11743875/",
+        "https://arxiv.org/abs/2605.15971v2"
+      ],
+      "previouslyDefaultDeleted": true
+    },
+    {
+      "catalogueId": 730,
+      "title": "6DFC: Efficiently Planning Soft Non-Planar Area Contact Grasps using 6D Friction Cones",
+      "conference": "ICRA",
+      "year": 2020,
+      "category": "soft_gripper",
+      "reason": "6DFC 的研究对象是顺应夹爪与刚性物体之间的软非平面面积接触抓取。",
+      "evidenceLevel": "cached_full_text",
+      "sources": [
+        "https://doi.org/10.1109/icra40945.2020.9197293",
+        "https://goldberg.berkeley.edu/pubs/2020-ICRA-md-6D-Friction-Cones.pdf"
+      ],
+      "previouslyDefaultDeleted": false
+    }
+  ],
+  "retainedBoundaryCases": [
+    {
+      "catalogueId": 53,
+      "title": "GraspCoT: Integrating Physical Property Reasoning for 6-DoF Grasping under Flexible Language Instructions",
+      "reason": "flexible 修饰语言指令，不指柔性物体。"
+    },
+    {
+      "catalogueId": 89,
+      "title": "DextrAH-G: Pixels-to-Action Dexterous Arm-Hand Grasping with Geometric Fabrics",
+      "reason": "Geometric Fabrics 是控制方法，不指真实织物。"
+    },
+    {
+      "catalogueId": 112,
+      "title": "A Hybrid Approach for Learning to Shift and Grasp with Elaborate Motion Primitives",
+      "reason": "soft actor-critic 是强化学习算法名称。"
+    },
+    {
+      "catalogueId": 238,
+      "title": "QuickGrasp: Lightweight Antipodal Grasp Planning with Point Clouds",
+      "reason": "soft-region-growing 为算法步骤；软物体仅列为未来工作。"
+    },
+    {
+      "catalogueId": 272,
+      "title": "DextrAH-RGB: Visuomotor Policies to Grasp Anything with Dexterous Hands",
+      "reason": "Geometric Fabrics 是控制方法，不指真实织物。"
+    },
+    {
+      "catalogueId": 298,
+      "title": "Differentiable Optimization-Based Modular Planning Framework for Pick-And-Place with Regrasp",
+      "reason": "只采用通用 soft-finger 点接触/力闭合假设，没有专门软体夹爪或软物体抓取贡献。"
+    },
+    {
+      "catalogueId": 315,
+      "title": "SpringGrasp: Synthesizing Compliant, Dexterous Grasps under Shape Uncertainty",
+      "reason": "SpringGrasp 研究刚性灵巧手的顺应控制与形状不确定性，不是软体机构或可变形物体抓取。"
+    },
+    {
+      "catalogueId": 325,
+      "title": "Demonstrating Large-Scale Package Manipulation via Learned Metrics of Pick Success",
+      "reason": "通用包裹抓取质量预测；混合物品集合不自动视为软物体专项研究。"
+    },
+    {
+      "catalogueId": 378,
+      "title": "Multimodal Grasp Planner for Hybrid Grippers in Cluttered Scenes",
+      "reason": "混合夹爪的多模态规划；compliant 不自动等同软体材料机构。"
+    },
+    {
+      "catalogueId": 426,
+      "title": "Collision-Inclusive Manipulation Planning for Occluded Object Grasping via Compliant Robot Motions",
+      "reason": "compliant robot motions 指机器人顺应运动控制。"
+    },
+    {
+      "catalogueId": 471,
+      "title": "ScaleADFG: Affordance-Based Dexterous Functional Grasping via Scalable Dataset",
+      "reason": "flexible object-hand size ratios 指尺寸比例的灵活性。"
+    },
+    {
+      "catalogueId": 556,
+      "title": "Enhancing Grasp Pose Computation in Gripper Workspace Spheres",
+      "reason": "通用刚性夹爪/Allegro 手几何抓取规划；软物品仅是混合基准中的个别对象。"
+    },
+    {
+      "catalogueId": 575,
+      "title": "Human Initiated Grasp Space Exploration Algorithm for an Underactuated Robot Gripper Using Variational Autoencoder",
+      "reason": "欠驱动的关节式自适应夹爪不自动等同软体夹爪。"
+    },
+    {
+      "catalogueId": 643,
+      "title": "Multi-Task Reinforcement Learning with Soft Modularization",
+      "reason": "Soft Modularization 是网络方法名称。"
+    },
+    {
+      "catalogueId": 697,
+      "title": "Grounding Generative Policies in Physics: Optimization-Guided Diffusion for Robot Control",
+      "reason": "soft objective/penalty 是数学目标函数。"
+    }
+  ]
+}

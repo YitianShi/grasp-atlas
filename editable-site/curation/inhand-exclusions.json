@@ -1,0 +1,642 @@
+{
+  "asOf": "2026-11-06",
+  "userRequest": "Remove all in-hand manipulation research from the active collection.",
+  "baselineRows": 710,
+  "baselineIdentitySHA256": "11a211e3e46c07408d6faff0ffaa958164a68aac65fc1387316fc86941ba70b3",
+  "removedCount": 13,
+  "activeCount": 697,
+  "scope": "Exclude papers whose method or demonstrated tasks include in-hand relative motion, reorientation, pen spinning, finger gaiting, or articulated in-hand manipulation. Keep eye-in-hand sensing, stable-grasp control, background mentions, whole-arm transport and pre-grasp-only manipulation.",
+  "migration": "Surviving papers retain their original positive integer catalogueId. Removed records are archived; no surviving paper is renumbered and existing PDF files are not moved or deleted.",
+  "rows": [
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "From Grasps to Dexterity: Large-Scale Grasp Pretraining for Dexterous Manipulation",
+      "type": "抓取数据预训练与工具操作",
+      "tier": "相关",
+      "note": "作者实验室标注 CoRL 2026",
+      "url": "https://yingyuan0414.github.io/grasp2dexterity/",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "G2D-Pretrain",
+          "Dexonomy",
+          "DexCraft"
+        ],
+        "codeNote": "作者标注 Coming Soon",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://yingyuan0414.github.io/grasp2dexterity/"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstract": "Large-scale dexterous grasp datasets encode rich priors over hand-object interaction, but their use has largely been confined to grasp generation and pick-and-place manipulation. We study whether such data can instead support functional dexterity in articulated tool use, where a robot must acquire a tool, maintain contact, and operate its functional moving parts. We adapt a hierarchical imitation learning framework that combines high-level hand sub-goal prediction with a low-level goal-conditioned controller. We construct a 355k-trajectory grasp-pretraining dataset from large-scale dexterous grasp annotations and use it to pretrain the low-level controller. The controller is then fine-tuned on downstream task demonstrations. To evaluate this setting, we introduce DexCraft, a simulation benchmark with six articulated tool-use tasks requiring coordinated finger motion. Across simulation and real-world experiments, our approach outperforms end-to-end diffusion policy baselines and hierarchical policies trained from scratch. In the real world, it improves full-task success by 33.3 percentage points over DP3. These results show that grasp datasets can serve not only as resources for grasp synthesis, but also as scalable pretraining data for contact-rich dexterous manipulation. Videos are shown on https://yingyuan0414.github.io/grasp2dexterity/ .",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2606.30749v1",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "openreviewUrl": "https://openreview.net/forum?id=hDNvcoKMXH",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "catalogueId": 109,
+      "exclusionReason": "Articulated tool use requires coordinated finger motion to operate moving parts while holding the tool; DexCraft evaluates this hand-object manipulation.",
+      "evidenceSource": "https://arxiv.org/abs/2606.30749v1",
+      "evidenceKind": "local full text plus abstract"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2022,
+      "title": "Contact Transfer: A Direct, User-Driven Method for Human to Robot Transfer of Grasps and Manipulations",
+      "type": "迁移与泛化",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811739",
+      "venueUrl": "https://www.proceedings.com/content/064/064576webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA46639.2022.9811739",
+          "https://www.proceedings.com/content/064/064576webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://doi.org/10.1109/ICRA46639.2022.9811739",
+      "linkLabel": "论文（IEEE / DOI）",
+      "linkNote": "独立论文 DOI 链接，跳转到该篇论文的出版页面。",
+      "linkNoteEn": "Individual article DOI, resolving to this paper’s publisher page.",
+      "abstract": "We present a novel method for the direct transfer of grasps and manipulations between objects and hands through utilization of contact areas. Our method fully preserves contact shapes, and in contrast to existing techniques, is not dependent on grasp families, requires no model training or grasp sampling, makes no assumptions about manipulator morphology or kinematics, and allows user control over both transfer parameters and solution optimization. Despite these accommodations, we show that our method is capable of synthesizing kinematically-feasible whole hand poses in seconds even for poor initializations or hard-to-reach contacts. We additionally highlight the method's benefits in both response to design alterations as well as fast approximation over in-hand manipulation sequences. Finally, we demonstrate a solution generated by our method on a physical, custom-designed prosthetic hand.",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W3209128549",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 133,
+      "exclusionReason": "The method transfers and approximates in-hand manipulation sequences, in addition to static grasps.",
+      "evidenceSource": "https://openalex.org/W3209128549",
+      "evidenceKind": "title and abstract"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "Online Augmentation of Learned Grasp Sequence Policies for More Adaptable and Data-Efficient In-Hand Manipulation",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161003",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA48891.2023.10161003",
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://doi.org/10.1109/ICRA48891.2023.10161003",
+      "linkLabel": "论文（IEEE / DOI）",
+      "linkNote": "独立论文 DOI 链接，跳转到该篇论文的出版页面。",
+      "linkNoteEn": "Individual article DOI, resolving to this paper’s publisher page.",
+      "abstract": "When using a tool, the grasps used for picking it up, reposing, and holding it in a suitable pose for the desired task could be distinct. Therefore, a key challenge for autonomous in-hand tool manipulation is finding a sequence of grasps that facilitates every step of the tool use process while continuously maintaining force closure and stability. Due to the complexity of modeling the contact dynamics, reinforcement learning (RL) techniques can provide a solution in this continuous space subject to highly parameterized physical models. However, these techniques impose a trade-off in adaptability and data efficiency. At test time the tool properties, desired trajectory, and desired application forces could differ substantially from training scenarios. Adapting to this necessitates more data or computationally expensive online policy updates. In this work, we apply the principles of discrete dynamic programming (DP) to augment RL performance with domain knowledge. Specifically, we first design a computationally simple approximation of our environment. We then demonstrate in physical simulation that performing tree searches (i.e., lookaheads) and policy rollouts with this approximation can improve an RL-derived grasp sequence policy with minimal additional online computation. Additionally, we show that pretraining a deep RL network with the DP-derived solution to the discretized problem can speed up policy training.",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W4383108461",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 162,
+      "exclusionReason": "The title and abstract explicitly study learned grasp sequences for in-hand tool manipulation.",
+      "evidenceSource": "https://openalex.org/W4383108461",
+      "evidenceKind": "title and abstract"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "Picking by Tilting: In-Hand Manipulation for Object Picking Using Effector with Curved Form",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160404",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA48891.2023.10160404",
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://doi.org/10.1109/ICRA48891.2023.10160404",
+      "linkLabel": "论文（IEEE / DOI）",
+      "linkNote": "独立论文 DOI 链接，跳转到该篇论文的出版页面。",
+      "linkNoteEn": "Individual article DOI, resolving to this paper’s publisher page.",
+      "abstract": "This paper presents a robotic in-hand manipulation technique that can be applied to pick an object too large to grasp in a prehensile manner, by taking advantage of its contact interactions with a curved, passive end-effector, and two flat support surfaces. First, the object is tilted up while being held between the end-effector and the supports. Then, the end-effector is tucked into the gap underneath the object, which is formed by tilting, in order to obtain a grasp against gravity. In this paper, we first examine the mechanics of tilting to understand the different ways in which the object can be initially tilted. We then present a strategy to tilt up the object in a secure manner. Finally, we demonstrate successful picking of objects of various size and geometry using our technique through a set of experiments performed with a custom-made robotic device and a conventional robot arm. Our experiment results show that object picking can be performed reliably with our method using simple hardware and control, and when possible, with appropriate fixture design.",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W4383109311",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 180,
+      "exclusionReason": "The title and abstract explicitly propose an in-hand tilting technique for object picking.",
+      "evidenceSource": "https://openalex.org/W4383109311",
+      "evidenceKind": "title and abstract"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "Composing Dextrous Grasping and In-Hand Manipulation Via Scoring with a Reinforcement Learning Critic",
+      "type": "策略与控制",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127792",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11127792",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://doi.org/10.1109/ICRA55743.2025.11127792",
+      "linkLabel": "论文（IEEE / DOI）",
+      "linkNote": "独立论文 DOI 链接，跳转到该篇论文的出版页面。",
+      "linkNoteEn": "Individual article DOI, resolving to this paper’s publisher page.",
+      "abstract": "In-hand manipulation and grasping are fundamental yet often separately addressed tasks in robotics. For deriving in-hand manipulation policies, reinforcement learning has recently shown great success. However, the derived controllers are not yet useful in real-world scenarios because they often require a human operator to place the objects in suitable initial (grasping) states. Finding stable grasps that also promote the desired in-hand manipulation goal is an open problem. In this work, we propose a method for bridging this gap by leveraging the critic network of a reinforcement learning agent trained for in-hand manipulation to score and select initial grasps. Our experiments show that this method significantly increases the success rate of in-hand manipulation without requiring additional training. We also present an implementation of a full grasp manipulation pipeline on a real-world system, enabling autonomous grasping and reorientation even of un-wieldy objects. Website: aidx-lab. org/manipulation/icra25",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W4413945820",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 252,
+      "exclusionReason": "The main method composes grasp generation with an in-hand manipulation policy for object reorientation.",
+      "evidenceSource": "https://openalex.org/W4413945820",
+      "evidenceKind": "title and abstract"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Two Degree-Of-Freedom Vibratory Transport in a Grasp",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://arxiv.org/abs/2605.30780",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "linkLabel": "论文（arXiv）",
+      "linkNote": "主链接为作者公开的 arXiv 论文页；IEEE 单篇页面未核实。",
+      "linkNoteEn": "Author-posted paper on arXiv; an individual IEEE page has not been verified.",
+      "abstract": "In this paper, we use asymmetric vibrations to demonstrate two degree-of-freedom (DoF) in-hand manipulation of grasped parts. The asymmetric vibrations are achieved through closed-loop position control of a moving surface, which applies a periodic stick-slip waveform to the part to be manipulated. We show analytically how two vibratory waveform parameters, the sticking acceleration and the slipping acceleration, affect average part velocity when moving against gravity. The theoretical trends are then validated using an experimental setup where the squeeze force is controlled and part motion is recorded by a high-resolution encoder. We also develop a 2-DoF vibratory surface capable of translation in one direction and rotation about the surface normal. Using two of these 2-DoF surfaces in a parallel jaw gripper configuration, we bidirectionally translate and rotate a variety of grasped parts, as well as demonstrate that the same waveform trends for translation also persist for in-plane rotation.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2605.30780v1",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 263,
+      "exclusionReason": "The abstract explicitly translates and rotates grasped parts inside the gripper using vibratory stick-slip motion.",
+      "evidenceSource": "https://arxiv.org/abs/2605.30780v1",
+      "evidenceKind": "title and abstract"
+    },
+    {
+      "conference": "RSS",
+      "year": 2023,
+      "title": "DexPBT: Scaling up Dexterous Manipulation for Hand-Arm Systems with Population Based Training",
+      "type": "灵巧手抓取",
+      "tier": "相关",
+      "url": "https://www.roboticsproceedings.org/rss19/p037.html",
+      "venueUrl": "https://www.roboticsproceedings.org/rss19/index.html",
+      "status": "主会论文",
+      "note": "扩展相关：研究视觉遥操作、灵巧操作或包含抓取环节的任务。",
+      "resources": {
+        "code": [
+          "https://github.com/NVIDIA-Omniverse/IsaacGymEnvs"
+        ],
+        "engines": [
+          "Isaac Gym"
+        ],
+        "datasets": [
+          "重抓取 / 抓取投掷 / 物体重定向（任务基准）"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。 作者项目页的 Code 链接指向该平台仓库。",
+        "sources": [
+          "https://www.roboticsproceedings.org/rss19/p037.html",
+          "https://www.roboticsproceedings.org/rss19/index.html",
+          "https://sites.google.com/view/dexpbt",
+          "https://github.com/NVIDIA-Omniverse/IsaacGymEnvs"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstract": "In this work, we propose algorithms and methods that enable learning dexterous object manipulation using simulated one- or two-armed robots equipped with multi-fingered hand end-effectors. Using a parallel GPU-accelerated physics simulator (Isaac Gym), we implement challenging tasks for these robots, including regrasping, grasp-and-throw, and object reorientation. To solve these problems we introduce a decentralized Population-Based Training (PBT) algorithm that allows us to massively amplify the exploration capabilities of deep reinforcement learning. We find that this method significantly outperforms regular end-to-end learning and is able to discover robust control policies in challenging tasks. Video demonstrations of learned behaviors and the code can be found at https://sites.google.com/view/dexpbt",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2305.12127v1",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 320,
+      "exclusionReason": "The paper evaluates single-handed and two-handed object reorientation and explicitly describes contact-rich in-hand manipulation.",
+      "evidenceSource": "https://arxiv.org/abs/2305.12127v1",
+      "evidenceKind": "local full text plus abstract"
+    },
+    {
+      "conference": "RSS",
+      "year": 2025,
+      "title": "CordViP: Correspondence-based Visuomotor Policy for Dexterous Manipulation in Real-World",
+      "type": "灵巧手抓取 / 策略与控制",
+      "tier": "相关",
+      "url": "https://www.roboticsproceedings.org/rss21/p110.html",
+      "venueUrl": "https://www.roboticsproceedings.org/rss21/index.html",
+      "status": "主会论文",
+      "note": "扩展相关：研究视觉遥操作、灵巧操作或包含抓取环节的任务。",
+      "resources": {
+        "code": [
+          "https://github.com/xuanxuanzzzii/cordvip"
+        ],
+        "engines": [
+          "SAPIEN（公开数据生成平台）"
+        ],
+        "datasets": [
+          "CordViP 实机示范：flipcap / flipcup"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.roboticsproceedings.org/rss21/p110.html",
+          "https://www.roboticsproceedings.org/rss21/index.html",
+          "https://github.com/xuanxuanzzzii/cordvip/blob/main/README.md"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstract": "Achieving human-level dexterity in robots is a key objective in the field of robotic manipulation. Recent advancements in 3D-based imitation learning have shown promising results, providing an effective pathway to achieve this goal. However, obtaining high-quality 3D representations presents two key problems: (1) the quality of point clouds captured by a single-view camera is significantly affected by factors such as camera resolution, positioning, and occlusions caused by the dexterous hand; (2) the global point clouds lack crucial contact information and spatial correspondences, which are necessary for fine-grained dexterous manipulation tasks. To eliminate these limitations, we propose CordViP, a novel framework that constructs and learns correspondences by leveraging the robust 6D pose estimation of objects and robot proprioception. Specifically, we first introduce the interaction-aware point clouds, which establish correspondences between the object and the hand. These point clouds are then used for our pre-training policy, where we also incorporate object-centric contact maps and hand-arm coordination information, effectively capturing both spatial and temporal dynamics. Our method demonstrates exceptional dexterous manipulation capabilities, achieving state-of-the-art performance in six real-world tasks, surpassing other baselines by a large margin. Experimental results also highlight the superior generalization and robustness of CordViP to different objects, viewpoints, and scenarios. Code and videos are available on https://aureleopku.github.io/CordViP.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2502.08449v2",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 322,
+      "exclusionReason": "The FlipCap evaluation coordinates four fingers to lift, rotate and flip a cap relative to the hand; this is an actual experiment, not a related-work mention.",
+      "evidenceSource": "https://arxiv.org/abs/2502.08449v2",
+      "evidenceKind": "local full text plus abstract"
+    },
+    {
+      "type": "灵巧手抓取 · 抓取规划与优化",
+      "tier": "直接",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/9681220/",
+          "https://arxiv.org/abs/2108.13580"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "RA-L",
+      "year": 2022,
+      "title": "Planning for Dexterous Ungrasping: Secure Ungrasping Through Dexterous Manipulation",
+      "url": "https://ieeexplore.ieee.org/document/9681220/",
+      "doi": "10.1109/lra.2022.3142892",
+      "status": "期刊论文",
+      "citation": "IEEE Robotics and Automation Letters 7(2), 2022, pp. 2234-2241",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2022.3142892",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。",
+      "verificationLevel": "abstract",
+      "preprintUrl": "https://arxiv.org/abs/2108.13580",
+      "abstract": "This paper presents a robotic manipulation technique for dexterous ungrasping. It refers to the capability of securely transferring a grasped object from the gripper to the robot's environment, i.e. the inverse of grasping or picking, through dexterous manipulation. The game of Go offers an example: consider how the player would typically place an initially pinch-grasped stone onto the board through the dexterous interaction between the fingers, the stone, and the board. Likewise, dexterous ungrasping addresses the necessity of changing the object's configuration relative to the gripper or the environment in order to securely keep hold of the object. In particular, we present a planning framework for determining a feasible minimum-cost motion path that completes dexterous ungrasping. Digit asymmetry in a gripper, i.e. difference in digit lengths, is discovered as the key to feasible and secure ungrasping. A set of experiments show the effectiveness of dexterous ungrasping in practical placement tasks.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2108.13580v1",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 342,
+      "exclusionReason": "The paper changes the object configuration relative to the gripper through finger-object-environment contact during dexterous ungrasping.",
+      "evidenceSource": "https://arxiv.org/abs/2108.13580v1",
+      "evidenceKind": "local full text plus abstract"
+    },
+    {
+      "type": "灵巧手抓取",
+      "tier": "直接",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/9690013/"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "RA-L",
+      "year": 2022,
+      "title": "Robust Ungrasping of High Aspect Ratio Objects Through Dexterous Manipulation",
+      "url": "https://ieeexplore.ieee.org/document/9690013/",
+      "doi": "10.1109/lra.2022.3144494",
+      "status": "期刊论文",
+      "citation": "IEEE Robotics and Automation Letters 7(2), 2022, pp. 2843-2850",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2022.3144494",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商 DOI 元数据；研究范围依据标题初筛，尚未核对全文。",
+      "verificationLevel": "title",
+      "abstract": "In this work, we address roboticdexterous ungrasping, the capability of securely transferring a grasped object from the gripper to the robot’s environment, i.e. the inverse of grasping or picking, through dexterous manipulation. The situation of dexterous ungrasping can commonly be found in many occasions such as placing a Go stone or inserting a battery pack, where it is necessary to carefully perform contact-rich interactions for stable ungrasping. Advancing from our recent work that formulated a planning framework for dexterous ungrasping, this study addresses the robustness of the motion control for executing the planned ungrasping operations, through an analysis of possible failure cases and caging conditions. We also address how the guaranteed robustness facilitates the modeling and planning of dexterous ungrasping and guides the arrangement of a gripper system. A series of experiments demonstrate the effectiveness of the resulting hardware and software system in practical ungrasping tasks.",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W4206943322",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 347,
+      "exclusionReason": "The method extends dexterous ungrasping with relative object/gripper contact motion and robustness control.",
+      "evidenceSource": "https://openalex.org/W4206943322",
+      "evidenceKind": "title and abstract"
+    },
+    {
+      "type": "灵巧手抓取",
+      "tier": "直接",
+      "resources": {
+        "code": [
+          "https://github.com/GT-STAR-Lab/CIMER"
+        ],
+        "engines": [
+          "MuJoCo"
+        ],
+        "datasets": [
+          "YCB"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/10637688/",
+          "https://arxiv.org/abs/2404.05582",
+          "https://sites.google.com/view/cimer-2024/",
+          "https://raw.githubusercontent.com/GT-STAR-Lab/CIMER/master/README.md"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "RA-L",
+      "year": 2024,
+      "title": "Learning Prehensile Dexterity by Imitating and Emulating State-Only Observations",
+      "url": "https://ieeexplore.ieee.org/document/10637688/",
+      "doi": "10.1109/lra.2024.3443595",
+      "status": "期刊论文",
+      "citation": "IEEE Robotics and Automation Letters 9(10), 2024, pp. 8266-8273",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2024.3443595",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。",
+      "verificationLevel": "abstract",
+      "preprintUrl": "https://arxiv.org/abs/2404.05582",
+      "abstract": "When human acquire physical skills (e.g., tennis) from experts, we tend to first learn from merely observing the expert. But this is often insufficient. We then engage in practice, where we try to emulate the expert and ensure that our actions produce similar effects on our environment. Inspired by this observation, we introduce Combining IMitation and Emulation for Motion Refinement (CIMER) -- a two-stage framework to learn dexterous prehensile manipulation skills from state-only observations. CIMER's first stage involves imitation: simultaneously encode the complex interdependent motions of the robot hand and the object in a structured dynamical system. This results in a reactive motion generation policy that provides a reasonable motion prior, but lacks the ability to reason about contact effects due to the lack of action labels. The second stage involves emulation: learn a motion refinement policy via reinforcement that adjusts the robot hand's motion prior such that the desired object motion is reenacted. CIMER is both task-agnostic (no task-specific reward design or shaping) and intervention-free (no additional teleoperated or labeled demonstrations). Detailed experiments with prehensile dexterity reveal that i) imitation alone is insufficient, but adding emulation drastically improves performance, ii) CIMER outperforms existing methods in terms of sample efficiency and the ability to generate realistic and stable motions, iii) CIMER can either zero-shot generalize or learn to adapt to novel objects from the YCB dataset, even outperforming expert policies trained with action labels in most cases. Source code and videos are available at https://sites.google.com/view/cimer-2024/.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2404.05582v3",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 406,
+      "exclusionReason": "The paper includes an explicit In-hand Reorientation experiment in the non-prehensile-manipulation appendix.",
+      "evidenceSource": "https://arxiv.org/abs/2404.05582v3",
+      "evidenceKind": "local full text plus abstract"
+    },
+    {
+      "conference": "ICML",
+      "year": 2021,
+      "title": "Solving Challenging Dexterous Manipulation Tasks With Trajectory Optimisation and Reinforcement Learning",
+      "url": "https://proceedings.mlr.press/v139/charlesworth21a.html",
+      "venueUrl": "https://proceedings.mlr.press/v139/",
+      "status": "主会论文",
+      "type": "灵巧手抓取 · 抓取策略与控制 · 抓取规划与优化",
+      "tier": "相关",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。 扩展相关：主要贡献涉及抓取关联的感知、操作、示教或运动规划。",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/henrycharlesworth/SCDM",
+          "https://github.com/henrycharlesworth/dexterous-gym"
+        ],
+        "engines": [
+          "MuJoCo"
+        ],
+        "datasets": [
+          "Dexterous Gym manipulation tasks"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://proceedings.mlr.press/v139/charlesworth21a.html",
+          "https://arxiv.org/abs/2009.05104v2",
+          "https://raw.githubusercontent.com/henrycharlesworth/SCDM/master/README.md",
+          "https://raw.githubusercontent.com/henrycharlesworth/dexterous-gym/master/README.md",
+          "https://github.com/henrycharlesworth/SCDM",
+          "https://github.com/henrycharlesworth/dexterous-gym"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "preprintUrl": "https://arxiv.org/abs/2009.05104v2",
+      "abstractAuthors": [
+        "Henry J Charlesworth",
+        "Giovanni Montana"
+      ],
+      "abstractCitation": "Henry J Charlesworth, Giovanni Montana. Solving Challenging Dexterous Manipulation Tasks With Trajectory Optimisation and Reinforcement Learning. ICML 2021. https://proceedings.mlr.press/v139/charlesworth21a.html",
+      "abstract": "Training agents to autonomously control anthropomorphic robotic hands has the potential to lead to systems capable of performing a multitude of complex manipulation tasks in unstructured and uncertain environments. In this work, we first introduce a suite of challenging simulated manipulation tasks where current reinforcement learning and trajectory optimisation techniques perform poorly. These include environments where two simulated hands have to pass or throw objects between each other, as well as an environment where the agent must learn to spin a long pen between its fingers. We then introduce a simple trajectory optimisation algorithm that performs significantly better than existing methods on these environments. Finally, on the most challenging “PenSpin\" task, we combine sub-optimal demonstrations generated through trajectory optimisation with off-policy reinforcement learning, obtaining performance that far exceeds either of these approaches individually. Videos of all of our results are available at: https://dexterous-manipulation.github.io",
+      "abstractStatus": "available",
+      "abstractSource": "https://proceedings.mlr.press/v139/charlesworth21a.html",
+      "abstractProvider": "PMLR",
+      "abstractKind": "published",
+      "abstractLicense": "CC-BY-4.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 632,
+      "exclusionReason": "The main PenSpin benchmark spins a long pen between the robot fingers.",
+      "evidenceSource": "https://proceedings.mlr.press/v139/charlesworth21a.html",
+      "evidenceKind": "local full text plus abstract"
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "ArtManip: Category-Level Articulated In-Hand Manipulation",
+      "type": "灵巧手抓取与关节物体操作",
+      "tier": "相关",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=JI9u9A9JJO",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. Related work: the method synthesizes functional initial grasps and learns articulated in-hand manipulation across object instances.",
+      "abstract": "Category-level in-hand manipulation of articulated objects is a formidable yet underexplored challenge for dexterous robotic hands. This difficulty stems from two core bottlenecks: first, controlling an object's internal degrees of freedom is tightly coupled with maintaining grasp stability on a free-floating base; second, acquiring diverse object models and functional grasps at scale is highly labor-intensive, yet vital for generalization given the system's sensitivity to initial configurations. In this work, we present ArtManip, the first category-level articulated in-hand manipulation method that generalizes across object instances and diverse initial grasps. For initial configuration construction, we develop an automated pipeline that procedurally generates diverse articulated objects and synthesizes task-oriented functional grasps. For policy learning, we propose a robust two-stage training strategy that incorporates articulation physics randomization, reward curriculum, and latent representation distillation to handle complex contact and joint dynamics during deployment. Extensive experiments across four object categories demonstrate that our policy generalizes to unseen instances and varied configurations in simulation, and achieves zero-shot transfer to 12 real-world objects featuring diverse shapes and joint mechanics.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2609.12498v1",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-06",
+      "authors": [
+        "Yang Yang",
+        "Tengyu Liu",
+        "Puhao Li",
+        "Zeyuan Chen",
+        "Yuyang Li",
+        "Xingwan Wang",
+        "Yingying Wu",
+        "Zhaopeng Cui",
+        "Siyuan Huang"
+      ],
+      "preprintUrl": "https://arxiv.org/abs/2609.12498v1",
+      "url": "https://arxiv.org/abs/2609.12498v1",
+      "linkLabel": "作者预印本",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/youngcv/artgym"
+        ],
+        "engines": [
+          "Isaac Gym"
+        ],
+        "datasets": [
+          "ArtManip procedural articulated objects and functional grasps"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2609.12498v1",
+          "https://artmanip.github.io",
+          "https://github.com/youngcv/artgym",
+          "https://openreview.net/forum?id=JI9u9A9JJO",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      },
+      "catalogueId": 694,
+      "exclusionReason": "ArtManip explicitly studies category-level articulated in-hand manipulation.",
+      "evidenceSource": "https://arxiv.org/abs/2609.12498v1",
+      "evidenceKind": "local full text plus abstract"
+    }
+  ],
+  "retainedBoundaryCases": [
+    {
+      "id": 10,
+      "title": "Vision-Based Manipulators Need to Also See from Their Hands",
+      "reason": "Eye-in-hand describes the camera viewpoint, not manipulation of an object within the hand."
+    },
+    {
+      "id": 27,
+      "title": "NeRF in the Palm of Your Hand: Corrective Augmentation for Robotics via Novel-View Synthesis",
+      "reason": "Eye-in-hand camera augmentation for 6-DoF grasping; not an in-hand manipulation method."
+    },
+    {
+      "id": 80,
+      "title": "Dexterous Functional Grasping",
+      "reason": "In-hand reorientation appears in the motivation as prior work; the proposed task is functional grasp acquisition."
+    },
+    {
+      "id": 154,
+      "title": "Learning Dexterous Manipulation from Exemplar Object Trajectories and Pre-Grasps",
+      "reason": "The retrieved TCDM/PGDM paper uses exemplar object trajectories and pre-grasps; the explicit in-hand rotation references concern other methods, not its own task definition."
+    },
+    {
+      "id": 267,
+      "title": "HEAPGrasp: Hand-Eye Active Perception to Grasp Objects With Diverse Optical Properties",
+      "reason": "Hand-eye active perception concerns camera positioning, not in-hand object motion."
+    },
+    {
+      "id": 313,
+      "title": "Dex1B: Learning with 1B Demonstrations for Dexterous Manipulation",
+      "reason": "The Dex1B tasks synthesize reaching/lifting grasps and object articulation; related-work citations to in-hand manipulation do not establish an in-hand reorientation task."
+    },
+    {
+      "id": 328,
+      "title": "Category-Association Based Similarity Matching for Novel Object Pick-and-Place Task",
+      "reason": "In-hand posture is estimated for whole-arm pick-and-place adjustment; the abstract does not claim finger-controlled motion relative to the gripper."
+    },
+    {
+      "id": 400,
+      "title": "Grasp Multiple Objects With One Hand",
+      "reason": "In-hand manipulation is mentioned as motivation; the actual MultiGrasp method acquires and lifts multiple objects."
+    },
+    {
+      "id": 458,
+      "title": "Grasp to Act: Dexterous Grasping for Tool Use in Dynamic Settings",
+      "reason": "The controller prevents slip to preserve a stable functional grasp; it does not seek relative object motion within the hand."
+    },
+    {
+      "id": 515,
+      "title": "Dexterous Pre-Grasp Manipulation for Human-Like Functional Categorical Grasping: Deep Reinforcement Learning and Grasp Representations",
+      "reason": "The method repositions objects before attaining the desired functional grasp; pre-grasp manipulation is not automatically in-hand manipulation."
+    },
+    {
+      "id": 535,
+      "title": "Grasp, See, and Place: Efficient Unknown Object Rearrangement With Policy Structure Prior",
+      "reason": "In-hand object matching is a perception/rearrangement component; this does not establish finger-controlled in-hand motion."
+    },
+    {
+      "id": 667,
+      "title": "Enhancing Robot Perception in Grasping and Dexterous Manipulation through Crowdsourcing and Gamification",
+      "reason": "The university repository abstract establishes visual attribute recognition for autonomous grasping, not in-hand manipulation: https://eprints.gla.ac.uk/325481/."
+    }
+  ]
+}

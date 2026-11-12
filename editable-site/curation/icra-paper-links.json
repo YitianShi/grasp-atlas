@@ -1,0 +1,2361 @@
+{
+  "verifiedAt": "2026-10-05",
+  "summary": {
+    "activeICRARecords": 244,
+    "independentPaperLinks": 233,
+    "pending": 11,
+    "reclassifiedToJournals": 18,
+    "methods": {
+      "existing verified article DOI": 131,
+      "pending": 36,
+      "no verified individual article match after publisher and arXiv title lookup": 11,
+      "author preprint title without SHOPPER prefix": 1,
+      "author laboratory PDF link, exact title; HTTP 200 application/pdf": 1,
+      "publisher DOI deposit for 2020–2021 article": 58,
+      "official program and author-linked preprint": 3,
+      "publisher DOI deposit and author abstract": 3
+    }
+  },
+  "rows": [
+    {
+      "title": "A Hybrid Approach for Learning to Shift and Grasp with Elaborate Motion Primitives",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811735",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9811735",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Automatic Acquisition of a Repertoire of Diverse Grasping Trajectories through Behavior Shaping and Novelty Search",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811837",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9811837",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "CaTGrasp: Learning Category-Level Task-Relevant Grasping in Clutter from Simulation",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811568",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9811568",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Cluttered Food Grasping with Adaptive Fingers and Synthetic-Data Trained Object Detection",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812448",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9812448",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Context-Aware Grasp Generation in Cluttered Scenes",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811371",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9811371",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Data-efficient learning of object-centric grasp preferences",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811760",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9811760",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Grasp Pose Selection Under Region Constraints for Dirty Dish Grasps Based on Inference of Grasp Success Probability through Self-Supervised Learning",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812084",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9812084",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "HGC-Net: Deep Anthropomorphic Hand Grasping in Clutter",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811756",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9811756",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Hybrid Physical Metric For 6-DoF Grasp Pose Detection",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811961",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9811961",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "I Know What You Draw: Learning Grasp Detection Conditioned on a Few Freehand Sketches",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812372",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9812372",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Integrated Learning of Robot Motion and Sentences: Real-Time Prediction of Grasping Motion and Attention based on Language Instructions",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811815",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9811815",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Interactive Robotic Grasping with Attribute-Guided Disambiguation",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812360",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9812360",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "LEGS: Learning Efficient Grasp Sets for Exploratory Grasping",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812138",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9812138",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Learn to Grasp with Less Supervision: A Data-Efficient Maximum Likelihood Grasp Sampling Loss",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811685",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9811685",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Learning 6-DoF Object Poses to Grasp Category-Level Objects by Language Instructions",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811367",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9811367",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Learning Object Relations with Graph Neural Networks for Target-Driven Grasping in Dense Clutter",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811601",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9811601",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Learning-based Ellipse Detection for Robotic Grasps of Cylinders and Ellipsoids",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812363",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9812363",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Multi-Object Grasping - Types and Taxonomy",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812388",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9812388",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Multi-view object pose distribution tracking for pre-grasp planning on mobile robots",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812339",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9812339",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Robot Grasping through a Joint-Initiative Supervised Autonomy Framework",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811721",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9811721",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "TransGrasp: A Multi-Scale Hierarchical Point Transformer for 7-DoF Grasp Detection",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812001",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9812001",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Contact Transfer: A Direct, User-Driven Method for Human to Robot Transfer of Grasps and Manipulations",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811739",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9811739",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "FFHNet: Generating Multi-Fingered Robotic Grasps for Unknown Objects in Real-time",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811666",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9811666",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "IPC-GraspSim: Reducing the Sim2Real Gap for Parallel-Jaw Grasping with the Incremental Potential Contact Model",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811777",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9811777",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Strawberry picking point localization ripeness and weight estimation",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812303",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9812303",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "A Detumbling Strategy for an Orbital Manipulator in the Post-Grasp Phase",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812067",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9812067",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "GOMP-FIT: Grasp-Optimized Motion Planning for Fast Inertial Transport",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812387",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9812387",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Gripper positioning for object deformation tasks",
+      "year": 2022,
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812304",
+      "source": "https://doi.org/10.1109/ICRA46639.2022.9812304",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "MonoGraspNet: 6-DoF Grasping with a Single RGB Image",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160779",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160779",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Instance-Wise Grasp Synthesis for Robotic Grasping",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161149",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161149",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Joint Segmentation and Grasp Pose Detection with Multi-Modal Feature Fusion Network",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160253",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160253",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "GraspNeRF: Multiview-Based 6-DoF Grasp Detection for Transparent and Specular Objects Using Generalizable NeRF",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160842",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160842",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "FSG-Net: A Deep Learning Model for Semantic Robot Grasping through Few-Shot Learning",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160618",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160618",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Learning Pre-Grasp Manipulation of Flat Objects in Cluttered Environments Using Sliding Primitives",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160869",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160869",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Neural Grasp Distance Fields for Robot Manipulation",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160217",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160217",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Two-Stage Grasping: A New Bin Picking Framework for Small Objects",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160608",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160608",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Optimal Grasps and Placements for Task and Motion Planning in Clutter",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161455",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161455",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "GSMR-CNN: An End-To-End Trainable Architecture for Grasping Target Objects from Multi-Object Scenes",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161009",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161009",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "3DSGrasp: 3D Shape-Completion for Robotic Grasp",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160350",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160350",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "SCARP: 3D Shape Completion in ARbitrary Poses for Improved Grasping",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160365",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160365",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Reinforcement Learning Based Pushing and Grasping Objects from Ungraspable Poses",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160491",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160491",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Edge Grasp Network: A Graph-Based SE(3)-Invariant Approach to Grasp Detection",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160728",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160728",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Learning Dexterous Manipulation from Exemplar Object Trajectories and Pre-Grasps",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161147",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161147",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Train What You Know - Precise Pick-And-Place with Transporter Networks",
+      "year": 2023,
+      "url": "https://ieeexplore.ieee.org/document/10161242/",
+      "metadata": {
+        "title": "Train What You Know – Precise Pick-and-Place with Transporter Networks",
+        "score": 1,
+        "doi": "10.1109/icra48891.2023.10161242",
+        "url": "https://ieeexplore.ieee.org/document/10161242/",
+        "venue": [
+          "2023 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Train+What+You+Know+-+Precise+Pick-And-Place+with+Transporter+Networks&rows=5"
+    },
+    {
+      "title": "Online Tool Selection with Learned Grasp Prediction Models",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160952",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160952",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "FOGL: Federated Object Grasping Learning",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161191",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161191",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Implementation and Optimization of Grasping Learning with Dual-Modal Soft Gripper",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161249",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161249",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "DefGraspNets: Grasp Planning on 3D Fields with Graph Neural Nets",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160986",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160986",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "SE(3)-DiffusionFields: Learning Smooth Cost Functions for Joint Grasp and Motion Optimization through Diffusion",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161569",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161569",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Online Augmentation of Learned Grasp Sequence Policies for More Adaptable and Data-Efficient In-Hand Manipulation",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161003",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161003",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Passivity-Based Decentralized Control for Collaborative Grasping of Under-Actuated Aerial Manipulators",
+      "year": 2023,
+      "url": "https://ieeexplore.ieee.org/document/10160334/",
+      "metadata": {
+        "title": "Passivity-based Decentralized Control for Collaborative Grasping of Under-Actuated Aerial Manipulators",
+        "score": 1,
+        "doi": "10.1109/icra48891.2023.10160334",
+        "url": "https://ieeexplore.ieee.org/document/10160334/",
+        "venue": [
+          "2023 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Passivity-Based+Decentralized+Control+for+Collaborative+Grasping+of+Under-Actuated+Aerial+Manipulators&rows=5"
+    },
+    {
+      "title": "Real-Time Generative Grasping with Spatio-Temporal Sparse Convolution",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161529",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161529",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Keypoint-GraspNet: Keypoint-Based 6-DoF Grasp Generation from the Monocular RGB-D Input",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161284",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161284",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Pick2Place: Task-Aware 6DoF Grasp Estimation Via Object-Centric Perspective Affordance",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160736",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160736",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "RGB-D Grasp Detection Via Depth Guided Learning with Cross-Modal Attention",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161319",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161319",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Differential Dynamic Programming Based Hybrid Manipulation Strategy for Dynamic Grasping",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160817",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160817",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "A Bioinspired Synthetic Nervous System Controller for Pick-And-Place Manipulation",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161198",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161198",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Towards Open-World Interactive Disambiguation for Robotic Grasping",
+      "year": 2023,
+      "url": "https://ieeexplore.ieee.org/document/10161333/",
+      "metadata": {
+        "title": "Towards Open-World Interactive Disambiguation for Robotic Grasping",
+        "score": 1,
+        "doi": "10.1109/icra48891.2023.10161333",
+        "url": "https://ieeexplore.ieee.org/document/10161333/",
+        "venue": [
+          "2023 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Towards+Open-World+Interactive+Disambiguation+for+Robotic+Grasping&rows=5"
+    },
+    {
+      "title": "GenDexGrasp: Generalizable Dexterous Grasping",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160667",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160667",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Fast-Grasp'D: Dexterous Multi-Finger Grasp Generation through Differentiable Simulation",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160314",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160314",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "CMG-Net: An End-To-End Contact-Based Multi-Finger Dexterous Grasping Network",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161481",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161481",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Clothes Grasping and Unfolding Based on RGB-D Semantic Segmentation",
+      "year": 2023,
+      "url": "https://ieeexplore.ieee.org/document/10160268/",
+      "metadata": {
+        "title": "Clothes Grasping and Unfolding Based on RGB-D Semantic Segmentation",
+        "score": 1,
+        "doi": "10.1109/icra48891.2023.10160268",
+        "url": "https://ieeexplore.ieee.org/document/10160268/",
+        "venue": [
+          "2023 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Clothes+Grasping+and+Unfolding+Based+on+RGB-D+Semantic+Segmentation&rows=5"
+    },
+    {
+      "title": "CoGrasp: 6-DoF Grasp Generation for Human-Robot Collaboration",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160623",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160623",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "GraspAda: Deep Grasp Adaptation through Domain Transfer",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160213",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160213",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Picking by Tilting: In-Hand Manipulation for Object Picking Using Effector with Curved Form",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160404",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160404",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "On Human Grasping and Manipulation in Kitchens: Automated Annotation, Insights, and Metrics for Effective Data Collection",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161171",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161171",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "DexGraspNet: A Large-Scale Robotic Dexterous Grasp Dataset for General Objects Based on Simulation",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160982",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160982",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "A Joint Modeling of Vision-Language-Action for Target-Oriented Grasping in Clutter",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161041",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161041",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Grasp Planning with CNN for Log-Loading Forestry Machine",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161562",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10161562",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Motion Planning for a Climbing Robot with Stochastic Grasps",
+      "year": 2023,
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160218",
+      "source": "https://doi.org/10.1109/ICRA48891.2023.10160218",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Uncertainty-Driven Exploration Strategies for Online Grasp Learning",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610056",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610056",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Pseudo-Labeling and Contextual Curriculum Learning for Online Grasp Learning in Robotic Bin Picking",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611348",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611348",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "GAMMA: Graspability-Aware Mobile MAnipulation Policy Learning Based on Online Grasping Pose Fusion",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610125",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610125",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Amortized Inference for Efficient Grasp Model Adaptation",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610789",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610789",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Learning Realistic and Reasonable Grasps for Anthropomorphic Hand in Cluttered Scenes",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610646",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610646",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "FuncGrasp: Learning Object-Centric Neural Grasp Functions from Single Annotated Example Object",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611233",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611233",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Physical and Digital Adversarial Attacks on Grasp Quality Networks",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610886",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610886",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Vertical Vibratory Transport of Grasped Parts Using Impacts",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610769",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610769",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "A Collision-Aware Cable Grasping Method in Cluttered Environment",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610559",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610559",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "HAGrasp: Hybrid Action Grasp Control in Cluttered Scenes Using Deep Reinforcement Learning",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610852",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610852",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Dual-Critic Deep Reinforcement Learning for Push-Grasping Synergy in Cluttered Environment",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610121",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610121",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "PROGrasp: Pragmatic Human-Robot Communication for Object Grasping",
+      "year": 2024,
+      "url": "https://ieeexplore.ieee.org/document/10610543/",
+      "metadata": {
+        "title": "PROGrasp: Pragmatic Human-Robot Communication for Object Grasping",
+        "score": 1,
+        "doi": "10.1109/icra57147.2024.10610543",
+        "url": "https://ieeexplore.ieee.org/document/10610543/",
+        "venue": [
+          "2024 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=PROGrasp%3A+Pragmatic+Human-Robot+Communication+for+Object+Grasping&rows=5"
+    },
+    {
+      "title": "Grasp Manipulation Relationship Detection Based on Graph Sample and Aggregation",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611627",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611627",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Domain Randomization for Sim2real Transfer of Automatically Generated Grasping Datasets",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610677",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610677",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Kinematic Synergy Primitives for Human-Like Grasp Motion Generation",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611490",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611490",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "VFAS-Grasp: Closed Loop Grasping with Visual Feedback and Adaptive Sampling",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611183",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611183",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "ICGNet: A Unified Approach for Instance-Centric Grasping",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611725",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611725",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Efficient End-To-End Detection of 6-DoF Grasps for Robotic Bin Picking",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611417",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611417",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "ASGrasp: Generalizable Transparent Object Reconstruction and 6-DoF Grasp Detection from RGB-D Active Stereo Camera",
+      "year": 2024,
+      "url": "https://ieeexplore.ieee.org/document/10611152/",
+      "metadata": {
+        "title": "ASGrasp: Generalizable Transparent Object Reconstruction and 6-DoF Grasp Detection from RGB-D Active Stereo Camera",
+        "score": 1,
+        "doi": "10.1109/icra57147.2024.10611152",
+        "url": "https://ieeexplore.ieee.org/document/10611152/",
+        "venue": [
+          "2024 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=ASGrasp%3A+Generalizable+Transparent+Object+Reconstruction+and+6-DoF+Grasp+Detection+from+RGB-D+Active+Stereo+Camera&rows=5"
+    },
+    {
+      "title": "InterRep: A Visual Interaction Representation for Robotic Grasping",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610870",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610870",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Towards Feasible Dynamic Grasping: Leveraging Gaussian Process Distance Field, SE(3) Equivariance, and Riemannian Mixture Models",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611601",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611601",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "A Surprisingly Efficient Representation for Multi-Finger Grasping",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611424",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611424",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "GrainGrasp: Dexterous Grasp Generation with Fine-Grained Contact Guidance",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610035",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610035",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Stereo Image-Based Visual Servoing towards Feature-Based Grasping",
+      "year": 2024,
+      "url": "https://ieeexplore.ieee.org/document/10611604/",
+      "metadata": {
+        "title": "Stereo Image-based Visual Servoing Towards Feature-based Grasping",
+        "score": 1,
+        "doi": "10.1109/icra57147.2024.10611604",
+        "url": "https://ieeexplore.ieee.org/document/10611604/",
+        "venue": [
+          "2024 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Stereo+Image-Based+Visual+Servoing+towards+Feature-Based+Grasping&rows=5"
+    },
+    {
+      "title": "Visual Feedback Control of an Underactuated Hand for Grasping Brittle and Soft Foods",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610649",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610649",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Grasp Anything: Combining Teacher-Augmented Policy Gradient Learning with Instance Segmentation to Grasp Arbitrary Objects",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610700",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610700",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "6-DoF Closed-Loop Grasping with Reinforcement Learning",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610080",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610080",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Self-Supervised 6-DoF Robot Grasping by Demonstration Via Augmented Reality Teleoperation System",
+      "year": 2024,
+      "url": "https://ieeexplore.ieee.org/document/10611721/",
+      "metadata": {
+        "title": "Self-supervised 6-DoF Robot Grasping by Demonstration via Augmented Reality Teleoperation System",
+        "score": 1,
+        "doi": "10.1109/icra57147.2024.10611721",
+        "url": "https://ieeexplore.ieee.org/document/10611721/",
+        "venue": [
+          "2024 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Self-Supervised+6-DoF+Robot+Grasping+by+Demonstration+Via+Augmented+Reality+Teleoperation+System&rows=5"
+    },
+    {
+      "title": "6-DOF Grasp Pose Evaluation and Optimization Via Transfer Learning from NeRFs",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610402",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610402",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Sim-To-Real Object Pose Estimation for Random Bin Picking",
+      "year": 2024,
+      "url": "https://ieeexplore.ieee.org/document/10611240/",
+      "metadata": {
+        "title": "Sim-to-real Object Pose Estimation for Random Bin Picking",
+        "score": 1,
+        "doi": "10.1109/icra57147.2024.10611240",
+        "url": "https://ieeexplore.ieee.org/document/10611240/",
+        "venue": [
+          "2024 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Sim-To-Real+Object+Pose+Estimation+for+Random+Bin+Picking&rows=5"
+    },
+    {
+      "title": "The Grasp Loop Signature: A Topological Representation for Manipulation Planning with Ropes and Cables",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611677",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611677",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "CloudGripper: An Open Source Cloud Robotics Testbed for Robotic Manipulation Research, Benchmarking and Data Collection at Scale",
+      "year": 2024,
+      "url": "https://ieeexplore.ieee.org/document/10611548/",
+      "metadata": {
+        "title": "CloudGripper: An Open Source Cloud Robotics Testbed for Robotic Manipulation Research, Benchmarking and Data Collection at Scale",
+        "score": 1,
+        "doi": "10.1109/icra57147.2024.10611548",
+        "url": "https://ieeexplore.ieee.org/document/10611548/",
+        "venue": [
+          "2024 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=CloudGripper%3A+An+Open+Source+Cloud+Robotics+Testbed+for+Robotic+Manipulation+Research%2C+Benchmarking+and+Data+Collection+at+Scale&rows=5"
+    },
+    {
+      "title": "Enhancement on Target-Gripper Alignment: A Tomato Harvesting Robot with Dual-Camera Image-Based Visual Servoing",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610772",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610772",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Self-Supervised Learning for Joint Pushing and Grasping Policies in Highly Cluttered Environments",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611650",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611650",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Harnessing the Synergy between Pushing, Grasping, and Throwing to Enhance Object Manipulation in Cluttered Scenarios",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610548",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610548",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "You Only Scan Once: A Dynamic Scene Reconstruction Pipeline for 6-DoF Robotic Grasping of Novel Objects",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611371",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611371",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Sim-To-Real Grasp Detection with Global-To-Local RGB-D Adaptation",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611165",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611165",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Robotic Grasping of Harvested Tomato Trusses Using Vision and Online Learning",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610089",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610089",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Grasp-Anything: Large-Scale Grasp Dataset from Foundation Models",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611277",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611277",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "TPGP: Temporal-Parametric Optimization with Deep Grasp Prior for Dexterous Motion Planning",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610408",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10610408",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Unknown Object Grasping for Assistive Robotics",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611347",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611347",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Learning to Grasp in Clutter with Interactive Visual Failure Prediction",
+      "year": 2024,
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611363",
+      "source": "https://doi.org/10.1109/ICRA57147.2024.10611363",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Robotic Sim-To-Real Transfer for Long-Horizon Pick-And-Place Tasks in the Robotic Sim2Real Competition",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128837",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11128837",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Towards Autonomous Data Annotation and System-Agnostic Robotic Grasping Benchmarking with 3D-Printed Fixtures",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127593",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127593",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Towards Autonomous Wood-Log Grasping with a Forestry Crane: Simulator and Benchmarking",
+      "year": 2025,
+      "url": "https://ieeexplore.ieee.org/document/11127407/",
+      "metadata": {
+        "title": "Towards Autonomous Wood-Log Grasping with a Forestry Crane: Simulator and Benchmarking",
+        "score": 1,
+        "doi": "10.1109/icra55743.2025.11127407",
+        "url": "https://ieeexplore.ieee.org/document/11127407/",
+        "venue": [
+          "2025 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Towards+Autonomous+Wood-Log+Grasping+with+a+Forestry+Crane%3A+Simulator+and+Benchmarking&rows=5"
+    },
+    {
+      "title": "NeuGrasp: Generalizable Neural Surface Reconstruction with Background Priors for Material-Agnostic Object Grasp Detection",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127348",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127348",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "SuperQ-GRASP: Superquadrics-Based Grasp Pose Estimation on Larger Objects for Mobile-Manipulation",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127681",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127681",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Optimizing Robot Programming: Mixed Reality Gripper Control",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128349",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11128349",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Aerial Grasping by Multi-Limbed Flying Robot SPIDAR Based on Vectored Thrust Control",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128075",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11128075",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Hook-Based Aerial Payload Grasping from a Moving Platform",
+      "year": 2025,
+      "url": "https://ieeexplore.ieee.org/document/11127483/",
+      "metadata": {
+        "title": "Hook-Based Aerial Payload Grasping from a Moving Platform",
+        "score": 1,
+        "doi": "10.1109/icra55743.2025.11127483",
+        "url": "https://ieeexplore.ieee.org/document/11127483/",
+        "venue": [
+          "2025 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Hook-Based+Aerial+Payload+Grasping+from+a+Moving+Platform&rows=5"
+    },
+    {
+      "title": "Efficient 7-DoF Grasp for Target-Driven Object in Dense Cluttered Scenes",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127394",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127394",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Task-Oriented 6-DoF Grasp Pose Detection in Clutters",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128749",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11128749",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "QuickGrasp: Lightweight Antipodal Grasp Planning with Point Clouds",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128143",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11128143",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Behavioral Manifolds: Representing the Landscape of Grasp Affordances in Relative Pose Space",
+      "year": 2025,
+      "url": "https://ieeexplore.ieee.org/document/11128813/",
+      "metadata": {
+        "title": "Behavioral Manifolds: Representing the Landscape of Grasp Affordances in Relative Pose Space",
+        "score": 1,
+        "doi": "10.1109/icra55743.2025.11128813",
+        "url": "https://ieeexplore.ieee.org/document/11128813/",
+        "venue": [
+          "2025 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Behavioral+Manifolds%3A+Representing+the+Landscape+of+Grasp+Affordances+in+Relative+Pose+Space&rows=5"
+    },
+    {
+      "title": "NeRF-Based Transparent Object Grasping Enhanced by Shape Priors",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127580",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127580",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "BODex: Scalable and Efficient Robotic Dexterous Grasp Synthesis Using Bilevel Optimization",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127930",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127930",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "GAGrasp: Geometric Algebra Diffusion for Dexterous Grasping",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127957",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127957",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Reliable Aerial Manipulation: Combining Visual Tracking with Range Sensing for Robust Grasping",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128682",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11128682",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Trajectory Optimization for Dynamically Grasping Irregular Objects",
+      "year": 2025,
+      "url": null,
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Trajectory+Optimization+for+Dynamically+Grasping+Irregular+Objects&rows=5",
+      "method": "no verified individual article match after publisher and arXiv title lookup"
+    },
+    {
+      "title": "Real-Time Grasp Quality in Boundary-Constrained Granular Swarm Robots",
+      "year": 2025,
+      "url": "https://ieeexplore.ieee.org/document/11128071/",
+      "metadata": {
+        "title": "Real-Time Grasp Quality in Boundary-Constrained Granular Swarm Robots",
+        "score": 1,
+        "doi": "10.1109/icra55743.2025.11128071",
+        "url": "https://ieeexplore.ieee.org/document/11128071/",
+        "venue": [
+          "2025 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Real-Time+Grasp+Quality+in+Boundary-Constrained+Granular+Swarm+Robots&rows=5"
+    },
+    {
+      "title": "Learning Dual-Arm Coordination for Grasping Large Flat Objects",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127654",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127654",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "QDGset: A Large Scale Grasping Dataset Generated with Quality-Diversity",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127427",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127427",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Patch Tree: Exploiting the Gauss Map and Principal Component Analysis for Robotic Grasping",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127440",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127440",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Sampling-Based Grasp and Collision Prediction for Assisted Teleoperation",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128199",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11128199",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "VMF-Contact: Uncertainty-Aware Evidential Learning for Probabilistic Contact-Grasp in Noisy Clutter",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127888",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127888",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "QuadWBG: Generalizable Quadrupedal Whole-Body Grasping",
+      "year": 2025,
+      "url": "https://ieeexplore.ieee.org/document/11128027/",
+      "metadata": {
+        "title": "QuadWBG: Generalizable Quadrupedal Whole-Body Grasping",
+        "score": 1,
+        "doi": "10.1109/icra55743.2025.11128027",
+        "url": "https://ieeexplore.ieee.org/document/11128027/",
+        "venue": [
+          "2025 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=QuadWBG%3A+Generalizable+Quadrupedal+Whole-Body+Grasping&rows=5"
+    },
+    {
+      "title": "Composing Dextrous Grasping and In-Hand Manipulation Via Scoring with a Reinforcement Learning Critic",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127792",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127792",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "D(R, O) Grasp: A Unified Representation of Robot and Object Interaction for Cross-Embodiment Dexterous Grasping",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127754",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127754",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Bring Your Own Grasp Generator: Leveraging Robot Grasp Generation for Prosthetic Grasping",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127995",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127995",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Synthesizing Grasps and Regrasps for Complex Manipulation Tasks",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128212",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11128212",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "ZeroBP: Learning Position-Aware Correspondence for Zero-Shot 6D Pose Estimation in Bin-Picking",
+      "year": 2025,
+      "url": "https://ieeexplore.ieee.org/document/11128347/",
+      "metadata": {
+        "title": "ZeroBP: Learning Position-Aware Correspondence for Zero-Shot 6D Pose Estimation in Bin-Picking",
+        "score": 1,
+        "doi": "10.1109/icra55743.2025.11128347",
+        "url": "https://ieeexplore.ieee.org/document/11128347/",
+        "venue": [
+          "2025 IEEE International Conference on Robotics and Automation (ICRA)"
+        ],
+        "type": "proceedings-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=ZeroBP%3A+Learning+Position-Aware+Correspondence+for+Zero-Shot+6D+Pose+Estimation+in+Bin-Picking&rows=5"
+    },
+    {
+      "title": "AdapGrasp: A Stiffness and Grasp Affordance Dataset with a Transformer-Based Adaptive Grasp Model",
+      "year": 2026,
+      "url": null,
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=AdapGrasp%3A+A+Stiffness+and+Grasp+Affordance+Dataset+with+a+Transformer-Based+Adaptive+Grasp+Model&rows=5",
+      "method": "no verified individual article match after publisher and arXiv title lookup"
+    },
+    {
+      "title": "Zero-Shot Exocentric Viewpoint-Robust Imitation Learning (VIL): Bridging Handheld Gripper and Exocentric Views",
+      "year": 2026,
+      "url": null,
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Zero-Shot+Exocentric+Viewpoint-Robust+Imitation+Learning+%28VIL%29%3A+Bridging+Handheld+Gripper+and+Exocentric+Views&rows=5",
+      "method": "no verified individual article match after publisher and arXiv title lookup"
+    },
+    {
+      "title": "Hierarchical Reactive Grasping Via Task-Space Velocity Fields and Joint-Space Quadratic Programming",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2509.01044",
+      "metadata": {
+        "title": "Hierarchical Reactive Grasping via Task-Space Velocity Fields and Joint-Space Quadratic Programming",
+        "url": "https://arxiv.org/abs/2509.01044",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22ZeroBP%22%29+OR+%28ti%3A%22A+Hyperspectral+Imaging+Guided+Robotic+Grasping+System%22%29+OR+%28ti%3A%22AdapGrasp%22%29+OR+%28ti%3A%22Zero-Shot+Exocentric+Viewpoint-Robust+Imitation+Learning+%28VIL%29%3A+Bridging+Handheld+Gripper+and+Exocentric+Views%22%29+OR+%28ti%3A%22Hierarchical+Reactive+Grasping+Via+Task-Space+Velocity+Fields+and+Joint-Space+Quadratic+Programming%22%29+OR+%28ti%3A%22CEDex%22%29+OR+%28ti%3A%22Learning+Push-Grasp+Synergy+for+Occluded+Objects+in+Cluttered+Environments%22%29+OR+%28ti%3A%22Two+Degree-Of-Freedom+Vibratory+Transport+in+a+Grasp%22%29+OR+%28ti%3A%22Proactive+Grasp+Assistance+in+a+Robotic+Hand+Exoskeleton+Improves+Performance+and+Preference+in+Challenging+Tasks%22%29+OR+%28ti%3A%22DiffuDepGrasp%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22ZeroBP%22%29+OR+%28ti%3A%22A+Hyperspectral+Imaging+Guided+Robotic+Grasping+System%22%29+OR+%28ti%3A%22AdapGrasp%22%29+OR+%28ti%3A%22Zero-Shot+Exocentric+Viewpoint-Robust+Imitation+Learning+%28VIL%29%3A+Bridging+Handheld+Gripper+and+Exocentric+Views%22%29+OR+%28ti%3A%22Hierarchical+Reactive+Grasping+Via+Task-Space+Velocity+Fields+and+Joint-Space+Quadratic+Programming%22%29+OR+%28ti%3A%22CEDex%22%29+OR+%28ti%3A%22Learning+Push-Grasp+Synergy+for+Occluded+Objects+in+Cluttered+Environments%22%29+OR+%28ti%3A%22Two+Degree-Of-Freedom+Vibratory+Transport+in+a+Grasp%22%29+OR+%28ti%3A%22Proactive+Grasp+Assistance+in+a+Robotic+Hand+Exoskeleton+Improves+Performance+and+Preference+in+Challenging+Tasks%22%29+OR+%28ti%3A%22DiffuDepGrasp%22%29&max_results=100"
+    },
+    {
+      "title": "CEDex: Cross-Embodiment Dexterous Grasp Generation at Scale from Human-Like Contact Representations",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2509.24661",
+      "metadata": {
+        "title": "CEDex: Cross-Embodiment Dexterous Grasp Generation at Scale from Human-like Contact Representations",
+        "url": "https://arxiv.org/abs/2509.24661",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22ZeroBP%22%29+OR+%28ti%3A%22A+Hyperspectral+Imaging+Guided+Robotic+Grasping+System%22%29+OR+%28ti%3A%22AdapGrasp%22%29+OR+%28ti%3A%22Zero-Shot+Exocentric+Viewpoint-Robust+Imitation+Learning+%28VIL%29%3A+Bridging+Handheld+Gripper+and+Exocentric+Views%22%29+OR+%28ti%3A%22Hierarchical+Reactive+Grasping+Via+Task-Space+Velocity+Fields+and+Joint-Space+Quadratic+Programming%22%29+OR+%28ti%3A%22CEDex%22%29+OR+%28ti%3A%22Learning+Push-Grasp+Synergy+for+Occluded+Objects+in+Cluttered+Environments%22%29+OR+%28ti%3A%22Two+Degree-Of-Freedom+Vibratory+Transport+in+a+Grasp%22%29+OR+%28ti%3A%22Proactive+Grasp+Assistance+in+a+Robotic+Hand+Exoskeleton+Improves+Performance+and+Preference+in+Challenging+Tasks%22%29+OR+%28ti%3A%22DiffuDepGrasp%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22ZeroBP%22%29+OR+%28ti%3A%22A+Hyperspectral+Imaging+Guided+Robotic+Grasping+System%22%29+OR+%28ti%3A%22AdapGrasp%22%29+OR+%28ti%3A%22Zero-Shot+Exocentric+Viewpoint-Robust+Imitation+Learning+%28VIL%29%3A+Bridging+Handheld+Gripper+and+Exocentric+Views%22%29+OR+%28ti%3A%22Hierarchical+Reactive+Grasping+Via+Task-Space+Velocity+Fields+and+Joint-Space+Quadratic+Programming%22%29+OR+%28ti%3A%22CEDex%22%29+OR+%28ti%3A%22Learning+Push-Grasp+Synergy+for+Occluded+Objects+in+Cluttered+Environments%22%29+OR+%28ti%3A%22Two+Degree-Of-Freedom+Vibratory+Transport+in+a+Grasp%22%29+OR+%28ti%3A%22Proactive+Grasp+Assistance+in+a+Robotic+Hand+Exoskeleton+Improves+Performance+and+Preference+in+Challenging+Tasks%22%29+OR+%28ti%3A%22DiffuDepGrasp%22%29&max_results=100"
+    },
+    {
+      "title": "Learning Push-Grasp Synergy for Occluded Objects in Cluttered Environments",
+      "year": 2026,
+      "url": null,
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Learning+Push-Grasp+Synergy+for+Occluded+Objects+in+Cluttered+Environments&rows=5",
+      "method": "no verified individual article match after publisher and arXiv title lookup"
+    },
+    {
+      "title": "Two Degree-Of-Freedom Vibratory Transport in a Grasp",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2605.30780",
+      "metadata": {
+        "title": "Two Degree-of-Freedom Vibratory Transport in a Grasp",
+        "url": "https://arxiv.org/abs/2605.30780",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22ZeroBP%22%29+OR+%28ti%3A%22A+Hyperspectral+Imaging+Guided+Robotic+Grasping+System%22%29+OR+%28ti%3A%22AdapGrasp%22%29+OR+%28ti%3A%22Zero-Shot+Exocentric+Viewpoint-Robust+Imitation+Learning+%28VIL%29%3A+Bridging+Handheld+Gripper+and+Exocentric+Views%22%29+OR+%28ti%3A%22Hierarchical+Reactive+Grasping+Via+Task-Space+Velocity+Fields+and+Joint-Space+Quadratic+Programming%22%29+OR+%28ti%3A%22CEDex%22%29+OR+%28ti%3A%22Learning+Push-Grasp+Synergy+for+Occluded+Objects+in+Cluttered+Environments%22%29+OR+%28ti%3A%22Two+Degree-Of-Freedom+Vibratory+Transport+in+a+Grasp%22%29+OR+%28ti%3A%22Proactive+Grasp+Assistance+in+a+Robotic+Hand+Exoskeleton+Improves+Performance+and+Preference+in+Challenging+Tasks%22%29+OR+%28ti%3A%22DiffuDepGrasp%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22ZeroBP%22%29+OR+%28ti%3A%22A+Hyperspectral+Imaging+Guided+Robotic+Grasping+System%22%29+OR+%28ti%3A%22AdapGrasp%22%29+OR+%28ti%3A%22Zero-Shot+Exocentric+Viewpoint-Robust+Imitation+Learning+%28VIL%29%3A+Bridging+Handheld+Gripper+and+Exocentric+Views%22%29+OR+%28ti%3A%22Hierarchical+Reactive+Grasping+Via+Task-Space+Velocity+Fields+and+Joint-Space+Quadratic+Programming%22%29+OR+%28ti%3A%22CEDex%22%29+OR+%28ti%3A%22Learning+Push-Grasp+Synergy+for+Occluded+Objects+in+Cluttered+Environments%22%29+OR+%28ti%3A%22Two+Degree-Of-Freedom+Vibratory+Transport+in+a+Grasp%22%29+OR+%28ti%3A%22Proactive+Grasp+Assistance+in+a+Robotic+Hand+Exoskeleton+Improves+Performance+and+Preference+in+Challenging+Tasks%22%29+OR+%28ti%3A%22DiffuDepGrasp%22%29&max_results=100"
+    },
+    {
+      "title": "Proactive Grasp Assistance in a Robotic Hand Exoskeleton Improves Performance and Preference in Challenging Tasks",
+      "year": 2026,
+      "url": null,
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Proactive+Grasp+Assistance+in+a+Robotic+Hand+Exoskeleton+Improves+Performance+and+Preference+in+Challenging+Tasks&rows=5",
+      "method": "no verified individual article match after publisher and arXiv title lookup"
+    },
+    {
+      "title": "DiffuDepGrasp: Diffusion-Based Depth Noise Modeling Empowers Sim-To-Real Robotic Grasping",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2511.12912",
+      "metadata": {
+        "title": "DiffuDepGrasp: Diffusion-based Depth Noise Modeling Empowers Sim2Real Robotic Grasping",
+        "url": "https://arxiv.org/abs/2511.12912",
+        "doi": "",
+        "journalRef": "",
+        "score": 0.9803921568627451,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22ZeroBP%22%29+OR+%28ti%3A%22A+Hyperspectral+Imaging+Guided+Robotic+Grasping+System%22%29+OR+%28ti%3A%22AdapGrasp%22%29+OR+%28ti%3A%22Zero-Shot+Exocentric+Viewpoint-Robust+Imitation+Learning+%28VIL%29%3A+Bridging+Handheld+Gripper+and+Exocentric+Views%22%29+OR+%28ti%3A%22Hierarchical+Reactive+Grasping+Via+Task-Space+Velocity+Fields+and+Joint-Space+Quadratic+Programming%22%29+OR+%28ti%3A%22CEDex%22%29+OR+%28ti%3A%22Learning+Push-Grasp+Synergy+for+Occluded+Objects+in+Cluttered+Environments%22%29+OR+%28ti%3A%22Two+Degree-Of-Freedom+Vibratory+Transport+in+a+Grasp%22%29+OR+%28ti%3A%22Proactive+Grasp+Assistance+in+a+Robotic+Hand+Exoskeleton+Improves+Performance+and+Preference+in+Challenging+Tasks%22%29+OR+%28ti%3A%22DiffuDepGrasp%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22ZeroBP%22%29+OR+%28ti%3A%22A+Hyperspectral+Imaging+Guided+Robotic+Grasping+System%22%29+OR+%28ti%3A%22AdapGrasp%22%29+OR+%28ti%3A%22Zero-Shot+Exocentric+Viewpoint-Robust+Imitation+Learning+%28VIL%29%3A+Bridging+Handheld+Gripper+and+Exocentric+Views%22%29+OR+%28ti%3A%22Hierarchical+Reactive+Grasping+Via+Task-Space+Velocity+Fields+and+Joint-Space+Quadratic+Programming%22%29+OR+%28ti%3A%22CEDex%22%29+OR+%28ti%3A%22Learning+Push-Grasp+Synergy+for+Occluded+Objects+in+Cluttered+Environments%22%29+OR+%28ti%3A%22Two+Degree-Of-Freedom+Vibratory+Transport+in+a+Grasp%22%29+OR+%28ti%3A%22Proactive+Grasp+Assistance+in+a+Robotic+Hand+Exoskeleton+Improves+Performance+and+Preference+in+Challenging+Tasks%22%29+OR+%28ti%3A%22DiffuDepGrasp%22%29&max_results=100"
+    },
+    {
+      "title": "A Benchmarking Study of Vision-Based Robotic Grasping Algorithms",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2503.11163",
+      "metadata": {
+        "title": "A Benchmarking Study of Vision-based Robotic Grasping Algorithms",
+        "url": "https://arxiv.org/abs/2503.11163",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Plug-And-Play+Shape+Matching+Module+for+Zero-Shot+Mesh-Free+Grasp+Refinement+on+Unknown+Objects%22%29+OR+%28ti%3A%22HEAPGrasp%22%29+OR+%28ti%3A%22Active-Perceptive+Language-Oriented+Grasp+Policy+for+Heavily+Cluttered+Scenes%22%29+OR+%28ti%3A%22Robust+Bayesian+Scene+Reconstruction+with+Retrieval-Augmented+Priors+for+Precise+Grasping+and+Planning%22%29+OR+%28ti%3A%22A+Benchmarking+Study+of+Vision-Based+Robotic+Grasping+Algorithms%22%29+OR+%28ti%3A%22Point+Cloud-Based+Grasping+for+Soft+Hand+Exoskeleton%22%29+OR+%28ti%3A%22DextrAH-RGB%22%29+OR+%28ti%3A%22UltraDexGrasp%22%29+OR+%28ti%3A%22Benchmarking+the+Effects+of+Object+Pose+Estimation+and+Reconstruction+on+Robotic+Grasping+Success%22%29+OR+%28ti%3A%22DAGDiff%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Plug-And-Play+Shape+Matching+Module+for+Zero-Shot+Mesh-Free+Grasp+Refinement+on+Unknown+Objects%22%29+OR+%28ti%3A%22HEAPGrasp%22%29+OR+%28ti%3A%22Active-Perceptive+Language-Oriented+Grasp+Policy+for+Heavily+Cluttered+Scenes%22%29+OR+%28ti%3A%22Robust+Bayesian+Scene+Reconstruction+with+Retrieval-Augmented+Priors+for+Precise+Grasping+and+Planning%22%29+OR+%28ti%3A%22A+Benchmarking+Study+of+Vision-Based+Robotic+Grasping+Algorithms%22%29+OR+%28ti%3A%22Point+Cloud-Based+Grasping+for+Soft+Hand+Exoskeleton%22%29+OR+%28ti%3A%22DextrAH-RGB%22%29+OR+%28ti%3A%22UltraDexGrasp%22%29+OR+%28ti%3A%22Benchmarking+the+Effects+of+Object+Pose+Estimation+and+Reconstruction+on+Robotic+Grasping+Success%22%29+OR+%28ti%3A%22DAGDiff%22%29&max_results=100"
+    },
+    {
+      "title": "DextrAH-RGB: Visuomotor Policies to Grasp Anything with Dexterous Hands",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2412.01791",
+      "metadata": {
+        "title": "DextrAH-RGB: Visuomotor Policies to Grasp Anything with Dexterous Hands",
+        "url": "https://arxiv.org/abs/2412.01791",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Plug-And-Play+Shape+Matching+Module+for+Zero-Shot+Mesh-Free+Grasp+Refinement+on+Unknown+Objects%22%29+OR+%28ti%3A%22HEAPGrasp%22%29+OR+%28ti%3A%22Active-Perceptive+Language-Oriented+Grasp+Policy+for+Heavily+Cluttered+Scenes%22%29+OR+%28ti%3A%22Robust+Bayesian+Scene+Reconstruction+with+Retrieval-Augmented+Priors+for+Precise+Grasping+and+Planning%22%29+OR+%28ti%3A%22A+Benchmarking+Study+of+Vision-Based+Robotic+Grasping+Algorithms%22%29+OR+%28ti%3A%22Point+Cloud-Based+Grasping+for+Soft+Hand+Exoskeleton%22%29+OR+%28ti%3A%22DextrAH-RGB%22%29+OR+%28ti%3A%22UltraDexGrasp%22%29+OR+%28ti%3A%22Benchmarking+the+Effects+of+Object+Pose+Estimation+and+Reconstruction+on+Robotic+Grasping+Success%22%29+OR+%28ti%3A%22DAGDiff%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Plug-And-Play+Shape+Matching+Module+for+Zero-Shot+Mesh-Free+Grasp+Refinement+on+Unknown+Objects%22%29+OR+%28ti%3A%22HEAPGrasp%22%29+OR+%28ti%3A%22Active-Perceptive+Language-Oriented+Grasp+Policy+for+Heavily+Cluttered+Scenes%22%29+OR+%28ti%3A%22Robust+Bayesian+Scene+Reconstruction+with+Retrieval-Augmented+Priors+for+Precise+Grasping+and+Planning%22%29+OR+%28ti%3A%22A+Benchmarking+Study+of+Vision-Based+Robotic+Grasping+Algorithms%22%29+OR+%28ti%3A%22Point+Cloud-Based+Grasping+for+Soft+Hand+Exoskeleton%22%29+OR+%28ti%3A%22DextrAH-RGB%22%29+OR+%28ti%3A%22UltraDexGrasp%22%29+OR+%28ti%3A%22Benchmarking+the+Effects+of+Object+Pose+Estimation+and+Reconstruction+on+Robotic+Grasping+Success%22%29+OR+%28ti%3A%22DAGDiff%22%29&max_results=100"
+    },
+    {
+      "title": "Benchmarking the Effects of Object Pose Estimation and Reconstruction on Robotic Grasping Success",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2602.17101",
+      "metadata": {
+        "title": "Benchmarking the Effects of Object Pose Estimation and Reconstruction on Robotic Grasping Success",
+        "url": "https://arxiv.org/abs/2602.17101",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Plug-And-Play+Shape+Matching+Module+for+Zero-Shot+Mesh-Free+Grasp+Refinement+on+Unknown+Objects%22%29+OR+%28ti%3A%22HEAPGrasp%22%29+OR+%28ti%3A%22Active-Perceptive+Language-Oriented+Grasp+Policy+for+Heavily+Cluttered+Scenes%22%29+OR+%28ti%3A%22Robust+Bayesian+Scene+Reconstruction+with+Retrieval-Augmented+Priors+for+Precise+Grasping+and+Planning%22%29+OR+%28ti%3A%22A+Benchmarking+Study+of+Vision-Based+Robotic+Grasping+Algorithms%22%29+OR+%28ti%3A%22Point+Cloud-Based+Grasping+for+Soft+Hand+Exoskeleton%22%29+OR+%28ti%3A%22DextrAH-RGB%22%29+OR+%28ti%3A%22UltraDexGrasp%22%29+OR+%28ti%3A%22Benchmarking+the+Effects+of+Object+Pose+Estimation+and+Reconstruction+on+Robotic+Grasping+Success%22%29+OR+%28ti%3A%22DAGDiff%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Plug-And-Play+Shape+Matching+Module+for+Zero-Shot+Mesh-Free+Grasp+Refinement+on+Unknown+Objects%22%29+OR+%28ti%3A%22HEAPGrasp%22%29+OR+%28ti%3A%22Active-Perceptive+Language-Oriented+Grasp+Policy+for+Heavily+Cluttered+Scenes%22%29+OR+%28ti%3A%22Robust+Bayesian+Scene+Reconstruction+with+Retrieval-Augmented+Priors+for+Precise+Grasping+and+Planning%22%29+OR+%28ti%3A%22A+Benchmarking+Study+of+Vision-Based+Robotic+Grasping+Algorithms%22%29+OR+%28ti%3A%22Point+Cloud-Based+Grasping+for+Soft+Hand+Exoskeleton%22%29+OR+%28ti%3A%22DextrAH-RGB%22%29+OR+%28ti%3A%22UltraDexGrasp%22%29+OR+%28ti%3A%22Benchmarking+the+Effects+of+Object+Pose+Estimation+and+Reconstruction+on+Robotic+Grasping+Success%22%29+OR+%28ti%3A%22DAGDiff%22%29&max_results=100"
+    },
+    {
+      "title": "DAGDiff: Guiding Dual-Arm Grasp Diffusion to Stable and Collision-Free Grasps",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2509.21145",
+      "metadata": {
+        "title": "DAGDiff: Guiding Dual-Arm Grasp Diffusion to Stable and Collision-Free Grasps",
+        "url": "https://arxiv.org/abs/2509.21145",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Plug-And-Play+Shape+Matching+Module+for+Zero-Shot+Mesh-Free+Grasp+Refinement+on+Unknown+Objects%22%29+OR+%28ti%3A%22HEAPGrasp%22%29+OR+%28ti%3A%22Active-Perceptive+Language-Oriented+Grasp+Policy+for+Heavily+Cluttered+Scenes%22%29+OR+%28ti%3A%22Robust+Bayesian+Scene+Reconstruction+with+Retrieval-Augmented+Priors+for+Precise+Grasping+and+Planning%22%29+OR+%28ti%3A%22A+Benchmarking+Study+of+Vision-Based+Robotic+Grasping+Algorithms%22%29+OR+%28ti%3A%22Point+Cloud-Based+Grasping+for+Soft+Hand+Exoskeleton%22%29+OR+%28ti%3A%22DextrAH-RGB%22%29+OR+%28ti%3A%22UltraDexGrasp%22%29+OR+%28ti%3A%22Benchmarking+the+Effects+of+Object+Pose+Estimation+and+Reconstruction+on+Robotic+Grasping+Success%22%29+OR+%28ti%3A%22DAGDiff%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Plug-And-Play+Shape+Matching+Module+for+Zero-Shot+Mesh-Free+Grasp+Refinement+on+Unknown+Objects%22%29+OR+%28ti%3A%22HEAPGrasp%22%29+OR+%28ti%3A%22Active-Perceptive+Language-Oriented+Grasp+Policy+for+Heavily+Cluttered+Scenes%22%29+OR+%28ti%3A%22Robust+Bayesian+Scene+Reconstruction+with+Retrieval-Augmented+Priors+for+Precise+Grasping+and+Planning%22%29+OR+%28ti%3A%22A+Benchmarking+Study+of+Vision-Based+Robotic+Grasping+Algorithms%22%29+OR+%28ti%3A%22Point+Cloud-Based+Grasping+for+Soft+Hand+Exoskeleton%22%29+OR+%28ti%3A%22DextrAH-RGB%22%29+OR+%28ti%3A%22UltraDexGrasp%22%29+OR+%28ti%3A%22Benchmarking+the+Effects+of+Object+Pose+Estimation+and+Reconstruction+on+Robotic+Grasping+Success%22%29+OR+%28ti%3A%22DAGDiff%22%29&max_results=100"
+    },
+    {
+      "title": "EdgeGrasp: Enhancing Edge Perception for 7-DoF Grasping Pose Estimation in Cluttered Scenes",
+      "year": 2026,
+      "url": null,
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=EdgeGrasp%3A+Enhancing+Edge+Perception+for+7-DoF+Grasping+Pose+Estimation+in+Cluttered+Scenes&rows=5",
+      "method": "no verified individual article match after publisher and arXiv title lookup"
+    },
+    {
+      "title": "Point2Act: Efficient 3D Distillation of Multimodal LLMs for Zero-Shot Context-Aware Grasping",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2508.03099",
+      "metadata": {
+        "title": "Point2Act: Efficient 3D Distillation of Multimodal LLMs for Zero-Shot Context-Aware Grasping",
+        "url": "https://arxiv.org/abs/2508.03099",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Cooperative+Grasping+for+Collective+Object+Transport+in+Constrained+Environments%22%29+OR+%28ti%3A%22Nonlinear+Predictive+Control+of+the+Continuum+and+Hybrid+Dynamics+of+a+Suspended+Deformable+Cable+for+Aerial+Pick+and+Place%22%29+OR+%28ti%3A%22A+Multi-Level+Similarity+Approach+for+Single-View+Object+Grasping%3A+Matching%2C+Planning%2C+and+Fine-Tuning%22%29+OR+%28ti%3A%22EdgeGrasp%22%29+OR+%28ti%3A%22Point2Act%22%29+OR+%28ti%3A%22SHOPPER%22%29+OR+%28ti%3A%22Tool-Grasp%22%29+OR+%28ti%3A%22GeoLanG%22%29+OR+%28ti%3A%22BiGraspFormer%22%29+OR+%28ti%3A%22GAPG%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Cooperative+Grasping+for+Collective+Object+Transport+in+Constrained+Environments%22%29+OR+%28ti%3A%22Nonlinear+Predictive+Control+of+the+Continuum+and+Hybrid+Dynamics+of+a+Suspended+Deformable+Cable+for+Aerial+Pick+and+Place%22%29+OR+%28ti%3A%22A+Multi-Level+Similarity+Approach+for+Single-View+Object+Grasping%3A+Matching%2C+Planning%2C+and+Fine-Tuning%22%29+OR+%28ti%3A%22EdgeGrasp%22%29+OR+%28ti%3A%22Point2Act%22%29+OR+%28ti%3A%22SHOPPER%22%29+OR+%28ti%3A%22Tool-Grasp%22%29+OR+%28ti%3A%22GeoLanG%22%29+OR+%28ti%3A%22BiGraspFormer%22%29+OR+%28ti%3A%22GAPG%22%29&max_results=100"
+    },
+    {
+      "title": "SHOPPER: Practical Insights on Grasp Strategies for Mobile Manipulation in the Wild",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2504.12512",
+      "source": "https://arxiv.org/abs/2504.12512",
+      "method": "author preprint title without SHOPPER prefix"
+    },
+    {
+      "title": "Tool-Grasp: A 6-DoF Functional Grasping Framework for General-Purpose Hand Tools",
+      "year": 2026,
+      "url": null,
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Tool-Grasp%3A+A+6-DoF+Functional+Grasping+Framework+for+General-Purpose+Hand+Tools&rows=5",
+      "method": "no verified individual article match after publisher and arXiv title lookup"
+    },
+    {
+      "title": "GeoLanG: Geometry-Aware Language-Guided Grasping with Unified RGB-D Multimodal Learning",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2602.04231",
+      "metadata": {
+        "title": "GeoLanG: Geometry-Aware Language-Guided Grasping with Unified RGB-D Multimodal Learning",
+        "url": "https://arxiv.org/abs/2602.04231",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Cooperative+Grasping+for+Collective+Object+Transport+in+Constrained+Environments%22%29+OR+%28ti%3A%22Nonlinear+Predictive+Control+of+the+Continuum+and+Hybrid+Dynamics+of+a+Suspended+Deformable+Cable+for+Aerial+Pick+and+Place%22%29+OR+%28ti%3A%22A+Multi-Level+Similarity+Approach+for+Single-View+Object+Grasping%3A+Matching%2C+Planning%2C+and+Fine-Tuning%22%29+OR+%28ti%3A%22EdgeGrasp%22%29+OR+%28ti%3A%22Point2Act%22%29+OR+%28ti%3A%22SHOPPER%22%29+OR+%28ti%3A%22Tool-Grasp%22%29+OR+%28ti%3A%22GeoLanG%22%29+OR+%28ti%3A%22BiGraspFormer%22%29+OR+%28ti%3A%22GAPG%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Cooperative+Grasping+for+Collective+Object+Transport+in+Constrained+Environments%22%29+OR+%28ti%3A%22Nonlinear+Predictive+Control+of+the+Continuum+and+Hybrid+Dynamics+of+a+Suspended+Deformable+Cable+for+Aerial+Pick+and+Place%22%29+OR+%28ti%3A%22A+Multi-Level+Similarity+Approach+for+Single-View+Object+Grasping%3A+Matching%2C+Planning%2C+and+Fine-Tuning%22%29+OR+%28ti%3A%22EdgeGrasp%22%29+OR+%28ti%3A%22Point2Act%22%29+OR+%28ti%3A%22SHOPPER%22%29+OR+%28ti%3A%22Tool-Grasp%22%29+OR+%28ti%3A%22GeoLanG%22%29+OR+%28ti%3A%22BiGraspFormer%22%29+OR+%28ti%3A%22GAPG%22%29&max_results=100"
+    },
+    {
+      "title": "GAPG: Geometry Aware Push-Grasping Synergy for Goal-Oriented Manipulation in Clutter",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2603.21195",
+      "metadata": {
+        "title": "GAPG: Geometry Aware Push-Grasping Synergy for Goal-Oriented Manipulation in Clutter",
+        "url": "https://arxiv.org/abs/2603.21195",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Cooperative+Grasping+for+Collective+Object+Transport+in+Constrained+Environments%22%29+OR+%28ti%3A%22Nonlinear+Predictive+Control+of+the+Continuum+and+Hybrid+Dynamics+of+a+Suspended+Deformable+Cable+for+Aerial+Pick+and+Place%22%29+OR+%28ti%3A%22A+Multi-Level+Similarity+Approach+for+Single-View+Object+Grasping%3A+Matching%2C+Planning%2C+and+Fine-Tuning%22%29+OR+%28ti%3A%22EdgeGrasp%22%29+OR+%28ti%3A%22Point2Act%22%29+OR+%28ti%3A%22SHOPPER%22%29+OR+%28ti%3A%22Tool-Grasp%22%29+OR+%28ti%3A%22GeoLanG%22%29+OR+%28ti%3A%22BiGraspFormer%22%29+OR+%28ti%3A%22GAPG%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22Cooperative+Grasping+for+Collective+Object+Transport+in+Constrained+Environments%22%29+OR+%28ti%3A%22Nonlinear+Predictive+Control+of+the+Continuum+and+Hybrid+Dynamics+of+a+Suspended+Deformable+Cable+for+Aerial+Pick+and+Place%22%29+OR+%28ti%3A%22A+Multi-Level+Similarity+Approach+for+Single-View+Object+Grasping%3A+Matching%2C+Planning%2C+and+Fine-Tuning%22%29+OR+%28ti%3A%22EdgeGrasp%22%29+OR+%28ti%3A%22Point2Act%22%29+OR+%28ti%3A%22SHOPPER%22%29+OR+%28ti%3A%22Tool-Grasp%22%29+OR+%28ti%3A%22GeoLanG%22%29+OR+%28ti%3A%22BiGraspFormer%22%29+OR+%28ti%3A%22GAPG%22%29&max_results=100"
+    },
+    {
+      "title": "SureGrip: Perceptual Grasping of Natural Handholds for Free-Climbing Robots",
+      "year": 2026,
+      "url": null,
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=SureGrip%3A+Perceptual+Grasping+of+Natural+Handholds+for+Free-Climbing+Robots&rows=5",
+      "method": "no verified individual article match after publisher and arXiv title lookup"
+    },
+    {
+      "title": "Grasp-MPC: Closed-Loop Visual Grasping Via Value-Guided Model Predictive Control",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2509.06201",
+      "metadata": {
+        "title": "Grasp-MPC: Closed-Loop Visual Grasping via Value-Guided Model Predictive Control",
+        "url": "https://arxiv.org/abs/2509.06201",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22UniFucGrasp%22%29+OR+%28ti%3A%22SureGrip%22%29+OR+%28ti%3A%22Grasp-MPC%22%29+OR+%28ti%3A%22GPD-AP%22%29+OR+%28ti%3A%22Learning+to+Grasp+by+Integrating+Human+Preferences+and+Success+Feedback%22%29+OR+%28ti%3A%22T%28R%2C+O%29+Grasp%22%29+OR+%28ti%3A%22Clutt3R-Seg%22%29+OR+%28ti%3A%22Learning+from+Planned+Data+to+Improve+Robotic+Pick-And-Place+Planning+Efficiency%22%29+OR+%28ti%3A%22Communication-Efficient+Module-Wise+Federated+Learning+for+Grasp+Pose+Detection+in+Cluttered+Environments%22%29+OR+%28ti%3A%22HOGraspFlow%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22UniFucGrasp%22%29+OR+%28ti%3A%22SureGrip%22%29+OR+%28ti%3A%22Grasp-MPC%22%29+OR+%28ti%3A%22GPD-AP%22%29+OR+%28ti%3A%22Learning+to+Grasp+by+Integrating+Human+Preferences+and+Success+Feedback%22%29+OR+%28ti%3A%22T%28R%2C+O%29+Grasp%22%29+OR+%28ti%3A%22Clutt3R-Seg%22%29+OR+%28ti%3A%22Learning+from+Planned+Data+to+Improve+Robotic+Pick-And-Place+Planning+Efficiency%22%29+OR+%28ti%3A%22Communication-Efficient+Module-Wise+Federated+Learning+for+Grasp+Pose+Detection+in+Cluttered+Environments%22%29+OR+%28ti%3A%22HOGraspFlow%22%29&max_results=100"
+    },
+    {
+      "title": "GPD-AP: A Grasp Pose-Driven Active Perception Framework for Occlusion-Robust Robotic Manipulation",
+      "year": 2026,
+      "url": null,
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=GPD-AP%3A+A+Grasp+Pose-Driven+Active+Perception+Framework+for+Occlusion-Robust+Robotic+Manipulation&rows=5",
+      "method": "no verified individual article match after publisher and arXiv title lookup"
+    },
+    {
+      "title": "Learning to Grasp by Integrating Human Preferences and Success Feedback",
+      "year": 2026,
+      "url": null,
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Learning+to+Grasp+by+Integrating+Human+Preferences+and+Success+Feedback&rows=5",
+      "method": "no verified individual article match after publisher and arXiv title lookup"
+    },
+    {
+      "title": "T(R, O) Grasp: Efficient Graph Diffusion of Robot-Object Spatial Transformation for Cross-Embodiment Dexterous Grasping",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2510.12724",
+      "metadata": {
+        "title": "T(R,O) Grasp: Efficient Graph Diffusion of Robot-Object Spatial Transformation for Cross-Embodiment Dexterous Grasping",
+        "url": "https://arxiv.org/abs/2510.12724",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22UniFucGrasp%22%29+OR+%28ti%3A%22SureGrip%22%29+OR+%28ti%3A%22Grasp-MPC%22%29+OR+%28ti%3A%22GPD-AP%22%29+OR+%28ti%3A%22Learning+to+Grasp+by+Integrating+Human+Preferences+and+Success+Feedback%22%29+OR+%28ti%3A%22T%28R%2C+O%29+Grasp%22%29+OR+%28ti%3A%22Clutt3R-Seg%22%29+OR+%28ti%3A%22Learning+from+Planned+Data+to+Improve+Robotic+Pick-And-Place+Planning+Efficiency%22%29+OR+%28ti%3A%22Communication-Efficient+Module-Wise+Federated+Learning+for+Grasp+Pose+Detection+in+Cluttered+Environments%22%29+OR+%28ti%3A%22HOGraspFlow%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22UniFucGrasp%22%29+OR+%28ti%3A%22SureGrip%22%29+OR+%28ti%3A%22Grasp-MPC%22%29+OR+%28ti%3A%22GPD-AP%22%29+OR+%28ti%3A%22Learning+to+Grasp+by+Integrating+Human+Preferences+and+Success+Feedback%22%29+OR+%28ti%3A%22T%28R%2C+O%29+Grasp%22%29+OR+%28ti%3A%22Clutt3R-Seg%22%29+OR+%28ti%3A%22Learning+from+Planned+Data+to+Improve+Robotic+Pick-And-Place+Planning+Efficiency%22%29+OR+%28ti%3A%22Communication-Efficient+Module-Wise+Federated+Learning+for+Grasp+Pose+Detection+in+Cluttered+Environments%22%29+OR+%28ti%3A%22HOGraspFlow%22%29&max_results=100"
+    },
+    {
+      "title": "Clutt3R-Seg: Sparse-View 3D Instance Segmentation for Language-Grounded Grasping in Cluttered Scenes",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2602.11660",
+      "metadata": {
+        "title": "Clutt3R-Seg: Sparse-view 3D Instance Segmentation for Language-grounded Grasping in Cluttered Scenes",
+        "url": "https://arxiv.org/abs/2602.11660",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22UniFucGrasp%22%29+OR+%28ti%3A%22SureGrip%22%29+OR+%28ti%3A%22Grasp-MPC%22%29+OR+%28ti%3A%22GPD-AP%22%29+OR+%28ti%3A%22Learning+to+Grasp+by+Integrating+Human+Preferences+and+Success+Feedback%22%29+OR+%28ti%3A%22T%28R%2C+O%29+Grasp%22%29+OR+%28ti%3A%22Clutt3R-Seg%22%29+OR+%28ti%3A%22Learning+from+Planned+Data+to+Improve+Robotic+Pick-And-Place+Planning+Efficiency%22%29+OR+%28ti%3A%22Communication-Efficient+Module-Wise+Federated+Learning+for+Grasp+Pose+Detection+in+Cluttered+Environments%22%29+OR+%28ti%3A%22HOGraspFlow%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22UniFucGrasp%22%29+OR+%28ti%3A%22SureGrip%22%29+OR+%28ti%3A%22Grasp-MPC%22%29+OR+%28ti%3A%22GPD-AP%22%29+OR+%28ti%3A%22Learning+to+Grasp+by+Integrating+Human+Preferences+and+Success+Feedback%22%29+OR+%28ti%3A%22T%28R%2C+O%29+Grasp%22%29+OR+%28ti%3A%22Clutt3R-Seg%22%29+OR+%28ti%3A%22Learning+from+Planned+Data+to+Improve+Robotic+Pick-And-Place+Planning+Efficiency%22%29+OR+%28ti%3A%22Communication-Efficient+Module-Wise+Federated+Learning+for+Grasp+Pose+Detection+in+Cluttered+Environments%22%29+OR+%28ti%3A%22HOGraspFlow%22%29&max_results=100"
+    },
+    {
+      "title": "HOGraspFlow: Taxonomy-Aware Hand-Object Retargeting for Multi-Modal SE(3) Grasp Generation",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2509.16871",
+      "metadata": {
+        "title": "HOGraspFlow: Taxonomy-Aware Hand-Object Retargeting for Multi-Modal SE(3) Grasp Generation",
+        "url": "https://arxiv.org/abs/2509.16871",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22UniFucGrasp%22%29+OR+%28ti%3A%22SureGrip%22%29+OR+%28ti%3A%22Grasp-MPC%22%29+OR+%28ti%3A%22GPD-AP%22%29+OR+%28ti%3A%22Learning+to+Grasp+by+Integrating+Human+Preferences+and+Success+Feedback%22%29+OR+%28ti%3A%22T%28R%2C+O%29+Grasp%22%29+OR+%28ti%3A%22Clutt3R-Seg%22%29+OR+%28ti%3A%22Learning+from+Planned+Data+to+Improve+Robotic+Pick-And-Place+Planning+Efficiency%22%29+OR+%28ti%3A%22Communication-Efficient+Module-Wise+Federated+Learning+for+Grasp+Pose+Detection+in+Cluttered+Environments%22%29+OR+%28ti%3A%22HOGraspFlow%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22UniFucGrasp%22%29+OR+%28ti%3A%22SureGrip%22%29+OR+%28ti%3A%22Grasp-MPC%22%29+OR+%28ti%3A%22GPD-AP%22%29+OR+%28ti%3A%22Learning+to+Grasp+by+Integrating+Human+Preferences+and+Success+Feedback%22%29+OR+%28ti%3A%22T%28R%2C+O%29+Grasp%22%29+OR+%28ti%3A%22Clutt3R-Seg%22%29+OR+%28ti%3A%22Learning+from+Planned+Data+to+Improve+Robotic+Pick-And-Place+Planning+Efficiency%22%29+OR+%28ti%3A%22Communication-Efficient+Module-Wise+Federated+Learning+for+Grasp+Pose+Detection+in+Cluttered+Environments%22%29+OR+%28ti%3A%22HOGraspFlow%22%29&max_results=100"
+    },
+    {
+      "title": "GraspGen: A Diffusion-Based Framework for 6-DOF Grasping with On-Generator Training",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2507.13097",
+      "metadata": {
+        "title": "GraspGen: A Diffusion-based Framework for 6-DOF Grasping with On-Generator Training",
+        "url": "https://arxiv.org/abs/2507.13097",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22GraspGen%22%29+OR+%28ti%3A%22MachaGrasp%22%29+OR+%28ti%3A%22Multi-Keypoint+Affordance+Representation+for+Functional+Dexterous+Grasping%22%29+OR+%28ti%3A%22GraspControl%22%29+OR+%28ti%3A%22A+Hybrid+Optimization+Framework+for+Grasp+Synthesis+under+Partial+Observations%22%29+OR+%28ti%3A%22Differentiable+Optimization-Based+Modular+Planning+Framework+for+Pick-And-Place+with+Regrasp%22%29+OR+%28ti%3A%22Adversarial+Game-Theoretic+Algorithm+for+Dexterous+Grasp+Synthesis%22%29+OR+%28ti%3A%22Generate%2C+Transfer%2C+Adapt%22%29+OR+%28ti%3A%22PartPose%22%29+OR+%28ti%3A%22DexSinGrasp%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22GraspGen%22%29+OR+%28ti%3A%22MachaGrasp%22%29+OR+%28ti%3A%22Multi-Keypoint+Affordance+Representation+for+Functional+Dexterous+Grasping%22%29+OR+%28ti%3A%22GraspControl%22%29+OR+%28ti%3A%22A+Hybrid+Optimization+Framework+for+Grasp+Synthesis+under+Partial+Observations%22%29+OR+%28ti%3A%22Differentiable+Optimization-Based+Modular+Planning+Framework+for+Pick-And-Place+with+Regrasp%22%29+OR+%28ti%3A%22Adversarial+Game-Theoretic+Algorithm+for+Dexterous+Grasp+Synthesis%22%29+OR+%28ti%3A%22Generate%2C+Transfer%2C+Adapt%22%29+OR+%28ti%3A%22PartPose%22%29+OR+%28ti%3A%22DexSinGrasp%22%29&max_results=100"
+    },
+    {
+      "title": "MachaGrasp: Morphology-Aware Cross-Embodiment Dexterous Hand Articulation Generation for Grasping",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2510.06068",
+      "metadata": {
+        "title": "MachaGrasp: Morphology-Aware Cross-Embodiment Dexterous Hand Articulation Generation for Grasping",
+        "url": "https://arxiv.org/abs/2510.06068",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22GraspGen%22%29+OR+%28ti%3A%22MachaGrasp%22%29+OR+%28ti%3A%22Multi-Keypoint+Affordance+Representation+for+Functional+Dexterous+Grasping%22%29+OR+%28ti%3A%22GraspControl%22%29+OR+%28ti%3A%22A+Hybrid+Optimization+Framework+for+Grasp+Synthesis+under+Partial+Observations%22%29+OR+%28ti%3A%22Differentiable+Optimization-Based+Modular+Planning+Framework+for+Pick-And-Place+with+Regrasp%22%29+OR+%28ti%3A%22Adversarial+Game-Theoretic+Algorithm+for+Dexterous+Grasp+Synthesis%22%29+OR+%28ti%3A%22Generate%2C+Transfer%2C+Adapt%22%29+OR+%28ti%3A%22PartPose%22%29+OR+%28ti%3A%22DexSinGrasp%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22GraspGen%22%29+OR+%28ti%3A%22MachaGrasp%22%29+OR+%28ti%3A%22Multi-Keypoint+Affordance+Representation+for+Functional+Dexterous+Grasping%22%29+OR+%28ti%3A%22GraspControl%22%29+OR+%28ti%3A%22A+Hybrid+Optimization+Framework+for+Grasp+Synthesis+under+Partial+Observations%22%29+OR+%28ti%3A%22Differentiable+Optimization-Based+Modular+Planning+Framework+for+Pick-And-Place+with+Regrasp%22%29+OR+%28ti%3A%22Adversarial+Game-Theoretic+Algorithm+for+Dexterous+Grasp+Synthesis%22%29+OR+%28ti%3A%22Generate%2C+Transfer%2C+Adapt%22%29+OR+%28ti%3A%22PartPose%22%29+OR+%28ti%3A%22DexSinGrasp%22%29&max_results=100"
+    },
+    {
+      "title": "A Hybrid Optimization Framework for Grasp Synthesis under Partial Observations",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2606.18053",
+      "metadata": {
+        "title": "A Hybrid Optimization Framework for Grasp Synthesis under Partial Observations",
+        "url": "https://arxiv.org/abs/2606.18053",
+        "doi": "",
+        "journalRef": "ICRA2026",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22GraspGen%22%29+OR+%28ti%3A%22MachaGrasp%22%29+OR+%28ti%3A%22Multi-Keypoint+Affordance+Representation+for+Functional+Dexterous+Grasping%22%29+OR+%28ti%3A%22GraspControl%22%29+OR+%28ti%3A%22A+Hybrid+Optimization+Framework+for+Grasp+Synthesis+under+Partial+Observations%22%29+OR+%28ti%3A%22Differentiable+Optimization-Based+Modular+Planning+Framework+for+Pick-And-Place+with+Regrasp%22%29+OR+%28ti%3A%22Adversarial+Game-Theoretic+Algorithm+for+Dexterous+Grasp+Synthesis%22%29+OR+%28ti%3A%22Generate%2C+Transfer%2C+Adapt%22%29+OR+%28ti%3A%22PartPose%22%29+OR+%28ti%3A%22DexSinGrasp%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22GraspGen%22%29+OR+%28ti%3A%22MachaGrasp%22%29+OR+%28ti%3A%22Multi-Keypoint+Affordance+Representation+for+Functional+Dexterous+Grasping%22%29+OR+%28ti%3A%22GraspControl%22%29+OR+%28ti%3A%22A+Hybrid+Optimization+Framework+for+Grasp+Synthesis+under+Partial+Observations%22%29+OR+%28ti%3A%22Differentiable+Optimization-Based+Modular+Planning+Framework+for+Pick-And-Place+with+Regrasp%22%29+OR+%28ti%3A%22Adversarial+Game-Theoretic+Algorithm+for+Dexterous+Grasp+Synthesis%22%29+OR+%28ti%3A%22Generate%2C+Transfer%2C+Adapt%22%29+OR+%28ti%3A%22PartPose%22%29+OR+%28ti%3A%22DexSinGrasp%22%29&max_results=100"
+    },
+    {
+      "title": "Differentiable Optimization-Based Modular Planning Framework for Pick-And-Place with Regrasp",
+      "year": 2026,
+      "url": "https://www.inrol.snu.ac.kr/_files/ugd/0c0760_fa88397c706441978196151a2330d1be.pdf",
+      "source": "https://www.inrol.snu.ac.kr/conference",
+      "method": "author laboratory PDF link, exact title; HTTP 200 application/pdf"
+    },
+    {
+      "title": "Adversarial Game-Theoretic Algorithm for Dexterous Grasp Synthesis",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2511.05809",
+      "metadata": {
+        "title": "Adversarial Game-Theoretic Algorithm for Dexterous Grasp Synthesis",
+        "url": "https://arxiv.org/abs/2511.05809",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22GraspGen%22%29+OR+%28ti%3A%22MachaGrasp%22%29+OR+%28ti%3A%22Multi-Keypoint+Affordance+Representation+for+Functional+Dexterous+Grasping%22%29+OR+%28ti%3A%22GraspControl%22%29+OR+%28ti%3A%22A+Hybrid+Optimization+Framework+for+Grasp+Synthesis+under+Partial+Observations%22%29+OR+%28ti%3A%22Differentiable+Optimization-Based+Modular+Planning+Framework+for+Pick-And-Place+with+Regrasp%22%29+OR+%28ti%3A%22Adversarial+Game-Theoretic+Algorithm+for+Dexterous+Grasp+Synthesis%22%29+OR+%28ti%3A%22Generate%2C+Transfer%2C+Adapt%22%29+OR+%28ti%3A%22PartPose%22%29+OR+%28ti%3A%22DexSinGrasp%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22GraspGen%22%29+OR+%28ti%3A%22MachaGrasp%22%29+OR+%28ti%3A%22Multi-Keypoint+Affordance+Representation+for+Functional+Dexterous+Grasping%22%29+OR+%28ti%3A%22GraspControl%22%29+OR+%28ti%3A%22A+Hybrid+Optimization+Framework+for+Grasp+Synthesis+under+Partial+Observations%22%29+OR+%28ti%3A%22Differentiable+Optimization-Based+Modular+Planning+Framework+for+Pick-And-Place+with+Regrasp%22%29+OR+%28ti%3A%22Adversarial+Game-Theoretic+Algorithm+for+Dexterous+Grasp+Synthesis%22%29+OR+%28ti%3A%22Generate%2C+Transfer%2C+Adapt%22%29+OR+%28ti%3A%22PartPose%22%29+OR+%28ti%3A%22DexSinGrasp%22%29&max_results=100"
+    },
+    {
+      "title": "Generate, Transfer, Adapt: Learning Functional Dexterous Grasping from a Single Human Demonstration",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2601.05243",
+      "metadata": {
+        "title": "Generate, Transfer, Adapt: Learning Functional Dexterous Grasping from a Single Human Demonstration",
+        "url": "https://arxiv.org/abs/2601.05243",
+        "doi": "",
+        "journalRef": "",
+        "score": 1,
+        "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22GraspGen%22%29+OR+%28ti%3A%22MachaGrasp%22%29+OR+%28ti%3A%22Multi-Keypoint+Affordance+Representation+for+Functional+Dexterous+Grasping%22%29+OR+%28ti%3A%22GraspControl%22%29+OR+%28ti%3A%22A+Hybrid+Optimization+Framework+for+Grasp+Synthesis+under+Partial+Observations%22%29+OR+%28ti%3A%22Differentiable+Optimization-Based+Modular+Planning+Framework+for+Pick-And-Place+with+Regrasp%22%29+OR+%28ti%3A%22Adversarial+Game-Theoretic+Algorithm+for+Dexterous+Grasp+Synthesis%22%29+OR+%28ti%3A%22Generate%2C+Transfer%2C+Adapt%22%29+OR+%28ti%3A%22PartPose%22%29+OR+%28ti%3A%22DexSinGrasp%22%29&max_results=100"
+      },
+      "source": "https://export.arxiv.org/api/query?search_query=%28ti%3A%22GraspGen%22%29+OR+%28ti%3A%22MachaGrasp%22%29+OR+%28ti%3A%22Multi-Keypoint+Affordance+Representation+for+Functional+Dexterous+Grasping%22%29+OR+%28ti%3A%22GraspControl%22%29+OR+%28ti%3A%22A+Hybrid+Optimization+Framework+for+Grasp+Synthesis+under+Partial+Observations%22%29+OR+%28ti%3A%22Differentiable+Optimization-Based+Modular+Planning+Framework+for+Pick-And-Place+with+Regrasp%22%29+OR+%28ti%3A%22Adversarial+Game-Theoretic+Algorithm+for+Dexterous+Grasp+Synthesis%22%29+OR+%28ti%3A%22Generate%2C+Transfer%2C+Adapt%22%29+OR+%28ti%3A%22PartPose%22%29+OR+%28ti%3A%22DexSinGrasp%22%29&max_results=100"
+    },
+    {
+      "title": "State-Space Time Surfaces for Event-Based Zero-Shot Robotic Grasping and Scene Reconstruction",
+      "year": 2026,
+      "url": null,
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=State-Space+Time+Surfaces+for+Event-Based+Zero-Shot+Robotic+Grasping+and+Scene+Reconstruction&rows=5",
+      "method": "no verified individual article match after publisher and arXiv title lookup"
+    },
+    {
+      "title": "Adaptive Grasping of Moving Objects in Dense Clutter via Global-to-Local Detection and Static-to-Dynamic Planning",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127936",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127936",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Efficient Cross-Boundary Grasping in Stacked Clutter with Single-Visual Mapping Multi-Step",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127976",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127976",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "GraspSAM: When Segment Anything Model Meets Grasp Detection",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128811",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11128811",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Occlusion-Aware 6D Pose Estimation with Depth-Guided Graph Encoding and Cross-Semantic Fusion for Robotic Grasping",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128248",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11128248",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Online Trajectory Replanner for Dynamically Grasping Irregular Objects",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128477",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11128477",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "Point Cloud Decomposition for Task-Oriented Grasping",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127703",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11127703",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "You Only Estimate Once: Unified, One-stage, Real-Time Category-Level Articulated Object 6D Pose Estimation for Robotic Grasping",
+      "year": 2025,
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128513",
+      "source": "https://doi.org/10.1109/ICRA55743.2025.11128513",
+      "method": "existing verified article DOI"
+    },
+    {
+      "title": "A Single Multi-Task Deep Neural Network with Post-Processing for Object Detection with Reasoning and Robotic Grasp Detection",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197179/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra40945.2020.9197179",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Clear Grasp: 3D Shape Estimation of Transparent Objects for Manipulation",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197518/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra40945.2020.9197518",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Dex-Net AR: Distributed Deep Grasp Planning Using a Commodity Cellphone and Augmented Reality App",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197247/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra40945.2020.9197247",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Enhancing Grasp Pose Computation in Gripper Workspace Spheres",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9196863/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra40945.2020.9196863",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "GOMP: Grasp-Optimized Motion Planning for Bin Picking",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197548/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra40945.2020.9197548",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Grasp for Stacking via Deep Reinforcement Learning",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197508/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra40945.2020.9197508",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "High Accuracy and Efficiency Grasp Pose Detection Scheme with Dense Predictions",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197333/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra40945.2020.9197333",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Learning to Generate 6-DoF Grasp Poses with Reachability Awareness",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197413/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra40945.2020.9197413",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Online Grasp Plan Refinement for Reducing Defects During Robotic Layup of Composite Prepreg Sheets",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9196876/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra40945.2020.9196876",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "PointNet++ Grasping: Learning An End-to-end Spatial Grasp Generation Algorithm from Sparse Point Clouds",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9196740/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra40945.2020.9196740",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Real-Time, Highly Accurate Robotic Grasp Detection using Fully Convolutional Neural Network with Rotation Ensemble Module",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197002/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra40945.2020.9197002",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "6-DoF Contrastive Grasp Proposal Network",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561954/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9561954",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "A Joint Network for Grasp Detection Conditioned on Natural Language Commands",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561994/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9561994",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "A Simulation-Based Grasp Planner for Enabling Robotic Grasping during Composite Sheet Layup",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9560939/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9560939",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "ACRONYM: A Large-Scale Grasp Dataset Based on Simulation",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9560844/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9560844",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Attribute-Based Robotic Grasping with One-Grasp Adaptation",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561139/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9561139",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Conditional StyleGAN for Grasp Generation",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561751/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9561751",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Contact-GraspNet: Efficient 6-DoF Grasp Generation in Cluttered Scenes",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561877/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9561877",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Decision Making in Joint Push-Grasp Action Space for Large-Scale Object Sorting",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9560782/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9560782",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "ECNNs: Ensemble Learning Methods for Improving Planar Grasp Quality Estimation",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561038/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9561038",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "End-to-end Trainable Deep Neural Network for Robotic Grasp Detection and Semantic Segmentation from RGB",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561398/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9561398",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "GPR: Grasp Pose Refinement Network for Cluttered Scenes",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561868/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9561868",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Human Initiated Grasp Space Exploration Algorithm for an Underactuated Robot Gripper Using Variational Autoencoder",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561765/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9561765",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Learning Visual Affordances with Target-Orientated Deep Q-Network to Grasp Objects by Harnessing Environmental Fixtures",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561737/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9561737",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "REGNet: REgion-based Grasp Network for End-to-end Grasp Detection in Point Clouds",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561920/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9561920",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "RGB Matters: Learning 7-DoF Grasp Poses on Monocular RGBD Images",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561409/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9561409",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Robotic Grasping through Combined Image-Based Grasp Proposal and 3D Reconstruction",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9562046/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9562046",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Scoring Graspability based on Grasp Regression for Better Grasp Prediction",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561198/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "doi": "10.1109/icra48506.2021.9561198",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "CAGE: Context-Aware Grasping Engine",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197289/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra40945.2020.9197289",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Transferable Active Grasping and Real Embodied Dataset",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197185/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra40945.2020.9197185",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Analysis of Open-Loop Grasping From Piles",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561065/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra48506.2021.9561065",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Toward Sim-to-Real Directional Semantic Grasping",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197310/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra40945.2020.9197310",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Learning Task-Oriented Dexterous Grasping from Human Knowledge",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9562073/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra48506.2021.9562073",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Learning Dexterous Grasping with Object-Centric Visual Affordances",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561802/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra48506.2021.9561802",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "CCAN: Constraint Co-Attention Network for Instance Grasping",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197182/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra40945.2020.9197182",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Hierarchical 6-DoF Grasping with Approaching Direction Selection",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9196678/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra40945.2020.9196678",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "AdaGrasp: Learning an Adaptive Gripper-Aware Grasping Policy",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9560833/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra48506.2021.9560833",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Grasping Fragile Objects Using A Stress-Minimization Metric",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9196938/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra40945.2020.9196938",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Learning Continuous 3D Reconstructions for Geometrically Aware Grasping",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9196981/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra40945.2020.9196981",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Robotic Grasping of Fully-Occluded Objects using RF Perception",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9560956/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra48506.2021.9560956",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Collision-Aware Target-Driven Object Grasping in Constrained Environments",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561473/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra48506.2021.9561473",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Learning Collaborative Pushing and Grasping Policies in Dense Clutter",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561828/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra48506.2021.9561828",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "6-DOF Grasping for Target-driven Object Manipulation in Clutter",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197318/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra40945.2020.9197318",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "MagicHand: Context-Aware Dexterous Grasping Using an Anthropomorphic Robotic Hand",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9196538/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra40945.2020.9196538",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Learning Grasping Points for Garment Manipulation in Robot-Assisted Dressing",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9196994/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra40945.2020.9196994",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Deep 6-DoF Tracking of Unknown Objects for Reactive Grasping",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561416/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra48506.2021.9561416",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Robot Learning of 6 DoF Grasping using Model-based Adaptive Primitives",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9560901/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra48506.2021.9560901",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Enhancing Robot Perception in Grasping and Dexterous Manipulation through Crowdsourcing and Gamification",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9562114/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra48506.2021.9562114",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Action Image Representation: Learning Scalable Deep Grasping Policies with Zero Real World Data",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197415/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra40945.2020.9197415",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Using Synthetic Data and Deep Networks to Recognize Primitive Shapes for Object Grasping",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197256/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra40945.2020.9197256",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Grasping with Chopsticks: Combating Covariate Shift in Model-free Imitation Learning for Fine Manipulation",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561662/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra48506.2021.9561662",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Vision-Based Robotic Pushing and Grasping for Stone Sample Collection under Computing Resource Constraints",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9560889/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra48506.2021.9560889",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Grasping Unknown Objects by Coupling Deep Reinforcement Learning, Generative Adversarial Networks, and Visual Servoing",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197196/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra40945.2020.9197196",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "End-to-end grasping policies for human-in-the-loop robots via deep reinforcement learning",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561937/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra48506.2021.9561937",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Residual Squeeze-and-Excitation Network with Multi-scale Spatial Pyramid Module for Fast Robotic Grasping Detection",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561836/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra48506.2021.9561836",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "MT-DSSD: Deconvolutional Single Shot Detector Using Multi Task Learning for Object Detection, Segmentation, and Grasping Detection",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197251/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra40945.2020.9197251",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Sim-to-Real Visual Grasping via State Representation Learning Based on Combining Pixel-Level and Feature-Level Domain Adaptation",
+      "year": 2021,
+      "url": "https://ieeexplore.ieee.org/document/9561302/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasping&rows=1000",
+      "doi": "10.1109/icra48506.2021.9561302",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "Robotic General Parts Feeder: Bin-picking, Regrasping, and Kitting",
+      "year": 2020,
+      "url": "https://ieeexplore.ieee.org/document/9197056/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=bin+picking&rows=1000",
+      "doi": "10.1109/icra40945.2020.9197056",
+      "method": "publisher DOI deposit for 2020–2021 article"
+    },
+    {
+      "title": "RTAGrasp: Learning Task-Oriented Grasping from Human Videos via Retrieval, Transfer, and Alignment",
+      "year": 2025,
+      "url": "https://ieeexplore.ieee.org/document/11128140/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasping&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "method": "publisher DOI deposit and author abstract"
+    },
+    {
+      "title": "A Parameter-Efficient Tuning Framework for Language-Guided Object Grounding and Robot Grasping",
+      "year": 2025,
+      "url": "https://ieeexplore.ieee.org/document/11128679/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasping&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "method": "publisher DOI deposit and author abstract"
+    },
+    {
+      "title": "Learning to Pick by Digging: Data-Driven Dig-Grasping for Bin Picking from Clutter",
+      "year": 2022,
+      "url": "https://ieeexplore.ieee.org/document/9811736/",
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasping&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "method": "publisher DOI deposit and author abstract"
+    },
+    {
+      "title": "Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2512.23705v1",
+      "source": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html",
+      "method": "official program and author-linked preprint"
+    },
+    {
+      "title": "GarmentPile++: Affordance-Driven Cluttered Garments Retrieval with Vision-Language Reasoning",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2603.04158v1",
+      "source": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html",
+      "method": "official program and author-linked preprint"
+    },
+    {
+      "title": "AdaptPNP: Integrating Prehensile and Non-Prehensile Skills for Adaptive Robotic Manipulation",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2511.11052v2",
+      "source": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_4.html",
+      "method": "official program and author-linked preprint"
+    }
+  ],
+  "reclassifiedToJournals": [
+    {
+      "title": "Few-Shot Instance Grasping of Novel Objects in Clutter",
+      "year": 2023,
+      "url": "https://ieeexplore.ieee.org/document/9773996/",
+      "metadata": {
+        "title": "Few-Shot Instance Grasping of Novel Objects in Clutter",
+        "score": 1,
+        "doi": "10.1109/lra.2022.3174648",
+        "url": "https://ieeexplore.ieee.org/document/9773996/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Few-Shot+Instance+Grasping+of+Novel+Objects+in+Clutter&rows=5"
+    },
+    {
+      "title": "SymmetryGrasp: Symmetry-Aware Antipodal Grasp Detection from Single-View RGB-D Images",
+      "year": 2023,
+      "url": "https://ieeexplore.ieee.org/document/9919329/",
+      "metadata": {
+        "title": "SymmetryGrasp: Symmetry-Aware Antipodal Grasp Detection From Single-View RGB-D Images",
+        "score": 1,
+        "doi": "10.1109/lra.2022.3214785",
+        "url": "https://ieeexplore.ieee.org/document/9919329/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=SymmetryGrasp%3A+Symmetry-Aware+Antipodal+Grasp+Detection+from+Single-View+RGB-D+Images&rows=5"
+    },
+    {
+      "title": "Planning of Power Grasps Using Infinite Program under Complementary Constraints",
+      "year": 2023,
+      "url": "https://ieeexplore.ieee.org/document/9626457/",
+      "metadata": {
+        "title": "Planning of Power Grasps Using Infinite Program Under Complementary Constraints",
+        "score": 1,
+        "doi": "10.1109/lra.2021.3130376",
+        "url": "https://ieeexplore.ieee.org/document/9626457/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Planning+of+Power+Grasps+Using+Infinite+Program+under+Complementary+Constraints&rows=5"
+    },
+    {
+      "title": "Learning Efficient Policies for Picking Entangled Wire Harnesses: An Approach to Industrial Bin Picking",
+      "year": 2023,
+      "url": "https://ieeexplore.ieee.org/document/9954152/",
+      "metadata": {
+        "title": "Learning Efficient Policies for Picking Entangled Wire Harnesses: An Approach to Industrial Bin Picking",
+        "score": 1,
+        "doi": "10.1109/lra.2022.3222995",
+        "url": "https://ieeexplore.ieee.org/document/9954152/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Learning+Efficient+Policies+for+Picking+Entangled+Wire+Harnesses%3A+An+Approach+to+Industrial+Bin+Picking&rows=5"
+    },
+    {
+      "title": "A Hyperspectral Imaging Guided Robotic Grasping System",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/document/11020724/",
+      "metadata": {
+        "title": "A Hyperspectral Imaging Guided Robotic Grasping System",
+        "score": 1,
+        "doi": "10.1109/lra.2025.3575654",
+        "url": "https://ieeexplore.ieee.org/document/11020724/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=A+Hyperspectral+Imaging+Guided+Robotic+Grasping+System&rows=5"
+    },
+    {
+      "title": "Plug-And-Play Shape Matching Module for Zero-Shot Mesh-Free Grasp Refinement on Unknown Objects",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/document/11206455/",
+      "metadata": {
+        "title": "Plug-and-Play Shape Matching Module for Zero-Shot Mesh-Free Grasp Refinement on Unknown Objects",
+        "score": 1,
+        "doi": "10.1109/lra.2025.3623004",
+        "url": "https://ieeexplore.ieee.org/document/11206455/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Plug-And-Play+Shape+Matching+Module+for+Zero-Shot+Mesh-Free+Grasp+Refinement+on+Unknown+Objects&rows=5"
+    },
+    {
+      "title": "HEAPGrasp: Hand-Eye Active Perception to Grasp Objects with Diverse Optical Properties",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/document/11345713/",
+      "metadata": {
+        "title": "HEAPGrasp: Hand-Eye Active Perception to Grasp Objects With Diverse Optical Properties",
+        "score": 1,
+        "doi": "10.1109/lra.2026.3653331",
+        "url": "https://ieeexplore.ieee.org/document/11345713/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=HEAPGrasp%3A+Hand-Eye+Active+Perception+to+Grasp+Objects+with+Diverse+Optical+Properties&rows=5"
+    },
+    {
+      "title": "Active-Perceptive Language-Oriented Grasp Policy for Heavily Cluttered Scenes",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/document/11146494/",
+      "metadata": {
+        "title": "Active-Perceptive Language-Oriented Grasp Policy for Heavily Cluttered Scenes",
+        "score": 1,
+        "doi": "10.1109/lra.2025.3604750",
+        "url": "https://ieeexplore.ieee.org/document/11146494/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Active-Perceptive+Language-Oriented+Grasp+Policy+for+Heavily+Cluttered+Scenes&rows=5"
+    },
+    {
+      "title": "Robust Bayesian Scene Reconstruction with Retrieval-Augmented Priors for Precise Grasping and Planning",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/document/11242019/",
+      "metadata": {
+        "title": "Robust Bayesian Scene Reconstruction With Retrieval-Augmented Priors for Precise Grasping and Planning",
+        "score": 1,
+        "doi": "10.1109/lra.2025.3632101",
+        "url": "https://ieeexplore.ieee.org/document/11242019/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Robust+Bayesian+Scene+Reconstruction+with+Retrieval-Augmented+Priors+for+Precise+Grasping+and+Planning&rows=5"
+    },
+    {
+      "title": "Point Cloud-Based Grasping for Soft Hand Exoskeleton",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/document/11150693/",
+      "metadata": {
+        "title": "Point Cloud-Based Grasping for Soft Hand Exoskeleton",
+        "score": 1,
+        "doi": "10.1109/lra.2025.3606358",
+        "url": "https://ieeexplore.ieee.org/document/11150693/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Point+Cloud-Based+Grasping+for+Soft+Hand+Exoskeleton&rows=5"
+    },
+    {
+      "title": "Cooperative Grasping for Collective Object Transport in Constrained Environments",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/document/11345991/",
+      "metadata": {
+        "title": "Cooperative Grasping for Collective Object Transport in Constrained Environments",
+        "score": 1,
+        "doi": "10.1109/lra.2026.3653338",
+        "url": "https://ieeexplore.ieee.org/document/11345991/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Cooperative+Grasping+for+Collective+Object+Transport+in+Constrained+Environments&rows=5"
+    },
+    {
+      "title": "A Multi-Level Similarity Approach for Single-View Object Grasping: Matching, Planning, and Fine-Tuning",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/document/11079240/",
+      "metadata": {
+        "title": "A Multilevel Similarity Approach for Single-View Object Grasping: Matching, Planning, and Fine-Tuning",
+        "score": 1,
+        "doi": "10.1109/tro.2025.3588720",
+        "url": "https://ieeexplore.ieee.org/document/11079240/",
+        "venue": [
+          "IEEE Transactions on Robotics"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=A+Multi-Level+Similarity+Approach+for+Single-View+Object+Grasping%3A+Matching%2C+Planning%2C+and+Fine-Tuning&rows=5"
+    },
+    {
+      "title": "UniFucGrasp: Human-Hand-Inspired Unified Functional Grasp Annotation Strategy and Dataset for Diverse Dexterous Hands",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/document/11297755/",
+      "metadata": {
+        "title": "UniFucGrasp: Human-Hand-Inspired Unified Functional Grasp Annotation Strategy and Dataset for Diverse Dexterous Hands",
+        "score": 1,
+        "doi": "10.1109/lra.2025.3643270",
+        "url": "https://ieeexplore.ieee.org/document/11297755/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=UniFucGrasp%3A+Human-Hand-Inspired+Unified+Functional+Grasp+Annotation+Strategy+and+Dataset+for+Diverse+Dexterous+Hands&rows=5"
+    },
+    {
+      "title": "Learning from Planned Data to Improve Robotic Pick-And-Place Planning Efficiency",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/document/11316217/",
+      "metadata": {
+        "title": "Learning From Planned Data to Improve Robotic Pick-and-Place Planning Efficiency",
+        "score": 1,
+        "doi": "10.1109/lra.2025.3645512",
+        "url": "https://ieeexplore.ieee.org/document/11316217/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Learning+from+Planned+Data+to+Improve+Robotic+Pick-And-Place+Planning+Efficiency&rows=5"
+    },
+    {
+      "title": "Communication-Efficient Module-Wise Federated Learning for Grasp Pose Detection in Cluttered Environments",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/document/11278633/",
+      "metadata": {
+        "title": "Communication-Efficient Module-Wise Federated Learning for Grasp Pose Detection in Cluttered Environments",
+        "score": 1,
+        "doi": "10.1109/lra.2025.3641101",
+        "url": "https://ieeexplore.ieee.org/document/11278633/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Communication-Efficient+Module-Wise+Federated+Learning+for+Grasp+Pose+Detection+in+Cluttered+Environments&rows=5"
+    },
+    {
+      "title": "Multi-Keypoint Affordance Representation for Functional Dexterous Grasping",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/document/11130892/",
+      "metadata": {
+        "title": "Multi-Keypoint Affordance Representation for Functional Dexterous Grasping",
+        "score": 1,
+        "doi": "10.1109/lra.2025.3601041",
+        "url": "https://ieeexplore.ieee.org/document/11130892/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=Multi-Keypoint+Affordance+Representation+for+Functional+Dexterous+Grasping&rows=5"
+    },
+    {
+      "title": "GraspControl: Text-Sketch Instruction As an Interface for Controllable Grasp Synthesis",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/document/11242027/",
+      "metadata": {
+        "title": "GraspControl: Text-Sketch Instruction as an Interface for Controllable Grasp Synthesis",
+        "score": 1,
+        "doi": "10.1109/lra.2025.3632069",
+        "url": "https://ieeexplore.ieee.org/document/11242027/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=GraspControl%3A+Text-Sketch+Instruction+As+an+Interface+for+Controllable+Grasp+Synthesis&rows=5"
+    },
+    {
+      "title": "DexSinGrasp: Learning a Unified Policy for Dexterous Object Singulation and Grasping in Densely Cluttered Environments",
+      "year": 2026,
+      "url": "https://ieeexplore.ieee.org/document/11282959/",
+      "metadata": {
+        "title": "DexSinGrasp: Learning a Unified Policy for Dexterous Object Singulation and Grasping in Densely Cluttered Environments",
+        "score": 1,
+        "doi": "10.1109/lra.2025.3641152",
+        "url": "https://ieeexplore.ieee.org/document/11282959/",
+        "venue": [
+          "IEEE Robotics and Automation Letters"
+        ],
+        "type": "journal-article"
+      },
+      "source": "https://api.crossref.org/works?filter=prefix%3A10.1109&query.title=DexSinGrasp%3A+Learning+a+Unified+Policy+for+Dexterous+Object+Singulation+and+Grasping+in+Densely+Cluttered+Environments&rows=5"
+    }
+  ]
+}

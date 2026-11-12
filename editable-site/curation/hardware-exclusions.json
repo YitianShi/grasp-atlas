@@ -1,0 +1,2136 @@
+{
+  "date": "2026-10-05",
+  "scope": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。",
+  "rows": [
+    {
+      "conference": "CoRL",
+      "year": 2025,
+      "title": "Co-Design of Soft Gripper with Neural Physics",
+      "type": "软夹爪与抓取协同设计",
+      "tier": "直接",
+      "note": "",
+      "url": "https://proceedings.mlr.press/v305/yi25a.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [
+          "https://github.com/yswhynot/codesign-soft-gripper"
+        ],
+        "engines": [
+          "NVIDIA Warp"
+        ],
+        "datasets": [
+          "YCB"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://github.com/yswhynot/codesign-soft-gripper"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2022,
+      "title": "Multi-Dimensional Compliance of Soft Grippers Enables Gentle Interaction with Thin, Flexible Objects",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812324",
+      "venueUrl": "https://www.proceedings.com/content/064/064576webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA46639.2022.9812324",
+          "https://www.proceedings.com/content/064/064576webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2022,
+      "title": "On Wearable, Lightweight, Low-Cost Human Machine Interfaces for the Intuitive Collection of Robot Grasping and Manipulation Data",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812198",
+      "venueUrl": "https://www.proceedings.com/content/064/064576webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA46639.2022.9812198",
+          "https://www.proceedings.com/content/064/064576webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2022,
+      "title": "The Second Generation (G2) Fingertip Sensor for Near-Distance Ranging and Material Sensing in Robotic Grasping",
+      "type": "生成与优化",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811902",
+      "venueUrl": "https://www.proceedings.com/content/064/064576webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA46639.2022.9811902",
+          "https://www.proceedings.com/content/064/064576webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2022,
+      "title": "Hydraulically Actuated Soft Tubular Gripper",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811983",
+      "venueUrl": "https://www.proceedings.com/content/064/064576webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA46639.2022.9811983",
+          "https://www.proceedings.com/content/064/064576webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2022,
+      "title": "The Wavejoints: A Novel Methodology to Design Soft-Rigid Grippers Made by Monolithic 3D Printed Fingers with Adjustable Joint Stiffness",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811548",
+      "venueUrl": "https://www.proceedings.com/content/064/064576webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA46639.2022.9811548",
+          "https://www.proceedings.com/content/064/064576webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2022,
+      "title": "Microgripper Using Flexible Wire Hinge for Robotic Intraocular Snake",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9812022",
+      "venueUrl": "https://www.proceedings.com/content/064/064576webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA46639.2022.9812022",
+          "https://www.proceedings.com/content/064/064576webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2022,
+      "title": "Reconfigurable Underactuated Adaptive Gripper Designed by Morphological Computation",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA46639.2022.9811738",
+      "venueUrl": "https://www.proceedings.com/content/064/064576webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA46639.2022.9811738",
+          "https://www.proceedings.com/content/064/064576webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "Simplified Configuration Design of Anthropomorphic Hand Imitating Specific Human Hand Grasps",
+      "type": "灵巧手抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "Permanent-Magnetically Amplified Robotic Gripper with Less Clamping Width Influence on Compensation Realized by a Stepless Width Adjustment Mechanism",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "The Third Generation (G3) Dual-Modal and Dual Sensing Mechanisms (DMDSM) Pretouch Sensor for Robotic Grasping",
+      "type": "生成与优化",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "Simulation Data Driven Design Optimization for Reconfigurable Soft Gripper System",
+      "type": "生成与优化 / 夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "Compliant Microgripper Using Soft Polymer Actuator",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160797",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA48891.2023.10160797",
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "Biodegradable Origami Gripper Actuated with Gelatin Hydrogel for Aerial Sensor Attachment to Tree Branches",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "3D-Printed Adaptive Microgripper Driven by Thin-Film NiTi Actuators",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160829",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA48891.2023.10160829",
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "In-Hand Manipulation in Power Grasp: Design of an Adaptive Robot Hand with Active Surfaces",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161516",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA48891.2023.10161516",
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "Passive Robotic Gripper Using a Contact-Based Locking Mechanism",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160922",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA48891.2023.10160922",
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "The New Dexterity Adaptive Humanlike Robot Hand: Employing a Reconfigurable Palm for Robust Grasping and Dexterous Manipulation",
+      "type": "灵巧手抓取 / 夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10161369",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA48891.2023.10161369",
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "Tendon-Driven Soft Robotic Gripper with Integrated Ripeness Sensing for Blackberry Harvesting",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160893",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA48891.2023.10160893",
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "A Phase-Change Emulsion Jamming Gripper for Manipulation of Micro-Scale Textured Surfaces",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611273",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10611273",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "Accelerating Robotic Picking of Rigid Objects with a Compliant Pneumatic Gripper and an Impact-Aware Trajectory Plan",
+      "type": "夹爪与手部设计 / 策略与控制",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611505",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10611505",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "Bionic Soft Fingers with Hybrid Variable Stiffness Mechanisms for Multimode Grasping",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611680",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10611680",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "Design and Fabrication of a Novel Miniature Magnetic Gripper",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611688",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10611688",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "Design of Highly Repeatable and Multi-Functional Grippers for Precision Handling with Articulated Robots",
+      "type": "语言与功能抓取 / 夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611540",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10611540",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "Design and Modeling of a Nested Bi-Cavity-Based Soft Growing Robot for Grasping in Constrained Environments",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610986",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10610986",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "The Fractal Hand-II: Reviving a Classic Mechanism for Contemporary Grasping Challenges",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611267",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10611267",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "The Grasp Reset Mechanism: An Automated Apparatus for Conducting Grasping Trials",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610892",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10610892",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "The Fractal Hand--I: A Non-Anthropomorphic, but Synergistic, Adaptable Gripper",
+      "type": "灵巧手抓取 / 夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610687",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10610687",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "The Double-Scoop Gripper: A Tendon-Driven Soft-Rigid End-Effector for Food Handling Exploiting Constraints in Narrow Spaces",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611693",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10611693",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "Squirrel-Inspired Tendon-Driven Passive Gripper for Agile Landing",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610730",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10610730",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "A Powerline Inspection UAV Equipped with Dexterous, Lockable Gripping Mechanisms for Autonomous Perching and Contact Rolling",
+      "type": "灵巧手抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "A Helical Bistable Soft Gripper Enable by Pneumatic Actuation",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610729",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10610729",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "RicMonk: A Three-Link Brachiation Robot with Passive Grippers for Energy-Efficient Brachiation",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "Field-Evaluated Closed Structure Soft Gripper Enhances the Shelf Life of Harvested Blackberries",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610387",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10610387",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "Compliant Robotic Gripper with Integrated Ripeness Sensing for Blackberry Harvesting",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10610991",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10610991",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "Dynamic Evaluation of a Suction Based Gripper for Fruit Picking Using a Physical Twin",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611299",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10611299",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "Magnetic Mobile Micro-Gripping MicroRobots (MMμGRs) with Two Independent Magnetic Actuation Modes",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10609974",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10609974",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "Autonomous Perching on Flat Surfaces for Free-Flying Robots with Gecko Adhesive Gripper",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "Design and Experimental Validation of Woodwork-Inspired Soft Pneumatic Grippers",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127378",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11127378",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "A Variable Stiffness and Transformable Entanglement Soft Robotic Gripper",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127484",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11127484",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "VALG: Vision-Based Adaptive Laser Gripper for Model-Free Pose Control of Floating Objects at Air-Liquid Interface",
+      "type": "夹爪与手部设计 / 策略与控制",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127612",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11127612",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "Model Q-II: An Underactuated Hand with Enhanced Grasping Modes and Primitives for Dexterous Manipulation",
+      "type": "灵巧手抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127291",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11127291",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "SPIBOT: A Drone-Tethered Mobile Gripper for Robust Aerial Object Retrieval in Dynamic Environments",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128830",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11128830",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "Design of a Novel Pneumatic Soft Gripper for Robust Adaptive Grasping",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127397",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11127397",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "Hybrid Gripper with Passive Pneumatic Soft Joints for Grasping Deformable Thin Objects",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127915",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11127915",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "Dexterous Three-Finger Gripper Based on Offset Trimmed Helicoids",
+      "type": "灵巧手抓取 / 夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "A Gripper with Extreme Stiffness Anisotropy for High-Speed Handling of Fragile Foods",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Soft Vortex Gripper for Dexterous Manipulation Using Hand-Like Robots",
+      "type": "灵巧手抓取 / 夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "A Novel Soft Gripper Design Integrating a Unilateral Fingernail-Like Mechanism for Grasping Flat Object",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Adaptive-Twist Soft Finger Mechanism for Grasping by Wrapping",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Soft Omni-Functional Robotic Gripper with a Force-Enhanced Pleated Mechanism for High Force and Multi-DoF Manipulation",
+      "type": "语言与功能抓取 / 夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "A Human Finger-Inspired Rigid-Soft Hybrid Gripper for Damage-Free and Fast Grasping",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "CRAFT: Long-Horizon Cable Routing Algorithm and Low-Friction Caging Gripper",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Influence of Gripper Design on Human Demonstration Quality for Robot Learning",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Hybrid Rigid-Soft Robotic Gripper with Shape Adaptation, Uniform Force Distribution, and Self-Locking Capabilities",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Design of a Hydraulic-Driven Adaptive Gripper with a Novel Actuation Mechanism",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Passive Adaptive Object Prehension, Retention, and Release with a Mechanically Intelligent Gripper",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Compact Robotic Gripper with Tandem Actuation for Selective Apple Harvesting",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Frictional and Prismatic Pin-Array Gripper for Universal Gripping and Stable Tool Manipulation",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "A Cable-Driven Soft Robotic Hand with an In-Hand RGB-D Camera for Dexterous Grasping and Manipulation",
+      "type": "灵巧手抓取 / 夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "A Dual-Adhesion-Enhanced Soft Gripper with Microwedge Adhesives and SMA-Driven Microspines",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "SPARO: Snap-On/Rotate-Off Passive Gripper for Aerial Perching",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Robotic Harvesting of Delicate Fruit: Design and Implementation of an Under-Actuated Disturbance-Resistant Gripper",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Monorail-Like Gripper System with Dynamic and Modular Reconfiguration for Diverse Finger Layouts",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "MultiHand: Design and Verification of a Dexterous Hand with Multi-Modal Grasping Capabilities",
+      "type": "灵巧手抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Design and Validation of a Soft Self-Centering Gripper for Delicate Object Handling",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Bio-Inspired Liquid Crystal Elastomer Suction Actuator for Intelligent Robotic Grasping",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "A Gripper for Flap Separation and Opening of Sealed Bags",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "An Underactuated Robotic Gripper with Flowability and Variable Stiffness for Food Bin-Picking",
+      "type": "杂乱场景抓取 / 夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Ultra-Low-Impedance Robotic Gripper for High-Bandwidth and Transparent Physical Interaction",
+      "type": "视觉与重建 / 夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Towards Dexterous Agri-Food Manipulation: Topology-Dependent Interaction Patterns in a Reconfigurable Multifingered Gripper",
+      "type": "灵巧手抓取 / 夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Structural Interlocking-Based Weaving Gripper for Enhanced Grasping Performance",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "A Direct-Drive Gripper Designed by Ellipse Synthesis Across Two Output Modes",
+      "type": "生成与优化 / 夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127705",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11127705",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "Dexterous Three-Finger Gripper based on Offset Trimmed Helicoids (OTHs)",
+      "type": "灵巧手抓取 / 夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128534",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11128534",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "A Novel Under-Actuated Gripper Based on Passive-Locking Mechanism for Stable Gripping Under Environmental Constraints",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127662",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11127662",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "Juzu Type Gripper That Can Change Both Shape and Firmness",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127377",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11127377",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "Adaptive Perching and Grasping by Aerial Robot with Light-Weight and High Grip-Force Tendon-Driven Three-Fingered Hand Using Single Actuator",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11128377",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11128377",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "RSS",
+      "year": 2023,
+      "title": "ROSE: Rotation-based Squeezing Robotic Gripper toward Universal Handling of Objects",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "url": "https://www.roboticsproceedings.org/rss19/p090.html",
+      "venueUrl": "https://www.roboticsproceedings.org/rss19/index.html",
+      "status": "主会论文",
+      "note": "根据 RSS 官方年度论文集收录；研究机器人抓取或抓取关联任务。",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.roboticsproceedings.org/rss19/p090.html",
+          "https://www.roboticsproceedings.org/rss19/index.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "RSS",
+      "year": 2026,
+      "title": "A Dual-Mode Electrical Capacitance Tomography Sensor for Robotic Proximity Servoing and Grasping",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "url": "https://www.roboticsproceedings.org/rss22/p197.html",
+      "venueUrl": "https://www.roboticsproceedings.org/rss22/index.html",
+      "status": "主会论文",
+      "note": "边界说明：论文的抓取调整使用非接触电容近距感知与预触觉伺服，不以接触触觉作为输入。",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.roboticsproceedings.org/rss22/p197.html",
+          "https://www.roboticsproceedings.org/rss22/index.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "conference": "RSS",
+      "year": 2026,
+      "title": "Active Surface-Driven Reconfigurable Gripper: Robust Grasping and Sequential Manipulation of Thin Objects",
+      "type": "夹爪与手部设计",
+      "tier": "直接",
+      "url": "https://www.roboticsproceedings.org/rss22/p200.html",
+      "venueUrl": "https://www.roboticsproceedings.org/rss22/index.html",
+      "status": "主会论文",
+      "note": "根据 RSS 官方年度论文集收录；研究机器人抓取或抓取关联任务。",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "作者书本、纸张及织物抓取实验（任务基准）"
+        ],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://www.roboticsproceedings.org/rss22/p200.html",
+          "https://www.roboticsproceedings.org/rss22/index.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "excludedAt": "2026-10-05",
+      "exclusionReason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    }
+  ]
+}

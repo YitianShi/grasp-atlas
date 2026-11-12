@@ -1,0 +1,1782 @@
+{
+  "asOf": "2026-10-05",
+  "baselineCommit": "b6cf564ca06df591380c82e132cf63029eb3da82",
+  "baselineRows": 677,
+  "baselineRowsSHA256": "f67183244eadce3dcd262e7faf44f79c56166b89e2f522d55e420ffcc63aadd6",
+  "method": {
+    "years": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "discovery": "Compare official conference contents and accepted-paper programs against existing titles, DOI records and earlier screening decisions. Recheck publisher Crossref deposits for RA-L/T-ASE/T-RO. Inspect author abstracts, projects, implementations and selected full papers before adding omissions.",
+    "patterns": "grasp, gripper, prehensile, bin picking, pick-and-place; supplemental citation/project discovery for grasping perception and hybrid manipulation.",
+    "titleExclusions": [
+      "underwater",
+      "surgical",
+      "deformable",
+      "bimanual",
+      "suction",
+      "vacuum"
+    ],
+    "scope": "Preserve literal title exclusions. Exclude tactile feedback, primary hardware-design contributions, human-only grasping and non-prehensile-only work. Related papers require a verified robot grasping task.",
+    "limitations": [
+      "Title-oriented discovery does not establish exhaustive full-text coverage.",
+      "Some Crossref queries returned HTTP 429 and were not retried. Existing OpenAlex limits were respected.",
+      "CoRL 2026 has not occurred; NeurIPS 2026 proceedings were unavailable. ICRA 2026 acceptance/program entries may still lack individual publisher DOI pages.",
+      "Author code links marked Coming Soon, page templates, publisher archives and dependencies were not accepted as paper implementations."
+    ]
+  },
+  "sources": [
+    {
+      "venue": "CoRL",
+      "year": 2020,
+      "source": "https://proceedings.mlr.press/v155/",
+      "candidatesReturned": 7
+    },
+    {
+      "venue": "CoRL",
+      "year": 2021,
+      "source": "https://proceedings.mlr.press/v164/",
+      "candidatesReturned": 6
+    },
+    {
+      "venue": "CoRL",
+      "year": 2022,
+      "source": "https://proceedings.mlr.press/v205/",
+      "candidatesReturned": 9
+    },
+    {
+      "venue": "CoRL",
+      "year": 2023,
+      "source": "https://proceedings.mlr.press/v229/",
+      "candidatesReturned": 8
+    },
+    {
+      "venue": "CoRL",
+      "year": 2024,
+      "source": "https://proceedings.mlr.press/v270/",
+      "candidatesReturned": 17
+    },
+    {
+      "venue": "CoRL",
+      "year": 2025,
+      "source": "https://proceedings.mlr.press/v305/",
+      "candidatesReturned": 9
+    },
+    {
+      "venue": "ICML",
+      "year": 2020,
+      "source": "https://proceedings.mlr.press/v119/",
+      "candidatesReturned": 0
+    },
+    {
+      "venue": "ICML",
+      "year": 2021,
+      "source": "https://proceedings.mlr.press/v139/",
+      "candidatesReturned": 0
+    },
+    {
+      "venue": "ICML",
+      "year": 2022,
+      "source": "https://proceedings.mlr.press/v162/",
+      "candidatesReturned": 0
+    },
+    {
+      "venue": "ICML",
+      "year": 2023,
+      "source": "https://proceedings.mlr.press/v202/",
+      "candidatesReturned": 0
+    },
+    {
+      "venue": "ICML",
+      "year": 2024,
+      "source": "https://proceedings.mlr.press/v235/",
+      "candidatesReturned": 0
+    },
+    {
+      "venue": "ICML",
+      "year": 2025,
+      "source": "https://proceedings.mlr.press/v267/",
+      "candidatesReturned": 0
+    },
+    {
+      "venue": "ICML",
+      "year": 2026,
+      "source": "https://proceedings.mlr.press/v306/",
+      "candidatesReturned": 3
+    },
+    {
+      "venue": "CVPR",
+      "year": 2022,
+      "source": "https://openaccess.thecvf.com/CVPR2022?day=all",
+      "candidatesReturned": 2
+    },
+    {
+      "venue": "CVPR",
+      "year": 2023,
+      "source": "https://openaccess.thecvf.com/CVPR2023?day=all",
+      "candidatesReturned": 3
+    },
+    {
+      "venue": "CVPR",
+      "year": 2024,
+      "source": "https://openaccess.thecvf.com/CVPR2024?day=all",
+      "candidatesReturned": 8
+    },
+    {
+      "venue": "CVPR",
+      "year": 2025,
+      "source": "https://openaccess.thecvf.com/CVPR2025?day=all",
+      "candidatesReturned": 6
+    },
+    {
+      "venue": "CVPR",
+      "year": 2026,
+      "source": "https://openaccess.thecvf.com/CVPR2026?day=all",
+      "candidatesReturned": 12
+    },
+    {
+      "venue": "ICCV",
+      "year": 2021,
+      "source": "https://openaccess.thecvf.com/ICCV2021?day=all",
+      "candidatesReturned": 3
+    },
+    {
+      "venue": "ICCV",
+      "year": 2023,
+      "source": "https://openaccess.thecvf.com/ICCV2023?day=all",
+      "candidatesReturned": 4
+    },
+    {
+      "venue": "ICCV",
+      "year": 2025,
+      "source": "https://openaccess.thecvf.com/ICCV2025?day=all",
+      "candidatesReturned": 9
+    },
+    {
+      "venue": "RSS",
+      "year": 2020,
+      "source": "https://www.roboticsproceedings.org/rss16/index.html",
+      "candidatesReturned": 7
+    },
+    {
+      "venue": "RSS",
+      "year": 2021,
+      "source": "https://www.roboticsproceedings.org/rss17/index.html",
+      "candidatesReturned": 3
+    },
+    {
+      "venue": "RSS",
+      "year": 2022,
+      "source": "https://www.roboticsproceedings.org/rss18/index.html",
+      "candidatesReturned": 1
+    },
+    {
+      "venue": "RSS",
+      "year": 2023,
+      "source": "https://www.roboticsproceedings.org/rss19/index.html",
+      "candidatesReturned": 2
+    },
+    {
+      "venue": "RSS",
+      "year": 2024,
+      "source": "https://www.roboticsproceedings.org/rss20/index.html",
+      "candidatesReturned": 6
+    },
+    {
+      "venue": "RSS",
+      "year": 2025,
+      "source": "https://www.roboticsproceedings.org/rss21/index.html",
+      "candidatesReturned": 4
+    },
+    {
+      "venue": "RSS",
+      "year": 2026,
+      "source": "https://www.roboticsproceedings.org/rss22/index.html",
+      "candidatesReturned": 6
+    },
+    {
+      "venue": "ICLR",
+      "year": 2020,
+      "source": "https://iclr.cc/virtual/2020/papers.html",
+      "candidatesReturned": 0
+    },
+    {
+      "venue": "ICLR",
+      "year": 2021,
+      "source": "https://iclr.cc/virtual/2021/papers.html",
+      "candidatesReturned": 0
+    },
+    {
+      "venue": "ICLR",
+      "year": 2022,
+      "source": "https://iclr.cc/virtual/2022/papers.html",
+      "candidatesReturned": 0
+    },
+    {
+      "venue": "ICLR",
+      "year": 2023,
+      "source": "https://iclr.cc/virtual/2023/papers.html",
+      "candidatesReturned": 1
+    },
+    {
+      "venue": "ICLR",
+      "year": 2024,
+      "source": "https://iclr.cc/virtual/2024/papers.html",
+      "candidatesReturned": 0
+    },
+    {
+      "venue": "ICLR",
+      "year": 2025,
+      "source": "https://iclr.cc/virtual/2025/papers.html",
+      "candidatesReturned": 2
+    },
+    {
+      "venue": "ICLR",
+      "year": 2026,
+      "source": "https://iclr.cc/virtual/2026/papers.html",
+      "candidatesReturned": 5
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2020,
+      "source": "https://papers.nips.cc/paper/2020",
+      "candidatesReturned": 1
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2021,
+      "source": "https://papers.nips.cc/paper/2021",
+      "candidatesReturned": 0
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2022,
+      "source": "https://papers.nips.cc/paper/2022",
+      "candidatesReturned": 1
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2023,
+      "source": "https://papers.nips.cc/paper/2023",
+      "candidatesReturned": 1
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2024,
+      "source": "https://papers.nips.cc/paper/2024",
+      "candidatesReturned": 3
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "source": "https://papers.nips.cc/paper/2025",
+      "candidatesReturned": 0
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2026,
+      "source": "https://papers.nips.cc/paper/2026",
+      "candidatesReturned": 0,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "venue": "ECCV",
+      "year": 0,
+      "source": "https://www.ecva.net/papers.php",
+      "candidatesReturned": 17
+    },
+    {
+      "venue": "AAAI",
+      "year": 0,
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Cprefix%3A10.1609&query.title=grasp&rows=1000",
+      "candidatesReturned": 0,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "venue": "AAAI",
+      "year": 0,
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Cprefix%3A10.1609&query.title=grasping&rows=1000",
+      "candidatesReturned": 6
+    },
+    {
+      "venue": "AAAI",
+      "year": 0,
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Cprefix%3A10.1609&query.title=gripper&rows=1000",
+      "candidatesReturned": 0
+    },
+    {
+      "venue": "ICRA",
+      "year": 0,
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasp&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "candidatesReturned": 0,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "venue": "ICRA",
+      "year": 0,
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasping&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "candidatesReturned": 147
+    },
+    {
+      "venue": "ICRA",
+      "year": 0,
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=gripper&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "candidatesReturned": 60
+    },
+    {
+      "venue": "ICRA",
+      "year": 0,
+      "source": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=bin+picking&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "candidatesReturned": 0,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "venue": "NeurIPS",
+      "year": 2025,
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2025/vol38-main-conference",
+      "papers": 5823
+    },
+    {
+      "source": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_1.html",
+      "papers": 0
+    },
+    {
+      "source": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_2.html",
+      "papers": 0
+    },
+    {
+      "source": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html",
+      "papers": 983
+    },
+    {
+      "source": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_4.html",
+      "papers": 989
+    },
+    {
+      "source": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html",
+      "papers": 979
+    },
+    {
+      "source": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_6.html",
+      "papers": 0
+    }
+  ],
+  "journalRecheck": {
+    "RA-LCachedPublisherRecords": 11629,
+    "T-ASECachedPublisherRecords": 5160,
+    "T-ROCachedPublisherRecords": 2118,
+    "newUnreviewedTitleCandidates": 0,
+    "note": "Cached publisher records include adjacent years and duplicates; only 2020–2026 published-print years were screened."
+  },
+  "included": [
+    {
+      "candidateId": 3,
+      "conference": "CoRL",
+      "year": 2025,
+      "title": "SPIN: distilling Skill-RRT for long-horizon prehensile and non-prehensile manipulation",
+      "url": "https://proceedings.mlr.press/v305/jung25a.html",
+      "doi": "",
+      "venueSource": "https://proceedings.mlr.press/v305/",
+      "tier": "相关",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [
+          "Isaac Gym"
+        ],
+        "datasets": [
+          "SPIN long-horizon manipulation tasks"
+        ],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://proceedings.mlr.press/v305/jung25a.html",
+          "https://sites.google.com/view/skill-rrt",
+          "https://raw.githubusercontent.com/mlresearch/v305/main/assets/jung25a/jung25a.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstractSource": "https://proceedings.mlr.press/v305/jung25a.html",
+      "abstractKind": "published",
+      "scopeEvidence": [
+        "https://proceedings.mlr.press/v305/jung25a.html",
+        "https://sites.google.com/view/skill-rrt",
+        "https://raw.githubusercontent.com/mlresearch/v305/main/assets/jung25a/jung25a.pdf"
+      ]
+    },
+    {
+      "candidateId": 14,
+      "conference": "CVPR",
+      "year": 2025,
+      "title": "GarmentPile: Point-Level Visual Affordance Guided Retrieval and Adaptation for Cluttered Garments Manipulation",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_GarmentPile_Point-Level_Visual_Affordance_Guided_Retrieval_and_Adaptation_for_Cluttered_CVPR_2025_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/CVPR2025?day=all",
+      "tier": "相关",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/AlwaySleepy/Garment-Pile"
+        ],
+        "engines": [
+          "Isaac Sim 2023.1.1"
+        ],
+        "datasets": [
+          "GarmentLab garment assets",
+          "GarmentPile retrieval and adaptation scenes"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_GarmentPile_Point-Level_Visual_Affordance_Guided_Retrieval_and_Adaptation_for_Cluttered_CVPR_2025_paper.html",
+          "https://arxiv.org/abs/2503.09243v1",
+          "https://garmentpile.github.io/",
+          "https://github.com/AlwaySleepy/Garment-Pile"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstractSource": "https://arxiv.org/abs/2503.09243v1",
+      "abstractKind": "preprint",
+      "scopeEvidence": [
+        "https://arxiv.org/abs/2503.09243v1",
+        "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_GarmentPile_Point-Level_Visual_Affordance_Guided_Retrieval_and_Adaptation_for_Cluttered_CVPR_2025_paper.html",
+        "https://garmentpile.github.io/",
+        "https://github.com/AlwaySleepy/Garment-Pile"
+      ]
+    },
+    {
+      "candidateId": 15,
+      "conference": "CVPR",
+      "year": 2026,
+      "title": "GeoDexGrasp: Geometry-aware Generation for Data-efficient and Physics-plausible Dexterous Grasping",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_GeoDexGrasp_Geometry-aware_Generation_for_Data-efficient_and_Physics-plausible_Dexterous_Grasping_CVPR_2026_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/CVPR2026?day=all",
+      "tier": "直接",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [
+          "Isaac Gym"
+        ],
+        "datasets": [
+          "MultiDex",
+          "RealDex",
+          "DexGRAB",
+          "DexGraspNet",
+          "UniDexGrasp"
+        ],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Han_GeoDexGrasp_Geometry-aware_Generation_for_Data-efficient_and_Physics-plausible_Dexterous_Grasping_CVPR_2026_paper.html",
+          "https://xjtbinghan.github.io/GDG.github.io/",
+          "https://openaccess.thecvf.com/content/CVPR2026/papers/Han_GeoDexGrasp_Geometry-aware_Generation_for_Data-efficient_and_Physics-plausible_Dexterous_Grasping_CVPR_2026_paper.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstractSource": "https://openaccess.thecvf.com/content/CVPR2026/html/Han_GeoDexGrasp_Geometry-aware_Generation_for_Data-efficient_and_Physics-plausible_Dexterous_Grasping_CVPR_2026_paper.html",
+      "abstractKind": "summary",
+      "scopeEvidence": [
+        "https://openaccess.thecvf.com/content/CVPR2026/html/Han_GeoDexGrasp_Geometry-aware_Generation_for_Data-efficient_and_Physics-plausible_Dexterous_Grasping_CVPR_2026_paper.html",
+        "https://xjtbinghan.github.io/GDG.github.io/",
+        "https://openaccess.thecvf.com/content/CVPR2026/papers/Han_GeoDexGrasp_Geometry-aware_Generation_for_Data-efficient_and_Physics-plausible_Dexterous_Grasping_CVPR_2026_paper.pdf"
+      ]
+    },
+    {
+      "candidateId": 16,
+      "conference": "CVPR",
+      "year": 2026,
+      "title": "Breaking the 3D Dataset Bottleneck: Fast Scalable Generation of Aligned 3D Assets from Scratch for Category 6D Pose Estimation and Robotic Grasping",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Guillaume_Breaking_the_3D_Dataset_Bottleneck_Fast_Scalable_Generation_of_Aligned_CVPR_2026_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/CVPR2026?day=all",
+      "tier": "相关",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [
+          "SAPIEN",
+          "BlenderProc (rendering)"
+        ],
+        "datasets": [
+          "GenOmni3D",
+          "GenOmni6D",
+          "Omni6Dpose",
+          "NOCS"
+        ],
+        "codeNote": "作者页面标注 Coming Soon；未核实公开实现",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Guillaume_Breaking_the_3D_Dataset_Bottleneck_Fast_Scalable_Generation_of_Aligned_CVPR_2026_paper.html",
+          "https://genomni3d.github.io/",
+          "https://openaccess.thecvf.com/content/CVPR2026/papers/Guillaume_Breaking_the_3D_Dataset_Bottleneck_Fast_Scalable_Generation_of_Aligned_CVPR_2026_paper.pdf"
+        ],
+        "verifiedAt": "2026-10-05",
+        "note": "Author project links mark code and full dataset releases Coming Soon; listed dataset names describe the paper, not verified complete downloads."
+      },
+      "abstractSource": "https://openaccess.thecvf.com/content/CVPR2026/html/Guillaume_Breaking_the_3D_Dataset_Bottleneck_Fast_Scalable_Generation_of_Aligned_CVPR_2026_paper.html",
+      "abstractKind": "summary",
+      "scopeEvidence": [
+        "https://openaccess.thecvf.com/content/CVPR2026/html/Guillaume_Breaking_the_3D_Dataset_Bottleneck_Fast_Scalable_Generation_of_Aligned_CVPR_2026_paper.html",
+        "https://genomni3d.github.io/",
+        "https://openaccess.thecvf.com/content/CVPR2026/papers/Guillaume_Breaking_the_3D_Dataset_Bottleneck_Fast_Scalable_Generation_of_Aligned_CVPR_2026_paper.pdf"
+      ]
+    },
+    {
+      "candidateId": 17,
+      "conference": "CVPR",
+      "year": 2026,
+      "title": "ActiveGrasp: Information-Guided Active Grasping with Calibrated Energy-based Model",
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lei_ActiveGrasp_Information-Guided_Active_Grasping_with_Calibrated_Energy-based_Model_CVPR_2026_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/CVPR2026?day=all",
+      "tier": "直接",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/RPFey/activegrasp-code"
+        ],
+        "engines": [
+          "PyBullet"
+        ],
+        "datasets": [
+          "ACRONYM",
+          "YCB"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://openaccess.thecvf.com/content/CVPR2026/html/Lei_ActiveGrasp_Information-Guided_Active_Grasping_with_Calibrated_Energy-based_Model_CVPR_2026_paper.html",
+          "https://arxiv.org/abs/2511.12795v2",
+          "https://github.com/RPFey/activegrasp-code",
+          "https://arxiv.org/pdf/2511.12795"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstractSource": "https://arxiv.org/abs/2511.12795v2",
+      "abstractKind": "preprint",
+      "scopeEvidence": [
+        "https://arxiv.org/abs/2511.12795v2",
+        "https://openaccess.thecvf.com/content/CVPR2026/html/Lei_ActiveGrasp_Information-Guided_Active_Grasping_with_Calibrated_Energy-based_Model_CVPR_2026_paper.html",
+        "https://github.com/RPFey/activegrasp-code",
+        "https://arxiv.org/pdf/2511.12795"
+      ]
+    },
+    {
+      "candidateId": 27,
+      "conference": "ICLR",
+      "year": 2023,
+      "title": "DualAfford: Learning Collaborative Visual Affordance for Dual-gripper Manipulation",
+      "url": "https://iclr.cc/virtual/2023/poster/12233",
+      "doi": "",
+      "venueSource": "https://iclr.cc/virtual/2023/papers.html",
+      "tier": "相关",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/sxy7147/DualAfford"
+        ],
+        "engines": [
+          "SAPIEN"
+        ],
+        "datasets": [
+          "PartNet-Mobility",
+          "ShapeNet"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://iclr.cc/virtual/2023/poster/12233",
+          "https://arxiv.org/abs/2207.01971v6",
+          "https://github.com/sxy7147/DualAfford"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstractSource": "https://arxiv.org/abs/2207.01971v6",
+      "abstractKind": "preprint",
+      "scopeEvidence": [
+        "https://arxiv.org/abs/2207.01971v6",
+        "https://iclr.cc/virtual/2023/poster/12233",
+        "https://github.com/sxy7147/DualAfford"
+      ]
+    },
+    {
+      "candidateId": 35,
+      "conference": "ECCV",
+      "year": 2022,
+      "title": "Domain Randomization-Enhanced Depth Simulation and Restoration for Perceiving and Grasping Specular and Transparent Objects",
+      "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/1831_ECCV_2022_paper.php",
+      "doi": "",
+      "venueSource": "https://www.ecva.net/papers.php",
+      "tier": "相关",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/PKU-EPIC/DREDS"
+        ],
+        "engines": [
+          "Blender (rendering)"
+        ],
+        "datasets": [
+          "DREDS",
+          "STD",
+          "ClearGrasp"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/1831_ECCV_2022_paper.php",
+          "https://arxiv.org/abs/2208.03792v2",
+          "https://github.com/PKU-EPIC/DREDS",
+          "https://raw.githubusercontent.com/PKU-EPIC/DREDS/main/README.md"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstractSource": "https://arxiv.org/abs/2208.03792v2",
+      "abstractKind": "preprint",
+      "scopeEvidence": [
+        "https://arxiv.org/abs/2208.03792v2",
+        "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/1831_ECCV_2022_paper.php",
+        "https://github.com/PKU-EPIC/DREDS",
+        "https://raw.githubusercontent.com/PKU-EPIC/DREDS/main/README.md"
+      ]
+    },
+    {
+      "candidateId": 36,
+      "conference": "ECCV",
+      "year": 2022,
+      "title": "Sim-to-Real 6D Object Pose Estimation via Iterative Self-Training for Robotic Bin Picking",
+      "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5088_ECCV_2022_paper.php",
+      "doi": "",
+      "venueSource": "https://www.ecva.net/papers.php",
+      "tier": "相关",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/ck-kai/SelfTraining-6D"
+        ],
+        "engines": [],
+        "datasets": [
+          "ROBI"
+        ],
+        "codeNote": "",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5088_ECCV_2022_paper.php",
+          "https://arxiv.org/abs/2204.07049v2",
+          "https://github.com/ck-kai/SelfTraining-6D"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstractSource": "https://arxiv.org/abs/2204.07049v2",
+      "abstractKind": "preprint",
+      "scopeEvidence": [
+        "https://arxiv.org/abs/2204.07049v2",
+        "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5088_ECCV_2022_paper.php",
+        "https://github.com/ck-kai/SelfTraining-6D"
+      ]
+    },
+    {
+      "candidateId": 37,
+      "conference": "ECCV",
+      "year": 2022,
+      "title": "Self-Supervised Interactive Object Segmentation through a Singulation-and-Grasping Approach",
+      "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5880_ECCV_2022_paper.php",
+      "doi": "",
+      "venueSource": "https://www.ecva.net/papers.php",
+      "tier": "相关",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [
+          "V-REP / CoppeliaSim"
+        ],
+        "datasets": [
+          "YCB",
+          "SaG toy-block and real-object scenes"
+        ],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5880_ECCV_2022_paper.php",
+          "https://arxiv.org/abs/2207.09314v2",
+          "https://sites.google.com/umn.edu/sag-interactive-segmentation",
+          "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136990613.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstractSource": "https://arxiv.org/abs/2207.09314v2",
+      "abstractKind": "preprint",
+      "scopeEvidence": [
+        "https://arxiv.org/abs/2207.09314v2",
+        "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5880_ECCV_2022_paper.php",
+        "https://sites.google.com/umn.edu/sag-interactive-segmentation",
+        "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136990613.pdf"
+      ]
+    },
+    {
+      "candidateId": 39,
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "RTAGrasp: Learning Task-Oriented Grasping from Human Videos via Retrieval, Transfer, and Alignment",
+      "url": "https://ieeexplore.ieee.org/document/11128140/",
+      "doi": "10.1109/icra55743.2025.11128140",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasping&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "tier": "直接",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "TaskGrasp"
+        ],
+        "codeNote": "作者页面标注 Coming Soon；未核实公开实现",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/11128140/",
+          "https://arxiv.org/abs/2409.16033v1",
+          "https://sites.google.com/view/rtagrasp/home"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstractSource": "https://arxiv.org/abs/2409.16033v1",
+      "abstractKind": "preprint",
+      "scopeEvidence": [
+        "https://arxiv.org/abs/2409.16033v1",
+        "https://ieeexplore.ieee.org/document/11128140/",
+        "https://sites.google.com/view/rtagrasp/home"
+      ]
+    },
+    {
+      "candidateId": 40,
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "A Parameter-Efficient Tuning Framework for Language-Guided Object Grounding and Robot Grasping",
+      "url": "https://ieeexplore.ieee.org/document/11128679/",
+      "doi": "10.1109/icra55743.2025.11128679",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasping&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "tier": "直接",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/hjy-u/ETOG",
+          "https://github.com/hjy-u/ETRG-RGS"
+        ],
+        "engines": [],
+        "datasets": [
+          "OCID-VLG",
+          "RefCOCO-related grounding datasets"
+        ],
+        "codeNote": "",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/11128679/",
+          "https://arxiv.org/abs/2409.19457v4",
+          "https://github.com/hjy-u/ETRG-RGS",
+          "https://github.com/hjy-u/ETOG"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstractSource": "https://arxiv.org/abs/2409.19457v4",
+      "abstractKind": "preprint",
+      "scopeEvidence": [
+        "https://arxiv.org/abs/2409.19457v4",
+        "https://ieeexplore.ieee.org/document/11128679/",
+        "https://github.com/hjy-u/ETRG-RGS",
+        "https://github.com/hjy-u/ETOG"
+      ]
+    },
+    {
+      "candidateId": 44,
+      "conference": "ICRA",
+      "year": 2022,
+      "title": "Learning to Pick by Digging: Data-Driven Dig-Grasping for Bin Picking from Clutter",
+      "url": "https://ieeexplore.ieee.org/document/9811736/",
+      "doi": "10.1109/icra46639.2022.9811736",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasping&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "tier": "直接",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/JS-RML/Learning-to-Grasp-by-Digging"
+        ],
+        "engines": [
+          "PyBullet"
+        ],
+        "datasets": [
+          "Dig-Grasping synthetic bin-picking scenes"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/9811736/",
+          "https://github.com/JS-RML/Learning-to-Grasp-by-Digging",
+          "https://raw.githubusercontent.com/JS-RML/Learning-to-Grasp-by-Digging/main/sim_class.py"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstractSource": "https://github.com/JS-RML/Learning-to-Grasp-by-Digging",
+      "abstractKind": "summary",
+      "scopeEvidence": [
+        "https://github.com/JS-RML/Learning-to-Grasp-by-Digging",
+        "https://ieeexplore.ieee.org/document/9811736/",
+        "https://raw.githubusercontent.com/JS-RML/Learning-to-Grasp-by-Digging/main/sim_class.py"
+      ]
+    },
+    {
+      "candidateId": 64,
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation",
+      "url": "https://arxiv.org/abs/2512.23705v1",
+      "doi": "",
+      "venueSource": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html",
+      "tier": "相关",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/Daniellli/DKT"
+        ],
+        "engines": [
+          "Blender / Cycles (rendering)"
+        ],
+        "datasets": [
+          "TransPhy3D",
+          "ClearPose",
+          "DREDS"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2512.23705v1",
+          "https://github.com/Daniellli/DKT",
+          "https://raw.githubusercontent.com/Daniellli/DKT/main/README.md"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstractSource": "https://arxiv.org/abs/2512.23705v1",
+      "abstractKind": "preprint",
+      "scopeEvidence": [
+        "https://arxiv.org/abs/2512.23705v1",
+        "https://github.com/Daniellli/DKT",
+        "https://raw.githubusercontent.com/Daniellli/DKT/main/README.md"
+      ]
+    },
+    {
+      "candidateId": 65,
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "GarmentPile++: Affordance-Driven Cluttered Garments Retrieval with Vision-Language Reasoning",
+      "url": "https://arxiv.org/abs/2603.04158v1",
+      "doi": "",
+      "venueSource": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html",
+      "tier": "相关",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/d-finite/GarmentPile2"
+        ],
+        "engines": [
+          "Isaac Sim 4.5.0"
+        ],
+        "datasets": [
+          "GarmentPile++ retrieval tasks"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2603.04158v1",
+          "https://github.com/d-finite/GarmentPile2"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstractSource": "https://arxiv.org/abs/2603.04158v1",
+      "abstractKind": "preprint",
+      "scopeEvidence": [
+        "https://arxiv.org/abs/2603.04158v1",
+        "https://github.com/d-finite/GarmentPile2"
+      ]
+    },
+    {
+      "candidateId": 66,
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "AdaptPNP: Integrating Prehensile and Non-Prehensile Skills for Adaptive Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2511.11052v2",
+      "doi": "",
+      "venueSource": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_4.html",
+      "tier": "相关",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "AdaptPNP hybrid manipulation tasks"
+        ],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2511.11052v2",
+          "https://adaptpnp.github.io/"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstractSource": "https://arxiv.org/abs/2511.11052v2",
+      "abstractKind": "preprint",
+      "scopeEvidence": [
+        "https://arxiv.org/abs/2511.11052v2",
+        "https://adaptpnp.github.io/"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "candidateId": 0,
+      "conference": "CoRL",
+      "year": 2023,
+      "title": "HACMan: Learning Hybrid Actor-Critic Maps for 6D Non-Prehensile Manipulation",
+      "url": "https://proceedings.mlr.press/v229/zhou23a.html",
+      "doi": "",
+      "venueSource": "https://proceedings.mlr.press/v229/",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope",
+        "scopeEvidence": "Primary abstract describes non-prehensile manipulation without a grasping task."
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 1,
+      "conference": "CoRL",
+      "year": 2024,
+      "title": "Learning Visuotactile Estimation and Control for Non-prehensile Manipulation under Occlusions",
+      "url": "https://proceedings.mlr.press/v270/ferrandis25a.html",
+      "doi": "",
+      "venueSource": "https://proceedings.mlr.press/v270/",
+      "decision": {
+        "decision": "exclude",
+        "reason": "tactile"
+      },
+      "reason": "触觉、接触力或相关反馈研究，超出非触觉抓取收录范围。"
+    },
+    {
+      "candidateId": 4,
+      "conference": "ICML",
+      "year": 2026,
+      "title": "GRASP: Graph Reasoning via Agentic Solving and Probing of LLMs",
+      "url": "https://proceedings.mlr.press/v306/guo26t.html",
+      "doi": "",
+      "venueSource": "https://proceedings.mlr.press/v306/",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 5,
+      "conference": "ICML",
+      "year": 2026,
+      "title": "GRASP: Awakening Latent Spatial Reasoning in LVLMs via Training-free Geometric Rectification",
+      "url": "https://proceedings.mlr.press/v306/yan26w.html",
+      "doi": "",
+      "venueSource": "https://proceedings.mlr.press/v306/",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 6,
+      "conference": "ICML",
+      "year": 2026,
+      "title": "EgoTactile: Learning Grasp Pressure for Everyday Objects from Egocentric Video",
+      "url": "https://proceedings.mlr.press/v306/zeng26q.html",
+      "doi": "",
+      "venueSource": "https://proceedings.mlr.press/v306/",
+      "decision": {
+        "decision": "exclude",
+        "reason": "tactile"
+      },
+      "reason": "触觉、接触力或相关反馈研究，超出非触觉抓取收录范围。"
+    },
+    {
+      "candidateId": 7,
+      "conference": "CVPR",
+      "year": 2023,
+      "title": "FLEX: Full-Body Grasping Without Full-Body Grasps",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Tendulkar_FLEX_Full-Body_Grasping_Without_Full-Body_Grasps_CVPR_2023_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/CVPR2023?day=all",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 8,
+      "conference": "CVPR",
+      "year": 2024,
+      "title": "MANUS: Markerless Grasp Capture using Articulated 3D Gaussians",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Pokhariya_MANUS_Markerless_Grasp_Capture_using_Articulated_3D_Gaussians_CVPR_2024_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/CVPR2024?day=all",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 9,
+      "conference": "CVPR",
+      "year": 2024,
+      "title": "VTimeLLM: Empower LLM to Grasp Video Moments",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Huang_VTimeLLM_Empower_LLM_to_Grasp_Video_Moments_CVPR_2024_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/CVPR2024?day=all",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 10,
+      "conference": "CVPR",
+      "year": 2024,
+      "title": "Forecasting of 3D Whole-body Human Poses with Grasping Objects",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yan_Forecasting_of_3D_Whole-body_Human_Poses_with_Grasping_Objects_CVPR_2024_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/CVPR2024?day=all",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 11,
+      "conference": "CVPR",
+      "year": 2024,
+      "title": "G-HOP: Generative Hand-Object Prior for Interaction Reconstruction and Grasp Synthesis",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Ye_G-HOP_Generative_Hand-Object_Prior_for_Interaction_Reconstruction_and_Grasp_Synthesis_CVPR_2024_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/CVPR2024?day=all",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 12,
+      "conference": "CVPR",
+      "year": 2025,
+      "title": "Learning Physics-Based Full-Body Human Reaching and Grasping from Brief Walking References",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_Learning_Physics-Based_Full-Body_Human_Reaching_and_Grasping_from_Brief_Walking_CVPR_2025_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/CVPR2025?day=all",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 13,
+      "conference": "CVPR",
+      "year": 2025,
+      "title": "ManiVideo: Generating Hand-Object Manipulation Video with Dexterous and Generalizable Grasping",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Pang_ManiVideo_Generating_Hand-Object_Manipulation_Video_with_Dexterous_and_Generalizable_Grasping_CVPR_2025_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/CVPR2025?day=all",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 18,
+      "conference": "ICCV",
+      "year": 2023,
+      "title": "ViewRefer: Grasp the Multi-view Knowledge for 3D Visual Grounding",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Guo_ViewRefer_Grasp_the_Multi-view_Knowledge_for_3D_Visual_Grounding_ICCV_2023_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/ICCV2023?day=all",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 19,
+      "conference": "ICCV",
+      "year": 2023,
+      "title": "ContactGen: Generative Contact Modeling for Grasp Generation",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Liu_ContactGen_Generative_Contact_Modeling_for_Grasp_Generation_ICCV_2023_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/ICCV2023?day=all",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 20,
+      "conference": "ICCV",
+      "year": 2023,
+      "title": "COOP: Decoupling and Coupling of Whole-Body Grasping Pose Generation",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zheng_COOP_Decoupling_and_Coupling_of_Whole-Body_Grasping_Pose_Generation_ICCV_2023_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/ICCV2023?day=all",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 21,
+      "conference": "ICCV",
+      "year": 2025,
+      "title": "DyWA: Dynamics-adaptive World Action Model for Generalizable Non-prehensile Manipulation",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Lyu_DyWA_Dynamics-adaptive_World_Action_Model_for_Generalizable_Non-prehensile_Manipulation_ICCV_2025_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/ICCV2025?day=all",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope",
+        "scopeEvidence": "Primary abstract describes non-prehensile manipulation without a grasping task."
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 22,
+      "conference": "ICCV",
+      "year": 2025,
+      "title": "Task-Oriented Human Grasp Synthesis via Context- and Task-Aware Diffusers",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Liu_Task-Oriented_Human_Grasp_Synthesis_via_Context-_and_Task-Aware_Diffusers_ICCV_2025_paper.html",
+      "doi": "",
+      "venueSource": "https://openaccess.thecvf.com/ICCV2025?day=all",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 23,
+      "conference": "RSS",
+      "year": 2024,
+      "title": "Tactile-Driven Non-Prehensile Object Manipulation via Extrinsic Contact Mode Control",
+      "url": "https://www.roboticsproceedings.org/rss20/p135.html",
+      "doi": "",
+      "venueSource": "https://www.roboticsproceedings.org/rss20/index.html",
+      "decision": {
+        "decision": "exclude",
+        "reason": "tactile"
+      },
+      "reason": "触觉、接触力或相关反馈研究，超出非触觉抓取收录范围。"
+    },
+    {
+      "candidateId": 24,
+      "conference": "RSS",
+      "year": 2025,
+      "title": "PIN-WM: Learning Physics-INformed World Models for Non-Prehensile Manipulation",
+      "url": "https://www.roboticsproceedings.org/rss21/p153.html",
+      "doi": "",
+      "venueSource": "https://www.roboticsproceedings.org/rss21/index.html",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope",
+        "scopeEvidence": "Primary abstract describes non-prehensile manipulation without a grasping task."
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 25,
+      "conference": "RSS",
+      "year": 2025,
+      "title": "Hierarchical and Modular Network on Non-prehensile Manipulation in General Environments",
+      "url": "https://www.roboticsproceedings.org/rss21/p154.html",
+      "doi": "",
+      "venueSource": "https://www.roboticsproceedings.org/rss21/index.html",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope",
+        "scopeEvidence": "Primary abstract describes non-prehensile manipulation without a grasping task."
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 26,
+      "conference": "RSS",
+      "year": 2026,
+      "title": "Relaxation-Aware Multimodal Sensing of Soft Gripper Driven by Structure-Perception-Learning",
+      "url": "https://www.roboticsproceedings.org/rss22/p177.html",
+      "doi": "",
+      "venueSource": "https://www.roboticsproceedings.org/rss22/index.html",
+      "decision": {
+        "decision": "exclude",
+        "reason": "hardware"
+      },
+      "reason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "candidateId": 28,
+      "conference": "ICLR",
+      "year": 2026,
+      "title": "Grasp Any Region: Towards Precise, Contextual Pixel Understanding for Multimodal LLMs",
+      "url": "https://iclr.cc/virtual/2026/poster/10010460",
+      "doi": "",
+      "venueSource": "https://iclr.cc/virtual/2026/papers.html",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 29,
+      "conference": "ICLR",
+      "year": 2026,
+      "title": "DexMove: Learning Tactile-Guided Non-Prehensile Manipulation with Dexterous Hands",
+      "url": "https://iclr.cc/virtual/2026/poster/10008406",
+      "doi": "",
+      "venueSource": "https://iclr.cc/virtual/2026/papers.html",
+      "decision": {
+        "decision": "exclude",
+        "reason": "tactile"
+      },
+      "reason": "触觉、接触力或相关反馈研究，超出非触觉抓取收录范围。"
+    },
+    {
+      "candidateId": 30,
+      "conference": "NeurIPS",
+      "year": 2022,
+      "title": "GRASP: Navigating Retrosynthetic Planning with Goal-driven Policy",
+      "url": "https://papers.nips.cc/paper_files/paper/2022/hash/42beaab8aa8da1c77581609a61eced93-Abstract-Conference.html",
+      "doi": "",
+      "venueSource": "https://papers.nips.cc/paper/2022",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 31,
+      "conference": "ECCV",
+      "year": 2024,
+      "title": "SemGrasp: Semantic Grasp Generation via Language Aligned Discretization",
+      "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/193_ECCV_2024_paper.php",
+      "doi": "",
+      "venueSource": "https://www.ecva.net/papers.php",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope",
+        "scopeEvidence": "Author abstract explicitly generates static human grasp poses, without a verified robot grasp experiment."
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 32,
+      "conference": "ECCV",
+      "year": 2024,
+      "title": "Decomposed Vector-Quantized Variational Autoencoder for Human Grasp Generation",
+      "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/4294_ECCV_2024_paper.php",
+      "doi": "",
+      "venueSource": "https://www.ecva.net/papers.php",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 33,
+      "conference": "ECCV",
+      "year": 2024,
+      "title": "Dense Hand-Object(HO) GraspNet with Full Grasping Taxonomy and Dynamics",
+      "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/10784_ECCV_2024_paper.php",
+      "doi": "",
+      "venueSource": "https://www.ecva.net/papers.php",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 34,
+      "conference": "ECCV",
+      "year": 2022,
+      "title": "SAGA: Stochastic Whole-Body Grasping with Contact",
+      "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5754_ECCV_2022_paper.php",
+      "doi": "",
+      "venueSource": "https://www.ecva.net/papers.php",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope"
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 38,
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "A Magnetic-Actuated Vision-Based Whisker Array for Contact Perception and Grasping",
+      "url": "https://ieeexplore.ieee.org/document/11128051/",
+      "doi": "10.1109/icra55743.2025.11128051",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasping&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "hardware"
+      },
+      "reason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "candidateId": 41,
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "A Full-Optical Pretouch Dual-Modal and Dual-Mechanism (PDM 2 ) Sensor for Robotic Grasping",
+      "url": "https://ieeexplore.ieee.org/document/11127586/",
+      "doi": "10.1109/icra55743.2025.11127586",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasping&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "hardware"
+      },
+      "reason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "candidateId": 42,
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "Attention-Based Generative Grasping Deformable Convolutional Neural Network",
+      "url": "https://ieeexplore.ieee.org/document/10851639/",
+      "doi": "10.1109/icrae64368.2024.10851639",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasping&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "title-keyword"
+      },
+      "reason": "按用户标题关键词排除：deformable。"
+    },
+    {
+      "candidateId": 45,
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "Grasping System Based on Adaptive Low-light Image Enhancement",
+      "url": "https://ieeexplore.ieee.org/document/10458557/",
+      "doi": "10.1109/icrae59816.2023.10458557",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasping&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "venue-mismatch",
+        "source": "https://ieeexplore.ieee.org/document/10458557/"
+      },
+      "reason": "Published at ICRAE/ICRAI, outside the requested conference list."
+    },
+    {
+      "candidateId": 46,
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "Deep Learning Based Autonomous Robotic Grasping and Sorting System for Industry 4.0",
+      "url": "https://ieeexplore.ieee.org/document/10894445/",
+      "doi": "10.1109/icrai62391.2024.10894445",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasping&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "venue-mismatch",
+        "source": "https://ieeexplore.ieee.org/document/10894445/"
+      },
+      "reason": "Published at ICRAE/ICRAI, outside the requested conference list."
+    },
+    {
+      "candidateId": 47,
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "Real-Time Object Detection and Grasping with an Autonomous Mobile Robot: A Case Study",
+      "url": "https://ieeexplore.ieee.org/document/10851490/",
+      "doi": "10.1109/icrae64368.2024.10851490",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasping&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "venue-mismatch",
+        "source": "https://ieeexplore.ieee.org/document/10851490/"
+      },
+      "reason": "Published at ICRAE/ICRAI, outside the requested conference list."
+    },
+    {
+      "candidateId": 48,
+      "conference": "ICRA",
+      "year": 2022,
+      "title": "A Human-Robot Interaction Applicution Based on Augmented Reality (AR) for Industrial Robot Grasping Process",
+      "url": "https://ieeexplore.ieee.org/document/10056198/",
+      "doi": "10.1109/icrae56463.2022.10056198",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasping&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "venue-mismatch",
+        "source": "https://ieeexplore.ieee.org/document/10056198/"
+      },
+      "reason": "Published at ICRAE/ICRAI, outside the requested conference list."
+    },
+    {
+      "candidateId": 49,
+      "conference": "ICRA",
+      "year": 2021,
+      "title": "The KIT Gripper: A Multi-Functional Gripper for Disassembly Tasks",
+      "url": "https://ieeexplore.ieee.org/document/9561336/",
+      "doi": "10.1109/icra48506.2021.9561336",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=gripper&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "hardware"
+      },
+      "reason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "candidateId": 50,
+      "conference": "ICRA",
+      "year": 2021,
+      "title": "Modeling and Control of an Untethered Magnetic Gripper",
+      "url": "https://ieeexplore.ieee.org/document/9561882/",
+      "doi": "10.1109/icra48506.2021.9561882",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=gripper&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "hardware"
+      },
+      "reason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "candidateId": 51,
+      "conference": "ICRA",
+      "year": 2021,
+      "title": "Viko: An Adaptive Gecko Gripper with Vision-based Tactile Sensor",
+      "url": "https://ieeexplore.ieee.org/document/9561606/",
+      "doi": "10.1109/icra48506.2021.9561606",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=gripper&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "hardware"
+      },
+      "reason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "candidateId": 52,
+      "conference": "ICRA",
+      "year": 2020,
+      "title": "Parallel gripper with displacement-magnification mechanism and extendable finger mechanism",
+      "url": "https://ieeexplore.ieee.org/document/9196746/",
+      "doi": "10.1109/icra40945.2020.9196746",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=gripper&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "hardware"
+      },
+      "reason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "candidateId": 53,
+      "conference": "ICRA",
+      "year": 2021,
+      "title": "Small Autonomous Robot Actuator (SARA): A Solar-Powered Wireless MEMS Gripper",
+      "url": "https://ieeexplore.ieee.org/document/9561294/",
+      "doi": "10.1109/icra48506.2021.9561294",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=gripper&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "hardware"
+      },
+      "reason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "candidateId": 54,
+      "conference": "ICRA",
+      "year": 2020,
+      "title": "Robust capture of unknown objects with a highly under-actuated gripper",
+      "url": "https://ieeexplore.ieee.org/document/9197100/",
+      "doi": "10.1109/icra40945.2020.9197100",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=gripper&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "hardware"
+      },
+      "reason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "candidateId": 55,
+      "conference": "ICRA",
+      "year": 2020,
+      "title": "A Shape Memory Polymer Adhesive Gripper For Pick-and-Place Applications",
+      "url": "https://ieeexplore.ieee.org/document/9197511/",
+      "doi": "10.1109/icra40945.2020.9197511",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=gripper&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "hardware"
+      },
+      "reason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "candidateId": 56,
+      "conference": "ICRA",
+      "year": 2021,
+      "title": "A Soft Robotic Gripper with Anti-Freezing Ionic Hydrogel-Based Sensors for Learning-Based Object Recognition",
+      "url": "https://ieeexplore.ieee.org/document/9561287/",
+      "doi": "10.1109/icra48506.2021.9561287",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=gripper&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "hardware"
+      },
+      "reason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "candidateId": 57,
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "Proprioceptive Object Shape and Size Extraction via In-Hand-Manipulation with a Variable Friction Robot Gripper",
+      "url": "https://ieeexplore.ieee.org/document/11128387/",
+      "doi": "10.1109/icra55743.2025.11128387",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=gripper&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "tactile"
+      },
+      "reason": "触觉、接触力或相关反馈研究，超出非触觉抓取收录范围。"
+    },
+    {
+      "candidateId": 58,
+      "conference": "ICRA",
+      "year": 2021,
+      "title": "Foot Control of a Surgical Laparoscopic Gripper via 5DoF Haptic Robotic Platform: Design, Dynamics and Haptic Shared Control",
+      "url": "https://ieeexplore.ieee.org/document/9561887/",
+      "doi": "10.1109/icra48506.2021.9561887",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=gripper&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "title-keyword"
+      },
+      "reason": "按用户标题关键词排除：surgical。"
+    },
+    {
+      "candidateId": 59,
+      "conference": "ICRA",
+      "year": 2020,
+      "title": "Assembly of randomly placed parts realized by using only one robot arm with a general parallel-jaw gripper",
+      "url": "https://ieeexplore.ieee.org/document/9197396/",
+      "doi": "10.1109/icra40945.2020.9197396",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=gripper&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "hardware",
+        "scopeEvidence": "Author abstract identifies specially designed gripper tips as the enabling contribution."
+      },
+      "reason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "candidateId": 60,
+      "conference": "ICRA",
+      "year": 2021,
+      "title": "A Locally-Adaptive, Parallel-Jaw Gripper with Clamping and Rolling Capable, Soft Fingertips for Fine Manipulation of Flexible Flat Cables",
+      "url": "https://ieeexplore.ieee.org/document/9561970/",
+      "doi": "10.1109/icra48506.2021.9561970",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=gripper&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "hardware"
+      },
+      "reason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "candidateId": 61,
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "Design of a Deployable Palm for Space Robotic Gripper Workspace Expansion",
+      "url": "https://ieeexplore.ieee.org/document/11365280/",
+      "doi": "10.1109/icrae67496.2025.00015",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=gripper&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "hardware"
+      },
+      "reason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "candidateId": 62,
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Bio-Inspired Soft Robotic Gripper with Variable Stiffness Using Magneto-Rheological Control",
+      "url": "https://ieeexplore.ieee.org/document/11551972/",
+      "doi": "10.1109/icrai70912.2026.11551972",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=gripper&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "exclude",
+        "reason": "hardware"
+      },
+      "reason": "按用户要求排除机器人硬件设计类研究：夹爪、机械手、软体机构、执行器、传感器或辅助装置的设计、协同设计及硬件验证。"
+    },
+    {
+      "candidateId": 63,
+      "conference": "NeurIPS",
+      "year": 2025,
+      "title": "Touch in the Wild: Learning Fine-Grained Manipulation with a Portable Visuo-Tactile Gripper",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/e1fcd183ab33714a8464e4e9a20ac710-Abstract-Conference.html",
+      "doi": "",
+      "venueSource": "https://proceedings.neurips.cc/paper_files/paper/2025/vol38-main-conference",
+      "decision": {
+        "decision": "exclude",
+        "reason": "tactile"
+      },
+      "reason": "触觉、接触力或相关反馈研究，超出非触觉抓取收录范围。"
+    },
+    {
+      "candidateId": 67,
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Dynamic Scoop-And-Flick Manipulation for Rapid Non-Prehensile High-Arc Object Transfer",
+      "url": "",
+      "doi": "",
+      "venueSource": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope",
+        "scopeEvidence": "Official abstract describes non-prehensile manipulation without a grasping objective."
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 68,
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Optimal Control Approach for Non-Prehensile Ball Juggling Using a 7-DoF Manipulator",
+      "url": "",
+      "doi": "",
+      "venueSource": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope",
+        "scopeEvidence": "Official abstract describes non-prehensile manipulation without a grasping objective."
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 69,
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Uncertainty-Aware Non-Prehensile Manipulation with Mobile Manipulators under Object-Induced Occlusion",
+      "url": "",
+      "doi": "",
+      "venueSource": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_4.html",
+      "decision": {
+        "decision": "exclude",
+        "reason": "outside-scope",
+        "scopeEvidence": "Official abstract describes non-prehensile manipulation without a grasping objective."
+      },
+      "reason": "主要研究对象与机器人抓取论文收录范围不一致。"
+    },
+    {
+      "candidateId": 70,
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Learning End-To-End Dexterous Arm-Hand VLA Policies with Shared Autonomy: DexGrasp AI Copilot for Efficient Teleoperation",
+      "url": "",
+      "doi": "",
+      "venueSource": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html",
+      "decision": {
+        "decision": "exclude",
+        "reason": "tactile",
+        "scopeEvidence": "Official abstract explicitly uses force-adaptive actions with tactile feedback."
+      },
+      "reason": "触觉、接触力或相关反馈研究，超出非触觉抓取收录范围。"
+    }
+  ],
+  "pending": [
+    {
+      "candidateId": 2,
+      "conference": "CoRL",
+      "year": 2024,
+      "title": "JA-TN: Pick-and-Place Towel Shaping from Crumpled States based on TransporterNet with Joint-Probability Action Inference",
+      "url": "https://proceedings.mlr.press/v270/kadi25a.html",
+      "doi": "",
+      "venueSource": "https://proceedings.mlr.press/v270/",
+      "decision": {
+        "decision": "pending",
+        "reason": "scope-pending",
+        "scopeEvidence": "Towel manipulation benchmark; end-effector sensing and grasp modality still need full-text verification."
+      },
+      "reason": "尚未确认非触觉输入及以算法为主的贡献；待核对全文，不计入收录总数。"
+    }
+  ],
+  "alreadyRepresented": [
+    {
+      "candidateId": 43,
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "$\\mathcal{D}(\\mathcal{R}, \\mathcal{O})$ Grasp: A Unified Representation of Robot and Object Interaction for Cross-Embodiment Dexterous Grasping",
+      "url": "https://ieeexplore.ieee.org/document/11127754/",
+      "doi": "10.1109/icra55743.2025.11127754",
+      "venueSource": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2026-10-05%2Ctype%3Aproceedings-article&query.title=grasping&rows=1000&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation",
+      "decision": {
+        "decision": "already represented",
+        "reason": "LaTeX title variant of D(R, O) Grasp"
+      }
+    }
+  ],
+  "summary": {
+    "candidates": 71,
+    "included": 15,
+    "excluded": 54,
+    "pending": 1,
+    "alreadyRepresented": 1,
+    "years": {
+      "2025": 4,
+      "2026": 6,
+      "2023": 1,
+      "2022": 4
+    },
+    "venues": {
+      "CoRL": 1,
+      "CVPR": 4,
+      "ICLR": 1,
+      "ECCV": 3,
+      "ICRA": 6
+    },
+    "direct": 5,
+    "related": 10,
+    "abstracts": 12,
+    "summaries": 3
+  }
+}

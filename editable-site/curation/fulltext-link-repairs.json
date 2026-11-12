@@ -1,0 +1,85 @@
+[
+  {
+    "id": 258,
+    "title": "AdapGrasp: A Stiffness and Grasp Affordance Dataset with a Transformer-Based Adaptive Grasp Model",
+    "url": "https://doi.org/10.1109/icra57385.2026.11696782",
+    "evidence": "https://openalex.org/W7220848058"
+  },
+  {
+    "id": 259,
+    "title": "Zero-Shot Exocentric Viewpoint-Robust Imitation Learning (VIL): Bridging Handheld Gripper and Exocentric Views",
+    "url": "https://doi.org/10.1109/icra57385.2026.11697270",
+    "evidence": "https://openalex.org/W7220846197"
+  },
+  {
+    "id": 262,
+    "title": "Learning Push-Grasp Synergy for Occluded Objects in Cluttered Environments",
+    "url": "https://doi.org/10.1109/icra57385.2026.11695822",
+    "evidence": "https://openalex.org/W7220839032"
+  },
+  {
+    "id": 264,
+    "title": "Proactive Grasp Assistance in a Robotic Hand Exoskeleton Improves Performance and Preference in Challenging Tasks",
+    "url": "https://doi.org/10.1109/icra57385.2026.11696073",
+    "evidence": "https://openalex.org/W7220848448"
+  },
+  {
+    "id": 277,
+    "title": "EdgeGrasp: Enhancing Edge Perception for 7-DoF Grasping Pose Estimation in Cluttered Scenes",
+    "url": "https://doi.org/10.1109/icra57385.2026.11697468",
+    "evidence": "https://openalex.org/W7220831295"
+  },
+  {
+    "id": 280,
+    "title": "Tool-Grasp: A 6-DoF Functional Grasping Framework for General-Purpose Hand Tools",
+    "url": "https://doi.org/10.1109/icra57385.2026.11697570",
+    "evidence": "https://openalex.org/W7220856955"
+  },
+  {
+    "id": 284,
+    "title": "SureGrip: Perceptual Grasping of Natural Handholds for Free-Climbing Robots",
+    "url": "https://doi.org/10.1109/icra57385.2026.11695918",
+    "evidence": "https://openalex.org/W7220840437"
+  },
+  {
+    "id": 286,
+    "title": "GPD-AP: A Grasp Pose-Driven Active Perception Framework for Occlusion-Robust Robotic Manipulation",
+    "url": "https://doi.org/10.1109/icra57385.2026.11695783",
+    "evidence": "https://openalex.org/W7220839283"
+  },
+  {
+    "id": 287,
+    "title": "Learning to Grasp by Integrating Human Preferences and Success Feedback",
+    "url": "https://doi.org/10.1109/icra57385.2026.11695843",
+    "evidence": "https://openalex.org/W7220841357"
+  },
+  {
+    "id": 244,
+    "title": "Trajectory Optimization for Dynamically Grasping Irregular Objects",
+    "title_alias": "Online Trajectory Replanner for Dynamically Grasping Irregular Objects",
+    "matched_paper_url": "https://doi.org/10.1109/ICRA55743.2025.11128477",
+    "source_note": "会议目录使用 Trajectory Optimization 标题；按作者名单、ICRA 2025 出版元数据及作者主页对应到 Online Trajectory Replanner 版本。",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/abs/2501.17968",
+        "kind": "arxiv",
+        "evidence": "ICRA 2025 authors agree with DOI 10.1109/ICRA55743.2025.11128477; author publication list https://www.csc.liv.ac.uk/~anguyen/publications/ links this preprint as ICRA 2025"
+      },
+      {
+        "url": "https://www.csc.liv.ac.uk/~anguyen/assets/pdfs/2025_ICRA_Traj_replanning.pdf",
+        "kind": "public",
+        "evidence": "https://www.csc.liv.ac.uk/~anguyen/publications/"
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "title": "State-Space Time Surfaces for Event-Based Zero-Shot Robotic Grasping and Scene Reconstruction",
+    "abstract_url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#thi2lb_06",
+    "status": "official_abstract_only",
+    "authors": [
+      "Gu Gong",
+      "David Navarro-Alarcon"
+    ]
+  }
+]

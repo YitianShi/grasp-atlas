@@ -1,0 +1,41 @@
+# Downloaded papers, partial downloads, local state, indexes and download reports.
+/GraspAtlas_Library/
+/library.js
+/.atlas-purge-*/
+*.pdf
+*.part
+*.part.json
+
+# Generated human-readable reports (keep README and START_HERE documentation).
+/*_REPORT*.txt
+/*_UPDATE*.txt
+/*_EXCLUSIONS.txt
+/FULL_RECHECK_*.txt
+**/TEST_RESULTS.txt
+reports/
+*.log
+*.tmp
+*.bak
+
+# Python environments and generated caches.
+.grasp_python/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local editor/OS files and credentials.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+.env
+.env.*
+!.env.example

@@ -1,0 +1,63 @@
+Grasp Atlas — 本地论文库 / Local paper library
+2026-11-12 最新状态：默认论文清单 523 篇，回收站 187 篇，可管理合计 710 篇。
+本轮排除软体夹爪、软手与软体机器人抓取，以及软物体/可变形物体抓取（含线缆、软食品、柔性片材）。共匹配 40 篇，其中新移入回收站 28 篇、原已删除 12 篇。
+原159篇的回收站记录保留。新批次只应用一次，保留其他论文的恢复选择；仍可逐篇恢复或恢复全部。已有 PDF、原编号、路径和下载状态保留。
+下载 / 重试全部按当前浏览器清单下载，跳过回收站中的论文。命令行默认跳过原159篇与新批次的并集187篇，可用 --ids 显式指定。
+本机默认清单有 365 篇已核验本地全文，回收站中有 147 篇；实际清单数量随个人选择变化。
+本轮名单及原因见 SOFT_GRASPING_EXCLUSIONS_REPORT_2026-11-12.txt；原159篇历史名单见 FULL_RECHECK_2026-11-12.txt。
+
+阅读论文
+--------
+双击根目录 index.html，搜索论文后点击「打开本地 PDF」。论文标题也优先打开本地全文。
+本地 PDF 可离线阅读。「在线论文」进入该文出版页或预印本页；「在线 PDF」打开已验证的在线版本。
+没有取得全文的条目会明确显示未下载或暂不可用，不会把目录、摘要或错误论文当成全文。
+
+永久删除
+--------
+双击 Start_Grasp_Atlas.cmd，在回收站找到论文，点击“永久删除”，核对标题后确认。
+若已运行旧版本服务，请先关闭旧启动窗口，再双击启动器。
+确认后清理该论文的目录、摘要、链接、本地 PDF、候选文件、下载残片、下载记录、历史筛选项及备份中的相关记录，并重建页面。
+永久删除不能撤销，“恢复全部”也不能找回。普通“删除”仍可在回收站恢复。
+直接双击 index.html 时会提示通过启动器打开。下载运行期间不可永久删除；其他论文共用的 PDF 会保留。
+
+下载 / 继续 / 重试
+-----------------
+双击 Start_Grasp_Atlas.cmd，在打开的本机网页中点击「下载 / 重试全部」。
+网页显示进度并自动更新全文入口。启动窗口关闭后网页服务会停止，已开始的下载可继续。
+或者双击 Download_All_Papers.cmd，直接启动完整下载。
+需要 Python 3.10 或更新版本；下载启动器首次运行会创建专用环境并安装 pypdf。
+已下载且 SHA-256 正确的论文会跳过；中断的文件保留，可再次运行继续。
+同一个论文库有进程锁，避免同时启动多个下载器。
+
+文件位置
+--------
+GraspAtlas_Library/papers/年份/会议或期刊/：已通过全文标题核验的 PDF。
+GraspAtlas_Library/download_index.csv：全部记录、状态、中文原因、文件及下载来源。
+GraspAtlas_Library/not_downloaded.csv：未取得全文或仍需核验的记录。
+GraspAtlas_Library/needs_review/：不通过检查的候选文件，绝不作为正文打开。
+GraspAtlas_Library/download_state.json：断点与来源记录，请保留。
+library.js：网页读取的全文索引，下载器自动更新。
+
+双击 index.html 阅读时，下载后点击「刷新全文状态」或刷新浏览器。
+请把 index.html、library.js、GraspAtlas_Library 和 editable-site 一起保留或移动。
+已下载内容实际存在本机磁盘，不嵌入 index.html。
+
+匹配说明
+--------
+10 条原先缺失的独立链接已按出版元数据或作者资料补齐。
+State-Space Time Surfaces... 目前仅找到官方会议摘要，入口明确标为「官方会议摘要」。
+Trajectory Optimization... 与 Online Trajectory Replanner... 对应同一个 DOI；
+保留原来两条记录及其顺序，以兼容个人收藏/删除记录，详情注明标题对应关系。
+预印本和正式出版版本可能不同。可获取全文的数量以当前下载索引为准。
+部分论文没有公开全文，或来源暂时拒绝自动下载；这类条目保留在线入口与失败原因。
+
+个人记录仍保存在当前浏览器；搜索、语言、筛选、删除和回收站继续可用。
+editable-site/dist 是可编辑版本；运行 python editable-site/build_offline.py 可重建根目录页面。
+
+English
+-------
+Open index.html and select “Open local PDF”. Titles prefer verified local files.
+Run Start_Grasp_Atlas.cmd for the local web app and its “Download / retry all” button,
+or run Download_All_Papers.cmd directly. Downloads resume and verified files are skipped.
+Keep library.js and GraspAtlas_Library beside index.html. Public full text may be unavailable
+for some records; their online source and explicit download status remain accessible.

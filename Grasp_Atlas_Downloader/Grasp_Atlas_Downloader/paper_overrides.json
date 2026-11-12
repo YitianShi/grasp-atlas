@@ -1,0 +1,300 @@
+{
+  "258": {
+    "title": "AdapGrasp: A Stiffness and Grasp Affordance Dataset with a Transformer-Based Adaptive Grasp Model",
+    "matched_paper_url": "https://doi.org/10.1109/icra57385.2026.11696782",
+    "candidates": [
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11696782",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220848058 exact title match"
+      },
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11696782",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220848058"
+      }
+    ]
+  },
+  "259": {
+    "title": "Zero-Shot Exocentric Viewpoint-Robust Imitation Learning (VIL): Bridging Handheld Gripper and Exocentric Views",
+    "matched_paper_url": "https://doi.org/10.1109/icra57385.2026.11697270",
+    "candidates": [
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11697270",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220846197 exact title match"
+      },
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11697270",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220846197"
+      }
+    ]
+  },
+  "262": {
+    "title": "Learning Push-Grasp Synergy for Occluded Objects in Cluttered Environments",
+    "matched_paper_url": "https://doi.org/10.1109/icra57385.2026.11695822",
+    "candidates": [
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11695822",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220839032 exact title match"
+      },
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11695822",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220839032"
+      }
+    ]
+  },
+  "264": {
+    "title": "Proactive Grasp Assistance in a Robotic Hand Exoskeleton Improves Performance and Preference in Challenging Tasks",
+    "matched_paper_url": "https://doi.org/10.1109/icra57385.2026.11696073",
+    "candidates": [
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11696073",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220848448 exact title match"
+      },
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11696073",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220848448"
+      }
+    ]
+  },
+  "277": {
+    "title": "EdgeGrasp: Enhancing Edge Perception for 7-DoF Grasping Pose Estimation in Cluttered Scenes",
+    "matched_paper_url": "https://doi.org/10.1109/icra57385.2026.11697468",
+    "candidates": [
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11697468",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220831295 exact title match"
+      },
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11697468",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220831295"
+      }
+    ]
+  },
+  "280": {
+    "title": "Tool-Grasp: A 6-DoF Functional Grasping Framework for General-Purpose Hand Tools",
+    "matched_paper_url": "https://doi.org/10.1109/icra57385.2026.11697570",
+    "candidates": [
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11697570",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220856955 exact title match"
+      },
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11697570",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220856955"
+      }
+    ]
+  },
+  "284": {
+    "title": "SureGrip: Perceptual Grasping of Natural Handholds for Free-Climbing Robots",
+    "matched_paper_url": "https://doi.org/10.1109/icra57385.2026.11695918",
+    "candidates": [
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11695918",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220840437 exact title match"
+      },
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11695918",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220840437"
+      }
+    ]
+  },
+  "286": {
+    "title": "GPD-AP: A Grasp Pose-Driven Active Perception Framework for Occlusion-Robust Robotic Manipulation",
+    "matched_paper_url": "https://doi.org/10.1109/icra57385.2026.11695783",
+    "candidates": [
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11695783",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220839283 exact title match"
+      },
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11695783",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220839283"
+      }
+    ]
+  },
+  "287": {
+    "title": "Learning to Grasp by Integrating Human Preferences and Success Feedback",
+    "matched_paper_url": "https://doi.org/10.1109/icra57385.2026.11695843",
+    "candidates": [
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11695843",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220841357 exact title match"
+      },
+      {
+        "url": "https://doi.org/10.1109/icra57385.2026.11695843",
+        "kind": "public",
+        "evidence": "https://openalex.org/W7220841357"
+      }
+    ]
+  },
+  "244": {
+    "title": "Trajectory Optimization for Dynamically Grasping Irregular Objects",
+    "title_alias": "Online Trajectory Replanner for Dynamically Grasping Irregular Objects",
+    "matched_paper_url": "https://doi.org/10.1109/ICRA55743.2025.11128477",
+    "source_note": "会议目录使用 Trajectory Optimization 标题；按作者名单、ICRA 2025 出版元数据及作者主页对应到 Online Trajectory Replanner 版本。",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/abs/2501.17968",
+        "kind": "arxiv",
+        "evidence": "ICRA 2025 authors agree with DOI 10.1109/ICRA55743.2025.11128477; author publication list https://www.csc.liv.ac.uk/~anguyen/publications/ links this preprint as ICRA 2025"
+      },
+      {
+        "url": "https://www.csc.liv.ac.uk/~anguyen/assets/pdfs/2025_ICRA_Traj_replanning.pdf",
+        "kind": "public",
+        "evidence": "https://www.csc.liv.ac.uk/~anguyen/publications/"
+      }
+    ]
+  },
+  "387": {
+    "title": "CAPGrasp: An R³ × SO(2)-Equivariant Continuous Approach-Constrained Generative Grasp Sampler",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/abs/2310.12113",
+        "kind": "public",
+        "evidence": "Author project explicitly links RA-L paper and arXiv: https://wengzehang.github.io/CAPGrasp/"
+      }
+    ]
+  },
+  "192": {
+    "title": "Physical and Digital Adversarial Attacks on Grasp Quality Networks",
+    "candidates": [
+      {
+        "url": "https://kclpure.kcl.ac.uk/portal/files/248921202/icra2024_grasp_pixel_attacks.pdf",
+        "kind": "public",
+        "evidence": "citation_pdf_url on https://kclpure.kcl.ac.uk/portal/en/publications/physical-and-digital-adversarial-attacks-on-grasp-quality-network/"
+      },
+      {
+        "url": "https://www.martimbrandao.com/papers/Alharthi2024-icra.pdf",
+        "kind": "public",
+        "evidence": "Exact-title web search found author-hosted PDF; title verified on download"
+      }
+    ]
+  },
+  "116": {
+    "title": "Context-Aware Grasp Generation in Cluttered Scenes",
+    "candidates": [
+      {
+        "url": "https://www.diva-portal.org/smash/get/diva2%3A1648882/FULLTEXT01.pdf",
+        "kind": "public",
+        "evidence": "DiVA university postprint; title and authors visible on cover page"
+      }
+    ]
+  },
+  "189": {
+    "title": "Amortized Inference for Efficient Grasp Model Adaptation",
+    "candidates": [
+      {
+        "url": "https://groups.csail.mit.edu/rrg/papers/noseworthy_shaw_icra24.pdf",
+        "kind": "public",
+        "evidence": "Author/institution public copy found by exact-title search; PDF title must pass verification"
+      }
+    ]
+  },
+  "359": {
+    "title": "Beyond Coulomb: Stochastic Friction Models for Practical Grasping and Manipulation",
+    "candidates": [
+      {
+        "url": "https://biorobotics.harvard.edu/pubs/2023/journals/Beyond_Coulomb_Stochastic_Friction_Models_for_Practical_Grasping_and_Manipulation.pdf",
+        "kind": "public",
+        "evidence": "Author/institution public copy found by exact-title search; PDF title must pass verification"
+      }
+    ]
+  },
+  "430": {
+    "title": "Domain-Invariant Feature Learning via Margin and Structure Priors for Robotic Grasping",
+    "candidates": [
+      {
+        "url": "https://livrepository.liverpool.ac.uk/3190070/1/RAL_domain_invariant_feature_learning%20%28plain%29.pdf",
+        "kind": "public",
+        "evidence": "Author/institution public copy found by exact-title search; PDF title must pass verification"
+      }
+    ]
+  },
+  "412": {
+    "title": "Probabilistic Closed-Loop Active Grasping",
+    "candidates": []
+  },
+  "443": {
+    "title": "MetaMVUC: Active Learning for Sample-Efficient Sim-to-Real Domain Adaptation in Robotic Grasping",
+    "candidates": [
+      {
+        "url": "https://publikationen.bibliothek.kit.edu/1000180147/157899656",
+        "kind": "public",
+        "evidence": "Institutional repository page: https://publikationen.bibliothek.kit.edu/1000180147"
+      }
+    ]
+  },
+  "483": {
+    "title": "MetaGraspNetV2: All-in-One Dataset Enabling Fast and Reliable Robotic Bin Picking via Object Relationship Reasoning and Dexterous Grasping",
+    "candidates": [
+      {
+        "url": "https://publikationen.bibliothek.kit.edu/1000168221/152209863",
+        "kind": "public",
+        "evidence": "Institutional repository page: https://publikationen.bibliothek.kit.edu/1000168221"
+      }
+    ]
+  },
+  "670": {
+    "title": "Grasping with Chopsticks: Combating Covariate Shift in Model-free Imitation Learning for Fine Manipulation",
+    "candidates": [
+      {
+        "url": "https://homes.cs.washington.edu/~bboots/files/Chopsticks.pdf",
+        "kind": "public",
+        "evidence": "Exact-title web search found author-hosted PDF; title verified on download"
+      }
+    ]
+  },
+  "514": {
+    "title": "DGS-Net: Learning Dexterous Grasps from Single-View Point Clouds via a Multi-Object Scene Dataset",
+    "title_alias": "End-to-End Dexterous Grasp Learning from Single-View Point Clouds via a Multi-Object Scene Dataset",
+    "source_note": "Author repository explicitly links the catalogue IEEE paper and this arXiv preprint under its revised title: https://github.com/4taotao8/DGS-Net",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/abs/2603.15410",
+        "kind": "arxiv",
+        "evidence": "Author repository maps IEEE 11719723 to arXiv 2603.15410; authors agree"
+      }
+    ]
+  },
+  "531": {
+    "title": "Learning Human-Like Functional Grasping for Multifinger Hands From Few Demonstrations",
+    "title_alias": "Generalized Anthropomorphic Functional Grasping with Minimal Demonstrations",
+    "source_note": "The author publication page explicitly links this earlier preprint. Title and author list differ from the published journal version: https://sizhe-wang.github.io/publications/dexfg/",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/abs/2303.17808",
+        "kind": "arxiv",
+        "evidence": "Explicit Preprint link on author publication page https://sizhe-wang.github.io/publications/dexfg/"
+      }
+    ]
+  },
+  "705": {
+    "title": "More than a Point: Adaptive Affordance Heatmaps as VLM Grounding Interfaces for Robotics",
+    "title_alias": "More than A Point: Capturing Uncertainty with Adaptive Affordance Heatmaps for Spatial Grounding in Robotic Tasks",
+    "matched_paper_url": "https://robo-map.github.io/",
+    "source_note": "The author project explicitly identifies the earlier title. The local arXiv PDF retains that earlier title and a different author list; it is not represented as the final accepted manuscript.",
+    "candidates": [
+      {
+        "url": "https://arxiv.org/abs/2510.10912",
+        "kind": "arxiv",
+        "evidence": "Author project https://robo-map.github.io/ explicitly states Previously titled and links this preprint."
+      }
+    ]
+  }
+}

@@ -1,0 +1,4490 @@
+{
+  "asOf": "2026-11-06",
+  "venue": "CoRL",
+  "year": 2026,
+  "source": "https://www.corl.org/program/accepted-papers",
+  "officialAccepted": 687,
+  "sourceSHA256": "193795bee95c070f0554115a2020e77c5fcd9a9dc4df7c78c986964431e8350c",
+  "baselineRows": 692,
+  "baselineIdentitySHA256": "3ad1596836f88e40be499788d853c316cd164faac348c12b26b6e0dd81ea259e",
+  "method": {
+    "discovery": "Screen all 687 official titles for grasp, gripper, prehensile, pick and affordance; inspect four supplemental grasp-tagged candidates from discovery indexes.",
+    "titleExclusions": [
+      "underwater",
+      "surgical",
+      "deformable",
+      "bimanual",
+      "suction",
+      "vacuum"
+    ],
+    "scope": "Existing non-tactile robot-grasp collection; grasp-related perception, data and articulated manipulation require primary-source grasp evidence.",
+    "limitations": [
+      "This is a title-led scoped update, not an exhaustive full-text survey of all general-purpose manipulation papers.",
+      "OpenReview serves browser-verification challenges. No verification bypass or substitute earlier conference submission was used.",
+      "Two included records are explicitly title-screened with no verified abstract or public implementation.",
+      "Author preprint versions can differ from the accepted manuscript; versioned arXiv abstract URLs are retained.",
+      "The RoboMAP PDF is an explicitly author-associated earlier preprint with a different title and author list, not the accepted manuscript. This version distinction is visible in the paper details."
+    ]
+  },
+  "discoverySources": [
+    "https://jaywu109.github.io/papers/corl-2026/",
+    "https://arpit15.github.io/corl2026/"
+  ],
+  "officialRoster": [
+    {
+      "id": "gQFYIM5dJy",
+      "title": "Diagnosing Compositional Generalization in Sequential Robot Tasks",
+      "url": "https://openreview.net/forum?id=gQFYIM5dJy"
+    },
+    {
+      "id": "2Z8xQxrlsY",
+      "title": "EmbodiSteer: Steering Embodiment-Agnostic Visuomotor Policies with Joint-Space Guidance for Zero-Shot Cross-Embodiment Deployment",
+      "url": "https://openreview.net/forum?id=2Z8xQxrlsY"
+    },
+    {
+      "id": "z47bcul4Zk",
+      "title": "Learning What to Say to Your VLA: Mostly Harmless Vision Language Action Model Steering",
+      "url": "https://openreview.net/forum?id=z47bcul4Zk"
+    },
+    {
+      "id": "5TiiTY1fK3",
+      "title": "MEM: Multi-Scale Embodied Memory for Vision Language Action Models",
+      "url": "https://openreview.net/forum?id=5TiiTY1fK3"
+    },
+    {
+      "id": "Q6xWLHyg6x",
+      "title": "MolmoAct2: Action Reasoning Models for Real-World Deployment",
+      "url": "https://openreview.net/forum?id=Q6xWLHyg6x"
+    },
+    {
+      "id": "QwpnI3BlwT",
+      "title": "PRTS: A Primitive Reasoning and Tasking System via Contrastive Representations",
+      "url": "https://openreview.net/forum?id=QwpnI3BlwT"
+    },
+    {
+      "id": "YTw6LOO9C5",
+      "title": "Semantic Anchoring for Robotic Action Representations",
+      "url": "https://openreview.net/forum?id=YTw6LOO9C5"
+    },
+    {
+      "id": "HmdwOezjlQ",
+      "title": "When Vision Overrides Language: Evaluating and Mitigating Counterfactual Failures in VLAs",
+      "url": "https://openreview.net/forum?id=HmdwOezjlQ"
+    },
+    {
+      "id": "4RLjGPEfpH",
+      "title": "ZETA: A Controlled Study of Zero-Shot Cross-Embodiment VLA Transfer for Tabletop Manipulation",
+      "url": "https://openreview.net/forum?id=4RLjGPEfpH"
+    },
+    {
+      "id": "cfzFrOJmKA",
+      "title": "Being-H0.5: Scaling Human-Centric Robot Learning for Cross-Embodiment Generalization",
+      "url": "https://openreview.net/forum?id=cfzFrOJmKA"
+    },
+    {
+      "id": "NHE9q2cz1n",
+      "title": "RoboTTT: Context Scaling for Robot Policies",
+      "url": "https://openreview.net/forum?id=NHE9q2cz1n"
+    },
+    {
+      "id": "5XKFwWrW0v",
+      "title": "π0.7: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities",
+      "url": "https://openreview.net/forum?id=5XKFwWrW0v"
+    },
+    {
+      "id": "f9grq4Ncx9",
+      "title": "Memory-augmented Action-conditioned World Model for Robot Manipulation",
+      "url": "https://openreview.net/forum?id=f9grq4Ncx9"
+    },
+    {
+      "id": "FVZKpmPHV8",
+      "title": "TEMPO: Learning Temporal Context for Dynamic Robot Manipulation",
+      "url": "https://openreview.net/forum?id=FVZKpmPHV8"
+    },
+    {
+      "id": "Bshs9HDDiu",
+      "title": "World Action Models are Zero-shot Policies",
+      "url": "https://openreview.net/forum?id=Bshs9HDDiu"
+    },
+    {
+      "id": "TscNG5Wcwn",
+      "title": "Diversity You Can Actually Measure: A Fast, Model-Free Diversity Metric for Robotics Datasets",
+      "url": "https://openreview.net/forum?id=TscNG5Wcwn"
+    },
+    {
+      "id": "c4Z0Y8gvnI",
+      "title": "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation",
+      "url": "https://openreview.net/forum?id=c4Z0Y8gvnI"
+    },
+    {
+      "id": "RdvH11pAfJ",
+      "title": "What Are We Actually Benchmarking in Robot Manipulation?",
+      "url": "https://openreview.net/forum?id=RdvH11pAfJ"
+    },
+    {
+      "id": "mHCqiRUiHi",
+      "title": "BitVLA: 1-bit Vision-Language-Action Models for Robotics Manipulation",
+      "url": "https://openreview.net/forum?id=mHCqiRUiHi"
+    },
+    {
+      "id": "dngZLI0SlV",
+      "title": "Chunk-wise Model-based Policy Optimization",
+      "url": "https://openreview.net/forum?id=dngZLI0SlV"
+    },
+    {
+      "id": "HbuX1Fe8bl",
+      "title": "Diffusion ReRoll: Revisable Denoising for Robotic Sequential Prediction",
+      "url": "https://openreview.net/forum?id=HbuX1Fe8bl"
+    },
+    {
+      "id": "OckqYiY2QM",
+      "title": "EagleVLA: Towards Onboard Real-Time Robot Control via Foresight-Aligned Asynchronous Inference",
+      "url": "https://openreview.net/forum?id=OckqYiY2QM"
+    },
+    {
+      "id": "QBAA8svAIK",
+      "title": "FedGuide: Diffusion Prior Alignment and Value Baseline Guidance for Heterogeneous Federated Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=QBAA8svAIK"
+    },
+    {
+      "id": "v24DO7JOuN",
+      "title": "MoRE: Mixture-of-Experts for Multi-Physics Robotic World Models",
+      "url": "https://openreview.net/forum?id=v24DO7JOuN"
+    },
+    {
+      "id": "FFB8qNJwV2",
+      "title": "REACT: Rolling Denoising and Dual Decoupling for Reactive Robot Control with VLA Models",
+      "url": "https://openreview.net/forum?id=FFB8qNJwV2"
+    },
+    {
+      "id": "WvR13cRtRf",
+      "title": "TARC: Time-Adaptive Robotic Control",
+      "url": "https://openreview.net/forum?id=WvR13cRtRf"
+    },
+    {
+      "id": "6T2ebANGy5",
+      "title": "Targeting World Models to Compromise Robot Learning Pipelines",
+      "url": "https://openreview.net/forum?id=6T2ebANGy5"
+    },
+    {
+      "id": "jeNVGuJQrb",
+      "title": "SPARK: Simple Post-training for Adapting pRetrained Knowledge to Robot Control",
+      "url": "https://openreview.net/forum?id=jeNVGuJQrb"
+    },
+    {
+      "id": "ZAdTLinUnd",
+      "title": "FlowVLA: Enabling World Dynamics Understanding through Pluggable 3D Flow Learning",
+      "url": "https://openreview.net/forum?id=ZAdTLinUnd"
+    },
+    {
+      "id": "qKU6lifnPU",
+      "title": "CoRE-VLA: Towards Scalable and Robust Vision-Language-Action Modeling via Conditional Routing of Experts",
+      "url": "https://openreview.net/forum?id=qKU6lifnPU"
+    },
+    {
+      "id": "3M39Fmw8Mx",
+      "title": "FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=3M39Fmw8Mx"
+    },
+    {
+      "id": "X2mRYIgshj",
+      "title": "DualSpace-VLA: Coupling Cartesian-Space Motion Intent with Joint-Space Execution in Vision-Language-Action Policies",
+      "url": "https://openreview.net/forum?id=X2mRYIgshj"
+    },
+    {
+      "id": "HvKifHMHcM",
+      "title": "GeomVLA: Unifying Scene, Motion, and Action in 3D",
+      "url": "https://openreview.net/forum?id=HvKifHMHcM"
+    },
+    {
+      "id": "Z04KxYWC6V",
+      "title": "SAGE-3D: Semantic-Aware 3D Representations for Generalizable Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=Z04KxYWC6V"
+    },
+    {
+      "id": "mG3eBTsBiG",
+      "title": "X-Tokenizer: A Multimodal Action Tokenizer for Vision-Language-Action Model Pretraining",
+      "url": "https://openreview.net/forum?id=mG3eBTsBiG"
+    },
+    {
+      "id": "uhnmcdamCa",
+      "title": "NAC: Neural Action Codec for Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=uhnmcdamCa"
+    },
+    {
+      "id": "wRLEgpRnVR",
+      "title": "ActionCodec: What Makes for Good Action Tokenizers",
+      "url": "https://openreview.net/forum?id=wRLEgpRnVR"
+    },
+    {
+      "id": "VY6U0drX88",
+      "title": "TBD-VLA: Temporal Block Diffusion Vision Language Action Model",
+      "url": "https://openreview.net/forum?id=VY6U0drX88"
+    },
+    {
+      "id": "tegLlXBRCU",
+      "title": "Coarse-to-Control: Action-Token Planning for Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=tegLlXBRCU"
+    },
+    {
+      "id": "fGWkovHMQE",
+      "title": "ThinkingVLA: Interleaved Vision and Language Reasoning for Robotic Manipulation",
+      "url": "https://openreview.net/forum?id=fGWkovHMQE"
+    },
+    {
+      "id": "EfgCnZgmvN",
+      "title": "Unified Motion-Action Modeling for Heterogeneous Robot Learning",
+      "url": "https://openreview.net/forum?id=EfgCnZgmvN"
+    },
+    {
+      "id": "iy5oCeLdEF",
+      "title": "ELA: End-to-End Latent Action Policy Learning from Video Demonstrations",
+      "url": "https://openreview.net/forum?id=iy5oCeLdEF"
+    },
+    {
+      "id": "ghx1d6PQUR",
+      "title": "HARP-VLA: Human-Robot Aligned Representation Learning for Vision-Language-Action Model",
+      "url": "https://openreview.net/forum?id=ghx1d6PQUR"
+    },
+    {
+      "id": "yNHgrgATuY",
+      "title": "FIBERTUNE: Preserving Action-Fiber Visual Residuals in Vision-Language-Action Fine-Tuning",
+      "url": "https://openreview.net/forum?id=yNHgrgATuY"
+    },
+    {
+      "id": "Y55iJjxMsh",
+      "title": "Compositional Diffusion Policy for Vision–Language–Action Agents",
+      "url": "https://openreview.net/forum?id=Y55iJjxMsh"
+    },
+    {
+      "id": "03qRtmw4qx",
+      "title": "Learning Additively Compositional Latent Actions for Embodied AI",
+      "url": "https://openreview.net/forum?id=03qRtmw4qx"
+    },
+    {
+      "id": "JKoP9L6myQ",
+      "title": "PoLAR: Factorizing Extent and Mode in Latent Actions for Robot Policy Learning",
+      "url": "https://openreview.net/forum?id=JKoP9L6myQ"
+    },
+    {
+      "id": "XnIdgAtBX7",
+      "title": "Disentangling Spurious Correlations in Vision-Language-Action Models via Predicting Domain-Invariant Latent Lookahead",
+      "url": "https://openreview.net/forum?id=XnIdgAtBX7"
+    },
+    {
+      "id": "IjnCc1OZnJ",
+      "title": "Artificial Foveated Perception for Mitigating Shortcut Learning in Robotic Foundation Models",
+      "url": "https://openreview.net/forum?id=IjnCc1OZnJ"
+    },
+    {
+      "id": "rYkaehgzzO",
+      "title": "See Less, Specify More: Visual Evidence Budgets for Generalizable VLAs",
+      "url": "https://openreview.net/forum?id=rYkaehgzzO"
+    },
+    {
+      "id": "oKJnHTluoA",
+      "title": "MotionVLA: Injecting Geometric Motion into Vision-Language-Action Model",
+      "url": "https://openreview.net/forum?id=oKJnHTluoA"
+    },
+    {
+      "id": "U620dzd51N",
+      "title": "Think Proprioceptively: State-Grounded Visual Token Selection for VLA Policies",
+      "url": "https://openreview.net/forum?id=U620dzd51N"
+    },
+    {
+      "id": "rcE4amkjBq",
+      "title": "GeoProp: Grounding Robot State in Vision for Generalist Manipulation",
+      "url": "https://openreview.net/forum?id=rcE4amkjBq"
+    },
+    {
+      "id": "1uKIsrjCvt",
+      "title": "Localized Visual Feature Aggregation via Focus Pooling for Visuomotor Policies",
+      "url": "https://openreview.net/forum?id=1uKIsrjCvt"
+    },
+    {
+      "id": "Afq9dTKP09",
+      "title": "Attention from Action, for Action: Emergent Visual Bottlenecks for Policy Learning",
+      "url": "https://openreview.net/forum?id=Afq9dTKP09"
+    },
+    {
+      "id": "PEWWDUL10X",
+      "title": "OmniGuide: Universal Spatial Guidance Fields for Enhancing Generalist Robot Policies",
+      "url": "https://openreview.net/forum?id=PEWWDUL10X"
+    },
+    {
+      "id": "wKRawikMuG",
+      "title": "Modular Sensory Stream for Integrating Physical Feedback in Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=wKRawikMuG"
+    },
+    {
+      "id": "0HnCTHL4fw",
+      "title": "Towards Human-like Physical Intelligence: Lifelong Vision-Language-Action Learning for Robotic Manipulation",
+      "url": "https://openreview.net/forum?id=0HnCTHL4fw"
+    },
+    {
+      "id": "0PThTAIwPD",
+      "title": "Trust-Calibrated VLA Policy Post-Training with Evolving Imagination",
+      "url": "https://openreview.net/forum?id=0PThTAIwPD"
+    },
+    {
+      "id": "n31eEof0k3",
+      "title": "Long-Horizon Manipulation via Trace-Conditioned VLA Planning",
+      "url": "https://openreview.net/forum?id=n31eEof0k3"
+    },
+    {
+      "id": "aPppmSJzb5",
+      "title": "TRACE: Trajectory-Routed Causal Memory for Delayed-Evidence Visuomotor Imitation",
+      "url": "https://openreview.net/forum?id=aPppmSJzb5"
+    },
+    {
+      "id": "TTJ3uxLcxL",
+      "title": "Chameleon: Control-Indexed Prospective Memory for Visuomotor Manipulation",
+      "url": "https://openreview.net/forum?id=TTJ3uxLcxL"
+    },
+    {
+      "id": "TZM6J864Lf",
+      "title": "Gated Memory Policy",
+      "url": "https://openreview.net/forum?id=TZM6J864Lf"
+    },
+    {
+      "id": "8FGH4qAdNB",
+      "title": "EventVLA: Event-Driven Visual Evidence Memory for Long-Horizon Vision-Language-Action Policies",
+      "url": "https://openreview.net/forum?id=8FGH4qAdNB"
+    },
+    {
+      "id": "hJv9yhbgxR",
+      "title": "Native Memory Compression for Long-Horizon Robotic Manipulation",
+      "url": "https://openreview.net/forum?id=hJv9yhbgxR"
+    },
+    {
+      "id": "rnp2Bj4RUX",
+      "title": "Safe Task Planning with Long-Term Graph Memory for Embodied Agents",
+      "url": "https://openreview.net/forum?id=rnp2Bj4RUX"
+    },
+    {
+      "id": "Q4ehHMIPmb",
+      "title": "RoboMemory: A Brain-inspired Multi-memory Agentic Framework for Interactive Environmental Learning in Physical Embodied Systems",
+      "url": "https://openreview.net/forum?id=Q4ehHMIPmb"
+    },
+    {
+      "id": "GqqwqejrTq",
+      "title": "MessyMem: Learning-from-Doing Memory for Mobile Manipulation",
+      "url": "https://openreview.net/forum?id=GqqwqejrTq"
+    },
+    {
+      "id": "aPosmVaV9y",
+      "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
+      "url": "https://openreview.net/forum?id=aPosmVaV9y"
+    },
+    {
+      "id": "ndhpQ86iXs",
+      "title": "Watch, Recall, Act: Always-On Robots in Concurrent Embodied Streams",
+      "url": "https://openreview.net/forum?id=ndhpQ86iXs"
+    },
+    {
+      "id": "dSbtHPqFj9",
+      "title": "Memory Anchors for Continual Robot Learning",
+      "url": "https://openreview.net/forum?id=dSbtHPqFj9"
+    },
+    {
+      "id": "kB0KO1Wife",
+      "title": "Light-WAM: Efficient World Action Models with State-Fusion Action Decoding",
+      "url": "https://openreview.net/forum?id=kB0KO1Wife"
+    },
+    {
+      "id": "OIhLrULoIq",
+      "title": "World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis",
+      "url": "https://openreview.net/forum?id=OIhLrULoIq"
+    },
+    {
+      "id": "PniGejQAdF",
+      "title": "Large Video Planner Enables Generalizable Robot Control",
+      "url": "https://openreview.net/forum?id=PniGejQAdF"
+    },
+    {
+      "id": "aITDcHSCTW",
+      "title": "MemoryVAM: Integrating Memory into Video Action Model for Robot Manipulation",
+      "url": "https://openreview.net/forum?id=aITDcHSCTW"
+    },
+    {
+      "id": "DzAZfcPUiP",
+      "title": "How to Peel with a Knife: Aligning Fine-Grained Manipulation with Human Preference",
+      "url": "https://openreview.net/forum?id=DzAZfcPUiP"
+    },
+    {
+      "id": "thG2jwuii6",
+      "title": "RoboPocket: Improve Robot Policies Instantly with Your Phone",
+      "url": "https://openreview.net/forum?id=thG2jwuii6"
+    },
+    {
+      "id": "qxboQ98QN4",
+      "title": "Rethinking the Implications of Human Feedback for Preference Learning in Human-Robot Collaboration",
+      "url": "https://openreview.net/forum?id=qxboQ98QN4"
+    },
+    {
+      "id": "79jC3quhGp",
+      "title": "Learning to Assist: Collaborative VLAs for Implicit Human-Robot Collaboration",
+      "url": "https://openreview.net/forum?id=79jC3quhGp"
+    },
+    {
+      "id": "mwJwAQ0CXT",
+      "title": "CHORUS: Decentralized Multi-Embodiment Collaboration with One VLA Policy",
+      "url": "https://openreview.net/forum?id=mwJwAQ0CXT"
+    },
+    {
+      "id": "hvArz6F8eA",
+      "title": "Probing Collision Grounding in Vision-Language Models for Safe Human–Robot Collaboration",
+      "url": "https://openreview.net/forum?id=hvArz6F8eA"
+    },
+    {
+      "id": "rAyG2MJka5",
+      "title": "STARS: From Spatiotemporal Dynamics to Social Representations in Human-Robot Interaction",
+      "url": "https://openreview.net/forum?id=rAyG2MJka5"
+    },
+    {
+      "id": "VnF3D7ia9Y",
+      "title": "Reactive Task-Oriented Robot-Human Handovers via Generative Hypothesis Selection",
+      "url": "https://openreview.net/forum?id=VnF3D7ia9Y"
+    },
+    {
+      "id": "nXfwmrzXzz",
+      "title": "An Agentic Framework for Proactive Robots with Procedural Assistance Memory",
+      "url": "https://openreview.net/forum?id=nXfwmrzXzz"
+    },
+    {
+      "id": "v4QUDwGroQ",
+      "title": "COOL: Curiosity-Driven Object Ownership Learning for Personalized Robotic Assistance",
+      "url": "https://openreview.net/forum?id=v4QUDwGroQ"
+    },
+    {
+      "id": "m0Zqqi9Lfr",
+      "title": "AI Coaching for Accelerating Human Skill Development with Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=m0Zqqi9Lfr"
+    },
+    {
+      "id": "xWoyO2BPcl",
+      "title": "RoboAffect: Egocentric Emotion Reasoning for Robot Companions in Shared Viewing",
+      "url": "https://openreview.net/forum?id=xWoyO2BPcl"
+    },
+    {
+      "id": "aILPNAxgHb",
+      "title": "Eye, Robot: Learning Expressive Gaze Dynamics via a VLM-Guided Transformer-VAE",
+      "url": "https://openreview.net/forum?id=aILPNAxgHb"
+    },
+    {
+      "id": "Tk20sRMzhv",
+      "title": "Transformer-Based Trajectory Prescription for sEMG-Optimizing Robot-Mediated Rehabilitation",
+      "url": "https://openreview.net/forum?id=Tk20sRMzhv"
+    },
+    {
+      "id": "HfHTPpDBYr",
+      "title": "Asking Smarter Questions: Targeted Active Preference Learning for Underspecified Rewards",
+      "url": "https://openreview.net/forum?id=HfHTPpDBYr"
+    },
+    {
+      "id": "Gpc0nCixhZ",
+      "title": "Learning Coordinated Visuomotor Box-Pushing from Solo Demonstrations",
+      "url": "https://openreview.net/forum?id=Gpc0nCixhZ"
+    },
+    {
+      "id": "2vx7I6aRPS",
+      "title": "PIVOT: Policy Improvement via Trust-Region Optimization from Deployment Experience",
+      "url": "https://openreview.net/forum?id=2vx7I6aRPS"
+    },
+    {
+      "id": "656PH9MVla",
+      "title": "Learning While Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies",
+      "url": "https://openreview.net/forum?id=656PH9MVla"
+    },
+    {
+      "id": "VVdYxLGhxH",
+      "title": "DIQL:Distributional Implicit Q Learning for Offline to Online Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=VVdYxLGhxH"
+    },
+    {
+      "id": "qx5mPYiXVi",
+      "title": "Robo-ValueRL: Reliable Value Estimation for Offline-to-Online Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=qx5mPYiXVi"
+    },
+    {
+      "id": "aZ2Ojk8zxd",
+      "title": "Task-Space Imitation Guidance for Efficient Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=aZ2Ojk8zxd"
+    },
+    {
+      "id": "ar3eWq6mh4",
+      "title": "UniIntervene: Agentic Intervention for Efficient Real-World Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=ar3eWq6mh4"
+    },
+    {
+      "id": "TPeVwyCt8w",
+      "title": "Preference-Calibrated Human-in-the-Loop Reinforcement Learning for Robotic Manipulation",
+      "url": "https://openreview.net/forum?id=TPeVwyCt8w"
+    },
+    {
+      "id": "kCeFEyLOuW",
+      "title": "PAWN: Preference-Aware Semantic NFT for Online Reinforcement Learning of Flow-based VLAs",
+      "url": "https://openreview.net/forum?id=kCeFEyLOuW"
+    },
+    {
+      "id": "PNSqN6Bng7",
+      "title": "Decision-Centric Counterfactual Preference Optimization for Vision-Language-Action Post-Training",
+      "url": "https://openreview.net/forum?id=PNSqN6Bng7"
+    },
+    {
+      "id": "ZDnuAR0GMn",
+      "title": "TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics",
+      "url": "https://openreview.net/forum?id=ZDnuAR0GMn"
+    },
+    {
+      "id": "AAn8ouEHwO",
+      "title": "RARM: Confidence-Gated Progress Reward Modeling for RL in Manipulation",
+      "url": "https://openreview.net/forum?id=AAn8ouEHwO"
+    },
+    {
+      "id": "DBLXUxxslN",
+      "title": "FlashRFCL: Demonstration-Efficient Sparse Reward RL via Reverse-Forward Curriculum Learning in High-Throughput GPU Simulation",
+      "url": "https://openreview.net/forum?id=DBLXUxxslN"
+    },
+    {
+      "id": "0ua1KHFIUD",
+      "title": "HiRE: Hindsight Reward Editing for Policy Finetuning",
+      "url": "https://openreview.net/forum?id=0ua1KHFIUD"
+    },
+    {
+      "id": "U3Nmrhun8B",
+      "title": "EXPO-FT: Sample-Efficient Reinforcement Learning Finetuning for Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=U3Nmrhun8B"
+    },
+    {
+      "id": "z5Mgc1GGjP",
+      "title": "Scaling Sim-to-Real VLA Reinforcement Learning with Generative 3D Worlds",
+      "url": "https://openreview.net/forum?id=z5Mgc1GGjP"
+    },
+    {
+      "id": "GFxjqZVSND",
+      "title": "M3P-R1: Reinforcement Learning for Large Language Model Guided Multi-Modal Motion Planning via MIP Code Generation",
+      "url": "https://openreview.net/forum?id=GFxjqZVSND"
+    },
+    {
+      "id": "9I9DPyr2f9",
+      "title": "Training Robots to Reason in Natural Language via Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=9I9DPyr2f9"
+    },
+    {
+      "id": "2vDRocNuih",
+      "title": "PAKT: Physically-Aligned Kinesthetic Teaching for Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=2vDRocNuih"
+    },
+    {
+      "id": "9seU2kEIxR",
+      "title": "Q-OIL: Optimistic Exploration in Learning from Human Interventions",
+      "url": "https://openreview.net/forum?id=9seU2kEIxR"
+    },
+    {
+      "id": "s8ZiyIAn3z",
+      "title": "Self-play is not enough: human imitation improves self-play autonomy in the wild",
+      "url": "https://openreview.net/forum?id=s8ZiyIAn3z"
+    },
+    {
+      "id": "MQdt80qzTP",
+      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+      "url": "https://openreview.net/forum?id=MQdt80qzTP"
+    },
+    {
+      "id": "JqZEEaNDLJ",
+      "title": "HARBOR: A Harness Framework for Agentic Robot Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=JqZEEaNDLJ"
+    },
+    {
+      "id": "RS2INStAhX",
+      "title": "Telescopes are Optomechanical Robots: Training Compositional Visuomotor Policies for Coordinated Control",
+      "url": "https://openreview.net/forum?id=RS2INStAhX"
+    },
+    {
+      "id": "W443fVglzC",
+      "title": "Explore Where It Matters: Targeted Exploration for Efficient Rover Adaptation",
+      "url": "https://openreview.net/forum?id=W443fVglzC"
+    },
+    {
+      "id": "dKRgZYcdRV",
+      "title": "Object-Centric Conditioning for Visuomotor Flow Matching",
+      "url": "https://openreview.net/forum?id=dKRgZYcdRV"
+    },
+    {
+      "id": "4dqRAd2sNp",
+      "title": "When One Step Is Enough: An Empirical Study of Euler Integration in Flow-Matching Policies",
+      "url": "https://openreview.net/forum?id=4dqRAd2sNp"
+    },
+    {
+      "id": "qd6clCx6QY",
+      "title": "Scalable Behavior Cloning with Open Data, Training, and Evaluation",
+      "url": "https://openreview.net/forum?id=qd6clCx6QY"
+    },
+    {
+      "id": "jnEHLRyWTZ",
+      "title": "Learning Beyond What Humans Can Demonstrate",
+      "url": "https://openreview.net/forum?id=jnEHLRyWTZ"
+    },
+    {
+      "id": "P8H2WZH2Tw",
+      "title": "Predictive Representation Learning for Manipulation via Streaming Egocentric 3D Hand Forecasting",
+      "url": "https://openreview.net/forum?id=P8H2WZH2Tw"
+    },
+    {
+      "id": "bLQynefrlp",
+      "title": "Bimanual Robot Manipulation via Multi-Agent In-Context Learning",
+      "url": "https://openreview.net/forum?id=bLQynefrlp"
+    },
+    {
+      "id": "f5329HhijI",
+      "title": "Mixture of Frames Policy: Multi-Frame Action Denoising for Bimanual Mobile Manipulation",
+      "url": "https://openreview.net/forum?id=f5329HhijI"
+    },
+    {
+      "id": "qHndjmxgs1",
+      "title": "GeoHAT: Geometry-Adaptive Hybrid Action Transformer for Mobile Manipulation",
+      "url": "https://openreview.net/forum?id=qHndjmxgs1"
+    },
+    {
+      "id": "Nfz7oM0Vwz",
+      "title": "InCoM: Intent-Driven Perception and Structured Coordination for Mobile Manipulation",
+      "url": "https://openreview.net/forum?id=Nfz7oM0Vwz"
+    },
+    {
+      "id": "ORKJlyLOHv",
+      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
+      "url": "https://openreview.net/forum?id=ORKJlyLOHv"
+    },
+    {
+      "id": "pENAQ22Jh1",
+      "title": "SuperSuit: An Isomorphic Bimodal Interface for Scalable Mobile Manipulation",
+      "url": "https://openreview.net/forum?id=pENAQ22Jh1"
+    },
+    {
+      "id": "4M7C3PsA78",
+      "title": "Look Before You Move: Agent-Interface-Aligned Supervision for Open-World Mobile Manipulation",
+      "url": "https://openreview.net/forum?id=4M7C3PsA78"
+    },
+    {
+      "id": "xOhVCWilYJ",
+      "title": "More than a Point: Adaptive Affordance Heatmaps as VLM Grounding Interfaces for Robotics",
+      "url": "https://openreview.net/forum?id=xOhVCWilYJ"
+    },
+    {
+      "id": "kGLogzKtYq",
+      "title": "GROW2: Grounding Which and Where for Robot Tool Use",
+      "url": "https://openreview.net/forum?id=kGLogzKtYq"
+    },
+    {
+      "id": "8QEFjWSgyu",
+      "title": "What Objects Enable, Not What They Are: Functional Latent Spaces for Affordance Reasoning",
+      "url": "https://openreview.net/forum?id=8QEFjWSgyu"
+    },
+    {
+      "id": "zhiG7XB56D",
+      "title": "Phase-Conditioned Affordance Fields for SE(3)-Equivariant Visuomotor Policies",
+      "url": "https://openreview.net/forum?id=zhiG7XB56D"
+    },
+    {
+      "id": "UMHg65UHcY",
+      "title": "VoxAfford: Multi-Scale Voxel-Token Fusion for Open-Vocabulary 3D Affordance Detection",
+      "url": "https://openreview.net/forum?id=UMHg65UHcY"
+    },
+    {
+      "id": "sF3YZbbTNX",
+      "title": "VoLo: A Physical Orchestrator for Open-Vocabulary Long-Horizon Manipulation",
+      "url": "https://openreview.net/forum?id=sF3YZbbTNX"
+    },
+    {
+      "id": "5cXsYqAjNs",
+      "title": "NovaPlan: Zero-Shot Long-Horizon Manipulation via Closed-Loop Video Language Planning",
+      "url": "https://openreview.net/forum?id=5cXsYqAjNs"
+    },
+    {
+      "id": "WeNTfF2Rks",
+      "title": "CoStream: Composing Simple Behaviors for Generalizable Complex Manipulation",
+      "url": "https://openreview.net/forum?id=WeNTfF2Rks"
+    },
+    {
+      "id": "cvPjGuUATQ",
+      "title": "Sim-and-Human Co-training for Data-Efficient and Scene-Generalizable Bimanual Manipulation",
+      "url": "https://openreview.net/forum?id=cvPjGuUATQ"
+    },
+    {
+      "id": "84ea2xeP60",
+      "title": "COWBOY: A Scalable Sim-to-Real Framework for Learning Contextual Whole-Body Manipulation",
+      "url": "https://openreview.net/forum?id=84ea2xeP60"
+    },
+    {
+      "id": "keuUzk1RSd",
+      "title": "BiRoAD: Learning Shared and Role-Adaptive Representations for Bimanual Manipulation",
+      "url": "https://openreview.net/forum?id=keuUzk1RSd"
+    },
+    {
+      "id": "AztNrTzNOf",
+      "title": "Foci Policy: Focus on Object-Centric Interactions for Relational Manipulation Policies",
+      "url": "https://openreview.net/forum?id=AztNrTzNOf"
+    },
+    {
+      "id": "QLhHHolka7",
+      "title": "Learning Object Manipulation from Scratch via Contrastive Interaction",
+      "url": "https://openreview.net/forum?id=QLhHHolka7"
+    },
+    {
+      "id": "MQlY5j6pnd",
+      "title": "Static In, Dynamic Out: Counterfactual Action Augmentation for Moving Object Manipulation",
+      "url": "https://openreview.net/forum?id=MQlY5j6pnd"
+    },
+    {
+      "id": "PAX622BSf6",
+      "title": "REAP: Learning General Rearrangement Heuristics from Motion-Planner Feedback",
+      "url": "https://openreview.net/forum?id=PAX622BSf6"
+    },
+    {
+      "id": "1HqdYVWaXi",
+      "title": "ReSiReg: Towards Spatially Consistent Semantics in Language-Conditioned Robotic Tasks",
+      "url": "https://openreview.net/forum?id=1HqdYVWaXi"
+    },
+    {
+      "id": "JiMWz6U93i",
+      "title": "AsyncVLA: An Asynchronous VLA for Fast and Robust Navigation on the Edge",
+      "url": "https://openreview.net/forum?id=JiMWz6U93i"
+    },
+    {
+      "id": "Av4ykyMvpX",
+      "title": "LCLA: Language-Conditioned Latent Alignment for Vision-Language Navigation",
+      "url": "https://openreview.net/forum?id=Av4ykyMvpX"
+    },
+    {
+      "id": "PjzSYChBzg",
+      "title": "WAM-Nav: Asymmetric Latent World-Action Modeling for Unified Visual Navigation",
+      "url": "https://openreview.net/forum?id=PjzSYChBzg"
+    },
+    {
+      "id": "nYkpEYmvbg",
+      "title": "SPAN-Nav: Generalized Spatial Awareness for Embodied Navigation",
+      "url": "https://openreview.net/forum?id=nYkpEYmvbg"
+    },
+    {
+      "id": "1zWj66605w",
+      "title": "G2-Nav: Grounded and Guarded Vision-Language Costmaps for Robot Social Navigation",
+      "url": "https://openreview.net/forum?id=1zWj66605w"
+    },
+    {
+      "id": "8xaYRUduNe",
+      "title": "Self-supervised Dispersive Sampling for Quadrotor Motion Planning",
+      "url": "https://openreview.net/forum?id=8xaYRUduNe"
+    },
+    {
+      "id": "5m9zSorosa",
+      "title": "Scaled Preference Conditioning for Terrain Costmap Generation",
+      "url": "https://openreview.net/forum?id=5m9zSorosa"
+    },
+    {
+      "id": "dkaxE3v6uu",
+      "title": "From Imitation to Alignment: Human-Preference Flow Policies for Long-Horizon Sidewalk Navigation",
+      "url": "https://openreview.net/forum?id=dkaxE3v6uu"
+    },
+    {
+      "id": "1JcOSLXzHB",
+      "title": "TopoUrbanBench: Group-Structural Compliance Evaluation for Urban Robot Navigation",
+      "url": "https://openreview.net/forum?id=1JcOSLXzHB"
+    },
+    {
+      "id": "7tCsPSbYZb",
+      "title": "GRACE: Group-Aware Socially Compliant Visual Navigation in Human Environments",
+      "url": "https://openreview.net/forum?id=7tCsPSbYZb"
+    },
+    {
+      "id": "da5VPQA7G7",
+      "title": "CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting",
+      "url": "https://openreview.net/forum?id=da5VPQA7G7"
+    },
+    {
+      "id": "foRrdaQ3mz",
+      "title": "Schrödinger's Navigator: Imagining an Ensemble of Futures for Zero-Shot Object Navigation",
+      "url": "https://openreview.net/forum?id=foRrdaQ3mz"
+    },
+    {
+      "id": "ODfnFGIIe3",
+      "title": "Task-Aware Environment Augmentation for Reliable Navigation via Shielded Conditional Diffusion",
+      "url": "https://openreview.net/forum?id=ODfnFGIIe3"
+    },
+    {
+      "id": "nBwRDRUdMc",
+      "title": "MessyNav: Zero-Shot Navigation via Manipulation in Messy Environments",
+      "url": "https://openreview.net/forum?id=nBwRDRUdMc"
+    },
+    {
+      "id": "0rvhGgRYjx",
+      "title": "NavVerse: Benchmarking Indoor-to-Outdoor Embodied Navigation in Continuous Robot Simulation",
+      "url": "https://openreview.net/forum?id=0rvhGgRYjx"
+    },
+    {
+      "id": "oJTM5ysEeJ",
+      "title": "OdorSpaces: Visual-Olfactory Embodied Navigation in 3D Environments",
+      "url": "https://openreview.net/forum?id=oJTM5ysEeJ"
+    },
+    {
+      "id": "Sal8Urvt1F",
+      "title": "PathPainter: Transferring the Generalization Ability of Image Generation Models to Embodied Navigation",
+      "url": "https://openreview.net/forum?id=Sal8Urvt1F"
+    },
+    {
+      "id": "xyFvvMLQRo",
+      "title": "GLST: Global-Local Spatio-Temporal Memory Decomposition Framework for Online Chained-Goal Navigation",
+      "url": "https://openreview.net/forum?id=xyFvvMLQRo"
+    },
+    {
+      "id": "7vjPgJ7x2b",
+      "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
+      "url": "https://openreview.net/forum?id=7vjPgJ7x2b"
+    },
+    {
+      "id": "A1Wg3RqdsR",
+      "title": "PIGEON: VLM-Driven Object Navigation via Points of Interest Selection",
+      "url": "https://openreview.net/forum?id=A1Wg3RqdsR"
+    },
+    {
+      "id": "6RJsxVCnhB",
+      "title": "IntentNav: Learning Spatial-Visual Object Navigation from Human Demonstrations",
+      "url": "https://openreview.net/forum?id=6RJsxVCnhB"
+    },
+    {
+      "id": "FuxTpvfYnh",
+      "title": "One-Step World Models for Multi-Modal Goal Navigation",
+      "url": "https://openreview.net/forum?id=FuxTpvfYnh"
+    },
+    {
+      "id": "G2Ja89f1e8",
+      "title": "Teaching Robots Like Dogs: Learning Navigation in Cluttered Scenes from Luring, Gesture, and Speech",
+      "url": "https://openreview.net/forum?id=G2Ja89f1e8"
+    },
+    {
+      "id": "qbninLImrj",
+      "title": "CostNav: A Navigation Benchmark for Real-World Economic-Cost Evaluation of Physical AI Agents",
+      "url": "https://openreview.net/forum?id=qbninLImrj"
+    },
+    {
+      "id": "bXQv3Kn5qL",
+      "title": "One Agent to Guide Them All: Empowering MLLMs for Vision-and-Language Navigation via Explicit World Representation",
+      "url": "https://openreview.net/forum?id=bXQv3Kn5qL"
+    },
+    {
+      "id": "pTqOGquuCh",
+      "title": "CoSMO: Conformal Semantic Mapping for Open-World Safe Robot Navigation",
+      "url": "https://openreview.net/forum?id=pTqOGquuCh"
+    },
+    {
+      "id": "xm8LPYlbxA",
+      "title": "CoGeL: Constraint-to-Geometry Learning from Demonstrations and Failures for Safe Long-Horizon Robot Navigation",
+      "url": "https://openreview.net/forum?id=xm8LPYlbxA"
+    },
+    {
+      "id": "DyO8vc0zYK",
+      "title": "Prioritized Multi-Constraint Coordination for Safe Multi-Robot Formation Navigation",
+      "url": "https://openreview.net/forum?id=DyO8vc0zYK"
+    },
+    {
+      "id": "xyRbF93MWh",
+      "title": "Adaptive Risk-Certified Event-Triggered Replanning for Dynamic Navigation",
+      "url": "https://openreview.net/forum?id=xyRbF93MWh"
+    },
+    {
+      "id": "60tPXLIFyM",
+      "title": "Navigating the Clutter: Waypoint-Based Bi-Level Planning for Multi-Robot Systems",
+      "url": "https://openreview.net/forum?id=60tPXLIFyM"
+    },
+    {
+      "id": "XA0dFQQlqP",
+      "title": "PanoVine: Whole-Body Visuomotor Control for Soft Growing Vine Robot",
+      "url": "https://openreview.net/forum?id=XA0dFQQlqP"
+    },
+    {
+      "id": "c0ygOLwL7i",
+      "title": "X-NavDP: Generalizing Navigation Diffusion Policy to Novel Behavior and Embodiments with Group Q-score Reweighted Matching",
+      "url": "https://openreview.net/forum?id=c0ygOLwL7i"
+    },
+    {
+      "id": "rwx9GCSVjH",
+      "title": "PathLift: Depth-Conditioned Metric Lifting for Visual-Navigation Priors",
+      "url": "https://openreview.net/forum?id=rwx9GCSVjH"
+    },
+    {
+      "id": "eRpTR7EEC1",
+      "title": "LIME: Learning Intent-aware Camera Motion from Egocentric Video",
+      "url": "https://openreview.net/forum?id=eRpTR7EEC1"
+    },
+    {
+      "id": "5oNzcK6SBR",
+      "title": "PROSE: Training-Free Egocentric Scene Registration with Vision-Language Models",
+      "url": "https://openreview.net/forum?id=5oNzcK6SBR"
+    },
+    {
+      "id": "wHAVgmIwj3",
+      "title": "Geometry-Aware Absolute Pose Regression via Geometric Pose Proxy",
+      "url": "https://openreview.net/forum?id=wHAVgmIwj3"
+    },
+    {
+      "id": "uSrlwzdTIC",
+      "title": "FreeLoc: Online Floorplan Localization via Diffusion-Aided Pose Refinement",
+      "url": "https://openreview.net/forum?id=uSrlwzdTIC"
+    },
+    {
+      "id": "ojMvvFKk6t",
+      "title": "CoReMatch: Recurrent Continuous Coordinate Refinement for Real-Time Robotic Feature Matching",
+      "url": "https://openreview.net/forum?id=ojMvvFKk6t"
+    },
+    {
+      "id": "A9tBpzFsWI",
+      "title": "LateMatch: Breaking the Interaction Bottleneck via Cacheable Matching for Efficient Visual Localization",
+      "url": "https://openreview.net/forum?id=A9tBpzFsWI"
+    },
+    {
+      "id": "33H7BChFgI",
+      "title": "G2G: Exploiting Intra-Group Geometry for Inter-Group Pose Estimation",
+      "url": "https://openreview.net/forum?id=33H7BChFgI"
+    },
+    {
+      "id": "2AOAVWqGC6",
+      "title": "LSPR: Init-Anchored Score-Based Multi-Camera Calibration for Indoor Robot Manipulation",
+      "url": "https://openreview.net/forum?id=2AOAVWqGC6"
+    },
+    {
+      "id": "ffIOVlfRQN",
+      "title": "CoLA: Robust Collaborative Perception with Linear Global Spatial Alignment",
+      "url": "https://openreview.net/forum?id=ffIOVlfRQN"
+    },
+    {
+      "id": "7BCkvvmpuj",
+      "title": "OptiGeo: Efficient Monocular Geometry for Embodied Perception in Optically Challenging Scenes",
+      "url": "https://openreview.net/forum?id=7BCkvvmpuj"
+    },
+    {
+      "id": "WNZ4Dr57JS",
+      "title": "3PTv2: Zero-Shot 3D-Object Perception Transformer for Robotics",
+      "url": "https://openreview.net/forum?id=WNZ4Dr57JS"
+    },
+    {
+      "id": "Mnggg9cnbh",
+      "title": "Cyclops: LiDAR as a Camera That Dreams in Color",
+      "url": "https://openreview.net/forum?id=Mnggg9cnbh"
+    },
+    {
+      "id": "L8ATlveWKT",
+      "title": "MaD-PF: Modular and Differentiable Particle Filter for Cross-Environment SE(3) LiDAR Localization",
+      "url": "https://openreview.net/forum?id=L8ATlveWKT"
+    },
+    {
+      "id": "0o1c1Xxn1m",
+      "title": "AmodalBox: Automated 3D Bounding Box Annotation under Partial Visibility",
+      "url": "https://openreview.net/forum?id=0o1c1Xxn1m"
+    },
+    {
+      "id": "9gWuAC6Oum",
+      "title": "Functional-SLAM: Interaction-Aware Mapping with Online Functional Scene Graphs",
+      "url": "https://openreview.net/forum?id=9gWuAC6Oum"
+    },
+    {
+      "id": "1j0Hw81jY9",
+      "title": "RoMo-GS: Efficient Online 3D Gaussian Splatting for Robot Mapping via Exposure-Integrated Motion Blur",
+      "url": "https://openreview.net/forum?id=1j0Hw81jY9"
+    },
+    {
+      "id": "4uXhlSOnz5",
+      "title": "Learning Contact Representation for Leg Odometry",
+      "url": "https://openreview.net/forum?id=4uXhlSOnz5"
+    },
+    {
+      "id": "nl8iBTm3Mt",
+      "title": "GINIO: A Geometric SO(3)-Equivariant Interface for Neural Inertial Odometry",
+      "url": "https://openreview.net/forum?id=nl8iBTm3Mt"
+    },
+    {
+      "id": "awVlNORXDS",
+      "title": "PLATO: Preintegration-Based Likelihood Maximization from Accurate Trajectory Observations for Neural Inertial Odometry",
+      "url": "https://openreview.net/forum?id=awVlNORXDS"
+    },
+    {
+      "id": "YZ4p3WbWKX",
+      "title": "Language as a Sensor: Calibrated Spatial Belief Estimation in 3D Scenes from Natural Language",
+      "url": "https://openreview.net/forum?id=YZ4p3WbWKX"
+    },
+    {
+      "id": "ecN9efL5zs",
+      "title": "Procedural Generation of Articulated Simulation-Ready Assets",
+      "url": "https://openreview.net/forum?id=ecN9efL5zs"
+    },
+    {
+      "id": "w1x9MHo93E",
+      "title": "Worlds in One Demo: A Synthetic Data Engine for Learning Open-World Mobile Manipulation",
+      "url": "https://openreview.net/forum?id=w1x9MHo93E"
+    },
+    {
+      "id": "w3g5PWur7i",
+      "title": "MobiAgent: Dual-Loop Recursive Policy Self-Improvement for Long-Horizon Mobile Manipulation",
+      "url": "https://openreview.net/forum?id=w3g5PWur7i"
+    },
+    {
+      "id": "uizBY3yrgz",
+      "title": "RoboGene: Diversity-Driven Agentic Task Generation Framework for VLA Pre-training",
+      "url": "https://openreview.net/forum?id=uizBY3yrgz"
+    },
+    {
+      "id": "0cK9Wf9Eeq",
+      "title": "ENPIRE: Agentic Robot Policy Self-Improvement in the Real World",
+      "url": "https://openreview.net/forum?id=0cK9Wf9Eeq"
+    },
+    {
+      "id": "BxW31Dilgn",
+      "title": "MAESTRO: Orchestrating Robotics Modules with Coding Agents for Zero-Shot Generalist Robots",
+      "url": "https://openreview.net/forum?id=BxW31Dilgn"
+    },
+    {
+      "id": "menElmunwi",
+      "title": "Learning Adaptive Solvers for Distributed Factor Graph Optimization on Matrix Lie Groups",
+      "url": "https://openreview.net/forum?id=menElmunwi"
+    },
+    {
+      "id": "k6kMJCL22t",
+      "title": "Gradient-Free Neural Hamilton-Jacobi Reachability for Scalable Safety-Critical Control",
+      "url": "https://openreview.net/forum?id=k6kMJCL22t"
+    },
+    {
+      "id": "DMljKr2f4O",
+      "title": "VertexCBF: Improving Neural Control Barrier Functions with Vertex-Restricted Control Search",
+      "url": "https://openreview.net/forum?id=DMljKr2f4O"
+    },
+    {
+      "id": "y1uP4arjzC",
+      "title": "BarrierFormer: Transformer-Guided Predictive Barrier Enforcement for Safe Robot Control",
+      "url": "https://openreview.net/forum?id=y1uP4arjzC"
+    },
+    {
+      "id": "gvM7KWEhVI",
+      "title": "Safe Streaming Flow Planning by Aligning Sampling Dynamics with Execution Dynamics",
+      "url": "https://openreview.net/forum?id=gvM7KWEhVI"
+    },
+    {
+      "id": "jAbjN3n1jr",
+      "title": "ESCAPE: Egocentric Sensing for Collision Avoidance and Policy Execution",
+      "url": "https://openreview.net/forum?id=jAbjN3n1jr"
+    },
+    {
+      "id": "BKafd0mNwy",
+      "title": "Uncertainty-Aware Neural Time Fields for Safe Online Motion Planning in Unknown Environments",
+      "url": "https://openreview.net/forum?id=BKafd0mNwy"
+    },
+    {
+      "id": "tXUfbhgQg2",
+      "title": "Learning Unions of Convex Sets via Invertible Latent Decomposition for Path Planning",
+      "url": "https://openreview.net/forum?id=tXUfbhgQg2"
+    },
+    {
+      "id": "EAeJdjpDzM",
+      "title": "Grounding Generative Policies in Physics: Optimization-Guided Diffusion for Robot Control",
+      "url": "https://openreview.net/forum?id=EAeJdjpDzM"
+    },
+    {
+      "id": "2NBZAh51If",
+      "title": "CS-Pi: Constraint-Satisying Flow Policy Sampling",
+      "url": "https://openreview.net/forum?id=2NBZAh51If"
+    },
+    {
+      "id": "M8NqiSkMDr",
+      "title": "PolyFusion: Collision-Free Robot Learning using Bernstein Polynomials",
+      "url": "https://openreview.net/forum?id=M8NqiSkMDr"
+    },
+    {
+      "id": "DgA5zlu7Ck",
+      "title": "CMRDF: Morphology-Conditioned Reachability Fields for Task-Space Robot Policy Transfer",
+      "url": "https://openreview.net/forum?id=DgA5zlu7Ck"
+    },
+    {
+      "id": "wYLEzeAKFI",
+      "title": "On the Limits of Sampling-Based Reachability: Geometry, Dynamics, and Sample Complexity",
+      "url": "https://openreview.net/forum?id=wYLEzeAKFI"
+    },
+    {
+      "id": "PW8egEb2no",
+      "title": "Exploring the Intrinsic Geometry of Diffusion Models with Constrained Inverse Kinematics",
+      "url": "https://openreview.net/forum?id=PW8egEb2no"
+    },
+    {
+      "id": "4ar3F6Obiq",
+      "title": "Robots as Tokens: Unified Diffusion Transformer for Coordinated Multi-Robot Trajectory Generation",
+      "url": "https://openreview.net/forum?id=4ar3F6Obiq"
+    },
+    {
+      "id": "ST0jumL7Ma",
+      "title": "H-VLA: Hierarchical Vision-Language-Action Model with Key-Action Reasoning and Motion Planning in a Unified Action Space",
+      "url": "https://openreview.net/forum?id=ST0jumL7Ma"
+    },
+    {
+      "id": "SniDOKrnNY",
+      "title": "SentryVLA: Uncertainty-Guided Action Selection and State Monitoring for Vision-Language-Action Robotic Control",
+      "url": "https://openreview.net/forum?id=SniDOKrnNY"
+    },
+    {
+      "id": "39Q3r1h0mD",
+      "title": "Optimal Control with Learned Critics under Unmodeled State Dependencies",
+      "url": "https://openreview.net/forum?id=39Q3r1h0mD"
+    },
+    {
+      "id": "CqkIkio00K",
+      "title": "Simultaneous Forward and Inverse Human-in-the-Loop Optimization",
+      "url": "https://openreview.net/forum?id=CqkIkio00K"
+    },
+    {
+      "id": "HeUmGQaw3M",
+      "title": "EvoPlan: Evolutionary Neuro-Symbolic Robot Planning with Spatio-Temporal Guarantees",
+      "url": "https://openreview.net/forum?id=HeUmGQaw3M"
+    },
+    {
+      "id": "weyfPS89NJ",
+      "title": "Generative Flow on Symbolic Abstractions for Embodiment Capability Discovery",
+      "url": "https://openreview.net/forum?id=weyfPS89NJ"
+    },
+    {
+      "id": "NZrwlgnR4X",
+      "title": "Energy-Based Policy Orchestration",
+      "url": "https://openreview.net/forum?id=NZrwlgnR4X"
+    },
+    {
+      "id": "4pwzyVBjXY",
+      "title": "When Should a Robot Replan? Regret-Guided Update Scheduling in Time-Varying MDPs",
+      "url": "https://openreview.net/forum?id=4pwzyVBjXY"
+    },
+    {
+      "id": "802PZFmFGd",
+      "title": "LEMCA: LLM-Guided Synthesis of Efficient Mode-Switching Control Architectures",
+      "url": "https://openreview.net/forum?id=802PZFmFGd"
+    },
+    {
+      "id": "2LNbCnzTQk",
+      "title": "Automating the Design of Embodied Agent Architectures",
+      "url": "https://openreview.net/forum?id=2LNbCnzTQk"
+    },
+    {
+      "id": "7BXJJYw05E",
+      "title": "CAN AI PERCEIVE PHYSICAL DANGER AND INTERVENE?",
+      "url": "https://openreview.net/forum?id=7BXJJYw05E"
+    },
+    {
+      "id": "ODnu3ohjEQ",
+      "title": "BiDexGrasp: Coordinated Bimanual Dexterous Grasps across Object Geometries and Sizes",
+      "url": "https://openreview.net/forum?id=ODnu3ohjEQ"
+    },
+    {
+      "id": "QGzgVP8RnK",
+      "title": "Efficient and Reliable Teleoperation through Real-to-Sim-to-Real Shared Autonomy",
+      "url": "https://openreview.net/forum?id=QGzgVP8RnK"
+    },
+    {
+      "id": "JV472m0zgq",
+      "title": "Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data",
+      "url": "https://openreview.net/forum?id=JV472m0zgq"
+    },
+    {
+      "id": "aspenN9eir",
+      "title": "FlowDAgger: Human-in-the-Loop Adaptation of Generative Robot Policies in Latent Space",
+      "url": "https://openreview.net/forum?id=aspenN9eir"
+    },
+    {
+      "id": "BXNVzGSYFe",
+      "title": "KPGrasp: Scalable Keypoint Flow Matching for Dexterous Grasp Generation",
+      "url": "https://openreview.net/forum?id=BXNVzGSYFe"
+    },
+    {
+      "id": "l0bwpzWRKy",
+      "title": "Learning Human Intention for Robotic Manipulation",
+      "url": "https://openreview.net/forum?id=l0bwpzWRKy"
+    },
+    {
+      "id": "N77om40jWL",
+      "title": "Leave It Better Than Found: Value-Guided Cooperation in Sequential Tasks",
+      "url": "https://openreview.net/forum?id=N77om40jWL"
+    },
+    {
+      "id": "rfRjWMFfvV",
+      "title": "Sequential Asymmetric Imitation for Learning Coupled Robot Policies",
+      "url": "https://openreview.net/forum?id=rfRjWMFfvV"
+    },
+    {
+      "id": "AmQH2hU9Gs",
+      "title": "WM-Craftnet: World Synesthesia Model for Robust and Generalizable Dexterous In-Hand Manipulation",
+      "url": "https://openreview.net/forum?id=AmQH2hU9Gs"
+    },
+    {
+      "id": "fHzDEYENPF",
+      "title": "Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility",
+      "url": "https://openreview.net/forum?id=fHzDEYENPF"
+    },
+    {
+      "id": "acslhrig33",
+      "title": "Flow Policy Gradients for Robot Control",
+      "url": "https://openreview.net/forum?id=acslhrig33"
+    },
+    {
+      "id": "RYXo2ktK1M",
+      "title": "RL Token: Bootstrapping Online RL with Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=RYXo2ktK1M"
+    },
+    {
+      "id": "WF4X17Al2r",
+      "title": "EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data",
+      "url": "https://openreview.net/forum?id=WF4X17Al2r"
+    },
+    {
+      "id": "wLgEYxjqid",
+      "title": "OPENDEXGRASP: Open-vocabulary Task-Oriented Dexterous Grasping",
+      "url": "https://openreview.net/forum?id=wLgEYxjqid"
+    },
+    {
+      "id": "RRl1xXZLdM",
+      "title": "Play2Perfect: What Matters in Dexterous Play Pretraining for Precise Assembly?",
+      "url": "https://openreview.net/forum?id=RRl1xXZLdM"
+    },
+    {
+      "id": "03zMMFkTXk",
+      "title": "FACTR 2: Learning External Force Sensing for Commodity Robot Arms Improves Policy Learning",
+      "url": "https://openreview.net/forum?id=03zMMFkTXk"
+    },
+    {
+      "id": "hWuk4y2AeR",
+      "title": "Long-Horizon Multi-Object Rearrangement via Distilled Tree Search over Continuous Actions",
+      "url": "https://openreview.net/forum?id=hWuk4y2AeR"
+    },
+    {
+      "id": "AIInkHZlvB",
+      "title": "PACE: Temporal-Role Tactile Conditioning for Chunk-Based Insertion Policies",
+      "url": "https://openreview.net/forum?id=AIInkHZlvB"
+    },
+    {
+      "id": "2dEfANeQL7",
+      "title": "GRAIL: Generating Humanoid Loco-Manipulation from World Models",
+      "url": "https://openreview.net/forum?id=2dEfANeQL7"
+    },
+    {
+      "id": "WBGnJHRIso",
+      "title": "RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=WBGnJHRIso"
+    },
+    {
+      "id": "psNqjklVOK",
+      "title": "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model",
+      "url": "https://openreview.net/forum?id=psNqjklVOK"
+    },
+    {
+      "id": "cJGMjQlgz5",
+      "title": "Combining Constrained Sampling and Reinforcement Learning for Manipulation",
+      "url": "https://openreview.net/forum?id=cJGMjQlgz5"
+    },
+    {
+      "id": "MjpidVjNMS",
+      "title": "Constraint-Decomposed Impedance Control from Generative Policy for Articulated Object Manipulation",
+      "url": "https://openreview.net/forum?id=MjpidVjNMS"
+    },
+    {
+      "id": "hSRtOgnkTM",
+      "title": "DAVATaR: Depth-Aware Visually Augmented Tactile Learning Across the Air-Water Interface",
+      "url": "https://openreview.net/forum?id=hSRtOgnkTM"
+    },
+    {
+      "id": "BV0T1o1ZIL",
+      "title": "Demystifying When and Why VLAs Fail in Contact-Rich Tasks and How to Fix Them",
+      "url": "https://openreview.net/forum?id=BV0T1o1ZIL"
+    },
+    {
+      "id": "yMD1ykviND",
+      "title": "DeTac: Dual-branch Decoupling of Texture and Force Signals in Vision-Based Tactile Sensors",
+      "url": "https://openreview.net/forum?id=yMD1ykviND"
+    },
+    {
+      "id": "RAA96LpIxJ",
+      "title": "FingerEye: Learning Dexterous Manipulation with Continuous Vision-Tactile Sensing",
+      "url": "https://openreview.net/forum?id=RAA96LpIxJ"
+    },
+    {
+      "id": "19iADsbO9A",
+      "title": "Never Too Late for Force: Accelerating VLA Post-Training with Reactive Force Injection",
+      "url": "https://openreview.net/forum?id=19iADsbO9A"
+    },
+    {
+      "id": "Ti3oK55n1H",
+      "title": "TAM: Torque Adaptation Module for Robust Motion Transfer in Manipulation",
+      "url": "https://openreview.net/forum?id=Ti3oK55n1H"
+    },
+    {
+      "id": "ult1vxdeUb",
+      "title": "Visible Touch: Rendering Contact for Visuomotor Policies",
+      "url": "https://openreview.net/forum?id=ult1vxdeUb"
+    },
+    {
+      "id": "FKKr8jKS29",
+      "title": "Articulated 3D Scene Graphs for Open-World Mobile Manipulation",
+      "url": "https://openreview.net/forum?id=FKKr8jKS29"
+    },
+    {
+      "id": "nzYChkCtvT",
+      "title": "Enabling Robust Cloth Manipulation via Inference-Time Simulator-in-the-Loop Refinement",
+      "url": "https://openreview.net/forum?id=nzYChkCtvT"
+    },
+    {
+      "id": "3hsq75Gmr9",
+      "title": "Learning Physics-Guided Residual Dynamics for Deformable Object Simulation",
+      "url": "https://openreview.net/forum?id=3hsq75Gmr9"
+    },
+    {
+      "id": "r8MOxo93Mv",
+      "title": "Noise-Invariant Spatial Encoding for 3D Manipulation Policies under Depth Corruption",
+      "url": "https://openreview.net/forum?id=r8MOxo93Mv"
+    },
+    {
+      "id": "SaMjmUr6xC",
+      "title": "RAM: Reachability Across Morphologies",
+      "url": "https://openreview.net/forum?id=SaMjmUr6xC"
+    },
+    {
+      "id": "UVJPDRCmlf",
+      "title": "Robustness without Wrinkles: Parallel Simulation and Robust MPC for Certified Deformable Manipulation",
+      "url": "https://openreview.net/forum?id=UVJPDRCmlf"
+    },
+    {
+      "id": "nIbnBCtz79",
+      "title": "SERF: Spatiotemporal Environment and Robot Feature Map for Long-Horizon Mobile Manipulation",
+      "url": "https://openreview.net/forum?id=nIbnBCtz79"
+    },
+    {
+      "id": "xhO9wj1gGt",
+      "title": "Shape Your Body: Value Gradients for Multi-Embodiment Robot Design",
+      "url": "https://openreview.net/forum?id=xhO9wj1gGt"
+    },
+    {
+      "id": "cQPnBRGgWM",
+      "title": "WireCraft: A Simulation Benchmark for Industrial DLO Manipulation",
+      "url": "https://openreview.net/forum?id=cQPnBRGgWM"
+    },
+    {
+      "id": "mw8BgE8ADo",
+      "title": "LaWAM: Latent World Action Models for Efficient Dynamics-Aware Robot Policies",
+      "url": "https://openreview.net/forum?id=mw8BgE8ADo"
+    },
+    {
+      "id": "r2uaBmvWgH",
+      "title": "DIRECT: When and Where Should You Allocate Test-Time Compute in Embodied Planners?",
+      "url": "https://openreview.net/forum?id=r2uaBmvWgH"
+    },
+    {
+      "id": "wXv81vB0Xt",
+      "title": "ELASTIC: Efficiently Learning to Adaptively Scale Test-Time Compute for Generative Control Policies",
+      "url": "https://openreview.net/forum?id=wXv81vB0Xt"
+    },
+    {
+      "id": "gTazI5D0Fj",
+      "title": "W2A: Distilling World Priors into Action Models for Real-Time Robotic Control",
+      "url": "https://openreview.net/forum?id=gTazI5D0Fj"
+    },
+    {
+      "id": "7cfCazwFp6",
+      "title": "Catch Me If You Can: Real-Time Feedback Denoising for Responsive VLAs",
+      "url": "https://openreview.net/forum?id=7cfCazwFp6"
+    },
+    {
+      "id": "uHhNEb0OSW",
+      "title": "Barrier-Constrained Guidance For Real-time Asynchronous VLA Execution",
+      "url": "https://openreview.net/forum?id=uHhNEb0OSW"
+    },
+    {
+      "id": "lorikYEkAx",
+      "title": "DiscreteRTC: Discrete Diffusion Policies are Natural Asynchronous Executors",
+      "url": "https://openreview.net/forum?id=lorikYEkAx"
+    },
+    {
+      "id": "05nE8s5e7I",
+      "title": "FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference",
+      "url": "https://openreview.net/forum?id=05nE8s5e7I"
+    },
+    {
+      "id": "9ih6YlxhI5",
+      "title": "Start Right, Arrive Right: Asynchronous Execution via Initial Noise Selection",
+      "url": "https://openreview.net/forum?id=9ih6YlxhI5"
+    },
+    {
+      "id": "iXJWieKME1",
+      "title": "F2F-AP: Flow-to-Future Asynchronous Policy for Real-time Dynamic Manipulation",
+      "url": "https://openreview.net/forum?id=iXJWieKME1"
+    },
+    {
+      "id": "jlXzHOkSXq",
+      "title": "Real-Time Execution with Autoregressive Policies",
+      "url": "https://openreview.net/forum?id=jlXzHOkSXq"
+    },
+    {
+      "id": "mR4L9LaUGJ",
+      "title": "DAM-VLA: Decoupled Asynchronous Multimodal Vision Language Action model",
+      "url": "https://openreview.net/forum?id=mR4L9LaUGJ"
+    },
+    {
+      "id": "pPrwDHXw93",
+      "title": "How to Build an Efficient VLA: A Design Space Study for Modular Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=pPrwDHXw93"
+    },
+    {
+      "id": "hSZ0lT7TCp",
+      "title": "Flow Control: Steering Vision-Language-Action Models with Simple Real-Time Inputs",
+      "url": "https://openreview.net/forum?id=hSZ0lT7TCp"
+    },
+    {
+      "id": "rTX0zr5FjT",
+      "title": "PRISM: Bridging Multimodality and Real-Time Control in Multisensory Policies",
+      "url": "https://openreview.net/forum?id=rTX0zr5FjT"
+    },
+    {
+      "id": "2vsTg6WU2p",
+      "title": "Action Chunk Scheduling for Batched Robot Policy Serving",
+      "url": "https://openreview.net/forum?id=2vsTg6WU2p"
+    },
+    {
+      "id": "ZyLuLA1Tsy",
+      "title": "Don't Run with Scissors: Pruning Breaks VLA Models but They Can Be Recovered",
+      "url": "https://openreview.net/forum?id=ZyLuLA1Tsy"
+    },
+    {
+      "id": "VxUazHdUwe",
+      "title": "The Speedup Paradox: Rethinking Inference Optimization in Embodied Tasks",
+      "url": "https://openreview.net/forum?id=VxUazHdUwe"
+    },
+    {
+      "id": "Gr9nFtFTjn",
+      "title": "AgileDP: Quantizing Diffusion Policy via Dynamic Scaling and Reweighted Distillation",
+      "url": "https://openreview.net/forum?id=Gr9nFtFTjn"
+    },
+    {
+      "id": "HBHR1GxaS0",
+      "title": "What Do You Need for Compositional Generalization in Diffusion Planning?",
+      "url": "https://openreview.net/forum?id=HBHR1GxaS0"
+    },
+    {
+      "id": "8TvqhVkrMd",
+      "title": "APT: Action Expert Pretraining Improves Instruction Generalization of Vision-Language-Action Policies",
+      "url": "https://openreview.net/forum?id=8TvqhVkrMd"
+    },
+    {
+      "id": "14GtmKGuCf",
+      "title": "Direct Action-Head Injection of A Grounded 3D Point Unlocks Spatial and Task Generalization",
+      "url": "https://openreview.net/forum?id=14GtmKGuCf"
+    },
+    {
+      "id": "GeENMbQXhi",
+      "title": "CLAP: Direct VLM-to-VLA Adaptation via Language-Action Grounding",
+      "url": "https://openreview.net/forum?id=GeENMbQXhi"
+    },
+    {
+      "id": "RmP7m64fQ6",
+      "title": "VLS: Steering Pretrained Robot Policies via Vision–Language Models",
+      "url": "https://openreview.net/forum?id=RmP7m64fQ6"
+    },
+    {
+      "id": "3KzmpJQUpy",
+      "title": "Steering Autoregressive Vision-Language-Action Policies via Action Token Intervention",
+      "url": "https://openreview.net/forum?id=3KzmpJQUpy"
+    },
+    {
+      "id": "NCeeEHy8d5",
+      "title": "Inference-Time Robot Behavior Steering through Physically-Aware Reconfiguration of Task-Structure",
+      "url": "https://openreview.net/forum?id=NCeeEHy8d5"
+    },
+    {
+      "id": "tfC6LMD02z",
+      "title": "Proxy Policy Steering",
+      "url": "https://openreview.net/forum?id=tfC6LMD02z"
+    },
+    {
+      "id": "Z35baC5jBe",
+      "title": "AWLS: Advantage-Weighted Latent Steering for One-Step Generative Robotic Manipulation Policies",
+      "url": "https://openreview.net/forum?id=Z35baC5jBe"
+    },
+    {
+      "id": "J8pJIDI6rM",
+      "title": "Progress-Guided Preference Generation for Aligning Generative Control Policies",
+      "url": "https://openreview.net/forum?id=J8pJIDI6rM"
+    },
+    {
+      "id": "AY4totylcx",
+      "title": "CounterAlign: Counterfactual Supervision for Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=AY4totylcx"
+    },
+    {
+      "id": "6BQ9NdqznS",
+      "title": "ELAN4D: Embodiment-Centric 4D Supervision for Vision-Language-Action Models via Plug-and-Play Adaptation",
+      "url": "https://openreview.net/forum?id=6BQ9NdqznS"
+    },
+    {
+      "id": "7KV78k8rcv",
+      "title": "Cloak: Zero-Shot Cross-Embodiment Manipulation by Masking the End-Effector from the VLA",
+      "url": "https://openreview.net/forum?id=7KV78k8rcv"
+    },
+    {
+      "id": "S3FVTypVnZ",
+      "title": "UniLatent: Cross-Embodiment Transfer via Latent Observation Alignment",
+      "url": "https://openreview.net/forum?id=S3FVTypVnZ"
+    },
+    {
+      "id": "DwRC6la1Kr",
+      "title": "SeeTraceAct: Visibility-Aware Latent Planning from Cross-Embodiment Demonstration Videos",
+      "url": "https://openreview.net/forum?id=DwRC6la1Kr"
+    },
+    {
+      "id": "9Jm97oFGuA",
+      "title": "Perfect Demo Makes Poor Teacher:Learning Robust Alignment from Critical Motion Segments",
+      "url": "https://openreview.net/forum?id=9Jm97oFGuA"
+    },
+    {
+      "id": "OJkazbkLtE",
+      "title": "Flexible Language-Guided Representation Editing for Adaptive Robot Behavior",
+      "url": "https://openreview.net/forum?id=OJkazbkLtE"
+    },
+    {
+      "id": "LfugZN8AN2",
+      "title": "Sparse Autoencoders Reveal Interpretable and Steerable Features in VLA Models",
+      "url": "https://openreview.net/forum?id=LfugZN8AN2"
+    },
+    {
+      "id": "AhpH1nGaUp",
+      "title": "Improving Robotic Generalist Policies via Flow Reversal Steering",
+      "url": "https://openreview.net/forum?id=AhpH1nGaUp"
+    },
+    {
+      "id": "zr63f3tmyq",
+      "title": "MAST-VLA: Skill-Conditioned Adaptation with Trajectory-Affordance Priors for Multi-Skill Robot Manipulation",
+      "url": "https://openreview.net/forum?id=zr63f3tmyq"
+    },
+    {
+      "id": "P1R9iBKyv4",
+      "title": "Relational Spatial Alignment for Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=P1R9iBKyv4"
+    },
+    {
+      "id": "Am3aGfOlLh",
+      "title": "GeoAlign: Beyond Semantics with State-Guided Spatial Alignment in VLA Models",
+      "url": "https://openreview.net/forum?id=Am3aGfOlLh"
+    },
+    {
+      "id": "H5QWMBcNSU",
+      "title": "Information-Theoretic Constraints for Continual Vision-Language-Action Alignment",
+      "url": "https://openreview.net/forum?id=H5QWMBcNSU"
+    },
+    {
+      "id": "PJuQx9kBg5",
+      "title": "To Route or to Adapt? Multi-Expert Diffusion Planners in Unseen Regions",
+      "url": "https://openreview.net/forum?id=PJuQx9kBg5"
+    },
+    {
+      "id": "gO08puaqia",
+      "title": "PhysCoRe: Physics-Corrected Residual World Models for Material-Aware Deformable Dynamics",
+      "url": "https://openreview.net/forum?id=gO08puaqia"
+    },
+    {
+      "id": "2Y1Osh6gOU",
+      "title": "SILO: Simulation-in-the-Loop Sim-to-Real Transfer for Multi-Stage Cable Routing",
+      "url": "https://openreview.net/forum?id=2Y1Osh6gOU"
+    },
+    {
+      "id": "Kakzp9Lr9V",
+      "title": "Instant-Fold: In-Context Imitation Learning for Deformable Object Manipulation",
+      "url": "https://openreview.net/forum?id=Kakzp9Lr9V"
+    },
+    {
+      "id": "JMcC5JoPKD",
+      "title": "FoldNet++: a Large-Scale Synthetic Dataset for Robotic T-Shirt Folding and Unfolding",
+      "url": "https://openreview.net/forum?id=JMcC5JoPKD"
+    },
+    {
+      "id": "N1gnyxWW2f",
+      "title": "Wiggle and Go! System Identification for Zero-Shot Dynamic Rope Manipulation",
+      "url": "https://openreview.net/forum?id=N1gnyxWW2f"
+    },
+    {
+      "id": "drlpFld34L",
+      "title": "EgoEngine: From Egocentric Human Videos to High-Fidelity Dexterous Robot Demonstrations",
+      "url": "https://openreview.net/forum?id=drlpFld34L"
+    },
+    {
+      "id": "MYYKl10JKD",
+      "title": "DexRoam: Enabling Mobile Dexterous Manipulation from Egocentric Human Demonstrations",
+      "url": "https://openreview.net/forum?id=MYYKl10JKD"
+    },
+    {
+      "id": "vQmF2cR04D",
+      "title": "HuRo: Robotizing Human Videos for Scalable VLA Pretraining",
+      "url": "https://openreview.net/forum?id=vQmF2cR04D"
+    },
+    {
+      "id": "wMrKZ9eYBg",
+      "title": "LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos",
+      "url": "https://openreview.net/forum?id=wMrKZ9eYBg"
+    },
+    {
+      "id": "aTDKKvOg7W",
+      "title": "ACE-Ego: Unifying Egocentric Human and Robotic Data for VLA Pretraining",
+      "url": "https://openreview.net/forum?id=aTDKKvOg7W"
+    },
+    {
+      "id": "EfkPQTtjky",
+      "title": "EgoWAM: World Action Models Beyond Pixels with In-the-Wild Egocentric Human Data",
+      "url": "https://openreview.net/forum?id=EfkPQTtjky"
+    },
+    {
+      "id": "bsjuF5klA3",
+      "title": "Graph-Reweighted Behavior Cloning with Human Interventions for Precise Robotic Manipulation",
+      "url": "https://openreview.net/forum?id=bsjuF5klA3"
+    },
+    {
+      "id": "MCTsPd3H0q",
+      "title": "ALIGN: Aligning Condition Estimation and Expression in Advantage-Conditioned Behavior Cloning",
+      "url": "https://openreview.net/forum?id=MCTsPd3H0q"
+    },
+    {
+      "id": "eIwbKQS5pz",
+      "title": "Unified Condition-Action Modeling for Accurate One-Step Action Generation",
+      "url": "https://openreview.net/forum?id=eIwbKQS5pz"
+    },
+    {
+      "id": "BWHjoo36Dr",
+      "title": "Flow as Flow: Modeling Robot Velocity Fields as Probability Velocity Fields for Flow-Based Object Manipulation",
+      "url": "https://openreview.net/forum?id=BWHjoo36Dr"
+    },
+    {
+      "id": "F5KmQJCC8X",
+      "title": "LDP: Shaping Latent Spaces for Diffusion-Based Robotic Manipulation",
+      "url": "https://openreview.net/forum?id=F5KmQJCC8X"
+    },
+    {
+      "id": "ey3y7lxWY1",
+      "title": "Spatially Conditioned Diffusion Policy: Learning Precise and Robust Manipulation with a Single RGB Camera",
+      "url": "https://openreview.net/forum?id=ey3y7lxWY1"
+    },
+    {
+      "id": "o03EddNo6r",
+      "title": "UniFlow: A Unified Multi-Modal Policy for Robot Manipulation",
+      "url": "https://openreview.net/forum?id=o03EddNo6r"
+    },
+    {
+      "id": "Unsv9DsbfO",
+      "title": "BayesFP: Posterior Estimation with Flow-Based Policy Priors via Feynman-Kac Sampling",
+      "url": "https://openreview.net/forum?id=Unsv9DsbfO"
+    },
+    {
+      "id": "6EN09R3NGP",
+      "title": "Guided Discovery of New Behaviors using Diffusion Policies",
+      "url": "https://openreview.net/forum?id=6EN09R3NGP"
+    },
+    {
+      "id": "AO1shrWa8H",
+      "title": "Where Should Action Generation Begin? A Learnable Source Prior for Generative Robot Policies",
+      "url": "https://openreview.net/forum?id=AO1shrWa8H"
+    },
+    {
+      "id": "rQZHMVTYYy",
+      "title": "PRISM: Polynomial Representations for Interaction-Structured Motor Control",
+      "url": "https://openreview.net/forum?id=rQZHMVTYYy"
+    },
+    {
+      "id": "0gwpqWBvhJ",
+      "title": "Implicit Neural Representations of Individual Behavior",
+      "url": "https://openreview.net/forum?id=0gwpqWBvhJ"
+    },
+    {
+      "id": "u56Z5KqtkI",
+      "title": "Why Does Action Chunking Improve Behavioral Cloning Performance in Robotic Control?",
+      "url": "https://openreview.net/forum?id=u56Z5KqtkI"
+    },
+    {
+      "id": "vA3t8YK04w",
+      "title": "Learning to be Different: Component Specialization for Compositional Diffusion Policies",
+      "url": "https://openreview.net/forum?id=vA3t8YK04w"
+    },
+    {
+      "id": "Tjg1ZvCdXU",
+      "title": "Behavior Uncloning: Distilling Mode Redirection into Policy Weights without Inference-Time Steering",
+      "url": "https://openreview.net/forum?id=Tjg1ZvCdXU"
+    },
+    {
+      "id": "jQAOksG9Bd",
+      "title": "When Robots Sleep: Offline Skill Consolidation for Shared-Policy Robot Learning",
+      "url": "https://openreview.net/forum?id=jQAOksG9Bd"
+    },
+    {
+      "id": "5fZzu1zWzG",
+      "title": "Beyond Monotonic Progress: Retry-Supervised Value Learning for Robot Imitation",
+      "url": "https://openreview.net/forum?id=5fZzu1zWzG"
+    },
+    {
+      "id": "Lp94sPpAo0",
+      "title": "S2A2: Audio-Visual Imitation Learning for Manipulation Tasks Using Acoustic Spatial Information",
+      "url": "https://openreview.net/forum?id=Lp94sPpAo0"
+    },
+    {
+      "id": "NnFdATGR3L",
+      "title": "ObstaDiff: Generalizable Diffusion Policy Learning via Obstacle-aware Representations",
+      "url": "https://openreview.net/forum?id=NnFdATGR3L"
+    },
+    {
+      "id": "k9EjTLL8bA",
+      "title": "RAMT-VLA: Reliability-Aware Memory Tracing for Historical Support Assessment in Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=k9EjTLL8bA"
+    },
+    {
+      "id": "Qu7v3GmYDU",
+      "title": "ACE-VLA: Action Centric Evaluation for Token Pruning in Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=Qu7v3GmYDU"
+    },
+    {
+      "id": "A9AQjk3dAt",
+      "title": "RoboFollow: Unveiling the Instruction Following Mirage in Embodied Agents",
+      "url": "https://openreview.net/forum?id=A9AQjk3dAt"
+    },
+    {
+      "id": "qH1h7UkK0k",
+      "title": "The Imitator Game: Benchmarking Robot Imitative Ability Beyond Action Prediction",
+      "url": "https://openreview.net/forum?id=qH1h7UkK0k"
+    },
+    {
+      "id": "cCI6zZIcEw",
+      "title": "HARP-Bench: Benchmarking Robot Manipulation Around Active Humans",
+      "url": "https://openreview.net/forum?id=cCI6zZIcEw"
+    },
+    {
+      "id": "59kpavSqlw",
+      "title": "HelpMeOut: A Neuropsychology-Grounded Benchmark for Error-Aware Monitoring of Household Task Execution",
+      "url": "https://openreview.net/forum?id=59kpavSqlw"
+    },
+    {
+      "id": "QDJCwo9pmt",
+      "title": "Online Robot Manipulation Error Detection and Description",
+      "url": "https://openreview.net/forum?id=QDJCwo9pmt"
+    },
+    {
+      "id": "mg7X6SFE75",
+      "title": "VLA-FAIL: Efficient Task Failure Detection for Finetuned Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=mg7X6SFE75"
+    },
+    {
+      "id": "1yL1d39r7K",
+      "title": "Robot-WATCHDOG : failure detection through object-centric graph representation",
+      "url": "https://openreview.net/forum?id=1yL1d39r7K"
+    },
+    {
+      "id": "HuFkyUA5RR",
+      "title": "Recover, Discover, Plan: Learning Skills and Concepts from Robot Failures",
+      "url": "https://openreview.net/forum?id=HuFkyUA5RR"
+    },
+    {
+      "id": "7jMlaTLtAc",
+      "title": "FAR: Failure-Aware Retry for Test-Time Recovery and Continual Policy Improvement",
+      "url": "https://openreview.net/forum?id=7jMlaTLtAc"
+    },
+    {
+      "id": "JQvRoFU5aS",
+      "title": "Back to the Familiar Future: Failure Recovery for VLA Policies via Pre-Imagined Milestone Selection",
+      "url": "https://openreview.net/forum?id=JQvRoFU5aS"
+    },
+    {
+      "id": "r7ZN8cPEcj",
+      "title": "MAGMA-GEN: Validated Recovery Supervision from Ambiguous Failures via Counterfactual Re-Execution",
+      "url": "https://openreview.net/forum?id=r7ZN8cPEcj"
+    },
+    {
+      "id": "e9ZYAwJqFR",
+      "title": "Trajectory-Level Redirection Attacks on Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=e9ZYAwJqFR"
+    },
+    {
+      "id": "QFFjW11NYa",
+      "title": "ExecGap: Exploiting Command-Execution Gap for Patch Attacks on Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=QFFjW11NYa"
+    },
+    {
+      "id": "7qMRpmvhZL",
+      "title": "Lights, Camera, Malfunction: When Illumination Robustness Leaves VLA Models Blind to Color",
+      "url": "https://openreview.net/forum?id=7qMRpmvhZL"
+    },
+    {
+      "id": "quVJ7qbQl6",
+      "title": "Scale Up Strategically: Learning Compositional Generalization via Bias-Aware Evaluation and Data Collection for Robotic Manipulation",
+      "url": "https://openreview.net/forum?id=quVJ7qbQl6"
+    },
+    {
+      "id": "Br2rXixvyN",
+      "title": "MESA: An Evaluation Framework for Compositional, Semantic, and Spatial Generalization in Robotics",
+      "url": "https://openreview.net/forum?id=Br2rXixvyN"
+    },
+    {
+      "id": "bL51SsKShM",
+      "title": "ScaleEvals: Scaling Generalist Policy Evaluation through Reset-Free Autonomous Play",
+      "url": "https://openreview.net/forum?id=bL51SsKShM"
+    },
+    {
+      "id": "xMysKLF2hX",
+      "title": "RoboFQE: Rollout-Free Evaluation of Visual Robot Policies from Offline Trajectories",
+      "url": "https://openreview.net/forum?id=xMysKLF2hX"
+    },
+    {
+      "id": "Nxn1pyNZpE",
+      "title": "RMMBench: A Comprehensive Benchmark for Robotic Mobile Manipulation",
+      "url": "https://openreview.net/forum?id=Nxn1pyNZpE"
+    },
+    {
+      "id": "SMBnET3Mz9",
+      "title": "Monkey See, Can Monkey Do? A Benchmark for Evaluating Robot Skill Learning by Observation",
+      "url": "https://openreview.net/forum?id=SMBnET3Mz9"
+    },
+    {
+      "id": "GRyPwVAxpq",
+      "title": "IMBench: A Benchmark for Intuitive Robotic Manipulation",
+      "url": "https://openreview.net/forum?id=GRyPwVAxpq"
+    },
+    {
+      "id": "lTLiSuIBAj",
+      "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object-Interaction",
+      "url": "https://openreview.net/forum?id=lTLiSuIBAj"
+    },
+    {
+      "id": "SBGylS4zwM",
+      "title": "LiquidLab: Benchmarking Robotic Automation for Liquid Operation in Laboratory",
+      "url": "https://openreview.net/forum?id=SBGylS4zwM"
+    },
+    {
+      "id": "MWHlzlo4UD",
+      "title": "Benchmarking Real-World Robotic Manipulation through Stochastic Challenges",
+      "url": "https://openreview.net/forum?id=MWHlzlo4UD"
+    },
+    {
+      "id": "QJI3N7JzBc",
+      "title": "Coverage Aware Active Evaluation for Failure Discovery with Paired Systems",
+      "url": "https://openreview.net/forum?id=QJI3N7JzBc"
+    },
+    {
+      "id": "51YZMUGRUA",
+      "title": "SCAPE: Scenario-Conditioned Simulation-Augmented Policy Evaluation",
+      "url": "https://openreview.net/forum?id=51YZMUGRUA"
+    },
+    {
+      "id": "iOU9zkASbg",
+      "title": "AnyRank: Reliable Anytime Policy Ranking via Sequential Testing",
+      "url": "https://openreview.net/forum?id=iOU9zkASbg"
+    },
+    {
+      "id": "3jf63cW3cJ",
+      "title": "Where Success Breaks: Failure-Boundary Learning for Robust Vision-Language-Action Models",
+      "url": "https://openreview.net/forum?id=3jf63cW3cJ"
+    },
+    {
+      "id": "yPkDKkOD11",
+      "title": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design",
+      "url": "https://openreview.net/forum?id=yPkDKkOD11"
+    },
+    {
+      "id": "wt25SMJmEq",
+      "title": "XDex: Learning Cross-Embodiment Dexterous Grasping with 1000 Hands",
+      "url": "https://openreview.net/forum?id=wt25SMJmEq"
+    },
+    {
+      "id": "IbO5qWFXuh",
+      "title": "T(R,O) Grasp++: Cross-Embodiment Dexterous Grasping in Cluttered Environments at Scale",
+      "url": "https://openreview.net/forum?id=IbO5qWFXuh"
+    },
+    {
+      "id": "4soIQrXqxj",
+      "title": "DiffMorphGrasp: A Diffusion Framework Conditioned on Hand Morphology for Cross-Embodiment Grasp Generation",
+      "url": "https://openreview.net/forum?id=4soIQrXqxj"
+    },
+    {
+      "id": "hPz010j4EA",
+      "title": "Multi-GraspLLM: Multimodal LLM for Multi-Hand Semantic Guided Grasp Generation",
+      "url": "https://openreview.net/forum?id=hPz010j4EA"
+    },
+    {
+      "id": "cxxUgLuNa2",
+      "title": "Guiding Unified Dexterous Grasp Synthesis Across Modes and Scales via Learned Human Priors",
+      "url": "https://openreview.net/forum?id=cxxUgLuNa2"
+    },
+    {
+      "id": "hDNvcoKMXH",
+      "title": "From Grasps to Dexterity: Large-Scale Grasp Pretraining for Dexterous Manipulation",
+      "url": "https://openreview.net/forum?id=hDNvcoKMXH"
+    },
+    {
+      "id": "AGM5ZQRjOT",
+      "title": "HiFun: a Hierarchical Framework for Efficient Functional Dexterous Manipulation Learning",
+      "url": "https://openreview.net/forum?id=AGM5ZQRjOT"
+    },
+    {
+      "id": "uKRtsLLqs6",
+      "title": "MoDex: Towards Universal Multi-Object Dexterous Grasping",
+      "url": "https://openreview.net/forum?id=uKRtsLLqs6"
+    },
+    {
+      "id": "8CDEvBQA6x",
+      "title": "AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection",
+      "url": "https://openreview.net/forum?id=8CDEvBQA6x"
+    },
+    {
+      "id": "JI9u9A9JJO",
+      "title": "ArtManip: Category-Level Articulated In-Hand Manipulation",
+      "url": "https://openreview.net/forum?id=JI9u9A9JJO"
+    },
+    {
+      "id": "Rrnnh3mDaH",
+      "title": "GoalDex: Learning Image-Goal-Conditioned Policies for Dexterous In-Hand Manipulation",
+      "url": "https://openreview.net/forum?id=Rrnnh3mDaH"
+    },
+    {
+      "id": "ULCeXiRzJD",
+      "title": "ProxiDex: Learning Dynamics-Guided Proximity Policy for Dexterous Manipulation",
+      "url": "https://openreview.net/forum?id=ULCeXiRzJD"
+    },
+    {
+      "id": "PL6UDcy9Eu",
+      "title": "FingerViP: Learning Real-World Dexterous Manipulation with Fingertip Visual Perception",
+      "url": "https://openreview.net/forum?id=PL6UDcy9Eu"
+    },
+    {
+      "id": "MTZ4eKUP94",
+      "title": "Continual Learning for 6-DoF Grasp Synthesis via Experience and Demonstrations",
+      "url": "https://openreview.net/forum?id=MTZ4eKUP94"
+    },
+    {
+      "id": "JhEwJ56SH3",
+      "title": "PartialBiGrasp: Inferring Hidden Local Geometry for Bimanual Grasping from Partial Views",
+      "url": "https://openreview.net/forum?id=JhEwJ56SH3"
+    },
+    {
+      "id": "zMbOvWpUUw",
+      "title": "DexHandover: Learning Bimanual Dexterous Handovers from Large-Scale Synthetic Data",
+      "url": "https://openreview.net/forum?id=zMbOvWpUUw"
+    },
+    {
+      "id": "CtcahYuPBL",
+      "title": "UniVTAC: A Unified Simulation Platform for Visuo-Tactile Manipulation Data Generation, Learning, and Benchmarking",
+      "url": "https://openreview.net/forum?id=CtcahYuPBL"
+    },
+    {
+      "id": "TH0fdttVB0",
+      "title": "TacStyle: Personalizing Tactile Robot Policies using Structured Behavior Representations",
+      "url": "https://openreview.net/forum?id=TH0fdttVB0"
+    },
+    {
+      "id": "xn8Hwa4hpq",
+      "title": "TACTX: Learning Shared Tactile Representations Across Diverse Sensors",
+      "url": "https://openreview.net/forum?id=xn8Hwa4hpq"
+    },
+    {
+      "id": "0DopZPPLvw",
+      "title": "Heterogeneous Tactile Transformer",
+      "url": "https://openreview.net/forum?id=0DopZPPLvw"
+    },
+    {
+      "id": "xc8asDq7QI",
+      "title": "FTP-1: A Generalist Foundation Tactile Policy Across Tactile Sensors for Contact-Rich Manipulation",
+      "url": "https://openreview.net/forum?id=xc8asDq7QI"
+    },
+    {
+      "id": "b2gSINMX3R",
+      "title": "Multi-Resolution Tactile Imitation Learning for Contact-Rich Robotic Manipulation",
+      "url": "https://openreview.net/forum?id=b2gSINMX3R"
+    },
+    {
+      "id": "yeAKwjw5Xa",
+      "title": "Learning to Feel the Future: DreamTacVLA for Contact-Rich Manipulation",
+      "url": "https://openreview.net/forum?id=yeAKwjw5Xa"
+    },
+    {
+      "id": "1zYrrwoISV",
+      "title": "FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation",
+      "url": "https://openreview.net/forum?id=1zYrrwoISV"
+    },
+    {
+      "id": "q1q252TIt0",
+      "title": "FR-VLA: Implicit Force Reasoning VLA for Contact-Rich Manipulation",
+      "url": "https://openreview.net/forum?id=q1q252TIt0"
+    },
+    {
+      "id": "42z4ov9nRQ",
+      "title": "FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation",
+      "url": "https://openreview.net/forum?id=42z4ov9nRQ"
+    },
+    {
+      "id": "H7b56xK590",
+      "title": "TacCoRL: Integrating Tactile Feedback into VLA via Simulation",
+      "url": "https://openreview.net/forum?id=H7b56xK590"
+    },
+    {
+      "id": "vG6UymddY4",
+      "title": "OmniTacTune: Policy-Agnostic Real-World RL for Tactile Residual Adaptation of Visual Policies",
+      "url": "https://openreview.net/forum?id=vG6UymddY4"
+    },
+    {
+      "id": "suRtJLXVxI",
+      "title": "Dex-X: Learning Visual-Tactile Dexterous Manipulation From Human Demonstration with Simulated Interaction",
+      "url": "https://openreview.net/forum?id=suRtJLXVxI"
+    },
+    {
+      "id": "TlWfBm8jtZ",
+      "title": "Blind Dexterous Grasping via Real2Sim2Real Tactile Policy Learning",
+      "url": "https://openreview.net/forum?id=TlWfBm8jtZ"
+    },
+    {
+      "id": "tJpI5D27wh",
+      "title": "PTLD: Sim-to-Real Privileged Tactile Latent Distillation for dexterous manipulation",
+      "url": "https://openreview.net/forum?id=tJpI5D27wh"
+    },
+    {
+      "id": "wiovp2zRWA",
+      "title": "Current as Touch: Proprioceptive Contact Feedback for Compliant Dexterous Manipulation",
+      "url": "https://openreview.net/forum?id=wiovp2zRWA"
+    },
+    {
+      "id": "PCVxUMrP6N",
+      "title": "ViTaForce: Pairwise Visuo--Tactile--Force Representation Learning for Contact-Rich Imitation Learning",
+      "url": "https://openreview.net/forum?id=PCVxUMrP6N"
+    },
+    {
+      "id": "d0ltfevDaD",
+      "title": "MDF++: Visuo-Tactile World Action Model with End-to-end Representation Learning",
+      "url": "https://openreview.net/forum?id=d0ltfevDaD"
+    },
+    {
+      "id": "gn0kBXdK0G",
+      "title": "DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination",
+      "url": "https://openreview.net/forum?id=gn0kBXdK0G"
+    },
+    {
+      "id": "bC8Sv8wTTL",
+      "title": "Inference-time Policy Steering via Vision and Touch",
+      "url": "https://openreview.net/forum?id=bC8Sv8wTTL"
+    },
+    {
+      "id": "334wtBsPIG",
+      "title": "Water-Filling Allocation and Phase Transitions in Action-Conditioned Multimodal Information Bottlenecks",
+      "url": "https://openreview.net/forum?id=334wtBsPIG"
+    },
+    {
+      "id": "XnyoJXimAK",
+      "title": "Playing Soccer Like Humans Do: Learning Versatile and Agile Humanoid Soccer via Latent Motion Priors",
+      "url": "https://openreview.net/forum?id=XnyoJXimAK"
+    },
+    {
+      "id": "cHCwUratwL",
+      "title": "SkillX: Unified Multi-Skill Policy Learning for Humanoid Soccer",
+      "url": "https://openreview.net/forum?id=cHCwUratwL"
+    },
+    {
+      "id": "hFLtQusqPy",
+      "title": "Humanoid Badminton: Learning Dynamic Racket Skills from Limited Human Motion Data",
+      "url": "https://openreview.net/forum?id=hFLtQusqPy"
+    },
+    {
+      "id": "FP3mCkMV24",
+      "title": "Towards Professional Tennis Styles for Humanoid Robots with Adaptive Motion Planning and Tracking",
+      "url": "https://openreview.net/forum?id=FP3mCkMV24"
+    },
+    {
+      "id": "VTSUekrCnH",
+      "title": "S2M-Trek: From Single to Multi-Sphere Transport via Per-Frame Deep Sets on a Wheel-Legged Robot",
+      "url": "https://openreview.net/forum?id=VTSUekrCnH"
+    },
+    {
+      "id": "USXQ0bDfAz",
+      "title": "HumanX: Toward Agile and Generalizable Humanoid Interaction Skills from Human Videos",
+      "url": "https://openreview.net/forum?id=USXQ0bDfAz"
+    },
+    {
+      "id": "uZalcCyrVl",
+      "title": "Counterfactual Video Generation Enables Scalable Humanoid Loco-Manipulation",
+      "url": "https://openreview.net/forum?id=uZalcCyrVl"
+    },
+    {
+      "id": "9kXz22fI7a",
+      "title": "HumanoidMimicGen Data Generation for Loco-Manipulation via Whole-Body Planning",
+      "url": "https://openreview.net/forum?id=9kXz22fI7a"
+    },
+    {
+      "id": "aRtb8NIgc3",
+      "title": "SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation",
+      "url": "https://openreview.net/forum?id=aRtb8NIgc3"
+    },
+    {
+      "id": "aq2hmhW0kU",
+      "title": "HuMI: Humanoid Whole-Body Manipulation from Humanoid-Free Demonstrations",
+      "url": "https://openreview.net/forum?id=aq2hmhW0kU"
+    },
+    {
+      "id": "trTMmn2U1g",
+      "title": "ZeroWBC: Learning Natural Whole-Body Humanoid Interaction from Human Egocentric Data",
+      "url": "https://openreview.net/forum?id=trTMmn2U1g"
+    },
+    {
+      "id": "qMAfkDMTOy",
+      "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
+      "url": "https://openreview.net/forum?id=qMAfkDMTOy"
+    },
+    {
+      "id": "kpX1KOfNI5",
+      "title": "HuG: Learning Humanoid Whole-Body Affordance-Aware Grasping with Active Perception",
+      "url": "https://openreview.net/forum?id=kpX1KOfNI5"
+    },
+    {
+      "id": "qF26obIUEX",
+      "title": "EVOLVE: Egocentric Vision-based Humanoid Loco-Manipulation via Demonstration Editing",
+      "url": "https://openreview.net/forum?id=qF26obIUEX"
+    },
+    {
+      "id": "r27erS063s",
+      "title": "OmniContact: Chaining Meta-Skills via Contact Flow for Generalizable Humanoid Loco-Manipulation",
+      "url": "https://openreview.net/forum?id=r27erS063s"
+    },
+    {
+      "id": "3Ex2nEGqHP",
+      "title": "Humanoid Hanoi: Investigating Shared Whole-Body Control for Skill-Based Box Rearrangement",
+      "url": "https://openreview.net/forum?id=3Ex2nEGqHP"
+    },
+    {
+      "id": "kBoTnjRw4s",
+      "title": "X-WBC: A Cross-Embodiment Foundation Model for Humanoid Whole-Body Control",
+      "url": "https://openreview.net/forum?id=kBoTnjRw4s"
+    },
+    {
+      "id": "hf8X30fAtz",
+      "title": "Social Humanoid: Socially Responsive Human–Humanoid Interaction",
+      "url": "https://openreview.net/forum?id=hf8X30fAtz"
+    },
+    {
+      "id": "dhh4gmm3NK",
+      "title": "VLM-Guided Contact Retargeting and Generative Partner Modeling for Humanoid-Human Interaction",
+      "url": "https://openreview.net/forum?id=dhh4gmm3NK"
+    },
+    {
+      "id": "rK0JCfddwK",
+      "title": "Pro-HOI: Perceptive Root-guided Humanoid-Object Interaction",
+      "url": "https://openreview.net/forum?id=rK0JCfddwK"
+    },
+    {
+      "id": "XJgz1iK29G",
+      "title": "MotionDisco: Motion Discovery for Extreme Humanoid Loco-manipulation",
+      "url": "https://openreview.net/forum?id=XJgz1iK29G"
+    },
+    {
+      "id": "0jY75QYDMn",
+      "title": "LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World",
+      "url": "https://openreview.net/forum?id=0jY75QYDMn"
+    },
+    {
+      "id": "e9OQ6xsma9",
+      "title": "Closing the Loop in Humanoid VLA: Persistent 3D Object Tokens for Verifiable Loco-Manipulation",
+      "url": "https://openreview.net/forum?id=e9OQ6xsma9"
+    },
+    {
+      "id": "R1fgJZLFnx",
+      "title": "Unified Whole-Body Control for Quadrupedal Tactile-Informed Loco-Manipulation",
+      "url": "https://openreview.net/forum?id=R1fgJZLFnx"
+    },
+    {
+      "id": "Gkka9VEhWb",
+      "title": "WT-UMI: Tactile-based Whole-Body Manipulation via Force-Supervised Contact-Aware Planning",
+      "url": "https://openreview.net/forum?id=Gkka9VEhWb"
+    },
+    {
+      "id": "gbchkYm28k",
+      "title": "HERO: Learning Humanoid End-Effector Control for Visual Whole-Body Open-Vocabulary Object Grasping",
+      "url": "https://openreview.net/forum?id=gbchkYm28k"
+    },
+    {
+      "id": "NzvfxoRvOC",
+      "title": "Constrained Whole-Body Tracking for Humanoid Robots",
+      "url": "https://openreview.net/forum?id=NzvfxoRvOC"
+    },
+    {
+      "id": "HWaigsXLaH",
+      "title": "General Humanoid Whole-Body Control via Pretraining and Fast Adaptation",
+      "url": "https://openreview.net/forum?id=HWaigsXLaH"
+    },
+    {
+      "id": "u2dtQWAFQo",
+      "title": "CA-GMT: Contact-Aware Low-Rank Adaptation of Motion Tracking for Whole-Body Teleoperation",
+      "url": "https://openreview.net/forum?id=u2dtQWAFQo"
+    },
+    {
+      "id": "wALhOwQWnx",
+      "title": "Learning Functional Compliance in Whole-body Manipulation",
+      "url": "https://openreview.net/forum?id=wALhOwQWnx"
+    },
+    {
+      "id": "2tjuz95jmb",
+      "title": "Reactive Closed-Loop Motion Planning Towards Universal Humanoid Whole-Body Control",
+      "url": "https://openreview.net/forum?id=2tjuz95jmb"
+    },
+    {
+      "id": "X4i3kSa2kd",
+      "title": "ExtremControl: Low-Latency Humanoid Teleoperation with Scaled Velocity Feedforward",
+      "url": "https://openreview.net/forum?id=X4i3kSa2kd"
+    },
+    {
+      "id": "pWDT36r945",
+      "title": "SPOT: Spatial Perception-Oriented Long-Horizon Humanoid Teleoperation",
+      "url": "https://openreview.net/forum?id=pWDT36r945"
+    },
+    {
+      "id": "Wp9ex57Z2k",
+      "title": "SwingBot: Learning Whole-Body Brachiation for Humanoid Robots",
+      "url": "https://openreview.net/forum?id=Wp9ex57Z2k"
+    },
+    {
+      "id": "JhdmNwpT4o",
+      "title": "HEFT: Heavy Load Full-size Humanoid Teleoperation with Privileged Motion Guidance and Windowed Payload Curriculum",
+      "url": "https://openreview.net/forum?id=JhdmNwpT4o"
+    },
+    {
+      "id": "l8hOz8loVg",
+      "title": "HLO-AMP: Hierarchical Loco-Manipulation from Object-Aware Motion Priors",
+      "url": "https://openreview.net/forum?id=l8hOz8loVg"
+    },
+    {
+      "id": "mjvsJNQuFV",
+      "title": "FT-WBC: Learning Fault-Tolerant Whole-Body Control for Legged Loco-Manipulation",
+      "url": "https://openreview.net/forum?id=mjvsJNQuFV"
+    },
+    {
+      "id": "WxBKiMUZtI",
+      "title": "ContactMimic: Humanoid Object Interaction via Contact Control",
+      "url": "https://openreview.net/forum?id=WxBKiMUZtI"
+    },
+    {
+      "id": "uoFfrJHHq8",
+      "title": "AcroRL: Learning Aggressive Quadrotor Inversion using Bidirectional Thrust",
+      "url": "https://openreview.net/forum?id=uoFfrJHHq8"
+    },
+    {
+      "id": "NWlhQeCX3L",
+      "title": "Learning Visuomotor Quadrotor Flight Through Dynamic Narrow Gaps via Differentiable Simulation",
+      "url": "https://openreview.net/forum?id=NWlhQeCX3L"
+    },
+    {
+      "id": "j5QcZcRrda",
+      "title": "Approximate Imitation Learning for Event-based Quadrotor Flight in Cluttered Environments",
+      "url": "https://openreview.net/forum?id=j5QcZcRrda"
+    },
+    {
+      "id": "yzejD0WIk9",
+      "title": "Neuromorphic Control of a Flapping-Wing Robot on Resource-Constrained Hardware",
+      "url": "https://openreview.net/forum?id=yzejD0WIk9"
+    },
+    {
+      "id": "8iFziu27Yy",
+      "title": "AM-Bench: A Modular Simulation Suite and Benchmark for Aerial Manipulation Policy Learning",
+      "url": "https://openreview.net/forum?id=8iFziu27Yy"
+    },
+    {
+      "id": "SN5sVBOZ8D",
+      "title": "π, But Make It Fly: Physics-Guided Transfer of VLA Models to Aerial Manipulation",
+      "url": "https://openreview.net/forum?id=SN5sVBOZ8D"
+    },
+    {
+      "id": "XjyM9If1Tm",
+      "title": "GeoXel: Geographic Per-pixel 3D Mapping from Aerial Video in the Wild",
+      "url": "https://openreview.net/forum?id=XjyM9If1Tm"
+    },
+    {
+      "id": "RExYYVsLbT",
+      "title": "Plann3r: Predicting Planning Costs Grounded in 3D",
+      "url": "https://openreview.net/forum?id=RExYYVsLbT"
+    },
+    {
+      "id": "n0v95NpvyY",
+      "title": "Learning Non-Myopic Quadrotor Pursuit in Cluttered Environments via Differentiable Physics",
+      "url": "https://openreview.net/forum?id=n0v95NpvyY"
+    },
+    {
+      "id": "m94Acp7Al5",
+      "title": "Future-Aware Flow Planning for Safe UAV Target Following",
+      "url": "https://openreview.net/forum?id=m94Acp7Al5"
+    },
+    {
+      "id": "PHNhlZK2uS",
+      "title": "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
+      "url": "https://openreview.net/forum?id=PHNhlZK2uS"
+    },
+    {
+      "id": "LwMNsyCnCk",
+      "title": "Training Generalist Navigation Policies via Action Self-Distillation",
+      "url": "https://openreview.net/forum?id=LwMNsyCnCk"
+    },
+    {
+      "id": "qEOv7MuWIx",
+      "title": "Adapting Generalist Vehicle Models for High-Speed MPC Across Terrains",
+      "url": "https://openreview.net/forum?id=qEOv7MuWIx"
+    },
+    {
+      "id": "DpOVq6nE2d",
+      "title": "ATOM-Bench: A Real-World Benchmark for Atomic Skills and Compositional Generalization in Manipulation Policies",
+      "url": "https://openreview.net/forum?id=DpOVq6nE2d"
+    },
+    {
+      "id": "El4EDBhqCG",
+      "title": "Bayesian Active Learning for Intent Disambiguation in Interactive Robot Planning",
+      "url": "https://openreview.net/forum?id=El4EDBhqCG"
+    },
+    {
+      "id": "c9tCcHtVcS",
+      "title": "Control-Ready Uncertainty for Trajectory Diffusion",
+      "url": "https://openreview.net/forum?id=c9tCcHtVcS"
+    },
+    {
+      "id": "XY8QpMSxvq",
+      "title": "Emergent Control via Prior-Based Free Energy Minimization",
+      "url": "https://openreview.net/forum?id=XY8QpMSxvq"
+    },
+    {
+      "id": "C96z0RnFh8",
+      "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
+      "url": "https://openreview.net/forum?id=C96z0RnFh8"
+    },
+    {
+      "id": "qQs6JndxfZ",
+      "title": "Meta-Ctrl: Guaranteed Plan Generation by Decoupling Syntactic and Semantic Constraints",
+      "url": "https://openreview.net/forum?id=qQs6JndxfZ"
+    },
+    {
+      "id": "GeL3GdwSYo",
+      "title": "Playful Agentic Robot Learning",
+      "url": "https://openreview.net/forum?id=GeL3GdwSYo"
+    },
+    {
+      "id": "xfZJ2GKrZG",
+      "title": "RoboKit: Accelerating Parallel Differentiable Optimization for Robot Learning",
+      "url": "https://openreview.net/forum?id=xfZJ2GKrZG"
+    },
+    {
+      "id": "CSYA6oHdlE",
+      "title": "Scalable Deep Unfolding of Conic Optimizers",
+      "url": "https://openreview.net/forum?id=CSYA6oHdlE"
+    },
+    {
+      "id": "yyitbtz7rQ",
+      "title": "CMP: Robust Whole-Body Tracking for Loco-Manipulation via Competence Manifold Projection",
+      "url": "https://openreview.net/forum?id=yyitbtz7rQ"
+    },
+    {
+      "id": "2Z9666X2B7",
+      "title": "Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+      "url": "https://openreview.net/forum?id=2Z9666X2B7"
+    },
+    {
+      "id": "aKjXDWnmzc",
+      "title": "Kamino: GPU-based Simulation of Rigid Multi-Body Physics with Kinematic Loops",
+      "url": "https://openreview.net/forum?id=aKjXDWnmzc"
+    },
+    {
+      "id": "PLNJ3a6Yht",
+      "title": "LadderMan: Learning Humanoid Perceptive Ladder Climbing",
+      "url": "https://openreview.net/forum?id=PLNJ3a6Yht"
+    },
+    {
+      "id": "5b4j0e21aJ",
+      "title": "Learning Loco-Manipulation From SMPC Demonstrations With Sparse Offline-to-Online RL",
+      "url": "https://openreview.net/forum?id=5b4j0e21aJ"
+    },
+    {
+      "id": "TTFZrb0Hw3",
+      "title": "OpenHLM: An Empirical Recipe for Whole-Body Humanoid Loco-Manipulation",
+      "url": "https://openreview.net/forum?id=TTFZrb0Hw3"
+    },
+    {
+      "id": "lY47GBfn32",
+      "title": "PHUMA: Physically Reliable Humanoid Locomotion Dataset",
+      "url": "https://openreview.net/forum?id=lY47GBfn32"
+    },
+    {
+      "id": "rEmMzoUnpn",
+      "title": "ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids",
+      "url": "https://openreview.net/forum?id=rEmMzoUnpn"
+    },
+    {
+      "id": "aGLO1l8SNB",
+      "title": "TactileStep: Sole Tactile Learning for Regulating Foot--Terrain Interaction in Humanoid Locomotion",
+      "url": "https://openreview.net/forum?id=aGLO1l8SNB"
+    },
+    {
+      "id": "Q53ayGo2IE",
+      "title": "Anchor3R: Streaming 3D Reconstruction with Transient Anchors for Long-Horizon Visual Mapping",
+      "url": "https://openreview.net/forum?id=Q53ayGo2IE"
+    },
+    {
+      "id": "lSrxDURLdG",
+      "title": "Collaborative Planning for UAV-UGV Teams under Operational Constraints via Masked Error-bounded Neuro-Symbolic Diffusion",
+      "url": "https://openreview.net/forum?id=lSrxDURLdG"
+    },
+    {
+      "id": "RwGNm8fUxX",
+      "title": "From Region Arrival to Instance-Level Grounding in Vision-and-Language Navigation",
+      "url": "https://openreview.net/forum?id=RwGNm8fUxX"
+    },
+    {
+      "id": "k2QZxbcSbQ",
+      "title": "MosaicIMU: Composing Carrier Experts for Generalizable Neural Inertial Odometry",
+      "url": "https://openreview.net/forum?id=k2QZxbcSbQ"
+    },
+    {
+      "id": "hr2FYFod4n",
+      "title": "OSCAR: Obstacle Survival Curves for Adaptive Robot Navigation",
+      "url": "https://openreview.net/forum?id=hr2FYFod4n"
+    },
+    {
+      "id": "SUV5PudsyI",
+      "title": "SCoCaT: Success Conditioned Constrained Reinforcement Learning for Spacecraft Docking",
+      "url": "https://openreview.net/forum?id=SUV5PudsyI"
+    },
+    {
+      "id": "wBzyyPlFs6",
+      "title": "SidewalkBench: Benchmarking Visual Navigation on Urban Sidewalks",
+      "url": "https://openreview.net/forum?id=wBzyyPlFs6"
+    },
+    {
+      "id": "98pbD92mEI",
+      "title": "TRIAD Planner : Three-Level Robust Imitation Learning for Autonomous Driving",
+      "url": "https://openreview.net/forum?id=98pbD92mEI"
+    },
+    {
+      "id": "dE7KjOl8yu",
+      "title": "VisionSIM: Beyond Idealized Sensors — A Multi-Modal Simulator for Robot Perception",
+      "url": "https://openreview.net/forum?id=dE7KjOl8yu"
+    },
+    {
+      "id": "Zts11nHGLq",
+      "title": "Hierarchical Planning with Latent World Models",
+      "url": "https://openreview.net/forum?id=Zts11nHGLq"
+    },
+    {
+      "id": "GMAZdF34n5",
+      "title": "PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies",
+      "url": "https://openreview.net/forum?id=GMAZdF34n5"
+    },
+    {
+      "id": "1u6oriJJcU",
+      "title": "WAM-STEP: Self-Improving World-Action Models Through Efficient Post-Training",
+      "url": "https://openreview.net/forum?id=1u6oriJJcU"
+    },
+    {
+      "id": "YrNlVJcApO",
+      "title": "FACT: Failure-Aware Causal Training for World-Action Models",
+      "url": "https://openreview.net/forum?id=YrNlVJcApO"
+    },
+    {
+      "id": "qvOl1xOUtn",
+      "title": "τ0-WM: A Unified Video-Action World Model for Robotic Manipulation",
+      "url": "https://openreview.net/forum?id=qvOl1xOUtn"
+    },
+    {
+      "id": "AilV1LyfXF",
+      "title": "TAPESTRY: A Single Backbone for Video Generation and Robot Control",
+      "url": "https://openreview.net/forum?id=AilV1LyfXF"
+    },
+    {
+      "id": "oX3ErTz3rv",
+      "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+      "url": "https://openreview.net/forum?id=oX3ErTz3rv"
+    },
+    {
+      "id": "0w0ylGezd5",
+      "title": "AnyWorld: Factorized Egocentric World Models for Cross-Embodiment Generalization",
+      "url": "https://openreview.net/forum?id=0w0ylGezd5"
+    },
+    {
+      "id": "2nityiXWGJ",
+      "title": "Robot-Factored World Models via Robot Rendering",
+      "url": "https://openreview.net/forum?id=2nityiXWGJ"
+    },
+    {
+      "id": "nBDd4rVq5Q",
+      "title": "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models",
+      "url": "https://openreview.net/forum?id=nBDd4rVq5Q"
+    },
+    {
+      "id": "lsfM8TzuH2",
+      "title": "What Makes Video World Model Latents Action-Relevant: Prediction over Reconstruction",
+      "url": "https://openreview.net/forum?id=lsfM8TzuH2"
+    },
+    {
+      "id": "ntHuqgjrgs",
+      "title": "ImageWAM: Do World Action Models Really Need Video Generation, or Just Image Editing?",
+      "url": "https://openreview.net/forum?id=ntHuqgjrgs"
+    },
+    {
+      "id": "KHjJ1z5m4y",
+      "title": "Box Trajectories as Compact State Representations for World Action Models",
+      "url": "https://openreview.net/forum?id=KHjJ1z5m4y"
+    },
+    {
+      "id": "Ih059VNeWq",
+      "title": "MaskWAM: Unifying Mask Prompting and Prediction for World-Action Models",
+      "url": "https://openreview.net/forum?id=Ih059VNeWq"
+    },
+    {
+      "id": "U5POjpnj6J",
+      "title": "GSWAM: A Unified Gaussian World Action Model for Robotic Manipulation",
+      "url": "https://openreview.net/forum?id=U5POjpnj6J"
+    },
+    {
+      "id": "xHjEeyHkhY",
+      "title": "ORD-WM: Learning Object-Centric Rigid Dynamics for 3D World Modeling in Robotic Manipulation",
+      "url": "https://openreview.net/forum?id=xHjEeyHkhY"
+    },
+    {
+      "id": "hCG12ifteJ",
+      "title": "Scaling World Model for Hierarchical Manipulation Policies",
+      "url": "https://openreview.net/forum?id=hCG12ifteJ"
+    },
+    {
+      "id": "mlF6DhhBNF",
+      "title": "Understanding and Mitigating the Video-Action Generalization Gap via Temporal Ratio",
+      "url": "https://openreview.net/forum?id=mlF6DhhBNF"
+    },
+    {
+      "id": "8YqfXYof0Y",
+      "title": "Pri4R: Learning World Dynamics for Vision-Language-Action Models with Privileged 4D Representation",
+      "url": "https://openreview.net/forum?id=8YqfXYof0Y"
+    },
+    {
+      "id": "ddzWaOmWZE",
+      "title": "Intercepting the Future: Latent-Space Predictive World Model for Dynamic VLA Manipulation",
+      "url": "https://openreview.net/forum?id=ddzWaOmWZE"
+    },
+    {
+      "id": "Jq0aPlIS34",
+      "title": "ContactGuard: Pre-Contact Execution Monitoring with Action-Conditioned Latent World Models",
+      "url": "https://openreview.net/forum?id=Jq0aPlIS34"
+    },
+    {
+      "id": "hwTNqrJmuQ",
+      "title": "Seek-before-Act: Generative Visual Foresight for Occlusion-Aware Wrist-View Manipulation",
+      "url": "https://openreview.net/forum?id=hwTNqrJmuQ"
+    },
+    {
+      "id": "E5lvpA2Glx",
+      "title": "Enhancing Robotic Control Robustness through Generative Visual Model",
+      "url": "https://openreview.net/forum?id=E5lvpA2Glx"
+    },
+    {
+      "id": "xombt7ofur",
+      "title": "DepthWorld: 3D World Model for Robot Manipulation",
+      "url": "https://openreview.net/forum?id=xombt7ofur"
+    },
+    {
+      "id": "QHIz2k4E88",
+      "title": "WoVR: World Models as Reliable Simulators for Post-Training VLA Policies with RL",
+      "url": "https://openreview.net/forum?id=QHIz2k4E88"
+    },
+    {
+      "id": "HATezFmdN5",
+      "title": "PlayWorld: Learning Robot World Models from Autonomous Play Data",
+      "url": "https://openreview.net/forum?id=HATezFmdN5"
+    },
+    {
+      "id": "zDGliNPeBL",
+      "title": "Coupled Local and Global World Models for Efficient First Order RL",
+      "url": "https://openreview.net/forum?id=zDGliNPeBL"
+    },
+    {
+      "id": "Xgth4qBOmb",
+      "title": "SafeDojo: Safe Reinforcement Learning for VLA via Interactive World Model",
+      "url": "https://openreview.net/forum?id=Xgth4qBOmb"
+    },
+    {
+      "id": "587eUkwa7d",
+      "title": "How Well Do Latent World Models Understand Partially Observable Safety Constraints?",
+      "url": "https://openreview.net/forum?id=587eUkwa7d"
+    },
+    {
+      "id": "RLsVfgv1pS",
+      "title": "Imitation from Heterogeneous Demonstrations using Grounded Latent-Action World Models",
+      "url": "https://openreview.net/forum?id=RLsVfgv1pS"
+    },
+    {
+      "id": "FVPhDDjumI",
+      "title": "STRIPS-WM: Learning Grounded Propositional STRIPS-style World Models from Images",
+      "url": "https://openreview.net/forum?id=FVPhDDjumI"
+    },
+    {
+      "id": "74gh4jCB2a",
+      "title": "Online World Modeling Enables Real-World Inverse Reinforcement Learning from Observation",
+      "url": "https://openreview.net/forum?id=74gh4jCB2a"
+    },
+    {
+      "id": "ShBMWDRPVu",
+      "title": "μ0: A Scalable 3D Interaction-Trace World Model",
+      "url": "https://openreview.net/forum?id=ShBMWDRPVu"
+    },
+    {
+      "id": "T3IOHvur0R",
+      "title": "C³ache: Accelerating World Action Models with Cross Inference Chunk Cache",
+      "url": "https://openreview.net/forum?id=T3IOHvur0R"
+    },
+    {
+      "id": "hgRIVs5QZU",
+      "title": "SKIP: Sparse Keyframe Interpolation Paradigm for Efficient Embodied World Models",
+      "url": "https://openreview.net/forum?id=hgRIVs5QZU"
+    },
+    {
+      "id": "9uM5JbXz4T",
+      "title": "StressDream: Steering Video World Models for Robust Policy Evaluation and Improvement",
+      "url": "https://openreview.net/forum?id=9uM5JbXz4T"
+    },
+    {
+      "id": "OOCwc3Dn5d",
+      "title": "Training Controllable World Models via Action Influence Maximization",
+      "url": "https://openreview.net/forum?id=OOCwc3Dn5d"
+    },
+    {
+      "id": "994ptkAdnU",
+      "title": "Adaptive World-Models for Anomaly Recognition (AWARE): A Framework for Robot Dynamics Prediction and Introspection",
+      "url": "https://openreview.net/forum?id=994ptkAdnU"
+    },
+    {
+      "id": "5zw401UEGd",
+      "title": "WARP: Whole-Body Retargeting for Learning from Offline Human Demonstrations",
+      "url": "https://openreview.net/forum?id=5zw401UEGd"
+    },
+    {
+      "id": "FLxpmRskLG",
+      "title": "Universal Manipulation Exoskeleton: Learning Compliant Whole-body Policies with Real-time Torque Feedback",
+      "url": "https://openreview.net/forum?id=FLxpmRskLG"
+    },
+    {
+      "id": "LoGyKMEVVc",
+      "title": "RealDexUMI: A Wearable Universal Manipulation Interface for Dexterous Robot Learning",
+      "url": "https://openreview.net/forum?id=LoGyKMEVVc"
+    },
+    {
+      "id": "dYOnmedjXv",
+      "title": "AnyDexRT: Calibration-Efficient Dexterous Hand Retargeting with Few-Shot Human Guidance",
+      "url": "https://openreview.net/forum?id=dYOnmedjXv"
+    },
+    {
+      "id": "LHLnvoAEhr",
+      "title": "YOCO: You Only Calibrate Once! Fast Mocap Calibration for Dexterous Teleoperation",
+      "url": "https://openreview.net/forum?id=LHLnvoAEhr"
+    },
+    {
+      "id": "OnGdMFJg2i",
+      "title": "Towards Human-level Dexterous Teleoperation",
+      "url": "https://openreview.net/forum?id=OnGdMFJg2i"
+    },
+    {
+      "id": "9w3PEC3XLg",
+      "title": "TopoRetarget: Interaction-centric retarget for dexterous manipulation",
+      "url": "https://openreview.net/forum?id=9w3PEC3XLg"
+    },
+    {
+      "id": "8MNr0evyJT",
+      "title": "A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation",
+      "url": "https://openreview.net/forum?id=8MNr0evyJT"
+    },
+    {
+      "id": "DEPCm83K5I",
+      "title": "Learning Dexterous Manipulation Using Contact Wrench Guidance From Human Demonstration",
+      "url": "https://openreview.net/forum?id=DEPCm83K5I"
+    },
+    {
+      "id": "h1yqzSoZ49",
+      "title": "Human2Any: Human-to-Robot Transfer via Constraint-Aware Compositional Planning",
+      "url": "https://openreview.net/forum?id=h1yqzSoZ49"
+    },
+    {
+      "id": "SMKzI5HX9P",
+      "title": "H2RBench: A Real-to-Sim Benchmark for Evaluating Human-to-Robot Transfer",
+      "url": "https://openreview.net/forum?id=SMKzI5HX9P"
+    },
+    {
+      "id": "J5RZyNKq8z",
+      "title": "ActiveMimic: Egocentric Video Pretraining with Active Perception",
+      "url": "https://openreview.net/forum?id=J5RZyNKq8z"
+    },
+    {
+      "id": "sitHOFsi2x",
+      "title": "Do as I Do: Dexterous Manipulation Data from Everyday Human Videos",
+      "url": "https://openreview.net/forum?id=sitHOFsi2x"
+    },
+    {
+      "id": "XKZ7YJEfr4",
+      "title": "WARPED: Wrist-Aligned Rendering for Robot Policy Learning from Egocentric Human Demonstrations",
+      "url": "https://openreview.net/forum?id=XKZ7YJEfr4"
+    },
+    {
+      "id": "tsWZwXGz5P",
+      "title": "AdvDex: Learning Dexterous Manipulation from Human Demonstrations via Joint-Aligned Actions and Adversarial Learning",
+      "url": "https://openreview.net/forum?id=tsWZwXGz5P"
+    },
+    {
+      "id": "QsmD0Pq7uP",
+      "title": "LUCID: Learning Embodiment-Agnostic Intent Models from Unstructured Human Videos for Scalable Dexterous Robot Skill Acquisition",
+      "url": "https://openreview.net/forum?id=QsmD0Pq7uP"
+    },
+    {
+      "id": "xaGVjPTxtr",
+      "title": "VISTA: Vision-Grounded and Physics-Validated Adaptation of UMI data for VLA Training",
+      "url": "https://openreview.net/forum?id=xaGVjPTxtr"
+    },
+    {
+      "id": "lHDmYo4bzs",
+      "title": "SEED-UMI: Sharing the Exoskeleton between human and robot for onE-to-one Dexterous demonstration",
+      "url": "https://openreview.net/forum?id=lHDmYo4bzs"
+    },
+    {
+      "id": "FYlYM2c6Xc",
+      "title": "Freeform Preference Learning for Robotic Manipulation",
+      "url": "https://openreview.net/forum?id=FYlYM2c6Xc"
+    },
+    {
+      "id": "C08KksTfEx",
+      "title": "Beyond the End-Effector: Learning Whole-Arm Contact Manipulation from Human Demonstrations",
+      "url": "https://openreview.net/forum?id=C08KksTfEx"
+    },
+    {
+      "id": "xEOer7gykg",
+      "title": "Gaze Prompts: Temporally Dense Human Attention for Vision–Language–Action Fine-Tuning",
+      "url": "https://openreview.net/forum?id=xEOer7gykg"
+    },
+    {
+      "id": "LOvZujpKxN",
+      "title": "Human-like autonomy emerges from self-play and a pinch of human data",
+      "url": "https://openreview.net/forum?id=LOvZujpKxN"
+    },
+    {
+      "id": "c7BvD59RpP",
+      "title": "Efficient On-policy Visual-RL via Stochastic Decoupled Policy Gradient",
+      "url": "https://openreview.net/forum?id=c7BvD59RpP"
+    },
+    {
+      "id": "Wv9xF5Ii7L",
+      "title": "FlowDPG: Deterministic Policy Gradient on Flow Matching Policies for Real-World Manipulation",
+      "url": "https://openreview.net/forum?id=Wv9xF5Ii7L"
+    },
+    {
+      "id": "fTx97RpooW",
+      "title": "FlowPRO: Reward-Free Fine-Tuning of Flow-Matching VLAs via Proximalized Preference Optimization",
+      "url": "https://openreview.net/forum?id=fTx97RpooW"
+    },
+    {
+      "id": "7hdkIcfGRw",
+      "title": "Beyond Imitation: Reinforcement Learning-Based Sim-Real Co-Training for VLA Models",
+      "url": "https://openreview.net/forum?id=7hdkIcfGRw"
+    },
+    {
+      "id": "tAXtXe4Oqd",
+      "title": "Object-Centric Residual RL for Zero-Shot Sim-to-Real VLA Enhancement",
+      "url": "https://openreview.net/forum?id=tAXtXe4Oqd"
+    },
+    {
+      "id": "EfJCm9am0o",
+      "title": "RoboFFT: Finetuning generative robot policy via online reinforcement learning with forward process",
+      "url": "https://openreview.net/forum?id=EfJCm9am0o"
+    },
+    {
+      "id": "uNi5VigrGr",
+      "title": "Optimal Transport Q-Learning for Flow Policy Steering and Acceleration",
+      "url": "https://openreview.net/forum?id=uNi5VigrGr"
+    },
+    {
+      "id": "yaYM35u9Su",
+      "title": "WARP-RM: A Warp-Augmented Relative Progress Reward Model for Data Curation",
+      "url": "https://openreview.net/forum?id=yaYM35u9Su"
+    },
+    {
+      "id": "Qgk0k192w6",
+      "title": "Learning Decomposed Visibility for Efficient Active Exploration of Cluttered Scenes",
+      "url": "https://openreview.net/forum?id=Qgk0k192w6"
+    },
+    {
+      "id": "h4x4aofBgS",
+      "title": "UniLab: A Heterogeneous Architecture for Robot RL Beyond GPU-Dominant Paradigms",
+      "url": "https://openreview.net/forum?id=h4x4aofBgS"
+    },
+    {
+      "id": "gUSryIAaeN",
+      "title": "TUTOR: Learning Recovery from Policy-Induced Deviations",
+      "url": "https://openreview.net/forum?id=gUSryIAaeN"
+    },
+    {
+      "id": "o4lQTMHyTc",
+      "title": "Cue the Flow: Steering Flow-Matching Policies for Open-World Delivery Manipulation",
+      "url": "https://openreview.net/forum?id=o4lQTMHyTc"
+    },
+    {
+      "id": "bjPoaczBRX",
+      "title": "MoFlo: Language-Conditioned Flow Matching for Policy Mobilization",
+      "url": "https://openreview.net/forum?id=bjPoaczBRX"
+    },
+    {
+      "id": "QoUwcaTc3d",
+      "title": "SurgVIL: Scaling Surgical Robot Imitation Learning with Open-source Surgical Videos",
+      "url": "https://openreview.net/forum?id=QoUwcaTc3d"
+    },
+    {
+      "id": "Sh0dG0HwVK",
+      "title": "Ambient Diffusion Policy: Imitation Learning from Suboptimal Data in Robotics",
+      "url": "https://openreview.net/forum?id=Sh0dG0HwVK"
+    },
+    {
+      "id": "dFblf2sS7M",
+      "title": "Supervise What Survives: Geometry-Guided VLA Adaptation from Synthetic Robot Videos",
+      "url": "https://openreview.net/forum?id=dFblf2sS7M"
+    },
+    {
+      "id": "6pHgTk73zs",
+      "title": "SynthICL: Scalable In-context Imitation Learning with Synthetic Data",
+      "url": "https://openreview.net/forum?id=6pHgTk73zs"
+    },
+    {
+      "id": "MWj9u2VZPx",
+      "title": "RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation",
+      "url": "https://openreview.net/forum?id=MWj9u2VZPx"
+    },
+    {
+      "id": "8gqhCYKrxR",
+      "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+      "url": "https://openreview.net/forum?id=8gqhCYKrxR"
+    },
+    {
+      "id": "xXnpKl2IgD",
+      "title": "ArticFlow: Action-Conditioned Flow Matching for Skeleton-Free Articulated Generation",
+      "url": "https://openreview.net/forum?id=xXnpKl2IgD"
+    },
+    {
+      "id": "y5Z5ccS0Bv",
+      "title": "GIF: Agentic Generation of Interactive and Functional Object Compositions for Robot Learning",
+      "url": "https://openreview.net/forum?id=y5Z5ccS0Bv"
+    },
+    {
+      "id": "6epaMjDFWZ",
+      "title": "IM-ENGINE: Image Editing for Embodied Data Generation",
+      "url": "https://openreview.net/forum?id=6epaMjDFWZ"
+    },
+    {
+      "id": "gk8bvFSZq3",
+      "title": "ExpertGen: Scalable Sim-to-Real Expert Policy Learning from Imperfect Behavior Priors",
+      "url": "https://openreview.net/forum?id=gk8bvFSZq3"
+    },
+    {
+      "id": "VEsQVsxMMw",
+      "title": "Building Scalable Real-World Robot Data Generation via Compositional Simulation",
+      "url": "https://openreview.net/forum?id=VEsQVsxMMw"
+    },
+    {
+      "id": "db6WHoqH91",
+      "title": "RoboAug: One Annotation to Hundreds of Scenes via Region-Contrastive Data Augmentation for Robotic Manipulation",
+      "url": "https://openreview.net/forum?id=db6WHoqH91"
+    },
+    {
+      "id": "WaIPZtSrpq",
+      "title": "World In Your Hands: A Large-scale Dataset for Learning Ego-centric Robotic Manipulation In-the-Wild",
+      "url": "https://openreview.net/forum?id=WaIPZtSrpq"
+    },
+    {
+      "id": "GX5xey9ade",
+      "title": "SPARC: Reliable Spatial Annotations from Robot Demonstrations at Scale",
+      "url": "https://openreview.net/forum?id=GX5xey9ade"
+    },
+    {
+      "id": "UZnHsKKAAB",
+      "title": "SkillWeaver: Agentic Exploration over Neural Interaction Skills for Scalable Robot Data Generation",
+      "url": "https://openreview.net/forum?id=UZnHsKKAAB"
+    },
+    {
+      "id": "6TXMWx1Wih",
+      "title": "GUILD: Guided Iterative Data Collection for Imitation Learning",
+      "url": "https://openreview.net/forum?id=6TXMWx1Wih"
+    },
+    {
+      "id": "GVDQtVONA1",
+      "title": "CrowdMAPS: Crowdsourcing Multiple Actions per State for Real-World Robot Imitation Learning",
+      "url": "https://openreview.net/forum?id=GVDQtVONA1"
+    },
+    {
+      "id": "Vv1WXMkSTD",
+      "title": "An Empirical Study of Data-Loading Bottlenecks (and Non-Bottlenecks) in Robotic Imitation Learning",
+      "url": "https://openreview.net/forum?id=Vv1WXMkSTD"
+    },
+    {
+      "id": "dPgz9Kssgo",
+      "title": "ATHENA: Accelerated Multi-Task Heterogeneous Influence Functions for Robot Data Curation",
+      "url": "https://openreview.net/forum?id=dPgz9Kssgo"
+    },
+    {
+      "id": "xXHKqL5u5P",
+      "title": "Active Generative Simulation: Meta-Learning What to Simulate for Sim-and-Real Policy Co-Training",
+      "url": "https://openreview.net/forum?id=xXHKqL5u5P"
+    },
+    {
+      "id": "pLyDkcGbkT",
+      "title": "RoboLineage: Agent-Native Data Lifecycle Governance Across Robot Policy Iterations",
+      "url": "https://openreview.net/forum?id=pLyDkcGbkT"
+    },
+    {
+      "id": "x05Rf7L7H4",
+      "title": "Where Small Mistakes Matter: Quantifying State Criticality for Imitation Learning",
+      "url": "https://openreview.net/forum?id=x05Rf7L7H4"
+    },
+    {
+      "id": "58liP3p4hu",
+      "title": "Sim-to-Real Transfer for Muscle-Actuated Robots via Generalized Actuator Networks",
+      "url": "https://openreview.net/forum?id=58liP3p4hu"
+    },
+    {
+      "id": "dykg3Ed5Wy",
+      "title": "Do Rigid-Body Simulators Dream of Soft Robots? Learning Contact-Rich Manipulation for Tendon-Driven Continuum Robots",
+      "url": "https://openreview.net/forum?id=dykg3Ed5Wy"
+    },
+    {
+      "id": "FYNtpa7rwN",
+      "title": "Scouting the Dynamics Gap: Test-Time Policy Adaptation via Action-Outcome Feedback",
+      "url": "https://openreview.net/forum?id=FYNtpa7rwN"
+    },
+    {
+      "id": "ZwUhb2fAWb",
+      "title": "Drifting on Demand: A Profiled-Likelihood Transformer for Online Parameter Estimation",
+      "url": "https://openreview.net/forum?id=ZwUhb2fAWb"
+    },
+    {
+      "id": "Y6pog6YGIX",
+      "title": "Beyond Semantic Classes: Online Physical Parameter Estimation via Embedding-Conditioned Gaussian Mixtures",
+      "url": "https://openreview.net/forum?id=Y6pog6YGIX"
+    },
+    {
+      "id": "kGGI0115Rg",
+      "title": "Sensitivity Shaping for Latent Modeling",
+      "url": "https://openreview.net/forum?id=kGGI0115Rg"
+    },
+    {
+      "id": "cauTGdv8L0",
+      "title": "Learning Robust Visuomotor Policies via Dynamics Alignment",
+      "url": "https://openreview.net/forum?id=cauTGdv8L0"
+    },
+    {
+      "id": "xL2eR7x00h",
+      "title": "Discovering Control Symmetries via Transition Manifold Tangency",
+      "url": "https://openreview.net/forum?id=xL2eR7x00h"
+    },
+    {
+      "id": "Glj2RSQIS4",
+      "title": "MIRROR: Reflecting Hidden Symmetries from Offline Robot Interaction Data",
+      "url": "https://openreview.net/forum?id=Glj2RSQIS4"
+    },
+    {
+      "id": "sIe2LX2HaF",
+      "title": "DexNinja: Learning Robust Dexterous Cutting Policy with a Real-to-Sim-to-Real Data Engine",
+      "url": "https://openreview.net/forum?id=sIe2LX2HaF"
+    },
+    {
+      "id": "Qa1Uu7lc8n",
+      "title": "Dex4D: Task-Agnostic Point Track Policy for Zero-Shot Dexterous Manipulation",
+      "url": "https://openreview.net/forum?id=Qa1Uu7lc8n"
+    },
+    {
+      "id": "QAHhXvXHtb",
+      "title": "YUBI: Yielding Universal Bidigital Interface for Bimanual Dexterous Manipulation at Scale",
+      "url": "https://openreview.net/forum?id=QAHhXvXHtb"
+    },
+    {
+      "id": "GseuCgLNtO",
+      "title": "Belt-Finger: An Affordable Soft Belt-Driven Gripper for Dexterous In-Hand Manipulation",
+      "url": "https://openreview.net/forum?id=GseuCgLNtO"
+    },
+    {
+      "id": "Eb5TKtrt2X",
+      "title": "Assembling Two Parts in One Hand",
+      "url": "https://openreview.net/forum?id=Eb5TKtrt2X"
+    },
+    {
+      "id": "2qcSjfv9pr",
+      "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=2qcSjfv9pr"
+    },
+    {
+      "id": "8T3FxlYk9K",
+      "title": "Going with the Flow: Koopman Behavioral Models as Pseudo Planners for Visuo-Motor Dexterity",
+      "url": "https://openreview.net/forum?id=8T3FxlYk9K"
+    },
+    {
+      "id": "z5cgS0XgeK",
+      "title": "Dexterity-BEV: Aligning 3D World and Actions for Generalizable Robot Policies Learning",
+      "url": "https://openreview.net/forum?id=z5cgS0XgeK"
+    },
+    {
+      "id": "0HLj8l0bB4",
+      "title": "AssemLM: A Spatial Reasoning Multimodal Large Language Model for Robotic Assembly",
+      "url": "https://openreview.net/forum?id=0HLj8l0bB4"
+    },
+    {
+      "id": "FsgXevFLkn",
+      "title": "LiMA: Bridging Long-term Imagination to Real-time Dexterous Manipulation via Asynchronous Diffusion",
+      "url": "https://openreview.net/forum?id=FsgXevFLkn"
+    },
+    {
+      "id": "lGOsJtsr5q",
+      "title": "How to Learn from What a Human Would Avoid? Intervention-Aware World Models with Real-World RL for Dexterous Manipulation",
+      "url": "https://openreview.net/forum?id=lGOsJtsr5q"
+    },
+    {
+      "id": "tQRHDxUApa",
+      "title": "Physics-Aware Object-Centric SE(3) Forecasting for Real-Time Proactive Dynamic Grasping",
+      "url": "https://openreview.net/forum?id=tQRHDxUApa"
+    },
+    {
+      "id": "mzGjyghofG",
+      "title": "MIND-Grasp: Multi-View Imagination-Guided Next-Best-Action Discovery for Occlusion-Aware Grasping",
+      "url": "https://openreview.net/forum?id=mzGjyghofG"
+    },
+    {
+      "id": "nG11dAaFIX",
+      "title": "Minimal-Intervention Target Retrieval in Cluttered Scenes with Grasp-Conditioned Dependency Graphs",
+      "url": "https://openreview.net/forum?id=nG11dAaFIX"
+    },
+    {
+      "id": "iIanOcE27q",
+      "title": "How Firm Should a Grasp Be?",
+      "url": "https://openreview.net/forum?id=iIanOcE27q"
+    },
+    {
+      "id": "FGyOl5tNGl",
+      "title": "Anchoring Attention in Clutter: Mask-Guided Latent Distillation for Vision-Language-Action Towards Dexterous Grasping",
+      "url": "https://openreview.net/forum?id=FGyOl5tNGl"
+    },
+    {
+      "id": "CPY2RsdnjI",
+      "title": "AURORA: Active Uncertainty-Driven Re-Orientation for In-Hand Reconstruction",
+      "url": "https://openreview.net/forum?id=CPY2RsdnjI"
+    },
+    {
+      "id": "fuB1LcFk9g",
+      "title": "PACER: Process-Aware VLA Policy Learning from Human Corrections for Robotic Disassembly",
+      "url": "https://openreview.net/forum?id=fuB1LcFk9g"
+    },
+    {
+      "id": "KdaClHHEUt",
+      "title": "T-Rex: Tactile-Reactive Dexterous Manipulation",
+      "url": "https://openreview.net/forum?id=KdaClHHEUt"
+    },
+    {
+      "id": "ALlLaCTHKQ",
+      "title": "Touch2Trace: Tactile-Driven Imitation Learning for Dexterous Cable Tracing",
+      "url": "https://openreview.net/forum?id=ALlLaCTHKQ"
+    },
+    {
+      "id": "anfRreNqMN",
+      "title": "SlipSense: Multimodal Tactile Learning for Low-Latency and Generalized Slip Detection",
+      "url": "https://openreview.net/forum?id=anfRreNqMN"
+    },
+    {
+      "id": "S0rbnmOkit",
+      "title": "Learning with Object-centric Representations of Tactile Interactive Perception for Robot Manipulation",
+      "url": "https://openreview.net/forum?id=S0rbnmOkit"
+    },
+    {
+      "id": "7ymfgWpcWw",
+      "title": "ControlTac: Scaling Tactile Data with Physically Controlled Tactile Image Generation",
+      "url": "https://openreview.net/forum?id=7ymfgWpcWw"
+    },
+    {
+      "id": "f3Dic5dJnz",
+      "title": "What is the Better Curriculum: Controller-Shaped Grasping Behavior for Contact Force-Sensitive Manipulation",
+      "url": "https://openreview.net/forum?id=f3Dic5dJnz"
+    },
+    {
+      "id": "zsHXQqYhFn",
+      "title": "Robot-DIFT: Correspondence-Sensitive Diffusion Features for Contact-Rich Robot Manipulation",
+      "url": "https://openreview.net/forum?id=zsHXQqYhFn"
+    },
+    {
+      "id": "40CsfPl2cq",
+      "title": "Equivariant Visual-Tactile Diffusion Policy for Contact-Rich Manipulation",
+      "url": "https://openreview.net/forum?id=40CsfPl2cq"
+    },
+    {
+      "id": "loMfT7cfYl",
+      "title": "TDC: Sim-to-Real Transferable Directional Compliance for Contact-Rich Manipulation",
+      "url": "https://openreview.net/forum?id=loMfT7cfYl"
+    },
+    {
+      "id": "9SnXCYklB0",
+      "title": "CompVLA: A Variable Compliance Vision-Language-Action Model for Contact-rich Manipulation",
+      "url": "https://openreview.net/forum?id=9SnXCYklB0"
+    },
+    {
+      "id": "KDuIgyXUtd",
+      "title": "DexFLEX: Contact-Aware Foundation Controller for Command-Guided Dexterity",
+      "url": "https://openreview.net/forum?id=KDuIgyXUtd"
+    },
+    {
+      "id": "PAtsmTswIr",
+      "title": "Mind the Gap: Rethinking I/O Design for Contact-Rich Visuomotor Policy Learning",
+      "url": "https://openreview.net/forum?id=PAtsmTswIr"
+    },
+    {
+      "id": "NEtxISu52Q",
+      "title": "Multisensory Continual Learning: Adapting Pretrained Visuomotor Policies to Force",
+      "url": "https://openreview.net/forum?id=NEtxISu52Q"
+    },
+    {
+      "id": "h26AmTGnfu",
+      "title": "Tactile Curiosity Drives Robot Interaction",
+      "url": "https://openreview.net/forum?id=h26AmTGnfu"
+    },
+    {
+      "id": "ik1SfLQgZA",
+      "title": "KlaskTron-IL: A Contact-Rich Adversarial Imitation Learning Benchmark with a Validated Sim-to-Real Bridge",
+      "url": "https://openreview.net/forum?id=ik1SfLQgZA"
+    },
+    {
+      "id": "CH33XUEIBO",
+      "title": "FACA: Force-Aware Contact Adaptation for Task-Parameterized Robotic Assembly",
+      "url": "https://openreview.net/forum?id=CH33XUEIBO"
+    },
+    {
+      "id": "w2H90oEzfp",
+      "title": "ForceBand: Learning Forceful Manipulation with sEMG",
+      "url": "https://openreview.net/forum?id=w2H90oEzfp"
+    },
+    {
+      "id": "rIyIQWvpST",
+      "title": "Hardware-as-Regularization: Enhancing Data Consistency in Imitation Learning via an Adjustable Passive Compliant Leader Arm",
+      "url": "https://openreview.net/forum?id=rIyIQWvpST"
+    },
+    {
+      "id": "tU2SHEG4to",
+      "title": "Just Learn It: A Data-Harvesting Protocol for Empirical Learning of Effective Assistance Torques in Coupled Systems",
+      "url": "https://openreview.net/forum?id=tU2SHEG4to"
+    },
+    {
+      "id": "oias4zZRUn",
+      "title": "Unleashing Infinite Motion: Scaling Expressive Quadrupedal Motion via Generative Video Priors",
+      "url": "https://openreview.net/forum?id=oias4zZRUn"
+    },
+    {
+      "id": "X7QOq3QotA",
+      "title": "MorFiC: Fixing Value Miscalibration for Zero-Shot Quadruped Transfer",
+      "url": "https://openreview.net/forum?id=X7QOq3QotA"
+    },
+    {
+      "id": "YQoaLlpDD3",
+      "title": "Morphology-Conditioned World Model for Cross-Embodiment Quadrupedal Locomotion",
+      "url": "https://openreview.net/forum?id=YQoaLlpDD3"
+    },
+    {
+      "id": "sS9FjkKKsm",
+      "title": "LoComposition: Terrain-Adaptive Energy-Efficient Quadruped Locomotion without Gait Priors",
+      "url": "https://openreview.net/forum?id=sS9FjkKKsm"
+    },
+    {
+      "id": "VKVM1q9FbN",
+      "title": "Physics-Guided Biomechanical Gait Adaptation for Humanoid Locomotion on Extreme Sloped Terrains",
+      "url": "https://openreview.net/forum?id=VKVM1q9FbN"
+    },
+    {
+      "id": "zYpPmDICVV",
+      "title": "RPL: Learning Robust Humanoid Perceptive Locomotion on Challenging Terrains",
+      "url": "https://openreview.net/forum?id=zYpPmDICVV"
+    },
+    {
+      "id": "6DFI1qPxPg",
+      "title": "TTT-Parkour: Rapid Test-Time Training for Perceptive Legged Humanoid Parkour",
+      "url": "https://openreview.net/forum?id=6DFI1qPxPg"
+    },
+    {
+      "id": "O7LrmASsJS",
+      "title": "Hiking in the Wild: A Scalable Perceptive Legged Parkour Framework for Humanoid Robots",
+      "url": "https://openreview.net/forum?id=O7LrmASsJS"
+    },
+    {
+      "id": "eioQ9vJ6Oj",
+      "title": "Echo in the Steps: Learning Perceptive Humanoid Parkour with Gated Memory",
+      "url": "https://openreview.net/forum?id=eioQ9vJ6Oj"
+    },
+    {
+      "id": "4IT3fcnny2",
+      "title": "SSR: Scaling Surefooted and Symmetric Humanoid Traversal Toward the Open World",
+      "url": "https://openreview.net/forum?id=4IT3fcnny2"
+    },
+    {
+      "id": "TmKLynfHXr",
+      "title": "EgoHTR: Egocentric 4D Demonstrations of Human Terrain Traversal",
+      "url": "https://openreview.net/forum?id=TmKLynfHXr"
+    },
+    {
+      "id": "JbpsGhdjs9",
+      "title": "MeshMimic: Geometry-Aware Humanoid Motion Learning through 3D Scene Reconstruction",
+      "url": "https://openreview.net/forum?id=JbpsGhdjs9"
+    },
+    {
+      "id": "c5oiL7JqbQ",
+      "title": "Perceptive Behavior Foundation Model: Adapting Human Motion Priors to Robot-Centric Terrain",
+      "url": "https://openreview.net/forum?id=c5oiL7JqbQ"
+    },
+    {
+      "id": "IY6ti85pg0",
+      "title": "MARCH: Model-Assisted Reinforcement Learning for the Perceptive Control of Humanoids over Sparse Footholds",
+      "url": "https://openreview.net/forum?id=IY6ti85pg0"
+    },
+    {
+      "id": "JWkaXdmqKb",
+      "title": "SOLO: Stable Omni-terrain Long-Horizon Perceptive Humanoid Locomotion",
+      "url": "https://openreview.net/forum?id=JWkaXdmqKb"
+    },
+    {
+      "id": "317SZV2vuS",
+      "title": "PROOF: Perceptive Robustness via Out-of-Distribution Fallback for Legged Locomotion",
+      "url": "https://openreview.net/forum?id=317SZV2vuS"
+    },
+    {
+      "id": "oq5Byppu7Q",
+      "title": "CAP: Continuously Adaptive Perception-Blind Humanoid Locomotion via Learned Denoising",
+      "url": "https://openreview.net/forum?id=oq5Byppu7Q"
+    },
+    {
+      "id": "uMgOYXmgn2",
+      "title": "RoboDreamer: Anticipatory Humanoid Locomotion with Predictive State-Space Models",
+      "url": "https://openreview.net/forum?id=uMgOYXmgn2"
+    },
+    {
+      "id": "L9RkFeuKRc",
+      "title": "HAF-VLA: Hierarchical Action Flow Framework for Humanoid Vision-Language-Action Control",
+      "url": "https://openreview.net/forum?id=L9RkFeuKRc"
+    },
+    {
+      "id": "EL8hXhrhFK",
+      "title": "TextOp: Real-time Interactive Text-Driven Humanoid Robot Motion Generation and Control",
+      "url": "https://openreview.net/forum?id=EL8hXhrhFK"
+    },
+    {
+      "id": "7UeBDg4KRa",
+      "title": "ADAPT: Agile Diffusion Action Priors for Robust and Steerable Online Text-Driven Humanoid Control",
+      "url": "https://openreview.net/forum?id=7UeBDg4KRa"
+    },
+    {
+      "id": "USCrYWxsUc",
+      "title": "TEXEDO : Test Time Scaling for Controller-aware Language-conditioned Humanoid Motion Generation",
+      "url": "https://openreview.net/forum?id=USCrYWxsUc"
+    },
+    {
+      "id": "93leGzRaPV",
+      "title": "InfiniDanceRobot: A Streaming and Closed-Loop Music-driven Dance Generation for Humanoid Robot",
+      "url": "https://openreview.net/forum?id=93leGzRaPV"
+    },
+    {
+      "id": "xcDyj95l5P",
+      "title": "HumanoidNDM: Closing the Training-Deployment Gap of Motion Tracking via Humanoid Neural Dynamics Model",
+      "url": "https://openreview.net/forum?id=xcDyj95l5P"
+    },
+    {
+      "id": "HT8whUVp22",
+      "title": "CLIFT: Turning Gemini Robotics On-Device into Humanoid Specialists via Non-Invasive Closed-Loop Iterative Fine-Tuning",
+      "url": "https://openreview.net/forum?id=HT8whUVp22"
+    },
+    {
+      "id": "mMRhLrwLFx",
+      "title": "FADA: Few-Shot Domain Adaptation via Dynamics Alignment for Humanoid Control",
+      "url": "https://openreview.net/forum?id=mMRhLrwLFx"
+    },
+    {
+      "id": "8klpl3FXjN",
+      "title": "Unsupervised Actuator Networks as a Residual World Model for Humanoid Control",
+      "url": "https://openreview.net/forum?id=8klpl3FXjN"
+    },
+    {
+      "id": "PQdtUNzQLj",
+      "title": "ADAPT: Analytical Disturbance-Aware Policy Training for Humanoid Locomotion",
+      "url": "https://openreview.net/forum?id=PQdtUNzQLj"
+    },
+    {
+      "id": "u2oeVtdVX8",
+      "title": "Walk Like This: Stylized Locomotion for Physics-Based Characters through Example-Driven Diffusion",
+      "url": "https://openreview.net/forum?id=u2oeVtdVX8"
+    },
+    {
+      "id": "mday00WZFr",
+      "title": "Koopman DCM: Unstable Eigenfunctions as Data-driven Representations for Legged Balancing",
+      "url": "https://openreview.net/forum?id=mday00WZFr"
+    },
+    {
+      "id": "mru8iHzSqR",
+      "title": "Actuator Dynamics Curricula for Narrow-Viability Tasks in Legged Robot Learning",
+      "url": "https://openreview.net/forum?id=mru8iHzSqR"
+    },
+    {
+      "id": "0mUj0bXuJh",
+      "title": "Trajectory-Level Automatic Curriculum Learning for Legged Locomotion on Unstructured Terrain",
+      "url": "https://openreview.net/forum?id=0mUj0bXuJh"
+    },
+    {
+      "id": "rJe0dLlPev",
+      "title": "SHOES: Sim-to-real Hardware-adaptation via On-policy Expansion of Skills for Legged Robots",
+      "url": "https://openreview.net/forum?id=rJe0dLlPev"
+    },
+    {
+      "id": "JwpvRd730L",
+      "title": "Damage-Aware Quadruped Locomotion: Zero-Shot Adaptation to Motor Failures via Pain-Inspired Reinforcement Learning",
+      "url": "https://openreview.net/forum?id=JwpvRd730L"
+    },
+    {
+      "id": "FK33gnkKgF",
+      "title": "Mind the Phase: Effective Rank and Representation Health in Legged Locomotion",
+      "url": "https://openreview.net/forum?id=FK33gnkKgF"
+    },
+    {
+      "id": "XQGBZwsuXt",
+      "title": "Push the Limit: Learning High-Speed Sprinting and Aggressive Cornering on a Full-Scale Humanoid",
+      "url": "https://openreview.net/forum?id=XQGBZwsuXt"
+    },
+    {
+      "id": "Tk1gtgOESR",
+      "title": "MAPO: Mixture of Experts with Alternating Policy Optimization for Universal Humanoid Motion Tracking",
+      "url": "https://openreview.net/forum?id=Tk1gtgOESR"
+    },
+    {
+      "id": "gqmJ7SIK5Q",
+      "title": "CHIP: Adaptive Compliance for Humanoid Control through Hindsight Perturbation",
+      "url": "https://openreview.net/forum?id=gqmJ7SIK5Q"
+    },
+    {
+      "id": "sIYfeRhQrn",
+      "title": "λ-Reachability: Geometric-Horizon Safety Bellman Equations for Humanoid Safety",
+      "url": "https://openreview.net/forum?id=sIYfeRhQrn"
+    },
+    {
+      "id": "0HS0to0eVo",
+      "title": "MPC-Injection: Biasing Off-Policy Locomotion RL Toward Controller-Induced Behavior Basins",
+      "url": "https://openreview.net/forum?id=0HS0to0eVo"
+    },
+    {
+      "id": "2xR8oasJuM",
+      "title": "Continual Quadruped Robots Coordination via Sementic Skill Discover",
+      "url": "https://openreview.net/forum?id=2xR8oasJuM"
+    },
+    {
+      "id": "YnMZwXZ68A",
+      "title": "BridgeSim: Unveiling the OL-CL Gap in End-to-End Autonomous Driving",
+      "url": "https://openreview.net/forum?id=YnMZwXZ68A"
+    },
+    {
+      "id": "EsZGt1eIZr",
+      "title": "Scaling Self-Play for End-to-End Driving",
+      "url": "https://openreview.net/forum?id=EsZGt1eIZr"
+    },
+    {
+      "id": "LqUR3gxKdH",
+      "title": "DreamStream: Towards Policy-Oriented Generative Simulation for End-to-End Driving",
+      "url": "https://openreview.net/forum?id=LqUR3gxKdH"
+    },
+    {
+      "id": "9ccdcInkM9",
+      "title": "DriveMLP: When Training Strategy Outperforms Model Complexity in Autonomous Driving",
+      "url": "https://openreview.net/forum?id=9ccdcInkM9"
+    },
+    {
+      "id": "CKVUqG4YQf",
+      "title": "Judge, Then Act: A Critic-Centric Vision Language Action Framework for Autonomous Driving",
+      "url": "https://openreview.net/forum?id=CKVUqG4YQf"
+    },
+    {
+      "id": "B7gccZTJyE",
+      "title": "DriveMA: Driving Vision-Language-Action Models with verifiable Meta-Actions",
+      "url": "https://openreview.net/forum?id=B7gccZTJyE"
+    },
+    {
+      "id": "EWEKI0rF6v",
+      "title": "GeoWorldAD: Geometry World Action Model for Autonomous Driving",
+      "url": "https://openreview.net/forum?id=EWEKI0rF6v"
+    },
+    {
+      "id": "F4IB3mxHbO",
+      "title": "NTR: Neural Token Reconstruction for Scene Token Bottleneck in End-to-End Driving",
+      "url": "https://openreview.net/forum?id=F4IB3mxHbO"
+    },
+    {
+      "id": "bqXyS2gKba",
+      "title": "Mechanistic Interpretability for End-to-End Self-Driving",
+      "url": "https://openreview.net/forum?id=bqXyS2gKba"
+    },
+    {
+      "id": "Hi8mV09nOi",
+      "title": "CoFL-S: Spatially Queryable Sector Flow Fields for Local Language-Conditioned Navigation",
+      "url": "https://openreview.net/forum?id=Hi8mV09nOi"
+    },
+    {
+      "id": "G6vrRbO3NE",
+      "title": "Observe Before You Alert: Belief-State Driver Alerting with Vision–Language Models",
+      "url": "https://openreview.net/forum?id=G6vrRbO3NE"
+    },
+    {
+      "id": "JydY4anB01",
+      "title": "Before Parc Fermé: RL-Time Pruning for Efficient Embodied LLMs in Autonomous Driving",
+      "url": "https://openreview.net/forum?id=JydY4anB01"
+    },
+    {
+      "id": "oMvcKDFLRA",
+      "title": "EvoDrive: Pareto Evolution for Safety-Critical Autonomous Driving via Self-Improving LLM Agents",
+      "url": "https://openreview.net/forum?id=oMvcKDFLRA"
+    },
+    {
+      "id": "eGZ6YMFVzU",
+      "title": "An Adaptive Slow-Fast Framework for Real-Time Anomaly Detection in Autonomous Driving",
+      "url": "https://openreview.net/forum?id=eGZ6YMFVzU"
+    },
+    {
+      "id": "022K2ZIPR6",
+      "title": "From Foundation VLM to Versatile Driving VLM: A Triplet Incremental Training Approach",
+      "url": "https://openreview.net/forum?id=022K2ZIPR6"
+    },
+    {
+      "id": "sdujBb3P4e",
+      "title": "FlashDrive: Flash Vision-Language-Action Inference Framework for Autonomous Driving",
+      "url": "https://openreview.net/forum?id=sdujBb3P4e"
+    },
+    {
+      "id": "vVIVf2E7KG",
+      "title": "Structured Perception Representations for Off-road Dynamics Learning",
+      "url": "https://openreview.net/forum?id=vVIVf2E7KG"
+    },
+    {
+      "id": "Alu9eLT93i",
+      "title": "VIGOR-MPC: Vision-Guided Objective Regulation MPC",
+      "url": "https://openreview.net/forum?id=Alu9eLT93i"
+    },
+    {
+      "id": "msKuD5tWYj",
+      "title": "CoPark: Learning Reactive Parking via Self-Play",
+      "url": "https://openreview.net/forum?id=msKuD5tWYj"
+    }
+  ],
+  "included": [
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "Anchoring Attention in Clutter: Mask-Guided Latent Distillation for Vision-Language-Action Towards Dexterous Grasping",
+      "type": "视觉语言灵巧抓取",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=FGyOl5tNGl",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. Acceptance and title verified in the official CoRL 2026 roster. OpenReview requires browser verification, so the abstract, implementation and detailed experimental scope remain unverified.",
+      "abstract": "",
+      "abstractStatus": "unavailable",
+      "abstractSource": "",
+      "abstractKind": "",
+      "abstractProvider": "",
+      "abstractLicense": "",
+      "abstractVerifiedAt": "2026-11-06",
+      "url": "https://openreview.net/forum?id=FGyOl5tNGl",
+      "verificationLevel": "title",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://openreview.net/forum?id=FGyOl5tNGl",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "ArtManip: Category-Level Articulated In-Hand Manipulation",
+      "type": "灵巧手抓取与关节物体操作",
+      "tier": "相关",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=JI9u9A9JJO",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. Related work: the method synthesizes functional initial grasps and learns articulated in-hand manipulation across object instances.",
+      "abstract": "Category-level in-hand manipulation of articulated objects is a formidable yet underexplored challenge for dexterous robotic hands. This difficulty stems from two core bottlenecks: first, controlling an object's internal degrees of freedom is tightly coupled with maintaining grasp stability on a free-floating base; second, acquiring diverse object models and functional grasps at scale is highly labor-intensive, yet vital for generalization given the system's sensitivity to initial configurations. In this work, we present ArtManip, the first category-level articulated in-hand manipulation method that generalizes across object instances and diverse initial grasps. For initial configuration construction, we develop an automated pipeline that procedurally generates diverse articulated objects and synthesizes task-oriented functional grasps. For policy learning, we propose a robust two-stage training strategy that incorporates articulation physics randomization, reward curriculum, and latent representation distillation to handle complex contact and joint dynamics during deployment. Extensive experiments across four object categories demonstrate that our policy generalizes to unseen instances and varied configurations in simulation, and achieves zero-shot transfer to 12 real-world objects featuring diverse shapes and joint mechanics.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2609.12498v1",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-06",
+      "authors": [
+        "Yang Yang",
+        "Tengyu Liu",
+        "Puhao Li",
+        "Zeyuan Chen",
+        "Yuyang Li",
+        "Xingwan Wang",
+        "Yingying Wu",
+        "Zhaopeng Cui",
+        "Siyuan Huang"
+      ],
+      "preprintUrl": "https://arxiv.org/abs/2609.12498v1",
+      "url": "https://arxiv.org/abs/2609.12498v1",
+      "linkLabel": "作者预印本",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/youngcv/artgym"
+        ],
+        "engines": [
+          "Isaac Gym"
+        ],
+        "datasets": [
+          "ArtManip procedural articulated objects and functional grasps"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2609.12498v1",
+          "https://artmanip.github.io",
+          "https://github.com/youngcv/artgym",
+          "https://openreview.net/forum?id=JI9u9A9JJO",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection",
+      "type": "灵巧抓取数据采集",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=8CDEvBQA6x",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. This is an automated data-collection system, not a new hand design. Residual-torque collision monitoring is used for collection safety; this is not classified as a tactile-conditioned learned grasp policy.",
+      "abstract": "Scaling real-world dexterous-grasp data collection is limited by the sustained human effort required to operate the robot, verify grasp outcomes, and reset objects between trials. Simulation can generate grasp candidates at scale, but their success on hardware remains uncertain. We present AutoDex, a system that collects real-world dexterous-grasp data without continuous human operation. Given generated grasp candidates, AutoDex plans and executes grasps, labels their outcomes, and resets the object to continue collection across stable poses. Multi-view object tracking supports labeling under hand-object occlusion, while residual-torque collision monitoring and pose-directed reset enable the loop to operate without continuous human supervision. Using AutoDex, we collect over 3,500 grasp trials across 100 objects with Allegro and Inspire hands, recording both successes and failures together with synchronized visual observations and robot states. AutoDex reduces human effort by more than an order of magnitude, requiring an estimated 0.2 human-hours to collect 500 trajectories compared with 9.3 for teleoperation. As AutoDex collects trials, it builds a library of physically validated grasps for subsequent execution. In new object placements and obstacle configurations, retrieval from this library achieves 76% success, compared with 34% for candidates screened only in simulation. Code and data are available at https://snuvclab.github.io/AutoDex/.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2606.23689v2",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-06",
+      "authors": [
+        "Mingi Choi",
+        "Gunhee Kim",
+        "Jisoo Kim",
+        "Taeksoo Kim",
+        "Taeyun Ha",
+        "Jongbin Lim",
+        "Hanbyul Joo"
+      ],
+      "preprintUrl": "https://arxiv.org/abs/2606.23689v2",
+      "url": "https://arxiv.org/abs/2606.23689v2",
+      "linkLabel": "作者预印本",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/snuvclab/autodex-code"
+        ],
+        "engines": [],
+        "datasets": [
+          "AutoDex real-world grasp-trial dataset"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2606.23689v2",
+          "https://snuvclab.github.io/AutoDex/",
+          "https://github.com/snuvclab/autodex-code",
+          "https://openreview.net/forum?id=8CDEvBQA6x",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "Continual Learning for 6-DoF Grasp Synthesis via Experience and Demonstrations",
+      "type": "6-DoF 抓取持续学习",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=MTZ4eKUP94",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. ",
+      "abstract": "Most current grasp synthesis systems are trained offline and remain fixed during deployment. While this works well when deployment conditions resemble the training data, performance can degrade when robots encounter conditions they have not seen before, such as unfamiliar objects. In this work, we present a continual-learning framework for single-view 6-DoF grasp synthesis for a parallel-jaw gripper in cluttered scenes. Rather than finetuning a large parametric model, our method adapts through memory in a learned embedding space: grasp outcomes update future grasp scores, while optional user demonstrations are recalled and transferred to new scenes as additional candidate grasps. We evaluate our method in simulation and in extensive real-world experiments comprising over 1500 grasp trials. We show that our method matches the performance of existing 6-DoF grasping baselines even before adaptation, improves online on unseen objects from categories absent or underrepresented during training, and supports long-horizon continual learning with limited forgetting. In real-world experiments, our method reaches over 90\\% success rates on several challenging object categories after only 50 online grasp attempts. Videos and code at https://giuschio.github.io/cl_grasping/.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2610.01301v1",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-06",
+      "authors": [
+        "Giulio Schiavi",
+        "Andrei Cramariuc",
+        "Michael Pantic",
+        "Roland Siegwart"
+      ],
+      "preprintUrl": "https://arxiv.org/abs/2610.01301v1",
+      "url": "https://arxiv.org/abs/2610.01301v1",
+      "linkLabel": "作者预印本",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/giuschio/graspcl-model-public",
+          "https://github.com/giuschio/graspcl-benchmark-public"
+        ],
+        "engines": [],
+        "datasets": [
+          "GraspCL continual-learning grasping benchmark"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2610.01301v1",
+          "https://giuschio.github.io/cl_grasping/",
+          "https://github.com/giuschio/graspcl-model-public",
+          "https://github.com/giuschio/graspcl-benchmark-public",
+          "https://openreview.net/forum?id=MTZ4eKUP94",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "Grounding Generative Policies in Physics: Optimization-Guided Diffusion for Robot Control",
+      "type": "约束优化抓取",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=EAeJdjpDzM",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. ",
+      "abstract": "Diffusion models sample effectively from high-dimensional, multimodal distributions, but their outputs may violate deployment constraints. For task-space robot policies, generated grasps, waypoints, or trajectories can be distributionally valid yet infeasible, violating reachability, collision-avoidance, or closed-loop executability requirements. This embodiment gap limits zero-shot deployment across robots, even when the task-space behavior itself is transferable. We propose an inference-time optimization framework that couples the behavior generation to physical feasibility by formulating diffusion guidance as a constrained optimization problem. Our key insight is to replace the sampling perturbation in the backward process with an optimized correction, allowing hard constraints or soft penalties to be imposed during sampling without the need to retrain the diffusion model, while keeping samples close to the learned prior. We evaluate the method on dexterous grasp synthesis with reachability and collision-avoidance constraints, and dynamic manipulation with controller-level trackability constraints. Across settings and robot embodiments, optimization-guided denoising matches the feasibility of projection- and gradient-guidance baselines while better preserving grasp quality, and improving controller-level executability and task success, with task success improving by up to 20pp. on dexterous grasping and 23pp. on visuomotor manipulation over the best baseline.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2606.24208v1",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-06",
+      "authors": [
+        "Sabrina Bodmer",
+        "René Zurbrügg",
+        "Tifanny Portela",
+        "Hao Ma",
+        "Alexandre Didier",
+        "Marco Hutter",
+        "Colin Jones",
+        "Melanie Zeilinger"
+      ],
+      "preprintUrl": "https://arxiv.org/abs/2606.24208v1",
+      "url": "https://arxiv.org/abs/2606.24208v1",
+      "linkLabel": "作者预印本",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "Constrained dexterous grasp synthesis tasks",
+          "Controller-trackable dynamic manipulation tasks"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2606.24208v1",
+          "https://openreview.net/forum?id=EAeJdjpDzM",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "Guiding Unified Dexterous Grasp Synthesis Across Modes and Scales via Learned Human Priors",
+      "type": "灵巧手抓取 · 生成与优化",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=cxxUgLuNa2",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. The author preprint prepends HUGS to the official title. Includes single-hand and two-hand contact modes. The collection applies its bimanual exclusion literally to titles; this title does not match that exclusion.",
+      "abstract": "Dexterous grasping across diverse object scales requires contact modes ranging from two-finger pinches to bimanual grasps. Existing dexterous grasp synthesis methods reduce the high-dimensional optimization space with manually designed expected contacts and initialization heuristics, which struggle to balance synthesis success rate and diversity. We present HUGS (Human-prior-guided Unified Dexterous Grasp Synthesis), a human-prior-guided framework for unified dexterous grasp synthesis across modes and scales. Instead of directly retargeting human demonstrations, HUGS learns an object-conditioned human prior that captures human grasp preferences and guides downstream force-closure-aware optimization. The prior is trained on a compact self-collected human grasp dataset with 1.8K grasps over 304 objects, providing broad coverage of object scales and contact modes. During synthesis, HUGS adaptively proposes contact modes and wrist initializations, substantially improving the balance between contact-mode coverage and synthesis success rate over heuristic-based methods. With HUGS, we synthesize 3.2M robotic grasps over 157K scenes, spanning object half-diagonal lengths from 2 cm to 30 cm and modes from two-finger to bimanual grasps. Models trained on the synthesized dataset autonomously select appropriate contact modes in the real world, enabling grasping from screws to large boxes.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2607.04554v1",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-06",
+      "authors": [
+        "Mingrui Yu",
+        "Yongpeng Jiang",
+        "Yongyi Jia",
+        "Kangchen Lv",
+        "Li Huang",
+        "Yi Ren",
+        "Xiang Li"
+      ],
+      "preprintUrl": "https://arxiv.org/abs/2607.04554v1",
+      "url": "https://arxiv.org/abs/2607.04554v1",
+      "linkLabel": "作者预印本",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/hugs-dex/HUGS-Main"
+        ],
+        "engines": [],
+        "datasets": [
+          "HUGS-Human",
+          "HUGS synthetic robot grasps"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2607.04554v1",
+          "https://hugs-dex.github.io/",
+          "https://github.com/hugs-dex/HUGS-Main",
+          "https://openreview.net/forum?id=cxxUgLuNa2",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "HuG: Learning Humanoid Whole-Body Affordance-Aware Grasping with Active Perception",
+      "type": "人形机器人全身视觉抓取",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=kpX1KOfNI5",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. ",
+      "abstract": "Acquiring objects in human environments is hard for humanoids: targets are partially occluded under egocentric viewpoints, and reaching them demands coordinated whole-body motion that keeps the target visible and reachable while the base stays stable. We present HuG, a framework for whole-body affordance-aware grasping with active perception that couples perception and action through a Perceive-Align-Grasp pipeline: belief-driven active perception resolves occlusion by treating viewpoint as an explicit decision variable; a point-cloud-conditioned affordance policy proposes whole-body grasps; and an affordance-aware alignment stage repositions the body to the most executable configuration. A key insight is that, on a floating base, kinematic validity is not enough: we curate training data with controller-in-the-loop dynamics simulation, rejecting 73% of kinematically valid grasps that would destabilize the deployment controller, so the policy learns kinodynamically feasible affordances. Trained entirely in simulation with zero real demonstrations, HuG attains 87.5% real-world success on a multi-level shelf task, generalizes to novel objects, and holds at least 73% success at every tested height. Beyond generalizing within its training distribution, the policy extrapolates spatially: at scale in simulation it succeeds at table heights well below any seen during training, indicating that kinodynamically filtered synthetic data grounds affordances in object geometry and whole-body feasibility rather than in memorized configurations.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2611.01659v1",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-06",
+      "authors": [
+        "Xuanbin Peng",
+        "Lai Wei",
+        "Yuze Zhai",
+        "Qingyuan Yu",
+        "Keyi Wang",
+        "Jianglong Ye",
+        "Xiaolong Wang"
+      ],
+      "preprintUrl": "https://arxiv.org/abs/2611.01659v1",
+      "url": "https://arxiv.org/abs/2611.01659v1",
+      "linkLabel": "作者预印本",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "HuG kinodynamically filtered synthetic grasps",
+          "HuG multi-level shelf-picking tasks"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2611.01659v1",
+          "https://xuanbinpeng.com/hug/",
+          "https://openreview.net/forum?id=kpX1KOfNI5",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "IM-ENGINE: Image Editing for Embodied Data Generation",
+      "type": "抓取数据生成",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=6epaMjDFWZ",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. ",
+      "abstract": "Learning-based manipulation requires supervision that is both semantically meaningful and physically executable, but current data pipelines often provide only one of these properties. Human demonstrations capture intent but are costly to collect and constrained by the human-robot embodiment gap, while simulation can scale data generation but often under-specifies functional behavior. We present IM-ENGINE, a simulator-grounded pipeline that uses image editing as an intermediate representation for embodied data generation. Given a rendered scene with known geometry, depth, segmentation, and camera parameters, IM-ENGINE edits the image to inject task-relevant semantics, recovers explicit 3D state using simulator priors and an unchanged anchor object, refines the state in physics, and converts it into robot-executable supervision. We instantiate the pipeline for dexterous grasp synthesis and goal-state generation. For grasping, IM-ENGINE generates a human grasp in image space, recovers the hand-object interaction, retargets it to a robot hand, and refines it into physically validated robot grasps. For goal generation, it edits a rendered scene into a desired outcome, recovers the target-object pose, and refines it into physically valid, semantically meaningful goals and trajectories. This combination of generative semantic priors and simulator grounding enables scalable task-relevant supervision for robot learning.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2609.06279v1",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-06",
+      "authors": [
+        "Yian Wang",
+        "Junyi Cao",
+        "Xiaowen Qiu",
+        "Chuang Gan"
+      ],
+      "preprintUrl": "https://arxiv.org/abs/2609.06279v1",
+      "url": "https://arxiv.org/abs/2609.06279v1",
+      "linkLabel": "作者预印本",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "IM-ENGINE synthetic dexterous grasps and goal-state supervision"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2609.06279v1",
+          "https://openreview.net/forum?id=6epaMjDFWZ",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "KPGrasp: Scalable Keypoint Flow Matching for Dexterous Grasp Generation",
+      "type": "灵巧手抓取 · 生成与优化",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=BXNVzGSYFe",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. ",
+      "abstract": "Generating high-quality dexterous grasps remains challenging for learning-based methods, which often depend on carefully tuned contact losses or costly contact-based test-time refinement. We present KPGrasp, a flow-matching framework that learns dexterous grasp priors from large-scale data rather than relying on contact losses or contact-based test-time refinement. KPGrasp couples an all-Euclidean 3D hand-keypoint parameterization with a simple yet scalable Transformer flow model. The parameterization avoids the drawbacks of the conventional mixed SE(3) pose and joint-angle output space, expresses grasps in the same frame as the object point cloud, and thus enables native spatial reasoning; the Transformer flow model is trained with only the standard flow-matching loss and scales effectively with data, model capacity, and batch size. Experiments demonstrate state-of-the-art performance on two simulation benchmarks. On the Dexonomy benchmark, it reaches a 76.3% grasp success rate, improving over the strongest directly comparable baseline by 47.4% while reducing penetration depth to 2.4 mm. The same model also achieves the best average performance on the DexGrasp Anything benchmark without fine-tuning. For batched inference, KPGrasp requires only 0.032 s per grasp. Finally, real-world experiments on 20 diverse objects demonstrate that the pipeline can be deployed in a real-world setup. Project Page: https://yuansen-huang.github.io/KPGrasp-page/",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2606.09314v2",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-06",
+      "authors": [
+        "Yuansen Huang",
+        "Jiayi Chen",
+        "Haoran Liu",
+        "Yubin Ke",
+        "Bing Han",
+        "Jiangran Lyu",
+        "Mi Yan",
+        "Li Yi",
+        "He Wang"
+      ],
+      "preprintUrl": "https://arxiv.org/abs/2606.09314v2",
+      "url": "https://arxiv.org/abs/2606.09314v2",
+      "linkLabel": "作者预印本",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/Yuansen-Huang/KPGrasp"
+        ],
+        "engines": [],
+        "datasets": [
+          "Dexonomy",
+          "DexGrasp Anything"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2606.09314v2",
+          "https://yuansen-huang.github.io/KPGrasp-page/",
+          "https://github.com/Yuansen-Huang/KPGrasp",
+          "https://openreview.net/forum?id=BXNVzGSYFe",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "MIND-Grasp: Multi-View Imagination-Guided Next-Best-Action Discovery for Occlusion-Aware Grasping",
+      "type": "主动感知与遮挡抓取",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=mzGjyghofG",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. ",
+      "abstract": "MIND-Grasp reconstructs an amodal target model and an occlusion cloud to guide multi-view target discovery in clutter. It combines next-best-view exploration with object-level retreat planning, selecting grasps whose gripper-object geometry can follow a collision-free retreat. Author demonstrations cover hidden-target discovery, blocker removal and final robot grasp execution.",
+      "abstractStatus": "available",
+      "abstractSource": "https://robomanip.github.io/mind-grasp/",
+      "abstractKind": "summary",
+      "abstractProvider": "Author project",
+      "abstractLicense": "Original summary",
+      "abstractVerifiedAt": "2026-11-06",
+      "url": "https://robomanip.github.io/mind-grasp/",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "MIND-Grasp occluded-target robot retrieval tasks"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://robomanip.github.io/mind-grasp/",
+          "https://openreview.net/forum?id=mzGjyghofG",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "Minimal-Intervention Target Retrieval in Cluttered Scenes with Grasp-Conditioned Dependency Graphs",
+      "type": "杂乱场景抓取规划",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=nG11dAaFIX",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. The benchmark includes parallel-jaw and suction proposals. The title-based suction exclusion does not apply to this title; the parallel-jaw target-retrieval task is within scope.",
+      "abstract": "The method represents candidate grasps and their approach or lift blockers in grasp-conditioned dependency graphs. A retrieval planner compares grasp-specific removal choices and replans after interventions, aiming to retrieve a target with fewer non-target removals. The author release provides a dense-scene benchmark and real-robot retrieval evaluation.",
+      "abstractStatus": "available",
+      "abstractSource": "https://wanhaoniu.github.io/GCDG/",
+      "abstractKind": "summary",
+      "abstractProvider": "Author project",
+      "abstractLicense": "Original summary",
+      "abstractVerifiedAt": "2026-11-06",
+      "url": "https://wanhaoniu.github.io/GCDG/",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/wanhaoniu/GCDG"
+        ],
+        "engines": [],
+        "datasets": [
+          "GCDG Dense Benchmark v1.0"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://wanhaoniu.github.io/GCDG/",
+          "https://wanhaoniu.github.io/GCDG/assets/paper.pdf",
+          "https://github.com/wanhaoniu/GCDG",
+          "https://openreview.net/forum?id=nG11dAaFIX",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "MoDex: Towards Universal Multi-Object Dexterous Grasping",
+      "type": "多物体灵巧抓取",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=uKRtsLLqs6",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. ",
+      "abstract": "Multi-object grasping is a fundamental yet challenging problem, constrained by data collection costs, varying spatial layouts, and the need for broad generalization. To address these challenges, we propose MoDex, a data-efficient framework that provides the first unified solution for universal multi-object dexterous grasping across diverse spatial layouts. MoDex accomplishes this by formulating the task as a single-step decision problem of learning residual corrections to a reference trajectory, and introducing a spatially adaptive dual-strategy that performs single-shot grasping for proximal objects and sequential interaction for separated objects. Extensive evaluations show that MoDex significantly outperforms baselines in proximal configurations, achieving 61.24% success on unseen objects, and achieves high success rates in separated layouts. Further experiments demonstrate its generalization across robot embodiments, scalability and zero-shot sim-to-real deployment through a vision-based policy trained solely on simulation data. Code and pretrained models are available at https://github.com/Aurora-Xiong/MoDex.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2610.23888v1",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-06",
+      "authors": [
+        "Jing Xiong",
+        "Jiale Xie",
+        "Haoqi Yuan",
+        "Chaoyi Xu",
+        "Zongqing Lu"
+      ],
+      "preprintUrl": "https://arxiv.org/abs/2610.23888v1",
+      "url": "https://arxiv.org/abs/2610.23888v1",
+      "linkLabel": "作者预印本",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/Aurora-Xiong/MoDex"
+        ],
+        "engines": [
+          "Isaac Gym Preview 4"
+        ],
+        "datasets": [
+          "MoDex proximal and separated multi-object grasping tasks"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2610.23888v1",
+          "https://github.com/Aurora-Xiong/MoDex",
+          "https://openreview.net/forum?id=uKRtsLLqs6",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "More than a Point: Adaptive Affordance Heatmaps as VLM Grounding Interfaces for Robotics",
+      "type": "语言与任务导向抓取 · 视觉抓取感知",
+      "tier": "相关",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=xOhVCWilYJ",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified.  本地全文为作者页面明确关联的早期预印本；题名和作者列表与正式出版版本不同。",
+      "abstract": "RoboMAP uses language-conditioned affordance heatmaps as a dense interface between a vision-language model and downstream robot modules. The heatmaps guide segmentation, grasp proposals and control for relational manipulation instructions. The author project reports spatial-grounding benchmarks, SimplerEnv evaluation and real-robot tabletop manipulation trials.",
+      "abstractStatus": "available",
+      "abstractSource": "https://robo-map.github.io/",
+      "abstractKind": "summary",
+      "abstractProvider": "Author project",
+      "abstractLicense": "Original summary",
+      "abstractVerifiedAt": "2026-11-06",
+      "url": "https://robo-map.github.io/",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "Spatial-grounding benchmarks",
+          "SimplerEnv",
+          "RoboMAP relational tabletop manipulation trials"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://robo-map.github.io/",
+          "https://arxiv.org/abs/2510.10912",
+          "https://openreview.net/forum?id=xOhVCWilYJ",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      },
+      "preprintUrl": "https://arxiv.org/abs/2510.10912",
+      "linkNote": "The author project explicitly identifies the earlier title. The local arXiv PDF retains that earlier title and a different author list; it is not represented as the final accepted manuscript."
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "Multi-GraspLLM: Multimodal LLM for Multi-Hand Semantic Guided Grasp Generation",
+      "type": "语言引导跨手型抓取",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=hPz010j4EA",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. The retrieved arXiv title adds an article A and the version uses grasp-bin tokens and hand-aware pose mappings; the unofficial index describes a different modeling variant. This record explicitly presents the author preprint version.",
+      "abstract": "Multi-hand semantic grasp generation aims to generate feasible and semantically appropriate grasp poses for different robotic hands based on natural language instructions. Although the task is highly valuable, due to the lack of multihand grasp datasets with fine-grained contact description between robotic hands and objects, it is still a long-standing difficult task. In this paper, we present Multi-GraspSet, the first large-scale multi-hand grasp dataset with automatically contact annotations. Based on Multi-GraspSet, we propose Multi-GraspLLM, a unified language-guided grasp generation framework, which leverages large language models (LLM) to handle variable-length sequences, generating grasp poses for diverse robotic hands in a single unified architecture. Multi-GraspLLM first aligns the encoded point cloud features and text features into a unified semantic space. It then generates grasp bin tokens that are subsequently converted into grasp pose for each robotic hand via hand-aware linear mapping. The experimental results demonstrate that our approach significantly outperforms existing methods in both real-world experiments and simulator. More information can be found on our project page https://multi-graspllm.github.io.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2412.08468v3",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-06",
+      "authors": [
+        "Haosheng Li",
+        "Weixin Mao",
+        "Weipeng Deng",
+        "Chenyu Meng",
+        "Haoqiang Fan",
+        "Tiancai Wang",
+        "Yoshie Osamu",
+        "Ping Tan",
+        "Hongan Wang",
+        "Xiaoming Deng"
+      ],
+      "preprintUrl": "https://arxiv.org/abs/2412.08468v3",
+      "url": "https://arxiv.org/abs/2412.08468v3",
+      "linkLabel": "作者预印本",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "Multi-GraspSet"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2412.08468v3",
+          "https://multi-graspllm.github.io",
+          "https://openreview.net/forum?id=hPz010j4EA",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "Physics-Aware Object-Centric SE(3) Forecasting for Real-Time Proactive Dynamic Grasping",
+      "type": "动态抓取与轨迹预测",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=tQRHDxUApa",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. ",
+      "abstract": "Proactive dynamic grasping requires robots to predict the future state at which physical contact will occur, rather than reacting to the currently observed object pose. But what future must the robot predict, and at what level of abstraction? We argue that contact-relevant rigid-body state in SE(3) is a compact task-sufficient abstraction for this problem: it directly determines where and when the robot should establish contact, without requiring visually complete future scenes. This insight leads to a lightweight object-centric forecast-then-select framework that predicts future rigid-body trajectories from short pose histories and uses a reachability-aware interception selector to choose feasible contact states under kinematic and timing constraints. Trained with randomized physics simulation over primitive shapes, the forecaster transfers to real objects once their metric geometry and SE(3) state histories are recovered. Experiments across simulation and real-world dynamic grasping tasks show that our framework improves the average success rate from \\(24.5\\%\\) to \\(62.0\\%\\) in simulation, and from \\(15.3\\%\\) to \\(67.3\\%\\) in real-world catching, conveyor, and turntable interception. The SE(3) forecaster runs in \\(15\\,\\mathrm{ms}\\), orders of magnitude faster than dense visual future prediction, enabling real-time contact decision making. Our results suggest that effective proactive grasping does not require imagining the entire future scene. Instead, predicting the compact physical future that determines contact provides an effective and practical abstraction for real-time dynamic grasping.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2610.17843v1",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-06",
+      "authors": [
+        "Yirui Zhou",
+        "Hongli Xu",
+        "Ying Zheng",
+        "Yi Wang",
+        "Lap-Pui Chau"
+      ],
+      "preprintUrl": "https://arxiv.org/abs/2610.17843v1",
+      "url": "https://arxiv.org/abs/2610.17843v1",
+      "linkLabel": "作者预印本",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "Synthetic rigid-body interception tasks",
+          "Real-world catching, conveyor and turntable grasping"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2610.17843v1",
+          "https://am0rarg0.github.io/paf-grasp/",
+          "https://openreview.net/forum?id=tQRHDxUApa",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "T(R,O) Grasp++: Cross-Embodiment Dexterous Grasping in Cluttered Environments at Scale",
+      "type": "杂乱场景灵巧抓取",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=IbO5qWFXuh",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. ",
+      "abstract": "Dexterous grasping in cluttered scenes remains a central challenge in robotic manipulation, as it requires high-dimensional hand coordination under complex object-environment constraints. To address this problem, we introduce one of the largest simulation benchmarks to date, comprising around 0.5B grasp annotations across eight dexterous hands and approximately 50K objects. Furthermore, we propose T(R,O) Grasp++, a scalable diffusion-based framework for cross-embodiment dexterous grasp synthesis in cluttered environments. Extensive experiments demonstrate that our model significantly outperforms existing baselines, achieving an average success rate of 88% across eight dexterous embodiments. Meanwhile, our pipeline achieves only 0.3s inference latency while improving inference sample efficiency by over 10 times.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2610.25410v1",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-06",
+      "authors": [
+        "Xin Fei",
+        "Zhixuan Xu",
+        "Huaicong Fang",
+        "Fangjun Chen",
+        "Zhaoyu Mu",
+        "Rui Yang",
+        "Zhexi Luo",
+        "Lin Shao"
+      ],
+      "preprintUrl": "https://arxiv.org/abs/2610.25410v1",
+      "url": "https://arxiv.org/abs/2610.25410v1",
+      "linkLabel": "作者预印本",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/Barrybarry-Smith/TROGraspV2"
+        ],
+        "engines": [
+          "Isaac Gym Preview 4"
+        ],
+        "datasets": [
+          "TROV2Dataset"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2610.25410v1",
+          "https://nus-lins-lab.github.io/TROGrasp2Web/",
+          "https://github.com/Barrybarry-Smith/TROGraspV2",
+          "https://openreview.net/forum?id=IbO5qWFXuh",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "VoxAfford: Multi-Scale Voxel-Token Fusion for Open-Vocabulary 3D Affordance Detection",
+      "type": "语言与任务导向抓取 · 视觉抓取感知",
+      "tier": "相关",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=UMHg65UHcY",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. ",
+      "abstract": "Open-vocabulary 3D affordance detection requires localizing interaction regions on point clouds given novel affordance descriptions. Recent methods extend multimodal large language models (MLLMs) with special output tokens that are decoded into segmentation masks. However, these tokens are produced through autoregressive generation, which models sequential dependencies rather than spatial neighborhood relations, leaving them semantically rich but spatially impoverished for 3D localization. We propose Voxel-enhanced Affordance detection (VoxAfford), which bypasses this bottleneck by injecting multi-scale geometric features from a frozen pre-trained 3D VQVAE encoder into the output tokens after generation. Each output token uses its affordance semantics as a query to retrieve relevant geometric patterns from its paired voxel scale via cross-attention, with a learned compatibility gate controlling the injection strength. The enhanced tokens are then aggregated into a spatially-aware affordance prompt through semantic-conditioned attention and propagated alongside per-point features to generate the final mask. Experiments on open-vocabulary affordance detection tasks show that VoxAfford achieves state-of-the-art performance with approximately an 8% improvement in mIoU, and real robot experiments confirm zero-shot transfer to novel objects.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2605.01365v1",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-06",
+      "authors": [
+        "Haowen Sun",
+        "Shaolong Zhang",
+        "Mingyang Li",
+        "Chengzhong Ma",
+        "Xinzhe Chen",
+        "Qiongjie Cui",
+        "Xingyu Chen",
+        "Zeyang Liu",
+        "Xuguang Lan"
+      ],
+      "preprintUrl": "https://arxiv.org/abs/2605.01365v1",
+      "url": "https://arxiv.org/abs/2605.01365v1",
+      "linkLabel": "作者预印本",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "Open-vocabulary 3D affordance detection tasks",
+          "Novel-object real-robot grasping trials"
+        ],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2605.01365v1",
+          "https://voxafford.github.io/voxafford/",
+          "https://openreview.net/forum?id=UMHg65UHcY",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2026,
+      "title": "XDex: Learning Cross-Embodiment Dexterous Grasping with 1000 Hands",
+      "type": "跨手型抓取生成",
+      "tier": "直接",
+      "status": "已公布录用，论文集待出版",
+      "venueUrl": "https://www.corl.org/program/accepted-papers",
+      "openreviewUrl": "https://openreview.net/forum?id=wt25SMJmEq",
+      "acceptanceVerifiedAt": "2026-11-06",
+      "note": "Accepted in the official CoRL 2026 main-conference roster. Proceedings metadata is not yet verified. Acceptance and title verified in the official CoRL 2026 roster. The CoRL OpenReview page and PDF returned a browser-verification challenge; scope is title-screened only. No earlier ICLR submission is substituted for the CoRL paper.",
+      "abstract": "",
+      "abstractStatus": "unavailable",
+      "abstractSource": "",
+      "abstractKind": "",
+      "abstractProvider": "",
+      "abstractLicense": "",
+      "abstractVerifiedAt": "2026-11-06",
+      "url": "https://openreview.net/forum?id=wt25SMJmEq",
+      "verificationLevel": "title",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "verifiedAt": "2026-11-06",
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://openreview.net/forum?id=wt25SMJmEq",
+          "https://www.corl.org/program/accepted-papers"
+        ]
+      }
+    }
+  ],
+  "reverified": [
+    {
+      "id": 108,
+      "title": "DiffMorphGrasp: A Diffusion Framework Conditioned on Hand Morphology for Cross-Embodiment Grasp Generation",
+      "officialTitle": "DiffMorphGrasp: A Diffusion Framework Conditioned on Hand Morphology for Cross-Embodiment Grasp Generation",
+      "openreviewId": "4soIQrXqxj",
+      "url": "https://openreview.net/forum?id=4soIQrXqxj"
+    },
+    {
+      "id": 109,
+      "title": "From Grasps to Dexterity: Large-Scale Grasp Pretraining for Dexterous Manipulation",
+      "officialTitle": "From Grasps to Dexterity: Large-Scale Grasp Pretraining for Dexterous Manipulation",
+      "openreviewId": "hDNvcoKMXH",
+      "url": "https://openreview.net/forum?id=hDNvcoKMXH"
+    },
+    {
+      "id": 110,
+      "title": "HERO: Learning Humanoid End-Effector Control for Visual Whole-Body Open-Vocabulary Object Grasping",
+      "officialTitle": "HERO: Learning Humanoid End-Effector Control for Visual Whole-Body Open-Vocabulary Object Grasping",
+      "openreviewId": "gbchkYm28k",
+      "url": "https://openreview.net/forum?id=gbchkYm28k"
+    },
+    {
+      "id": 111,
+      "title": "OpenDexGrasp: Open-vocabulary Task-Oriented Dexterous Grasping",
+      "officialTitle": "OPENDEXGRASP: Open-vocabulary Task-Oriented Dexterous Grasping",
+      "openreviewId": "wLgEYxjqid",
+      "url": "https://openreview.net/forum?id=wLgEYxjqid"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "ODnu3ohjEQ",
+      "title": "BiDexGrasp: Coordinated Bimanual Dexterous Grasps across Object Geometries and Sizes",
+      "url": "https://openreview.net/forum?id=ODnu3ohjEQ",
+      "reason": "Title matches the existing literal bimanual exclusion.",
+      "sources": [
+        "https://openreview.net/forum?id=ODnu3ohjEQ",
+        "https://www.corl.org/program/accepted-papers",
+        "https://frenkielm.github.io/BiDexGrasp.github.io/",
+        "https://arxiv.org/abs/2604.06589"
+      ]
+    },
+    {
+      "id": "JhEwJ56SH3",
+      "title": "PartialBiGrasp: Inferring Hidden Local Geometry for Bimanual Grasping from Partial Views",
+      "url": "https://openreview.net/forum?id=JhEwJ56SH3",
+      "reason": "Title matches the existing literal bimanual exclusion.",
+      "sources": [
+        "https://openreview.net/forum?id=JhEwJ56SH3",
+        "https://www.corl.org/program/accepted-papers",
+        "https://partialbigrasp.github.io",
+        "https://arxiv.org/abs/2608.19188"
+      ]
+    },
+    {
+      "id": "iIanOcE27q",
+      "title": "How Firm Should a Grasp Be?",
+      "url": "https://openreview.net/forum?id=iIanOcE27q",
+      "reason": "The method estimates material properties using visuotactile feedback to control grasp force; outside the non-tactile collection scope.",
+      "sources": [
+        "https://openreview.net/forum?id=iIanOcE27q",
+        "https://www.corl.org/program/accepted-papers",
+        "https://arxiv.org/abs/2610.11221"
+      ]
+    },
+    {
+      "id": "TlWfBm8jtZ",
+      "title": "Blind Dexterous Grasping via Real2Sim2Real Tactile Policy Learning",
+      "url": "https://openreview.net/forum?id=TlWfBm8jtZ",
+      "reason": "The deployed blind-grasp policy is conditioned on tactile sensing; outside the non-tactile collection scope.",
+      "sources": [
+        "https://openreview.net/forum?id=TlWfBm8jtZ",
+        "https://www.corl.org/program/accepted-papers",
+        "https://dex-blind-grasp.github.io/",
+        "https://arxiv.org/abs/2606.11767"
+      ]
+    },
+    {
+      "id": "GseuCgLNtO",
+      "title": "Belt-Finger: An Affordable Soft Belt-Driven Gripper for Dexterous In-Hand Manipulation",
+      "url": "https://openreview.net/forum?id=GseuCgLNtO",
+      "reason": "The main contribution is a new belt-driven gripper mechanism; hardware-design work is excluded.",
+      "sources": [
+        "https://openreview.net/forum?id=GseuCgLNtO",
+        "https://www.corl.org/program/accepted-papers",
+        "https://boyazeno.github.io/belt_finger/",
+        "https://arxiv.org/abs/2606.20193"
+      ]
+    },
+    {
+      "id": "f3Dic5dJnz",
+      "title": "What is the Better Curriculum: Controller-Shaped Grasping Behavior for Contact Force-Sensitive Manipulation",
+      "url": "https://openreview.net/forum?id=f3Dic5dJnz",
+      "reason": "The central contribution is tactile-reflex teaching and controller assistance for force-sensitive grasping. Nominal students can be tactile-free, but the tactile-feedback study is outside this collection scope.",
+      "sources": [
+        "https://openreview.net/forum?id=f3Dic5dJnz",
+        "https://www.corl.org/program/accepted-papers",
+        "https://shayfeng.github.io/better-curriculum/",
+        "https://arxiv.org/abs/2609.25887"
+      ]
+    }
+  ],
+  "pending": [
+    {
+      "id": "zr63f3tmyq",
+      "title": "MAST-VLA: Skill-Conditioned Adaptation with Trajectory-Affordance Priors for Multi-Skill Robot Manipulation",
+      "url": "https://openreview.net/forum?id=zr63f3tmyq",
+      "reason": "General multi-skill VLA adaptation. The retrieved abstract establishes CALVIN evaluation but does not independently establish a grasp-specific contribution or an identifiable robot-grasp experiment; retain for scope review.",
+      "sources": [
+        "https://openreview.net/forum?id=zr63f3tmyq",
+        "https://www.corl.org/program/accepted-papers",
+        "https://arxiv.org/abs/2610.32312"
+      ]
+    },
+    {
+      "id": "zhiG7XB56D",
+      "title": "Phase-Conditioned Affordance Fields for SE(3)-Equivariant Visuomotor Policies",
+      "url": "https://openreview.net/forum?id=zhiG7XB56D",
+      "reason": "The primary sources establish general equivariant manipulation and assembly tasks. An explicit grasp-specific evaluation has not been independently verified; retain for scope review.",
+      "sources": [
+        "https://openreview.net/forum?id=zhiG7XB56D",
+        "https://www.corl.org/program/accepted-papers",
+        "https://paf-policy.github.io/",
+        "https://arxiv.org/abs/2610.17281"
+      ]
+    },
+    {
+      "id": "8QEFjWSgyu",
+      "title": "What Objects Enable, Not What They Are: Functional Latent Spaces for Affordance Reasoning",
+      "url": "https://openreview.net/forum?id=8QEFjWSgyu",
+      "reason": "The primary sources establish affordance reasoning and planning; a robot-grasp experiment has not been independently verified. Semantic affordance reasoning alone is insufficient for inclusion.",
+      "sources": [
+        "https://openreview.net/forum?id=8QEFjWSgyu",
+        "https://www.corl.org/program/accepted-papers",
+        "https://A4Dance-reasoning.github.io",
+        "https://arxiv.org/abs/2606.05533"
+      ]
+    },
+    {
+      "id": "M8NqiSkMDr",
+      "title": "PolyFusion: Collision-Free Robot Learning using Bernstein Polynomials",
+      "url": "https://openreview.net/forum?id=M8NqiSkMDr",
+      "reason": "The official title establishes collision-free robot learning, but primary abstract/PDF retrieval is blocked by OpenReview verification. The grasp-specific experiment reported by the discovery index is not used as verified evidence.",
+      "sources": [
+        "https://openreview.net/forum?id=M8NqiSkMDr",
+        "https://www.corl.org/program/accepted-papers"
+      ]
+    }
+  ],
+  "versionLinks": [
+    {
+      "id": 705,
+      "title": "More than a Point: Adaptive Affordance Heatmaps as VLM Grounding Interfaces for Robotics",
+      "earlierTitle": "More than A Point: Capturing Uncertainty with Adaptive Affordance Heatmaps for Spatial Grounding in Robotic Tasks",
+      "evidence": "https://robo-map.github.io/",
+      "preprint": "https://arxiv.org/abs/2510.10912",
+      "note": "The author project explicitly identifies the earlier title. The local arXiv PDF retains that earlier title and a different author list; it is not represented as the final accepted manuscript."
+    }
+  ]
+}

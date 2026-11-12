@@ -1,0 +1,1534 @@
+{
+  "asOf": "2026-11-12",
+  "request": "恢复所有用场景/物体重建支持机器人抓取的论文。",
+  "criteria": {
+    "include": "Scene/object reconstruction, shape completion, depth/normal recovery, and NeRF or Gaussian-splat scene models explicitly connected to grasp generation, grasp transfer, regrasping or robotic picking.",
+    "retainOtherExclusions": true,
+    "exclude": "Pure pose estimation, segmentation, general visual policies or asset generation without a reconstruction-to-grasp connection remain outside this exception.",
+    "evidence": "Existing cached author abstracts, original proceedings/programme entries and available local PDFs; title-only records retain their original uncertainty."
+  },
+  "reviewedPrimaryExclusions": 200,
+  "reviewedOtherArchivedRecords": 32,
+  "baselineActiveRecords": 547,
+  "baselineIdentitySHA256": "bef4c961d842f26a3b785df15dc141fe54f9edbf023ebfe660172a79ea355eb8",
+  "restoredCatalogueIds": [
+    27,
+    68,
+    150,
+    151,
+    221,
+    231,
+    269,
+    302,
+    353,
+    396,
+    409,
+    453,
+    470,
+    488,
+    547,
+    554,
+    611,
+    612,
+    634,
+    639,
+    684,
+    690,
+    722,
+    736,
+    743,
+    750,
+    776
+  ],
+  "summary": {
+    "restored": 27,
+    "currentActiveRecords": 574,
+    "direct": 563,
+    "related": 11,
+    "restoredLocalPDFs": 20,
+    "activeLocalPDFs": 406,
+    "remainingArchivedRecords": 205,
+    "remainingPrimaryExclusions": 173,
+    "lastRecheckRetained": 13,
+    "lastRecheckRemoved": 37,
+    "byVenue": {
+      "AAAI": 6,
+      "ICLR": 5,
+      "NeurIPS": 10,
+      "CVPR": 19,
+      "ICCV": 10,
+      "ECCV": 14,
+      "ICML": 1,
+      "CoRL": 62,
+      "ICRA": 209,
+      "RA-L": 162,
+      "T-RO": 15,
+      "RSS": 19,
+      "T-ASE": 42
+    },
+    "byYear": {
+      "2020": 56,
+      "2021": 54,
+      "2022": 59,
+      "2023": 82,
+      "2024": 104,
+      "2025": 102,
+      "2026": 117
+    }
+  },
+  "decisions": [
+    {
+      "catalogueId": 27,
+      "title": "NeRF in the Palm of Your Hand: Corrective Augmentation for Robotics via Novel-View Synthesis",
+      "decision": "restore",
+      "reason": "NeRF reconstructs demonstration scenes to synthesize corrective views for simulated and physical 6-DoF grasping.",
+      "source": "https://openalex.org/W4317837885",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 68,
+      "title": "Geometry-Guided Modeling of Foundation Features Enables Generalizable Object Shape Deformation Learning",
+      "decision": "restore",
+      "reason": "Monocular object-shape reconstruction transfers contact maps and dexterous grasps to new real objects.",
+      "source": "https://openalex.org/W7162750572",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 150,
+      "title": "3DSGrasp: 3D Shape-Completion for Robotic Grasp",
+      "decision": "restore",
+      "reason": "Completes partial object point clouds to improve physical grasp pose generation.",
+      "source": "https://openalex.org/W4383109347",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 151,
+      "title": "SCARP: 3D Shape Completion in ARbitrary Poses for Improved Grasping",
+      "decision": "restore",
+      "reason": "Completes arbitrarily posed object shapes before grasp proposal generation.",
+      "source": "https://openalex.org/W4383097758",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 221,
+      "title": "You Only Scan Once: A Dynamic Scene Reconstruction Pipeline for 6-DoF Robotic Grasping of Novel Objects",
+      "decision": "restore",
+      "reason": "Tracks reconstructed object meshes to maintain complete, dynamic scene geometry for 6-DoF grasps.",
+      "source": "https://openalex.org/W4401415375",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 231,
+      "title": "NeuGrasp: Generalizable Neural Surface Reconstruction with Background Priors for Material-Agnostic Object Grasp Detection",
+      "decision": "restore",
+      "reason": "Reconstructs neural surfaces of transparent and reflective objects for material-agnostic grasp detection.",
+      "source": "https://openalex.org/W4413925114",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 269,
+      "title": "Robust Bayesian Scene Reconstruction With Retrieval-Augmented Priors for Precise Grasping and Planning",
+      "decision": "restore",
+      "reason": "Retrieval-augmented Bayesian reconstruction estimates occluded geometry and uncertainty for dexterous grasping.",
+      "source": "https://arxiv.org/abs/2411.19461v3",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 302,
+      "title": "State-Space Time Surfaces for Event-Based Zero-Shot Robotic Grasping and Scene Reconstruction",
+      "decision": "restore",
+      "reason": "The programme title explicitly combines event-based scene reconstruction and zero-shot robotic grasping; no abstract is available.",
+      "source": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "evidenceLevel": "title"
+    },
+    {
+      "catalogueId": 353,
+      "title": "TransCG: A Large-Scale Real-World Dataset for Transparent Object Depth Completion and a Grasping Baseline",
+      "decision": "restore",
+      "reason": "Restores transparent-object depth and evaluates the recovered geometry with a real-robot grasping baseline.",
+      "source": "https://arxiv.org/abs/2202.08471v2",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 396,
+      "title": "DistillGrasp: Integrating Features Correlation With Knowledge Distillation for Depth Completion of Transparent Objects",
+      "decision": "restore",
+      "reason": "Distills depth completion for transparent objects and validates recovered geometry in robotic grasping.",
+      "source": "https://arxiv.org/abs/2408.00337v1",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 409,
+      "title": "NFL: Normal Field Learning for 6-DoF Grasping of Transparent Objects",
+      "decision": "restore",
+      "reason": "Aggregates normal and density fields into a neural volume to recover transparent-object geometry for 6-DoF grasps.",
+      "source": "https://openalex.org/W4388936671",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 453,
+      "title": "Differentiable Inverse Graphics for Zero-Shot Scene Reconstruction and Robot Grasping",
+      "decision": "restore",
+      "reason": "Inverse graphics reconstructs physically consistent scene meshes from RGB-D and validates them with zero-shot grasping.",
+      "source": "https://arxiv.org/abs/2602.05029v1",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 470,
+      "title": "Rethinking Transparent Object Grasping: Depth Completion With Monocular Depth Estimation and Instance Mask",
+      "decision": "restore",
+      "reason": "Completes transparent-object depth with monocular depth and instance masks for grasping.",
+      "source": "https://arxiv.org/abs/2508.02507v1",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 488,
+      "title": "Closed-Loop Placement Planning for Regrasping and Reconstruction With Single-View RGB-D Images",
+      "decision": "restore",
+      "reason": "The publisher title explicitly combines reconstruction and regrasp planning from single-view RGB-D; the abstract remains unavailable.",
+      "source": "https://ieeexplore.ieee.org/document/10955269/",
+      "evidenceLevel": "title"
+    },
+    {
+      "catalogueId": 547,
+      "title": "Dex-NeRF: Using a Neural Radiance Field to Grasp Transparent Objects",
+      "decision": "restore",
+      "reason": "NeRF reconstructs transparent-object geometry and renders depth for the Dex-Net grasp planner.",
+      "source": "https://proceedings.mlr.press/v164/ichnowski22a.html",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 554,
+      "title": "Clear Grasp: 3D Shape Estimation of Transparent Objects for Manipulation",
+      "decision": "restore",
+      "reason": "Recovers transparent-object surface geometry and depth to improve robotic grasps.",
+      "source": "https://arxiv.org/abs/1910.02550v2",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 611,
+      "title": "Probabilistic Multi-View Fusion of Active Stereo Depth Maps for Robotic Bin-Picking",
+      "decision": "restore",
+      "reason": "Fuses uncertain stereo depth from multiple views into reconstructed bin geometry for robotic picking.",
+      "source": "https://arxiv.org/abs/2103.10968v1",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 612,
+      "title": "Robotic Pick-and-Place With Uncertain Object Instance Segmentation and Shape Completion",
+      "decision": "restore",
+      "reason": "Shape completion and its uncertainty guide grasp and placement stability in a regrasp planner.",
+      "source": "https://arxiv.org/abs/2010.07892v3",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 634,
+      "title": "Amodal 3D Reconstruction for Robotic Manipulation via Stability and Connectivity",
+      "decision": "restore",
+      "reason": "Amodal reconstruction with physical priors improves model-based grasping in clutter.",
+      "source": "https://proceedings.mlr.press/v155/agnew21a.html",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 639,
+      "title": "SimNet: Enabling Robust Unknown Object Manipulation from Pure Synthetic Data via Stereo",
+      "decision": "restore",
+      "reason": "Stereo disparity recovers geometry for grasping unknown transparent and reflective objects.",
+      "source": "https://proceedings.mlr.press/v164/kollar22a.html",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 684,
+      "title": "Domain Randomization-Enhanced Depth Simulation and Restoration for Perceiving and Grasping Specular and Transparent Objects",
+      "decision": "restore",
+      "reason": "Depth restoration recovers specular and transparent geometry and supports downstream grasping.",
+      "source": "https://arxiv.org/abs/2208.03792v2",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 690,
+      "title": "Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation",
+      "decision": "restore",
+      "reason": "Video depth and normal recovery reconstruct transparent-object geometry for a grasping stack.",
+      "source": "https://arxiv.org/abs/2512.23705v1",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 722,
+      "title": "SyncTwin: Fast Digital Twin Construction and Synchronization for Safe Robotic Manipulation",
+      "decision": "restore",
+      "reason": "Reconstructed object assets and synchronized scene geometry support safe grasping under occlusion and scene changes.",
+      "source": "https://arxiv.org/abs/2601.09920v3",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 736,
+      "title": "ClearDepth: Efficient Stereo Perception of Transparent Objects for Robotic Manipulation",
+      "decision": "restore",
+      "reason": "Stereo depth recovery for transparent objects is evaluated through physical grasping.",
+      "source": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html#Ab1320",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 743,
+      "title": "SceneComplete: Open-World 3D Scene Completion in Cluttered Real World Environments for Robot Manipulation",
+      "decision": "restore",
+      "reason": "Completes object and scene geometry from RGB-D to support grasp proposals in clutter.",
+      "source": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html#Ab5918",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 750,
+      "title": "Splat-MOVER: Multi-Stage, Open-Vocabulary Robotic Manipulation via Editable Gaussian Splatting",
+      "decision": "restore",
+      "reason": "An editable Gaussian-splat scene representation supplies geometry, semantics and affordances to a grasp generation module.",
+      "source": "https://proceedings.mlr.press/v270/shorinwa25a.html",
+      "evidenceLevel": "abstract_or_fulltext"
+    },
+    {
+      "catalogueId": 776,
+      "title": "Robo3R: Enhancing Robotic Manipulation with Accurate Feed-Forward 3D Reconstruction",
+      "decision": "restore",
+      "reason": "Metric scene reconstruction supplies accurate point clouds for downstream grasp synthesis.",
+      "source": "https://www.roboticsproceedings.org/rss22/p056.html",
+      "evidenceLevel": "abstract_or_fulltext"
+    }
+  ],
+  "borderlineKeptExcluded": [
+    {
+      "catalogueId": 9,
+      "reason": "Gaussian splatting aligns contact poses for articulated manipulation, rather than reconstructing a grasp scene for object acquisition."
+    },
+    {
+      "catalogueId": 289,
+      "reason": "The contribution is 3D instance segmentation and language grounding rather than reconstruction or geometric completion."
+    },
+    {
+      "catalogueId": 449,
+      "reason": "Pose reasoning and self-training metrics do not recover missing scene or object geometry."
+    },
+    {
+      "catalogueId": 535,
+      "reason": "The contribution is a rearrangement policy and object matching rather than reconstruction for grasping."
+    },
+    {
+      "catalogueId": 681,
+      "reason": "Text-generated aligned assets and pose-training data are not reconstruction of an observed grasp scene."
+    },
+    {
+      "catalogueId": 423,
+      "reason": "Surgical suturing remains excluded under the existing scope."
+    }
+  ],
+  "included": [
+    {
+      "conference": "CVPR",
+      "year": 2023,
+      "title": "NeRF in the Palm of Your Hand: Corrective Augmentation for Robotics via Novel-View Synthesis",
+      "type": "视觉抓取策略与数据增强",
+      "tier": "直接",
+      "note": "SPARTN",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Zhou_NeRF_in_the_Palm_of_Your_Hand_Corrective_Augmentation_for_CVPR_2023_paper.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "ShapeNet（1,500 个物体，2,500 条抓取示范）",
+          "作者真机专家示范"
+        ],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://openaccess.thecvf.com/content/CVPR2023/html/Zhou_NeRF_in_the_Palm_of_Your_Hand_Corrective_Augmentation_for_CVPR_2023_paper.html",
+          "https://bland.website/spartn/",
+          "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_NeRF_in_the_Palm_of_Your_Hand_Corrective_Augmentation_for_CVPR_2023_paper.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "abstract": "Expert demonstrations are a rich source of supervision for training visual robotic manipulation policies, but imitation learning methods often require either a large number of demonstrations or expensive online expert supervision to learn reactive closed-loop behaviors. In this work, we introduce SPARTN (Synthetic Perturbations for Augmenting Robot Trajectories via NeRF): a fully-offline data augmentation scheme for improving robot policies that use eye-in-hand cameras. Our approach leverages neural radiance fields (NeRFs) to synthetically inject corrective noise into visual demonstrations, using NeRFs to generate perturbed viewpoints while simultaneously calculating the corrective actions. This requires no additional expert supervision or environment interaction, and distills the geometric information in NeRFs into a real-time reactive RGB-only policy. In a simulated 6-DoF visual grasping benchmark, SPARTN improves success rates by 2.8$\\times$ over imitation learning without the corrective augmentations and even outperforms some methods that use online supervision. It additionally closes the gap between RGB-only and RGB-D success rates, eliminating the previous need for depth sensors. In real-world 6-DoF robotic grasping experiments from limited human demonstrations, our method improves absolute success rates by $22.5\\%$ on average, including objects that are traditionally challenging for depth-based methods. See video results at \\url{https://bland.website/spartn}.",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W4317837885",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 27,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "conference": "ICML",
+      "year": 2026,
+      "title": "Geometry-Guided Modeling of Foundation Features Enables Generalizable Object Shape Deformation Learning",
+      "type": "形状形变与抓取迁移",
+      "tier": "相关",
+      "note": "GODeform；抓取迁移为下游应用",
+      "url": "https://proceedings.mlr.press/v306/ma26g.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [
+          "https://github.com/Yiyao-Ma/GODeform"
+        ],
+        "engines": [],
+        "datasets": [
+          "ShapeNetCore v2"
+        ],
+        "codeNote": "",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://proceedings.mlr.press/v306/ma26g.html",
+          "https://github.com/Yiyao-Ma/GODeform"
+        ],
+        "note": "BlenderProc 用于渲染；抓取实验另需查看论文的机器人设置。",
+        "verifiedAt": "2026-10-05"
+      },
+      "abstract": "Monocular 3D shape recovery is fundamental to geometric understanding, yet achieving robust generalization across arbitrary viewpoints and unseen object categories remains a significant challenge. In this paper, we present a generalizable deformation learning framework that reconstructs 3D objects by explicitly deforming a category-level shape template to match the target observation. To address complex shape variations between the template and the target, we introduce a geometry-guided feature modeling mechanism. This process first enriches foundation features with template topology to yield a geometry-aware representation, which is then explicitly correlated with the target observation to guide precise deformation. Furthermore, to bridge the disparity between the fixed template and arbitrary target views, we propose a view-adaptive feature aggregation module. This module leverages multi-view template features and their corresponding camera poses to enrich the canonical template representation, ensuring robust feature alignment regardless of the target's perspective. Extensive experiments demonstrate that our approach significantly outperforms state-of-the-art methods in handling large shape variations and diverse viewpoints, exhibiting strong generalization to novel categories and effectively supporting downstream real-world dexterous robotic manipulation tasks. Project homepage: https://GODeform.github.io/",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W7162750572",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 68,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "3DSGrasp: 3D Shape-Completion for Robotic Grasp",
+      "type": "视觉与重建",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160350",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA48891.2023.10160350",
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://doi.org/10.1109/ICRA48891.2023.10160350",
+      "linkLabel": "论文（IEEE / DOI）",
+      "linkNote": "独立论文 DOI 链接，跳转到该篇论文的出版页面。",
+      "linkNoteEn": "Individual article DOI, resolving to this paper’s publisher page.",
+      "abstract": "Real-world robotic grasping can be done robustly if a complete 3D Point Cloud Data (PCD) of an object is available. However, in practice, PCDs are often incomplete when objects are viewed from few and sparse viewpoints before the grasping action, leading to the generation of wrong or inaccurate grasp poses. We propose a novel grasping strategy, named 3DSGrasp, that predicts the missing geometry from the partial PCD to produce reliable grasp poses. Our proposed PCD completion network is a Transformer-based encoder-decoder network with an Offset-Attention layer. Our network is inherently invariant to the object pose and point's permutation, which generates PCDs that are geometrically consistent and completed properly. Experiments on a wide range of partial PCD show that 3DSGrasp outperforms the best state-of-the-art method on PCD completion tasks and largely improves the grasping success rate in real-world scenarios. The code and dataset are available at: https://github.com/NunoDuarte/3DSGrasp.",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W4383109347",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 150,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "conference": "ICRA",
+      "year": 2023,
+      "title": "SCARP: 3D Shape Completion in ARbitrary Poses for Improved Grasping",
+      "type": "机器人抓取",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA48891.2023.10160365",
+      "venueUrl": "https://www.proceedings.com/content/069/069566webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA48891.2023.10160365",
+          "https://www.proceedings.com/content/069/069566webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://doi.org/10.1109/ICRA48891.2023.10160365",
+      "linkLabel": "论文（IEEE / DOI）",
+      "linkNote": "独立论文 DOI 链接，跳转到该篇论文的出版页面。",
+      "linkNoteEn": "Individual article DOI, resolving to this paper’s publisher page.",
+      "abstract": "Recovering full 3D shapes from partial observations is a challenging task that has been extensively addressed in the computer vision community. Many deep learning methods tackle this problem by training 3D shape generation networks to learn a prior over the full 3D shapes. In this training regime, the methods expect the inputs to be in a fixed canonical form, without which they fail to learn a valid prior over the 3D shapes. We propose SCARP, a model that performs Shape C ompletion in ARbitrary Poses. Given a partial pointcloud of an object, SCARP learns a disentangled feature representation of pose and shape by relying on rotationally equivariant pose features and geometric shape features trained using a multi-tasking objective. Unlike existing methods that depend on an external canonicalization method, SCARP performs canonicalization, pose estimation, and shape completion in a single network, improving the performance by 45% over the existing baselines. In this work, we use SCARP for improving grasp proposals on tabletop objects. By completing partial tabletop objects directly in their observed poses, SCARP enables a SOTA grasp proposal network improve their proposals by 71.2% on partial shapes. Project page: https://bipashasen.github.io/scarp",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W4383097758",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 151,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "conference": "ICRA",
+      "year": 2024,
+      "title": "You Only Scan Once: A Dynamic Scene Reconstruction Pipeline for 6-DoF Robotic Grasping of Novel Objects",
+      "type": "6-DoF 位姿 / 视觉与重建",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA57147.2024.10611371",
+      "venueUrl": "https://www.proceedings.com/content/075/075181webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA57147.2024.10611371",
+          "https://www.proceedings.com/content/075/075181webtoc.pdf"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://doi.org/10.1109/ICRA57147.2024.10611371",
+      "linkLabel": "论文（IEEE / DOI）",
+      "linkNote": "独立论文 DOI 链接，跳转到该篇论文的出版页面。",
+      "linkNoteEn": "Individual article DOI, resolving to this paper’s publisher page.",
+      "abstract": "In the realm of robotic grasping, achieving accurate and reliable interactions with the environment is a pivotal challenge. Traditional methods of grasp planning methods utilizing partial point clouds derived from depth image often suffer from reduced scene understanding due to occlusion, ultimately impeding their grasping accuracy. Furthermore, scene reconstruction methods have primarily relied upon static techniques, which are susceptible to environment change during manipulation process limits their efficacy in real-time grasping tasks. To address these limitations, this paper introduces a novel two-stage pipeline for dynamic scene reconstruction. In the first stage, our approach takes scene scanning as input to register each target object with mesh reconstruction and novel object pose tracking. In the second stage, pose tracking is still performed to provide object poses in real-time, enabling our approach to transform the reconstructed object point clouds back into the scene. Unlike conventional methodologies, which rely on static scene snapshots, our method continuously captures the evolving scene geometry, resulting in a comprehensive and up-to-date point cloud representation. By circumventing the constraints posed by occlusion, our method enhances the overall grasp planning process and empowers state-of-the-art 6-DoF robotic grasping algorithms to exhibit markedly improved accuracy.",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W4401415375",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 221,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "conference": "ICRA",
+      "year": 2025,
+      "title": "NeuGrasp: Generalizable Neural Surface Reconstruction with Background Priors for Material-Agnostic Object Grasp Detection",
+      "type": "视觉与重建 / 迁移与泛化",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "https://doi.org/10.1109/ICRA55743.2025.11127348",
+      "venueUrl": "https://www.proceedings.com/content/081/081087webtoc.pdf",
+      "status": "主会论文",
+      "resources": {
+        "code": [
+          "https://github.com/kianyale/NeuGrasp"
+        ],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。 仓库入口出现重定向，资源详情仍待核实。",
+        "sources": [
+          "https://doi.org/10.1109/ICRA55743.2025.11127348",
+          "https://www.proceedings.com/content/081/081087webtoc.pdf",
+          "https://github.com/kianyale/NeuGrasp"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://doi.org/10.1109/ICRA55743.2025.11127348",
+      "linkLabel": "论文（IEEE / DOI）",
+      "linkNote": "独立论文 DOI 链接，跳转到该篇论文的出版页面。",
+      "linkNoteEn": "Individual article DOI, resolving to this paper’s publisher page.",
+      "abstract": "Robotic grasping in scenes with transparent and specular objects presents great challenges for methods relying on accurate depth information. In this paper, we introduce NeuGrasp, a neural surface reconstruction method that leverages background priors for material-agnostic grasp detection. NeuGrasp integrates transformers and global prior volumes to aggregate multi-view features with spatial encoding, enabling robust surface reconstruction in narrow and sparse viewing conditions. By focusing on foreground objects through residual feature enhancement and refining spatial perception with an occupancy-prior volume, NeuGrasp excels in handling objects with transparent and specular surfaces. Extensive experiments in both simulated and real-world scenarios show that NeuGrasp outperforms state-of-the-art methods in grasping while maintaining comparable reconstruction quality. More details are available at https://neugrasp.github.io/.",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W4413925114",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 231,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "conference": "RA-L",
+      "year": 2026,
+      "title": "Robust Bayesian Scene Reconstruction With Retrieval-Augmented Priors for Precise Grasping and Planning",
+      "type": "不确定性感知 / 视觉与重建 / 策略与控制",
+      "tier": "直接",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。",
+      "url": "https://ieeexplore.ieee.org/document/11242019/",
+      "venueUrl": "https://doi.org/10.1109/lra.2025.3632101",
+      "status": "期刊论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+          "https://ieeexplore.ieee.org/document/11242019/",
+          "https://arxiv.org/abs/2411.19461"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "linkLabel": "IEEE 论文页",
+      "linkNote": "出版元数据来源：IEEE Robotics and Automation Letters。",
+      "linkNoteEn": "Publisher metadata: IEEE Robotics and Automation Letters.",
+      "collectionKey": "ICRA|2026|robust bayesian scene reconstruction with retrieval-augmented priors for precise grasping and planning",
+      "presentedAt": [
+        "ICRA 2026"
+      ],
+      "conferenceSource": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "doi": "10.1109/lra.2025.3632101",
+      "citation": "IEEE Robotics and Automation Letters 11(1), 2026, pp. 49-56",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "verificationLevel": "abstract",
+      "preprintUrl": "https://arxiv.org/abs/2411.19461",
+      "abstract": "Constructing 3D representations of object geometry is critical for many robotics tasks, particularly manipulation problems. These representations must be built from potentially noisy partial observations. In this work, we focus on the problem of reconstructing a multi-object scene from a single RGBD image using a fixed camera. Traditional scene representation methods generally cannot infer the geometry of unobserved regions of the objects in the image. Attempts have been made to leverage deep learning to train on a dataset of known objects and representations, and then generalize to new observations. However, this can be brittle to noisy real-world observations and objects not contained in the dataset, and do not provide well-calibrated reconstruction confidences. We propose BRRP, a reconstruction method that leverages preexisting mesh datasets to build an informative prior during robust probabilistic reconstruction. We introduce the concept of a retrieval-augmented prior, where we retrieve relevant components of our prior distribution from a database of objects during inference. The resulting prior enables estimation of the geometry of occluded portions of the in-scene objects. Our method produces a distribution over object shape that can be used for reconstruction and measuring uncertainty. We evaluate our method in both simulated scenes and in the real world. We demonstrate the robustness of our method against deep learning-only approaches while being more accurate than a method without an informative prior. Through real-world experiments, we particularly highlight the capability of BRRP to enable successful dexterous manipulation in clutter.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2411.19461v3",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 269,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "State-Space Time Surfaces for Event-Based Zero-Shot Robotic Grasping and Scene Reconstruction",
+      "type": "视觉与重建 / 迁移与泛化",
+      "tier": "直接",
+      "note": "以机器人抓取、抓取相关感知、策略或末端夹爪为研究对象；按会议年份收录。",
+      "url": "",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "status": "主会论文",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开代码库",
+        "engineNote": "未核实仿真引擎或实验平台",
+        "datasetNote": "未核实数据集或任务基准",
+        "note": "资源字段以列出的作者论文、项目页及当前公开仓库为准；未知项未作推断。",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "paperUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ProgramAtAGlanceWeb.html",
+      "linkLabel": "论文链接待核实",
+      "linkNote": "已定位官方会议日程中的该篇摘要；目前未找到独立出版页或公开全文。",
+      "linkNoteEn": "Located this paper in the official conference programme; no individual publisher page or public full text was found.",
+      "abstract": "",
+      "abstractStatus": "unavailable",
+      "abstractSource": "",
+      "abstractProvider": "",
+      "abstractKind": "",
+      "abstractLicense": "",
+      "abstractVerifiedAt": "2026-10-05",
+      "abstractPageUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_5.html#thi2lb_06",
+      "catalogueId": 302,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "type": "数据集与基准 · 视觉抓取感知",
+      "tier": "直接",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "TransCG"
+        ],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/9796631/",
+          "https://arxiv.org/abs/2202.08471"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "RA-L",
+      "year": 2022,
+      "title": "TransCG: A Large-Scale Real-World Dataset for Transparent Object Depth Completion and a Grasping Baseline",
+      "url": "https://ieeexplore.ieee.org/document/9796631/",
+      "doi": "10.1109/lra.2022.3183256",
+      "status": "期刊论文",
+      "citation": "IEEE Robotics and Automation Letters 7(3), 2022, pp. 7383-7390",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2022.3183256",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。",
+      "verificationLevel": "abstract",
+      "preprintUrl": "https://arxiv.org/abs/2202.08471",
+      "abstract": "Transparent objects are common in our daily life and frequently handled in the automated production line. Robust vision-based robotic grasping and manipulation for these objects would be beneficial for automation. However, the majority of current grasping algorithms would fail in this case since they heavily rely on the depth image, while ordinary depth sensors usually fail to produce accurate depth information for transparent objects owing to the reflection and refraction of light. In this work, we address this issue by contributing a large-scale real-world dataset for transparent object depth completion, which contains 57,715 RGB-D images from 130 different scenes. Our dataset is the first large-scale, real-world dataset that provides ground truth depth, surface normals, transparent masks in diverse and cluttered scenes. Cross-domain experiments show that our dataset is more general and can enable better generalization ability for models. Moreover, we propose an end-to-end depth completion network, which takes the RGB image and the inaccurate depth map as inputs and outputs a refined depth map. Experiments demonstrate superior efficacy, efficiency and robustness of our method over previous works, and it is able to process images of high resolutions under limited hardware resources. Real robot experiments show that our method can also be applied to novel transparent object grasping robustly. The full dataset and our method are publicly available at www.graspnet.net/transcg",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2202.08471v2",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 353,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "type": "视觉抓取感知",
+      "tier": "直接",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [
+          "ClearGrasp"
+        ],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/10669217/",
+          "https://arxiv.org/abs/2408.00337"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "RA-L",
+      "year": 2024,
+      "title": "DistillGrasp: Integrating Features Correlation With Knowledge Distillation for Depth Completion of Transparent Objects",
+      "url": "https://ieeexplore.ieee.org/document/10669217/",
+      "doi": "10.1109/lra.2024.3455849",
+      "status": "期刊论文",
+      "citation": "IEEE Robotics and Automation Letters 9(10), 2024, pp. 8945-8952",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2024.3455849",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。",
+      "verificationLevel": "abstract",
+      "preprintUrl": "https://arxiv.org/abs/2408.00337",
+      "abstract": "Due to the visual properties of reflection and refraction, RGB-D cameras cannot accurately capture the depth of transparent objects, leading to incomplete depth maps. To fill in the missing points, recent studies tend to explore new visual features and design complex networks to reconstruct the depth, however, these approaches tremendously increase computation, and the correlation of different visual features remains a problem. To this end, we propose an efficient depth completion network named DistillGrasp which distillates knowledge from the teacher branch to the student branch. Specifically, in the teacher branch, we design a position correlation block (PCB) that leverages RGB images as the query and key to search for the corresponding values, guiding the model to establish correct correspondence between two features and transfer it to the transparent areas. For the student branch, we propose a consistent feature correlation module (CFCM) that retains the reliable regions of RGB images and depth maps respectively according to the consistency and adopts a CNN to capture the pairwise relationship for depth completion. To avoid the student branch only learning regional features from the teacher branch, we devise a distillation loss that not only considers the distance loss but also the object structure and edge information. Extensive experiments conducted on the ClearGrasp dataset manifest that our teacher network outperforms state-of-the-art methods in terms of accuracy and generalization, and the student network achieves competitive results with a higher speed of 48 FPS. In addition, the significant improvement in a real-world robotic grasping system illustrates the effectiveness and robustness of our proposed system.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2408.00337v1",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 396,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "type": "6-DoF / 位姿 · 视觉抓取感知",
+      "tier": "直接",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/10328050/"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "RA-L",
+      "year": 2024,
+      "title": "NFL: Normal Field Learning for 6-DoF Grasping of Transparent Objects",
+      "url": "https://ieeexplore.ieee.org/document/10328050/",
+      "doi": "10.1109/lra.2023.3336108",
+      "status": "期刊论文",
+      "citation": "IEEE Robotics and Automation Letters 9(1), 2024, pp. 819-826",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2023.3336108",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商 DOI 元数据；研究范围依据标题初筛，尚未核对全文。",
+      "verificationLevel": "title",
+      "abstract": "We present Normal Field Learning (NFL), a robust yet practical solution to perceive 3D layouts of transparent objects and grasp them quickly. Conventional input modalities for vision-based grasping do not provide sufficient information for transparent objects. However, with the recent advance on datasets and algorithms for transparent objects, we can at least obtain noisy estimates of normals and masks for various real-world conditions. Instead of directly using the RGB images, we propose to use the estimates to train a neural volume, which serves as an intermediate representation ignorant of challenging appearance variations. We formulate the training objective to account for inherent uncertainty in individual estimation, and together with the volumetric aggregation, we can reliably extract useful geometric information for grasping. Our neural volume deploys a voxel-grid based representation, motivated by acceleration techniques of neural radiance fields. However, we directly store the normal and density values in the grid cells instead of latent features. Our modification allows direct access to the geometric values without additional inference or volume rendering, further enhancing the efficiency. Our results show over 85% success rates in grasping in cluttered scenes with only 40 seconds of training time.",
+      "abstractStatus": "available",
+      "abstractSource": "https://openalex.org/W4388936671",
+      "abstractProvider": "OpenAlex",
+      "abstractKind": "indexed",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 409,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "type": "迁移与泛化",
+      "tier": "直接",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/11495081/",
+          "https://arxiv.org/abs/2602.05029"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "RA-L",
+      "year": 2026,
+      "title": "Differentiable Inverse Graphics for Zero-Shot Scene Reconstruction and Robot Grasping",
+      "url": "https://ieeexplore.ieee.org/document/11495081/",
+      "doi": "10.1109/lra.2026.3688054",
+      "status": "期刊论文",
+      "citation": "IEEE Robotics and Automation Letters 11(6), 2026, pp. 7684-7691",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2026.3688054",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。",
+      "verificationLevel": "abstract",
+      "preprintUrl": "https://arxiv.org/abs/2602.05029",
+      "abstract": "Operating effectively in novel real-world environments requires robotic systems to estimate and interact with previously unseen objects. Current state-of-the-art models address this challenge by using large amounts of training data and test-time samples to build black-box scene representations. In this work, we introduce a differentiable neuro-graphics model that combines neural foundation models with physics-based differentiable rendering to perform zero-shot scene reconstruction and robot grasping without relying on any additional 3D data or test-time samples. Our model solves a series of constrained optimization problems to estimate physically consistent scene parameters, such as meshes, lighting conditions, material properties, and 6D poses of previously unseen objects from a single RGBD image and bounding boxes. We evaluated our approach on standard model-free few-shot benchmarks and demonstrated that it outperforms existing algorithms for model-free few-shot pose estimation. Furthermore, we validated the accuracy of our scene reconstructions by applying our algorithm to a zero-shot grasping task. By enabling zero-shot, physically-consistent scene reconstruction and grasping without reliance on extensive datasets or test-time sampling, our approach offers a pathway towards more data efficient, interpretable and generalizable robot autonomy in novel environments.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2602.05029v1",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 453,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "type": "视觉抓取感知",
+      "tier": "直接",
+      "resources": {
+        "code": [
+          "https://github.com/ChengYaofeng/ReMake"
+        ],
+        "engines": [],
+        "datasets": [
+          "TransCG"
+        ],
+        "codeNote": "",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/11434519/",
+          "https://arxiv.org/abs/2508.02507",
+          "https://chengyaofeng.github.io/ReMake.github.io/",
+          "https://raw.githubusercontent.com/ChengYaofeng/ReMake/main/README.md"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "RA-L",
+      "year": 2026,
+      "title": "Rethinking Transparent Object Grasping: Depth Completion With Monocular Depth Estimation and Instance Mask",
+      "url": "https://ieeexplore.ieee.org/document/11434519/",
+      "doi": "10.1109/lra.2026.3673898",
+      "status": "期刊论文",
+      "citation": "IEEE Robotics and Automation Letters 11(5), 2026, pp. 5510-5517",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2026.3673898",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。",
+      "verificationLevel": "abstract",
+      "preprintUrl": "https://arxiv.org/abs/2508.02507",
+      "abstract": "Due to the optical properties, transparent objects often lead depth cameras to generate incomplete or invalid depth data, which in turn reduces the accuracy and reliability of robotic grasping. Existing approaches typically input the RGB-D image directly into the network to output the complete depth, expecting the model to implicitly infer the reliability of depth values. However, while effective in training datasets, such methods often fail to generalize to real-world scenarios, where complex light interactions lead to highly variable distributions of valid and invalid depth data. To address this, we propose ReMake, a novel depth completion framework guided by an instance mask and monocular depth estimation. By explicitly distinguishing transparent regions from non-transparent ones, the mask enables the model to concentrate on learning accurate depth estimation in these areas from RGB-D input during training. This targeted supervision reduces reliance on implicit reasoning and improves generalization to real-world scenarios. Additionally, monocular depth estimation provides depth context between the transparent object and its surroundings, enhancing depth prediction accuracy. Extensive experiments show that our method outperforms existing approaches on both benchmark datasets and real-world scenarios, demonstrating superior accuracy and generalization capability. Code and videos are available at https://chengyaofeng.github.io/ReMake.github.io/.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2508.02507v1",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 470,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "type": "视觉抓取感知 · 抓取规划与优化",
+      "tier": "直接",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/10955269/"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "conference": "T-ASE",
+      "year": 2025,
+      "title": "Closed-Loop Placement Planning for Regrasping and Reconstruction With Single-View RGB-D Images",
+      "url": "https://ieeexplore.ieee.org/document/10955269/",
+      "doi": "10.1109/tase.2025.3558473",
+      "status": "期刊论文",
+      "citation": "IEEE Transactions on Automation Science and Engineering 22, 2025, pp. 14084-14095",
+      "journalName": "IEEE Transactions on Automation Science and Engineering",
+      "venueUrl": "https://doi.org/10.1109/tase.2025.3558473",
+      "linkLabel": "IEEE 论文页",
+      "note": "发表信息依据出版商 DOI 元数据；研究范围依据标题初筛，尚未核对全文。",
+      "verificationLevel": "title",
+      "abstract": "",
+      "abstractStatus": "unavailable",
+      "abstractSource": "",
+      "abstractProvider": "",
+      "abstractKind": "",
+      "abstractLicense": "",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 488,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2021,
+      "title": "Dex-NeRF: Using a Neural Radiance Field to Grasp Transparent Objects",
+      "url": "https://proceedings.mlr.press/v164/ichnowski22a.html",
+      "venueUrl": "https://proceedings.mlr.press/v164/",
+      "status": "主会论文",
+      "type": "视觉抓取感知",
+      "tier": "直接",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [
+          "Blender / Cycles (rendering)"
+        ],
+        "datasets": [
+          "Dex-NeRF real and synthetic datasets"
+        ],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://proceedings.mlr.press/v164/ichnowski22a.html",
+          "https://arxiv.org/abs/2110.14217v1",
+          "https://raw.githubusercontent.com/BerkeleyAutomation/dex-nerf-datasets/main/README.md"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "preprintUrl": "https://arxiv.org/abs/2110.14217v1",
+      "abstractAuthors": [
+        "Jeffrey Ichnowski",
+        "Yahav Avigal",
+        "Justin Kerr",
+        "Ken Goldberg"
+      ],
+      "abstractCitation": "Jeffrey Ichnowski, Yahav Avigal, Justin Kerr, Ken Goldberg. Dex-NeRF: Using a Neural Radiance Field to Grasp Transparent Objects. CoRL 2021. https://proceedings.mlr.press/v164/ichnowski22a.html",
+      "abstract": "The ability to grasp and manipulate transparent objects is a major challenge for robots. Existing depth cameras have difficulty detecting, localizing, and inferring the geometry of such objects. We propose using neural radiance fields (NeRF) to detect, localize, and infer the geometry of transparent objects with sufficient accuracy to find and grasp them securely. We leverage NeRF’s view-independent learned density, place lights to increase specular reflections, and perform a transparency-aware depth-rendering that we feed into the Dex-Net grasp planner. We show how additional lights create specular reflections that improve the quality of the depth map, and test a setup for a robot workcell equipped with an array of cameras to perform transparent object manipulation. We also create synthetic and real datasets of transparent objects in real-world settings, including singulated objects, cluttered tables, and the top rack of a dishwasher. In each setting we show that NeRF and Dex-Net are able to reliably compute robust grasps on transparent objects, achieving 90% and 100% grasp-success rates in physical experiments on an ABB YuMi, on objects where baseline methods fail.",
+      "abstractStatus": "available",
+      "abstractSource": "https://proceedings.mlr.press/v164/ichnowski22a.html",
+      "abstractProvider": "PMLR",
+      "abstractKind": "published",
+      "abstractLicense": "CC-BY-4.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 547,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "conference": "ICRA",
+      "year": 2020,
+      "title": "Clear Grasp: 3D Shape Estimation of Transparent Objects for Manipulation",
+      "url": "https://ieeexplore.ieee.org/document/9197518/",
+      "venueUrl": "https://api.crossref.org/works?filter=from-pub-date%3A2020-01-01%2Cuntil-pub-date%3A2021-12-31%2Ctype%3Aproceedings-article&query.container-title=IEEE+International+Conference+on+Robotics+and+Automation&query.title=grasp&rows=1000&select=DOI%2Ctitle%2Ccontainer-title%2Cpublished%2Cpublished-print%2Cpublished-online%2Cresource%2Clink%2Cabstract%2Ctype%2Cauthor%2Cvolume%2Cissue%2Cpage%2CISSN%2Cevent",
+      "status": "主会论文",
+      "type": "视觉抓取感知",
+      "tier": "直接",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/Shreeyak/cleargrasp"
+        ],
+        "engines": [],
+        "datasets": [
+          "ClearGrasp"
+        ],
+        "codeNote": "",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/9197518/",
+          "https://arxiv.org/abs/1910.02550v2",
+          "https://raw.githubusercontent.com/Shreeyak/cleargrasp/master/README.md",
+          "https://github.com/Shreeyak/cleargrasp"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "doi": "10.1109/icra40945.2020.9197518",
+      "preprintUrl": "https://arxiv.org/abs/1910.02550v2",
+      "abstract": "Transparent objects are a common part of everyday life, yet they possess unique visual properties that make them incredibly difficult for standard 3D sensors to produce accurate depth estimates for. In many cases, they often appear as noisy or distorted approximations of the surfaces that lie behind them. To address these challenges, we present ClearGrasp -- a deep learning approach for estimating accurate 3D geometry of transparent objects from a single RGB-D image for robotic manipulation. Given a single RGB-D image of transparent objects, ClearGrasp uses deep convolutional networks to infer surface normals, masks of transparent surfaces, and occlusion boundaries. It then uses these outputs to refine the initial depth estimates for all transparent surfaces in the scene. To train and test ClearGrasp, we construct a large-scale synthetic dataset of over 50,000 RGB-D images, as well as a real-world test benchmark with 286 RGB-D images of transparent objects and their ground truth geometries. The experiments demonstrate that ClearGrasp is substantially better than monocular depth estimation baselines and is capable of generalizing to real-world images and novel objects. We also demonstrate that ClearGrasp can be applied out-of-the-box to improve grasping algorithms' performance on transparent objects. Code, data, and benchmarks will be released. Supplementary materials available on the project website: https://sites.google.com/view/cleargrasp",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/1910.02550v2",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 554,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "conference": "RA-L",
+      "year": 2021,
+      "title": "Probabilistic Multi-View Fusion of Active Stereo Depth Maps for Robotic Bin-Picking",
+      "url": "https://ieeexplore.ieee.org/document/9385963/",
+      "venueUrl": "https://doi.org/10.1109/lra.2021.3068706",
+      "status": "期刊论文",
+      "type": "抓取方法与评估",
+      "tier": "直接",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/9385963/",
+          "https://arxiv.org/abs/2103.10968v1"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "doi": "10.1109/lra.2021.3068706",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "citation": "IEEE Robotics and Automation Letters 6(3), 2021, pp. 4472-4479",
+      "linkLabel": "IEEE 论文页",
+      "preprintUrl": "https://arxiv.org/abs/2103.10968v1",
+      "abstract": "The reliable fusion of depth maps from multiple viewpoints has become an important problem in many 3D reconstruction pipelines. In this work, we investigate its impact on robotic bin-picking tasks such as 6D object pose estimation. The performance of object pose estimation relies heavily on the quality of depth data. However, due to the prevalence of shiny surfaces and cluttered scenes, industrial grade depth cameras often fail to sense depth or generate unreliable measurements from a single viewpoint. To this end, we propose a novel probabilistic framework for scene reconstruction in robotic bin-picking. Based on active stereo camera data, we first explicitly estimate the uncertainty of depth measurements for mitigating the adverse effects of both noise and outliers. The uncertainty estimates are then incorporated into a probabilistic model for incrementally updating the scene. To extensively evaluate the traditional fusion approach alongside our own approach, we will release a novel representative dataset with multiple views for each bin and curated parts. Over the entire dataset, we demonstrate that our framework outperforms a traditional fusion approach by a 12.8% reduction in reconstruction error, and 6.1% improvement in detection rate. The dataset will be available at https://www.trailab.utias.utoronto.ca/robi.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2103.10968v1",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 611,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "conference": "RA-L",
+      "year": 2021,
+      "title": "Robotic Pick-and-Place With Uncertain Object Instance Segmentation and Shape Completion",
+      "url": "https://ieeexplore.ieee.org/document/9359338/",
+      "venueUrl": "https://doi.org/10.1109/lra.2021.3060669",
+      "status": "期刊论文",
+      "type": "抓取方法与评估",
+      "tier": "相关",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。 扩展相关：主要贡献涉及抓取关联的感知、操作、示教或运动规划。",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://ieeexplore.ieee.org/document/9359338/",
+          "https://arxiv.org/abs/2010.07892v3"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "doi": "10.1109/lra.2021.3060669",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "citation": "IEEE Robotics and Automation Letters 6(2), 2021, pp. 1753-1760",
+      "linkLabel": "IEEE 论文页",
+      "preprintUrl": "https://arxiv.org/abs/2010.07892v3",
+      "abstract": "We consider robotic pick-and-place of partially visible, novel objects, where goal placements are non-trivial, e.g., tightly packed into a bin. One approach is (a) use object instance segmentation and shape completion to model the objects and (b) use a regrasp planner to decide grasps and places displacing the models to their goals. However, it is critical for the planner to account for uncertainty in the perceived models, as object geometries in unobserved areas are just guesses. We account for perceptual uncertainty by incorporating it into the regrasp planner's cost function. We compare seven different costs. One of these, which uses neural networks to estimate probability of grasp and place stability, consistently outperforms uncertainty-unaware costs and evaluates faster than Monte Carlo sampling. On a real robot, the proposed cost results in successfully packing objects tightly into a bin 7.8% more often versus the commonly used minimum-number-of-grasps cost.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2010.07892v3",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 612,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2020,
+      "title": "Amodal 3D Reconstruction for Robotic Manipulation via Stability and Connectivity",
+      "url": "https://proceedings.mlr.press/v155/agnew21a.html",
+      "venueUrl": "https://proceedings.mlr.press/v155/",
+      "status": "主会论文",
+      "type": "抓取方法与评估",
+      "tier": "相关",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。 扩展相关：主要贡献涉及抓取关联的感知、操作、示教或运动规划。",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://proceedings.mlr.press/v155/agnew21a.html",
+          "https://arxiv.org/abs/2009.13146v1"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "preprintUrl": "https://arxiv.org/abs/2009.13146v1",
+      "abstractAuthors": [
+        "William Agnew",
+        "Christopher Xie",
+        "Aaron Walsman",
+        "Octavian Murad",
+        "Yubo Wang",
+        "Pedro Domingos)",
+        "Siddhartha Srinivasa"
+      ],
+      "abstractCitation": "William Agnew, Christopher Xie, Aaron Walsman, Octavian Murad, Yubo Wang, Pedro Domingos), Siddhartha Srinivasa. Amodal 3D Reconstruction for Robotic Manipulation via Stability and Connectivity. CoRL 2020. https://proceedings.mlr.press/v155/agnew21a.html",
+      "abstract": "Learning-based 3D object reconstruction enables single- or few-shot estimation of 3D object models. For robotics, this holds the potential to allow model-based methods to rapidly adapt to novel objects and scenes. Existing 3D reconstruction techniques optimize for visual reconstruction fidelity, typically measured by chamfer distance or voxel IOU. We find that when applied to realistic, cluttered robotics environments, these systems produce reconstructions with low physical realism, resulting in poor task performance when used for model-based control. We propose ARM, an amodal 3D reconstruction system that introduces (1) a stability prior over object shapes, (2) a connectivity prior, and (3) a multi-channel input representation that allows for reasoning over relationships between groups of objects. By using these priors over the physical properties of objects, our system improves reconstruction quality not just by standard visual metrics, but also performance of model-based control on a variety of robotics manipulation tasks in challenging, cluttered environments.",
+      "abstractStatus": "available",
+      "abstractSource": "https://proceedings.mlr.press/v155/agnew21a.html",
+      "abstractProvider": "PMLR",
+      "abstractKind": "published",
+      "abstractLicense": "CC-BY-4.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 634,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "conference": "CoRL",
+      "year": 2021,
+      "title": "SimNet: Enabling Robust Unknown Object Manipulation from Pure Synthetic Data via Stereo",
+      "url": "https://proceedings.mlr.press/v164/kollar22a.html",
+      "venueUrl": "https://proceedings.mlr.press/v164/",
+      "status": "主会论文",
+      "type": "抓取方法与评估",
+      "tier": "相关",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。 扩展相关：主要贡献涉及抓取关联的感知、操作、示教或运动规划。",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未找到已核实的公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "sources": [
+          "https://proceedings.mlr.press/v164/kollar22a.html",
+          "https://arxiv.org/abs/2106.16118v1"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "preprintUrl": "https://arxiv.org/abs/2106.16118v1",
+      "abstractAuthors": [
+        "Thomas Kollar",
+        "Michael Laskey",
+        "Kevin Stone",
+        "Brijen Thananjeyan",
+        "Mark Tjersland"
+      ],
+      "abstractCitation": "Thomas Kollar, Michael Laskey, Kevin Stone, Brijen Thananjeyan, Mark Tjersland. SimNet: Enabling Robust Unknown Object Manipulation from Pure Synthetic Data via Stereo. CoRL 2021. https://proceedings.mlr.press/v164/kollar22a.html",
+      "abstract": "Robot manipulation of unknown objects in unstructured environments is a challenging problem due to the variety of shapes, materials, arrangements and lighting conditions. Even with large-scale real-world data collection, robust perception and manipulation of transparent and reflective objects across various lighting conditions remains challenging. To address these challenges we propose an approach to performing sim-to-real transfer of robotic perception. The underlying model, SimNet, is trained as a single multi-headed neural network using simulated stereo data as input and simulated object segmentation masks, 3D oriented bounding boxes (OBBs), object keypoints and disparity as output. A key component of SimNet is the incorporation of a learned stereo sub-network that predicts disparity. SimNet is evaluated on unknown object detection and deformable object keypoint detection and significantly outperforms a baseline that uses a structured light RGB-D sensor. By inferring grasp positions using the OBB and keypoint predictions, SimNet can be used to perform end-to-end manipulation of unknown objects across our fleet of Toyota HSR robots. In object grasping experiments, SimNet significantly outperforms the RBG-D baseline on optically challenging objects, suggesting that SimNet can enable robust manipulation of unknown objects, including transparent objects, in novel environments. Additional visualizations and materials are located at https://tinyurl.com/simnet-corl.",
+      "abstractStatus": "available",
+      "abstractSource": "https://proceedings.mlr.press/v164/kollar22a.html",
+      "abstractProvider": "PMLR",
+      "abstractKind": "published",
+      "abstractLicense": "CC-BY-4.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 639,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "conference": "ECCV",
+      "year": 2022,
+      "title": "Domain Randomization-Enhanced Depth Simulation and Restoration for Perceiving and Grasping Specular and Transparent Objects",
+      "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/1831_ECCV_2022_paper.php",
+      "venueUrl": "https://www.ecva.net/papers.php",
+      "status": "主会论文",
+      "type": "视觉抓取感知",
+      "tier": "相关",
+      "note": "发表信息依据出版商记录；研究范围已结合作者摘要或项目说明核对。 扩展相关：主要贡献涉及抓取关联的感知、操作、示教或运动规划。",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/PKU-EPIC/DREDS"
+        ],
+        "engines": [
+          "Blender (rendering)"
+        ],
+        "datasets": [
+          "DREDS",
+          "STD",
+          "ClearGrasp"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/1831_ECCV_2022_paper.php",
+          "https://arxiv.org/abs/2208.03792v2",
+          "https://github.com/PKU-EPIC/DREDS",
+          "https://raw.githubusercontent.com/PKU-EPIC/DREDS/main/README.md"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "preprintUrl": "https://arxiv.org/abs/2208.03792v2",
+      "abstract": "Commercial depth sensors usually generate noisy and missing depths, especially on specular and transparent objects, which poses critical issues to downstream depth or point cloud-based tasks. To mitigate this problem, we propose a powerful RGBD fusion network, SwinDRNet, for depth restoration. We further propose Domain Randomization-Enhanced Depth Simulation (DREDS) approach to simulate an active stereo depth system using physically based rendering and generate a large-scale synthetic dataset that contains 130K photorealistic RGB images along with their simulated depths carrying realistic sensor noises. To evaluate depth restoration methods, we also curate a real-world dataset, namely STD, that captures 30 cluttered scenes composed of 50 objects with different materials from specular, transparent, to diffuse. Experiments demonstrate that the proposed DREDS dataset bridges the sim-to-real domain gap such that, trained on DREDS, our SwinDRNet can seamlessly generalize to other real depth datasets, e.g. ClearGrasp, and outperform the competing methods on depth restoration with a real-time speed. We further show that our depth restoration effectively boosts the performance of downstream tasks, including category-level pose estimation and grasping tasks. Our data and code are available at https://github.com/PKU-EPIC/DREDS",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2208.03792v2",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 684,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation",
+      "url": "https://arxiv.org/abs/2512.23705v1",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html",
+      "status": "已公布录用，论文集待出版",
+      "type": "视觉抓取感知",
+      "tier": "相关",
+      "note": "Conference acceptance and scope verified against the official program and author materials; individual publisher article metadata remains unverified. 扩展相关：主要贡献涉及抓取关联的感知、操作、示教或运动规划。",
+      "verificationLevel": "abstract",
+      "resources": {
+        "code": [
+          "https://github.com/Daniellli/DKT"
+        ],
+        "engines": [
+          "Blender / Cycles (rendering)"
+        ],
+        "datasets": [
+          "TransPhy3D",
+          "ClearPose",
+          "DREDS"
+        ],
+        "codeNote": "",
+        "engineNote": "",
+        "datasetNote": "",
+        "sources": [
+          "https://arxiv.org/abs/2512.23705v1",
+          "https://github.com/Daniellli/DKT",
+          "https://raw.githubusercontent.com/Daniellli/DKT/main/README.md"
+        ],
+        "verifiedAt": "2026-10-05"
+      },
+      "preprintUrl": "https://arxiv.org/abs/2512.23705v1",
+      "linkLabel": "作者预印本",
+      "abstract": "Transparent objects remain notoriously hard for perception systems: refraction, reflection and transmission break the assumptions behind stereo, ToF and purely discriminative monocular depth, causing holes and temporally unstable estimates. Our key observation is that modern video diffusion models already synthesize convincing transparent phenomena, suggesting they have internalized the optical rules. We build TransPhy3D, a synthetic video corpus of transparent/reflective scenes: 11k sequences rendered with Blender/Cycles. Scenes are assembled from a curated bank of category-rich static assets and shape-rich procedural assets paired with glass/plastic/metal materials. We render RGB + depth + normals with physically based ray tracing and OptiX denoising. Starting from a large video diffusion model, we learn a video-to-video translator for depth (and normals) via lightweight LoRA adapters. During training we concatenate RGB and (noisy) depth latents in the DiT backbone and co-train on TransPhy3D and existing frame-wise synthetic datasets, yielding temporally consistent predictions for arbitrary-length input videos. The resulting model, DKT, achieves zero-shot SOTA on real and synthetic video benchmarks involving transparency: ClearPose, DREDS (CatKnown/CatNovel), and TransPhy3D-Test. It improves accuracy and temporal consistency over strong image/video baselines, and a normal variant sets the best video normal estimation results on ClearPose. A compact 1.3B version runs at ~0.17 s/frame. Integrated into a grasping stack, DKT's depth boosts success rates across translucent, reflective and diffuse surfaces, outperforming prior estimators. Together, these results support a broader claim: \"Diffusion knows transparency.\" Generative video priors can be repurposed, efficiently and label-free, into robust, temporally coherent perception for challenging real-world manipulation.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2512.23705v1",
+      "abstractProvider": "arXiv",
+      "abstractKind": "preprint",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-10-05",
+      "catalogueId": 690,
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "catalogueId": 722,
+      "conference": "RA-L",
+      "year": 2026,
+      "title": "SyncTwin: Fast Digital Twin Construction and Synchronization for Safe Robotic Manipulation",
+      "type": "视觉抓取感知",
+      "tier": "相关",
+      "url": "https://ieeexplore.ieee.org/document/11792635/",
+      "doi": "10.1109/lra.2026.3752338",
+      "journalName": "IEEE Robotics and Automation Letters",
+      "venueUrl": "https://doi.org/10.1109/lra.2026.3752338",
+      "linkLabel": "IEEE 论文页",
+      "journalMetadata": {
+        "source": "https://api.crossref.org/works/10.1109/lra.2026.3752338",
+        "checkedAt": "2026-11-12",
+        "recordCreatedAt": "2026-11-11T20:17:11Z",
+        "recordDepositedAt": "2026-11-11T20:17:12Z",
+        "dates": {
+          "published": [
+            [
+              2026
+            ]
+          ],
+          "published-print": [
+            [
+              2026
+            ]
+          ]
+        },
+        "volume": "",
+        "issue": "",
+        "pages": "1-8"
+      },
+      "journalMetadataVerifiedAt": "2026-11-12",
+      "status": "Early Access",
+      "citation": "IEEE Robotics and Automation Letters, 2026, pp. 1-8",
+      "note": "Journal identity and publication metadata verified from IEEE deposits in Crossref. Full text demonstrates safe grasping under occlusion with synchronized scene geometry. Window membership uses journal issue month or first metadata registration, which is not automatically an exact first-online publication date. Public preprints can differ from the journal manuscript.",
+      "abstract": "Accurate and safe robotic manipulation under dynamic and visually occluded conditions remains a core challenge in real-world deployment. We introduce SyncTwin, a novel digital twin framework that unifies fast 3D scene reconstruction and real-to-sim synchronization for robust and safety-aware robotic manipulation in such environments. In the offline stage, we employ VGGT to rapidly reconstruct object-level 3D assets from RGB images, forming a reusable geometry library. During execution, SyncTwin continuously synchronizes the digital twin by tracking real-world object states and uses stored assets to complete partially observed geometry. The synchronized twin enables motion planners to compute collision-aware robot trajectories in simulation, with execution on the real robot closing the real-to-sim-to-real loop. Experiments in dynamic and occluded scenes show that SyncTwin improves manipulation performance and motion safety, demonstrating the effectiveness of digital twin synchronization for real-world robotic execution.",
+      "abstractStatus": "available",
+      "abstractSource": "https://arxiv.org/abs/2601.09920v3",
+      "abstractKind": "preprint",
+      "abstractProvider": "arXiv",
+      "abstractLicense": "CC0-1.0",
+      "abstractVerifiedAt": "2026-11-12",
+      "preprintUrl": "https://arxiv.org/abs/2601.09920v3",
+      "verificationLevel": "abstract",
+      "authors": [
+        "Ruopeng Huang",
+        "Boyu Yang",
+        "Wenlong Gui",
+        "Jeremy Morgan",
+        "Erdem Biyik",
+        "Jiachen Li"
+      ],
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          "https://arxiv.org/abs/2601.09920v3",
+          "https://ieeexplore.ieee.org/document/11792635/",
+          "https://api.crossref.org/works/10.1109/lra.2026.3752338"
+        ]
+      },
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "catalogueId": 736,
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "ClearDepth: Efficient Stereo Perception of Transparent Objects for Robotic Manipulation",
+      "type": "视觉抓取感知",
+      "tier": "相关",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html#Ab1320",
+      "paperUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html#Ab1320",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html",
+      "linkLabel": "论文页面",
+      "status": "主会论文",
+      "note": "Confirmed omission in the 2020–2026 source-by-source recheck on 2026-11-12. Scope evidence: ClearDepth improves stereo depth recovery for transparent objects using an efficient perception model. Physical grasping experiments test whether its recovered geometry helps robots acquire transparent objects. The displayed abstract is an original summary of the cited primary sources.",
+      "abstract": "ClearDepth improves stereo depth recovery for transparent objects using an efficient perception model. Physical grasping experiments test whether its recovered geometry helps robots acquire transparent objects.",
+      "abstractStatus": "available",
+      "abstractSource": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html#Ab1320",
+      "abstractKind": "summary",
+      "abstractProvider": "Primary-source review",
+      "abstractLicense": "Original summary",
+      "abstractVerifiedAt": "2026-11-12",
+      "verificationLevel": "abstract",
+      "omissionReviewVerifiedAt": "2026-11-12",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html#Ab1320",
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html"
+        ]
+      },
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "catalogueId": 743,
+      "conference": "ICRA",
+      "year": 2026,
+      "title": "SceneComplete: Open-World 3D Scene Completion in Cluttered Real World Environments for Robot Manipulation",
+      "type": "视觉抓取感知",
+      "tier": "相关",
+      "url": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html#Ab5918",
+      "paperUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html#Ab5918",
+      "venueUrl": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html",
+      "linkLabel": "论文页面",
+      "status": "主会论文",
+      "note": "Confirmed omission in the 2020–2026 source-by-source recheck on 2026-11-12. Scope evidence: SceneComplete combines pretrained perception modules to reconstruct segmented objects from one RGB-D view. The completed scene geometry supports grasp proposals in clutter, including proposals for a dexterous hand. The displayed abstract is an original summary of the cited primary sources.",
+      "abstract": "SceneComplete combines pretrained perception modules to reconstruct segmented objects from one RGB-D view. The completed scene geometry supports grasp proposals in clutter, including proposals for a dexterous hand.",
+      "abstractStatus": "available",
+      "abstractSource": "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html#Ab5918",
+      "abstractKind": "summary",
+      "abstractProvider": "Primary-source review",
+      "abstractLicense": "Original summary",
+      "abstractVerifiedAt": "2026-11-12",
+      "verificationLevel": "abstract",
+      "omissionReviewVerifiedAt": "2026-11-12",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html#Ab5918",
+          "https://ras.papercept.net/conferences/conferences/ICRA26/program/ICRA26_ContentListWeb_3.html"
+        ]
+      },
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "catalogueId": 750,
+      "conference": "CoRL",
+      "year": 2024,
+      "title": "Splat-MOVER: Multi-Stage, Open-Vocabulary Robotic Manipulation via Editable Gaussian Splatting",
+      "type": "语言与任务导向抓取 · 视觉抓取感知",
+      "tier": "相关",
+      "url": "https://proceedings.mlr.press/v270/shorinwa25a.html",
+      "paperUrl": "https://proceedings.mlr.press/v270/shorinwa25a.html",
+      "venueUrl": "https://proceedings.mlr.press/v270/",
+      "linkLabel": "论文页面",
+      "status": "主会论文",
+      "note": "Confirmed omission in the 2020–2026 source-by-source recheck on 2026-11-12. Scope evidence: Splat-MOVER builds a semantic Gaussian-splat scene representation, updates it after actions and proposes task-aligned grasps. Its grasp module connects object affordances with multistage, open-vocabulary robot manipulation. The displayed abstract is an original summary of the cited primary sources.",
+      "abstract": "Splat-MOVER builds a semantic Gaussian-splat scene representation, updates it after actions and proposes task-aligned grasps. Its grasp module connects object affordances with multistage, open-vocabulary robot manipulation.",
+      "abstractStatus": "available",
+      "abstractSource": "https://proceedings.mlr.press/v270/shorinwa25a.html",
+      "abstractKind": "summary",
+      "abstractProvider": "Primary-source review",
+      "abstractLicense": "Original summary",
+      "abstractVerifiedAt": "2026-11-12",
+      "verificationLevel": "abstract",
+      "omissionReviewVerifiedAt": "2026-11-12",
+      "authors": "Olaolu Shorinwa, Johnathan Tucker, Aliyah Smith, Aiden Swann, Timothy Chen, Roya Firoozi, Monroe David Kennedy, Mac Schwager",
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          "https://proceedings.mlr.press/v270/shorinwa25a.html",
+          "https://proceedings.mlr.press/v270/"
+        ]
+      },
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    },
+    {
+      "catalogueId": 776,
+      "conference": "RSS",
+      "year": 2026,
+      "title": "Robo3R: Enhancing Robotic Manipulation with Accurate Feed-Forward 3D Reconstruction",
+      "type": "视觉抓取感知",
+      "tier": "相关",
+      "url": "https://www.roboticsproceedings.org/rss22/p056.html",
+      "paperUrl": "https://www.roboticsproceedings.org/rss22/p056.html",
+      "venueUrl": "https://www.roboticsproceedings.org/rss22/index.html",
+      "linkLabel": "论文页面",
+      "status": "主会论文",
+      "note": "Confirmed omission in the 2020–2026 source-by-source recheck on 2026-11-12. Scope evidence: Robo3R improves feed-forward reconstruction of scene geometry for robot manipulation. Downstream evaluations include grasp synthesis, together with policy learning, motion planning and transfer from simulation. The displayed abstract is an original summary of the cited primary sources.",
+      "abstract": "Robo3R improves feed-forward reconstruction of scene geometry for robot manipulation. Downstream evaluations include grasp synthesis, together with policy learning, motion planning and transfer from simulation.",
+      "abstractStatus": "available",
+      "abstractSource": "https://www.roboticsproceedings.org/rss22/p056.html",
+      "abstractKind": "summary",
+      "abstractProvider": "Primary-source review",
+      "abstractLicense": "Original summary",
+      "abstractVerifiedAt": "2026-11-12",
+      "verificationLevel": "abstract",
+      "omissionReviewVerifiedAt": "2026-11-12",
+      "authors": [
+        "Sizhe Yang",
+        "Linning Xu",
+        "Hao Li",
+        "Juncheng Mu",
+        "Jia Zeng",
+        "Dahua Lin",
+        "Jiangmiao Pang"
+      ],
+      "resources": {
+        "code": [],
+        "engines": [],
+        "datasets": [],
+        "codeNote": "未核实公开仓库",
+        "engineNote": "未核实（已查来源未确认）",
+        "datasetNote": "未核实（已查来源未确认）",
+        "verifiedAt": "2026-11-12",
+        "sources": [
+          "https://www.roboticsproceedings.org/rss22/p056.html",
+          "https://www.roboticsproceedings.org/rss22/index.html"
+        ]
+      },
+      "scopeInclusion": {
+        "category": "reconstruction_for_grasping",
+        "audit": "reconstruction-grasp-restoration-2026-11-12.json"
+      }
+    }
+  ]
+}
